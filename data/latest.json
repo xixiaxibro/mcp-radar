@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T13:42:30+00:00",
+  "generated_at": "2026-11-05T13:52:53+00:00",
   "lookback_days": 14,
-  "baseline": true,
-  "item_count": 2699,
-  "changes_this_run": 2699,
+  "baseline": false,
+  "item_count": 2695,
+  "changes_this_run": 31,
   "sources": [
     {
       "source": "IBM/mcp-context-forge",
@@ -16,13 +16,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 30,
+        "security-advisories": {
+          "fetched": 19,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 19,
+        "releases": {
+          "fetched": 30,
           "capped": false,
           "status": "ok"
         }
@@ -41,13 +41,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 142,
+        "security-advisories": {
+          "fetched": 24,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 24,
+        "releases": {
+          "fetched": 142,
           "capped": false,
           "status": "ok"
         }
@@ -66,13 +66,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 64,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 64,
           "capped": false,
           "status": "ok"
         }
@@ -91,13 +91,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 235,
+        "security-advisories": {
+          "fetched": 15,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 15,
+        "releases": {
+          "fetched": 235,
           "capped": false,
           "status": "ok"
         }
@@ -123,13 +123,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 424,
+        "security-advisories": {
+          "fetched": 2,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 2,
+        "releases": {
+          "fetched": 424,
           "capped": false,
           "status": "ok"
         }
@@ -148,13 +148,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 40,
+        "security-advisories": {
+          "fetched": 2,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 2,
+        "releases": {
+          "fetched": 40,
           "capped": false,
           "status": "ok"
         }
@@ -171,11 +171,6 @@
         "pulls": {
           "fetched": 300,
           "capped": false,
-          "status": "ok"
-        },
-        "releases": {
-          "fetched": 800,
-          "capped": true,
           "status": "ok"
         },
         "security-advisories": {
@@ -198,13 +193,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 48,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 48,
           "capped": false,
           "status": "ok"
         }
@@ -223,13 +218,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 87,
+        "security-advisories": {
+          "fetched": 2,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 2,
+        "releases": {
+          "fetched": 87,
           "capped": false,
           "status": "ok"
         }
@@ -248,13 +243,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 9,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 9,
           "capped": false,
           "status": "ok"
         }
@@ -280,13 +275,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 74,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 74,
           "capped": false,
           "status": "ok"
         }
@@ -305,12 +300,12 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
+        "security-advisories": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
+        "releases": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
@@ -340,13 +335,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 17,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 17,
           "capped": false,
           "status": "ok"
         }
@@ -365,13 +360,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 49,
+        "security-advisories": {
+          "fetched": 1,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 1,
+        "releases": {
+          "fetched": 49,
           "capped": false,
           "status": "ok"
         }
@@ -390,13 +385,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 40,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 40,
           "capped": false,
           "status": "ok"
         }
@@ -415,12 +410,12 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
+        "security-advisories": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
+        "releases": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
@@ -450,12 +445,12 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
+        "security-advisories": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
+        "releases": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
@@ -475,13 +470,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 4,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 4,
           "capped": false,
           "status": "ok"
         },
@@ -510,13 +505,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 32,
+        "security-advisories": {
+          "fetched": 4,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 4,
+        "releases": {
+          "fetched": 32,
           "capped": false,
           "status": "ok"
         }
@@ -535,13 +530,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 75,
+        "security-advisories": {
+          "fetched": 14,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 14,
+        "releases": {
+          "fetched": 75,
           "capped": false,
           "status": "ok"
         }
@@ -560,13 +555,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 43,
+        "security-advisories": {
+          "fetched": 7,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 7,
+        "releases": {
+          "fetched": 43,
           "capped": false,
           "status": "ok"
         }
@@ -585,13 +580,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 31,
+        "security-advisories": {
+          "fetched": 3,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 3,
+        "releases": {
+          "fetched": 31,
           "capped": false,
           "status": "ok"
         }
@@ -610,13 +605,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 20,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 20,
           "capped": false,
           "status": "ok"
         }
@@ -635,13 +630,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 9,
+        "security-advisories": {
+          "fetched": 1,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 1,
+        "releases": {
+          "fetched": 9,
           "capped": false,
           "status": "ok"
         },
@@ -670,13 +665,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 13,
+        "security-advisories": {
+          "fetched": 1,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 1,
+        "releases": {
+          "fetched": 13,
           "capped": false,
           "status": "ok"
         }
@@ -695,13 +690,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 73,
+        "security-advisories": {
+          "fetched": 12,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 12,
+        "releases": {
+          "fetched": 73,
           "capped": false,
           "status": "ok"
         }
@@ -720,13 +715,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 42,
+        "security-advisories": {
+          "fetched": 5,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 5,
+        "releases": {
+          "fetched": 42,
           "capped": false,
           "status": "ok"
         }
@@ -745,13 +740,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 42,
+        "security-advisories": {
+          "fetched": 7,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 7,
+        "releases": {
+          "fetched": 42,
           "capped": false,
           "status": "ok"
         }
@@ -770,13 +765,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 128,
+        "security-advisories": {
+          "fetched": 7,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 7,
+        "releases": {
+          "fetched": 128,
           "capped": false,
           "status": "ok"
         }
@@ -795,13 +790,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 33,
+        "security-advisories": {
+          "fetched": 15,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 15,
+        "releases": {
+          "fetched": 33,
           "capped": false,
           "status": "ok"
         }
@@ -820,13 +815,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 23,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 23,
           "capped": false,
           "status": "ok"
         }
@@ -845,12 +840,12 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
+        "security-advisories": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
+        "releases": {
           "fetched": 0,
           "capped": false,
           "status": "ok"
@@ -880,13 +875,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 201,
+        "security-advisories": {
+          "fetched": 10,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 10,
+        "releases": {
+          "fetched": 201,
           "capped": false,
           "status": "ok"
         }
@@ -905,13 +900,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 139,
+        "security-advisories": {
+          "fetched": 0,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 0,
+        "releases": {
+          "fetched": 139,
           "capped": false,
           "status": "ok"
         }
@@ -930,13 +925,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 23,
+        "security-advisories": {
+          "fetched": 4,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 4,
+        "releases": {
+          "fetched": 23,
           "capped": false,
           "status": "ok"
         }
@@ -955,13 +950,13 @@
           "capped": false,
           "status": "ok"
         },
-        "releases": {
-          "fetched": 383,
+        "security-advisories": {
+          "fetched": 53,
           "capped": false,
           "status": "ok"
         },
-        "security-advisories": {
-          "fetched": 53,
+        "releases": {
+          "fetched": 383,
           "capped": false,
           "status": "ok"
         }
@@ -973,13 +968,7 @@
     }
   ],
   "errors": [],
-  "warnings": [
-    {
-      "source": "cloudflare/workers-sdk",
-      "endpoint": "releases",
-      "message": "Pagination cap reached; coverage may be incomplete. Increase limits or narrow the window."
-    }
-  ],
+  "warnings": [],
   "items": [
     {
       "id": "https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.4",
@@ -7161,21 +7150,23 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6747",
       "status": "open",
       "created_at": "2026-09-10T02:09:08Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:51:19Z",
       "excerpt": "One idempotent migration (`f7a8b9c0d1e2`, parent `e5f6a7b8c9d0`) makes `TokenRevocation.revoked_by` nullable and drops the FK to `email_users.email` — trust-mode principals have no user row, and the old NOT-NULL FK broke every revocation insert for them (the idle path silently swallowed the failure). The `revoker` relationship that depended on the FK is removed. All six revocation insert sites now store the canonical",
       "body_hash": "e66c0aa0b534e179dcbe",
       "number": 6747,
       "draft": false,
       "head_sha": "67bece24b31c1d5464835582e5426cb1d355c255",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 72,
       "reasons": [
         "T2 watchlist",
         "breaking: migration",
         "security: token"
       ],
-      "fingerprint": "4d067485eed2e2a91768"
+      "fingerprint": "c570467c54c9917d7020"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/7443",
@@ -10602,7 +10593,7 @@
       "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3822",
       "status": "open",
       "created_at": "2026-11-05T12:53:39Z",
-      "updated_at": "2026-11-05T13:40:58Z",
+      "updated_at": "2026-11-05T13:46:18Z",
       "excerpt": "Implements the poll and webhook delivery modes of [SEP-3415](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415) (MCP Events) under `mcp.experimental.events`, on both the server and the client. Push (`events/stream`) is not included. - **Server:** `Events` extension serving `events/list`, `events/poll`, `events/subscribe` and `events/unsubscribe`. Event types are fed either by `emit` (bounded in-m",
       "body_hash": "f5822e5da0638351cd97",
       "number": 3822,
@@ -11065,21 +11056,23 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6726",
       "status": "open",
       "created_at": "2026-09-09T19:12:28Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:50:27Z",
       "excerpt": "This PR adds `get_user_id()` to `mcpgateway/auth_context.py`. The helper reads an explicit `user_id` first, then the e-mail value, then falls back to `unknown`. This PR adds `docs/docs/architecture/identity-domains.md` with the token-type mapping table for all four token types. No call site, schema, or behavior changed. Tested with: - `uv run pytest tests/unit/mcpgateway/test_auth_context.py -q` — 23 passed (TDD: fai",
       "body_hash": "1c0112869cf81ee5dcb2",
       "number": 6726,
       "draft": false,
       "head_sha": "c4e842d68f9f14ddf4a5305055be1fd5327cff17",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 64,
       "reasons": [
         "T2 watchlist",
         "security: token",
         "protocol: sse, schema"
       ],
-      "fingerprint": "ca804402b8fdc0f4ea4d"
+      "fingerprint": "20162a93471eaef8ccd3"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6755",
@@ -11091,21 +11084,23 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6755",
       "status": "open",
       "created_at": "2026-09-10T05:20:20Z",
-      "updated_at": "2026-11-05T13:42:15Z",
+      "updated_at": "2026-11-05T13:51:32Z",
       "excerpt": "Completes Epic 2 (#5885): executable tests for every disabled-with-clear-error row of the feature-mode matrix, the trust-mode documentation sweep, and the validation gate in both modes. Matrix coverage: 20 tests in `tests/unit/mcpgateway/test_trust_mode_disabled_surfaces.py` assert BOTH the status code and the exact message for all seven disabled rows (TDD: 17 red first). Only the token-catalog row had landed with #5",
       "body_hash": "b2ddc2b7dd2c6ee8871e",
       "number": 6755,
       "draft": false,
       "head_sha": "948ba24c98edb435067e35410e60f1484be97728",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 64,
       "reasons": [
         "T2 watchlist",
         "security: token",
         "protocol: sse"
       ],
-      "fingerprint": "270a67048f7982a11d48"
+      "fingerprint": "45c0b66dc0c673a3fd87"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6932",
@@ -12088,7 +12083,7 @@
       "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1433",
       "status": "open",
       "created_at": "2026-11-05T13:41:24Z",
-      "updated_at": "2026-11-05T13:41:46Z",
+      "updated_at": "2026-11-05T13:45:55Z",
       "excerpt": "fixes #1408 refresh was always sending `scope` from the stored grant, which some servers (salesforce) reject. rfc 6749 §6 says scope is optional on refresh and leaving it out keeps the original grant. now refresh omits `scope` unless the caller sets it via `AuthorizationManager::set_refresh_scopes()`. when set, only scopes from the original grant get sent (keeps the #1331 behaviour). if the token response has no `sco",
       "body_hash": "f54b3359d484fb694d19",
       "number": 1433,
@@ -15579,56 +15574,6 @@
         "merged implementation; verify release separately"
       ],
       "fingerprint": "896af470b7cc1fa4c220"
-    },
-    {
-      "id": "https://github.com/cloudflare/workers-sdk/releases/tag/%40cloudflare/workers-auth%400.15.4",
-      "source": "cloudflare/workers-sdk",
-      "kind": "release",
-      "topic": "platform",
-      "tier": 3,
-      "title": "@cloudflare/workers-auth@0.15.4",
-      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/%40cloudflare/workers-auth%400.15.4",
-      "status": "published",
-      "created_at": "2026-11-01T23:24:35Z",
-      "updated_at": "2026-11-01T23:25:21Z",
-      "excerpt": "### Patch Changes - [#16557](https://github.com/cloudflare/workers-sdk/pull/16557) [`30d9f72`](https://github.com/cloudflare/workers-sdk/commit/30d9f7207938b7091f6c54e12a9e6f69b83bb3ec) Thanks [@Kmschr](https://github.com/Kmschr)! - Request the user API token management scope when logging in with cf Include `user-api-tokens.write` in cf's default OAuth scopes so users can list and manage their user API tokens, includ",
-      "body_hash": "ffd34fd1b6ccc253f697",
-      "version": "@cloudflare/workers-auth@0.15.4",
-      "prerelease": false,
-      "published_at": "2026-11-01T23:25:21Z",
-      "labels": [],
-      "score": 59,
-      "reasons": [
-        "T3 watchlist",
-        "security: oauth, token",
-        "release"
-      ],
-      "fingerprint": "34e7fd12c3a80c3c3e25"
-    },
-    {
-      "id": "https://github.com/cloudflare/workers-sdk/releases/tag/%40cloudflare/workers-auth%400.16.0",
-      "source": "cloudflare/workers-sdk",
-      "kind": "release",
-      "topic": "platform",
-      "tier": 3,
-      "title": "@cloudflare/workers-auth@0.16.0",
-      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/%40cloudflare/workers-auth%400.16.0",
-      "status": "published",
-      "created_at": "2026-11-05T10:52:21Z",
-      "updated_at": "2026-11-05T10:52:54Z",
-      "excerpt": "### Minor Changes - [#16528](https://github.com/cloudflare/workers-sdk/pull/16528) [`cff43aa`](https://github.com/cloudflare/workers-sdk/commit/cff43aa3683f40a7244164d5c73ea425116bd281) Thanks [@mtlemilio](https://github.com/mtlemilio)! - Correct and request the PlanetScale setup scope in new cf OAuth logins Use the policy-compliant `hyperdrive-planetscale.setup` identifier for the PlanetScale setup scope and request",
-      "body_hash": "837b717eb05da2628942",
-      "version": "@cloudflare/workers-auth@0.16.0",
-      "prerelease": false,
-      "published_at": "2026-11-05T10:52:54Z",
-      "labels": [],
-      "score": 59,
-      "reasons": [
-        "T3 watchlist",
-        "security: oauth",
-        "release"
-      ],
-      "fingerprint": "8b802faaa70aa0f2e769"
     },
     {
       "id": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.4.2",
@@ -30011,20 +29956,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6734",
       "status": "open",
       "created_at": "2026-09-09T20:22:26Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:50:44Z",
       "excerpt": "This PR adds one idempotent migration (`bf2998718ea1`, parent `12d4a0c7789c`): a nullable `user_id` String(255) column on `email_users`, a backfill `UPDATE ... SET user_id = email WHERE user_id IS NULL`, and a non-unique index `ix_email_users_user_id`. The `EmailUser` ORM model gains the column. Inspector guards make re-runs no-ops; the missing-table case is a no-op for both directions. Downgrade drops the index and ",
       "body_hash": "a0a0858f0f583a77c54e",
       "number": 6734,
       "draft": false,
       "head_sha": "ac2d751d3bf8f40ecbb38562018ab0c0bf086322",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 46,
       "reasons": [
         "T2 watchlist",
         "breaking: migration"
       ],
-      "fingerprint": "cbdf129bba76e47d302b"
+      "fingerprint": "27ae62b2f2535419f3aa"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6741",
@@ -30036,20 +29983,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6741",
       "status": "open",
       "created_at": "2026-09-09T23:38:32Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:51:03Z",
       "excerpt": "Adds the `external_group_mappings` layer for trust-mode Layer-1 scoping. One idempotent migration (`e5f6a7b8c9d0`, parent `bf2998718ea1`) creates the table: `issuer`, `tenant` (nullable), `external_group_id`, `cf_team_id` (FK `email_teams.id`), `cf_role` (plain `String(255)` validated against the `roles` table at write time — NOT a foreign key, because `roles.name` carries only a partial unique index), `validation_st",
       "body_hash": "2e3c25d92a724a9b50b3",
       "number": 6741,
       "draft": false,
       "head_sha": "c24e630e30b9070917e9b9efdf3497d54d5c75d4",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 46,
       "reasons": [
         "T2 watchlist",
         "breaking: migration"
       ],
-      "fingerprint": "c057115f0f546b1d6a05"
+      "fingerprint": "0836c1883ce7263a3063"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6742",
@@ -30061,20 +30010,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6742",
       "status": "open",
       "created_at": "2026-09-09T23:57:43Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:51:07Z",
       "excerpt": "Completes the group-to-role mapping (#6272). The `cf_role` CRUD validation (400 `Role not found: {cf_role}` on create and update, mirroring `cf_team_id`) and the one-group-one-team-one-role migration comment landed with #5976; this PR proves them with four new green tests (including exact error detail and zero-rows-written checks) rather than duplicating code. The trust-path behavior lands as executable strict-xfail ",
       "body_hash": "96863c13995eee763fe8",
       "number": 6742,
       "draft": false,
       "head_sha": "1a7513ecdbb99080868e21e88374d915ba79726b",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 46,
       "reasons": [
         "T2 watchlist",
         "breaking: migration"
       ],
-      "fingerprint": "cacc6250c00eb2c72362"
+      "fingerprint": "65c31fb8ee1d898f3f30"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/7060",
@@ -30632,6 +30583,34 @@
         "proposal: specification"
       ],
       "fingerprint": "e471807701a2812c0a38"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2793",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "pull_request",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "SEP-2793: Tool Risk Metadata",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2793",
+      "status": "open",
+      "created_at": "2026-05-26T21:18:52Z",
+      "updated_at": "2026-11-05T13:44:41Z",
+      "excerpt": "## SEP: Tool Risk Metadata This SEP extends `ToolAnnotations` with structured, machine-readable risk metadata so MCP clients can make consistent allowlist / approval decisions across tools without each consumer rebuilding a bespoke per-tool catalogue. ### What it adds (all optional, additive) `ToolAnnotations` already carries `readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint` — yes/no hints. This pr",
+      "body_hash": "28f1fe7f99d837fc9317",
+      "number": 2793,
+      "draft": false,
+      "head_sha": "49f25cf77e4ae087049e8c3871a1f42628cc7362",
+      "merged_at": null,
+      "labels": [
+        "SEP",
+        "proposal"
+      ],
+      "score": 46,
+      "reasons": [
+        "T1 watchlist",
+        "proposal: sep-, sep:, proposal"
+      ],
+      "fingerprint": "ea910823455c4c442d53"
     },
     {
       "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3507",
@@ -31550,20 +31529,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6736",
       "status": "open",
       "created_at": "2026-09-09T22:24:04Z",
-      "updated_at": "2026-11-05T13:42:15Z",
+      "updated_at": "2026-11-05T13:50:49Z",
       "excerpt": "This PR adds a dedicated suite proving the system keys on the canonical user_id when it diverges from the e-mail. A fixture creates a diverged user (`user_id='idp-123'`, `email='dev@example.com'`) ONLY through real writer paths (`EmailAuthService.create_user`, `RoleService.assign_role_to_user`, `TeamManagementService.add_member_to_team`); no hand-written identity rows. A 3x4 matrix covers UUID-sub session tokens, e-m",
       "body_hash": "8578c04c43b821fd8347",
       "number": 6736,
       "draft": false,
       "head_sha": "0518737a494ccb0372f48ad3a70ea763b1698b1e",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: token"
       ],
-      "fingerprint": "1e2336fb3f8cd2b5fb52"
+      "fingerprint": "d32a5538028bffed227f"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6738",
@@ -31575,20 +31556,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6738",
       "status": "open",
       "created_at": "2026-09-09T22:53:08Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:50:55Z",
       "excerpt": "Architecture doc pins the disjunctive trust-eligibility rule: (a) gateway-signed tokens with `token_use==\"trusted\"` plus the required mapped claims and the configured revocation claim, or (b) external-IdP tokens from a configured trust root (`trusted_for_api_auth` + `api_audience`) with the same claim requirements. Tokens carrying the `trusted` marker get 401 when trust mode is OFF — they never enter the default funn",
       "body_hash": "cbe0038fce13f7ddb731",
       "number": 6738,
       "draft": false,
       "head_sha": "19a7e17c6c1cae1dc516c4b3602f5390ad667172",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: audience, token"
       ],
-      "fingerprint": "ef3e08d84320537a5cc2"
+      "fingerprint": "1610ce585e46a2e610b4"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6739",
@@ -31600,20 +31583,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6739",
       "status": "open",
       "created_at": "2026-09-09T22:57:07Z",
-      "updated_at": "2026-11-05T13:42:17Z",
+      "updated_at": "2026-11-05T13:50:57Z",
       "excerpt": "Documents nine user-dependent features under default mode and trust mode: password login/register/reset; invitations; team membership writes; SSO browser login; personal-team auto-creation; import ownership; admin UI user CRUD; API-token catalog (DB-backed principals work; trust-only principals get the explicit minting-disabled error); session-token refresh. Every entry states works / disabled-with-clear-error (HTTP ",
       "body_hash": "6547fc2143ca99866794",
       "number": 6739,
       "draft": false,
       "head_sha": "1522009f211aba557f92f6f7dd365f63a6e5fe62",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: token"
       ],
-      "fingerprint": "95ac699d474b8089b6fe"
+      "fingerprint": "c54452c8dc0bdc16b25a"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6744",
@@ -31625,20 +31610,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6744",
       "status": "open",
       "created_at": "2026-09-10T00:26:31Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:51:11Z",
       "excerpt": "Extends `mcpgateway/utils/trusted_claims.py` with the trust-mode principal contract. `extract_trusted_principal(payload, settings, db)` returns a `VirtualPrincipal`: `user_id` (required, opaque — a missing mapped claim raises 401, never defaults to the e-mail), `email` (optional, `None` allowed), `full_name`, `teams` (normalized list-of-strings or list-of-`{id,name}`, mirroring `normalize_token_teams`), `roles`, `is_",
       "body_hash": "6c77363fdfa8a946fba4",
       "number": 6744,
       "draft": false,
       "head_sha": "67936653f93f129b599e466f24c39fa39c82dbd7",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: token"
       ],
-      "fingerprint": "f3781f086bcd9e049e49"
+      "fingerprint": "04027074deb79f2afa2d"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6745",
@@ -31650,20 +31637,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6745",
       "status": "open",
       "created_at": "2026-09-10T00:55:58Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:51:14Z",
       "excerpt": "Adds `mcpgateway/utils/entra_graph_client.py`: an app-only client-credentials Microsoft Graph client for trust-mode overage resolution. Token acquisition posts `grant_type=client_credentials` to the SSO provider record's `token_url` using the stored encrypted client secret (decrypted at call time); the Graph call is `POST /users/{oid}/getMemberObjects` with `securityEnabledOnly: true`, bounded by `sso_entra_graph_api",
       "body_hash": "acf9e92426544931ea71",
       "number": 6745,
       "draft": false,
       "head_sha": "d5157f1c6af79772430e617276fa7240efe532d8",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: security, token"
       ],
-      "fingerprint": "fef345aae55e5cc54965"
+      "fingerprint": "44a6c23b25d670630cf9"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6746",
@@ -31675,20 +31664,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6746",
       "status": "open",
       "created_at": "2026-09-10T01:36:34Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:51:16Z",
       "excerpt": "Wires the trust-eligible branch into `get_current_user` per the #5896 dispatch rule. A token marked `token_use=\"trusted\"` with trust mode OFF is rejected 401 before the default funnel — the UUID heuristic could otherwise re-attribute identity. With trust mode ON, gateway-signed trust tokens authenticate via `extract_trusted_principal`: identity, teams, and roles come from the mapped claims; the external-group resolve",
       "body_hash": "d4c4da5983c58e602bd0",
       "number": 6746,
       "draft": false,
       "head_sha": "351459d856273daced022a9256ddabbe68457bf8",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: token"
       ],
-      "fingerprint": "ffc373c9920c89349e53"
+      "fingerprint": "91c38ac193e372e249c2"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6750",
@@ -31700,20 +31691,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6750",
       "status": "open",
       "created_at": "2026-09-10T02:58:52Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:51:24Z",
       "excerpt": "`build_external_identity` and `_maybe_verify_external` now branch on trust mode: when `jwt_trust_mode=\"jwt-trust\"` and the issuer is a configured trust root (`SSOProvider.trusted_for_api_auth` + `api_audience`), the identity builds from verified claims via `extract_trusted_principal` — `token_use=\"trusted\"`, `authenticate_or_create_user` provisioning skipped, no `get_user_by_email`, no DB `is_admin`. JWKS validation ",
       "body_hash": "a1abf221b689b6dfb43b",
       "number": 6750,
       "draft": false,
       "head_sha": "b9e3b11db8f6319a0e97c0e91d51173b21c9887a",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: audience, token"
       ],
-      "fingerprint": "fb2d2e8e6bc27de62127"
+      "fingerprint": "c6ea94819e80815cf6e7"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6751",
@@ -31725,20 +31718,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6751",
       "status": "open",
       "created_at": "2026-09-10T03:32:37Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:51:27Z",
       "excerpt": "Owns the trust-token mint path and aligns the secondary choke points with trust mode. Minting: `create_token` gains a trust-only guard with the exact matrix message (`Token minting is disabled for trust-only principals. Create a local user account first.`) and a no-act-as guard in trust mode; default-mode delegation is unchanged (pinned by existing tests plus a new control). `mint_trust_token` (method on the catalog ",
       "body_hash": "4e0cc0ffcab83da9c9d1",
       "number": 6751,
       "draft": false,
       "head_sha": "7a55864e126e28200fc7f004223af164fa9f8d2e",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: token"
       ],
-      "fingerprint": "b731dfbf70b989c80c38"
+      "fingerprint": "9b50c4ef257e76656f26"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6757",
@@ -31750,20 +31745,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6757",
       "status": "open",
       "created_at": "2026-09-10T07:46:05Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:51:35Z",
       "excerpt": "Adds app-only (client-credentials) trust-token group resolution to JWT-trust mode (issue #6756, epic #5885). App-only Entra tokens carry `idtyp=\"app\"`, a `roles` claim, and no `groups` claim. Entra emits no overage markers for them, so the #5977 overage dispatch never triggers — and `/users/{oid}/getMemberObjects` would fail for a service principal (a service principal is not a user). Under `jwt_trust_overage_policy=",
       "body_hash": "a36a6a0ec4d646cb4f9c",
       "number": 6757,
       "draft": false,
       "head_sha": "f3dd01c33d45d7db689d0932ed307f4c8779e221",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 44,
       "reasons": [
         "T2 watchlist",
         "security: token"
       ],
-      "fingerprint": "59d1fd7e0c63bc3bd66c"
+      "fingerprint": "85e860cfe2e4cdd1be67"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6828",
@@ -33124,7 +33121,7 @@
       "url": "https://github.com/getsentry/toolkit/pull/1322",
       "status": "open",
       "created_at": "2026-09-22T10:49:08Z",
-      "updated_at": "2026-11-03T17:10:22Z",
+      "updated_at": "2026-11-05T13:45:17Z",
       "excerpt": "The `tryPostReasonComment` function in `packages/mcp-core/src/tools/catalog/update-issue.ts` was unconditionally calling `logIssue(error)` for all caught exceptions. This led to `ApiPermissionError` (HTTP 403) instances, which are expected client errors when a user's token lacks write scope, being logged as Sentry issues. This change modifies the `tryPostReasonComment` function to only call `logIssue(error)` if the e",
       "body_hash": "c7c5673f2a63dacdac46",
       "number": 1322,
@@ -38381,6 +38378,32 @@
       "fingerprint": "ad16758eeb3f71552b17"
     },
     {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3509",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "pull_request",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "ci: build and validate website content",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3509",
+      "status": "open",
+      "created_at": "2026-11-05T13:09:05Z",
+      "updated_at": "2026-11-05T13:47:13Z",
+      "excerpt": "Adds a read-only CI job that validates source, runs the existing `generate` and `check` commands, and uploads the generated docs as an artifact with skill files included. Makes schema generator failures and malformed MDX fail the build. Based on #3508; merge that PR first, then retarget this PR to `main`.",
+      "body_hash": "ff22a8f114f42c564a88",
+      "number": 3509,
+      "draft": true,
+      "head_sha": "7eccc23ccb42c065083ba95681f1f1e6ee5cbeed",
+      "merged_at": null,
+      "labels": [],
+      "score": 40,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: schema",
+        "draft PR"
+      ],
+      "fingerprint": "2cb31a6ef1e729b850d9"
+    },
+    {
       "id": "https://github.com/modelcontextprotocol/python-sdk/pull/3741",
       "source": "modelcontextprotocol/python-sdk",
       "kind": "pull_request",
@@ -39925,20 +39948,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6728",
       "status": "open",
       "created_at": "2026-09-09T19:12:32Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:50:29Z",
       "excerpt": "This PR adds a `user_id` entry to every principal and user-dict construction site. The phase-1 value equals the e-mail. The sites are: `UserContext` in `get_current_user`, `_normalize_jwt_payload` (plus the mirrored literal in `streamable_http_auth`), `_bootstrap_platform_admin_user`, `_user_from_cached_dict` and its producer `_get_auth_context_batched_sync`, `_authenticate_proxy_user`, and `build_external_identity`.",
       "body_hash": "337b537c221bcf2b24e0",
       "number": 6728,
       "draft": false,
       "head_sha": "786166c115bfb16477421db4bd821803afcad3de",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 38,
       "reasons": [
         "T2 watchlist",
         "protocol: streamable"
       ],
-      "fingerprint": "6852337c50ffdcce51e6"
+      "fingerprint": "7bd181ec3c7ff553b58e"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6732",
@@ -39950,20 +39975,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6732",
       "status": "open",
       "created_at": "2026-09-09T19:56:44Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:50:39Z",
       "excerpt": "This PR keys session team resolution on the canonical user_id. `resolve_session_teams` derives the identity with `get_user_id(payload)` and passes it to `_resolve_teams_from_db`, `_get_user_team_ids_sync`, and the team-cache keys. A UUID session subject is an opaque reference, not an identity: it falls back to the e-mail argument, exactly like a missing identity. Phase-1 values are e-mail strings, so the `EmailTeamMe",
       "body_hash": "6b5c990b4d614b227d11",
       "number": 6732,
       "draft": false,
       "head_sha": "524dae71de028b7589815b71c18b6704041ebcd0",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 38,
       "reasons": [
         "T2 watchlist",
         "protocol: sse"
       ],
-      "fingerprint": "0150b7f0e06056fcabe1"
+      "fingerprint": "1f1a6da4ce7d0b873622"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6753",
@@ -39975,20 +40002,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6753",
       "status": "open",
       "created_at": "2026-09-10T04:12:30Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:51:29Z",
       "excerpt": "Six acceptance suites proving trust mode end to end. Suites: no-DB proof; multi-worker revocation; config-flip; UAID propagation; overage-degraded; cross-gateway UAID. (a) NO-DB PROOF — CI-eligible, asserts on executed SQL (never a grep): a SQLAlchemy `before_cursor_execute` listener recorded 300 statements across 60 authenticated trust-mode requests through `get_current_user` (real revocation check, group resolver, ",
       "body_hash": "54dbd1a647a81ee8443b",
       "number": 6753,
       "draft": false,
       "head_sha": "822bbfee51a68bfe0570a905e80a0bb55fca41aa",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 38,
       "reasons": [
         "T2 watchlist",
         "protocol: sse"
       ],
-      "fingerprint": "f100461fa3a1ee39508e"
+      "fingerprint": "51fb1e31fcd137d1a54e"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6811",
@@ -40651,6 +40680,56 @@
         "protocol: schema"
       ],
       "fingerprint": "69c16d746855a3a5f340"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7454",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "feat: trace persistent upstream MCP sessions",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7454",
+      "status": "open",
+      "created_at": "2026-11-05T13:13:23Z",
+      "updated_at": "2026-11-05T13:48:18Z",
+      "excerpt": "# Pull Request ## 🔗 Related Issue Closes #7434 --- ## 📝 Summary Active OTEL tracing currently forces a new upstream MCP session for each tool call. Stateful upstream tools lose session continuity. - Reuse eligible SSE and Streamable HTTP sessions while recording spans for each call. - Propagate fresh trace context through MCP metadata. Exclude request-specific headers from persistent transport defaults. - Add `gatewa",
+      "body_hash": "b92825ea803a9aa828a9",
+      "number": 7454,
+      "draft": false,
+      "head_sha": "fe7aba064922bf4d5fb4546cc32f596b76e3bbec",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: transport, streamable, sse"
+      ],
+      "fingerprint": "ab3f303a30f432cc3e02"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7457",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "feat(api): emit mcp_server_id next to gateway_id in responses",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7457",
+      "status": "open",
+      "created_at": "2026-11-05T13:48:52Z",
+      "updated_at": "2026-11-05T13:48:58Z",
+      "excerpt": "## Summary Refs #6544. Follows #7179, which added the request-side aliases. Responses that carry `gatewayId` now also carry `mcpServerId`. Both keys hold the same value. This implements the edge-alias decision on the issue: clients can use the product vocabulary in requests and responses, and the old name keeps working. ## Changes - Add `McpServerIdResponseMixin` in `mcpgateway/schemas.py`. A computed field returns `",
+      "body_hash": "0dfe3b8c010142ee525d",
+      "number": 7457,
+      "draft": false,
+      "head_sha": "552e07e0c8c53196948b92f980e28c12a1876f3e",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "d40f7e88463cbf0e079b"
     },
     {
       "id": "https://github.com/awslabs/mcp/pull/4495",
@@ -45403,30 +45482,6 @@
       "fingerprint": "3732c89476f135702263"
     },
     {
-      "id": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.156.1",
-      "source": "cloudflare/workers-sdk",
-      "kind": "release",
-      "topic": "platform",
-      "tier": 3,
-      "title": "wrangler@4.156.1",
-      "url": "https://github.com/cloudflare/workers-sdk/releases/tag/wrangler%404.156.1",
-      "status": "published",
-      "created_at": "2026-11-01T23:24:35Z",
-      "updated_at": "2026-11-01T23:24:54Z",
-      "excerpt": "### Patch Changes - [#16594](https://github.com/cloudflare/workers-sdk/pull/16594) [`effe4ed`](https://github.com/cloudflare/workers-sdk/commit/effe4ed13b1677744428cfb0c37e4512ec5d52f7) Thanks [@jaeminbird](https://github.com/jaeminbird)! - Fix `wrangler types --check` reporting CRLF types files as out of date When `worker-configuration.d.ts` was checked out with CRLF line endings (for example with Git's `core.autocr",
-      "body_hash": "6e7341f8edc42b618d17",
-      "version": "wrangler@4.156.1",
-      "prerelease": false,
-      "published_at": "2026-11-01T23:24:54Z",
-      "labels": [],
-      "score": 33,
-      "reasons": [
-        "T3 watchlist",
-        "release"
-      ],
-      "fingerprint": "360ea521f1beee144695"
-    },
-    {
       "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1262",
       "source": "modelcontextprotocol/java-sdk",
       "kind": "pull_request",
@@ -46936,6 +46991,30 @@
         "T1 watchlist"
       ],
       "fingerprint": "3ef9f3684f8250dce1b0"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2819",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "feat(think): move to Computer 0.10 and its codemode names",
+      "url": "https://github.com/cloudflare/agents/pull/2819",
+      "status": "open",
+      "created_at": "2026-11-04T14:44:21Z",
+      "updated_at": "2026-11-05T13:49:31Z",
+      "excerpt": "Computer 0.10 renames the JavaScript backend and its host modules, so Think, its docs and the examples need to follow before they can move to it. This upgrades every `@cloudflare/computer` dependency, and Think's peer range, to `^0.10.0`. ## Summary ```diff - import { WorkerJavaScriptBackend } from \"@cloudflare/computer/backends/worker-javascript\"; + import { CodemodeBackend } from \"@cloudflare/computer/backends/code",
+      "body_hash": "f4f97e470e575463a68b",
+      "number": 2819,
+      "draft": false,
+      "head_sha": "cdb85ccfbb4a95860288d2bf623cba9df319b246",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "bf2fd5960cec4aecd9bb"
     },
     {
       "id": "https://github.com/github/github-mcp-server/pull/1209",
@@ -48945,32 +49024,6 @@
         "merged implementation; verify release separately"
       ],
       "fingerprint": "01e56bc9cabdfcf2834c"
-    },
-    {
-      "id": "https://github.com/IBM/mcp-context-forge/pull/7454",
-      "source": "IBM/mcp-context-forge",
-      "kind": "pull_request",
-      "topic": "gateway",
-      "tier": 2,
-      "title": "feat: trace persistent upstream MCP sessions",
-      "url": "https://github.com/IBM/mcp-context-forge/pull/7454",
-      "status": "open",
-      "created_at": "2026-11-05T13:13:23Z",
-      "updated_at": "2026-11-05T13:13:23Z",
-      "excerpt": "# Pull Request ## 🔗 Related Issue Closes #7434 --- ## 📝 Summary Active OTEL tracing currently forces a new upstream MCP session for each tool call. Stateful upstream tools lose session continuity. - Reuse eligible SSE and Streamable HTTP sessions while recording spans for each call. - Propagate fresh trace context through MCP metadata. Exclude request-specific headers from persistent transport defaults. - Add `gatewa",
-      "body_hash": "725a54937ca34a466637",
-      "number": 7454,
-      "draft": true,
-      "head_sha": "fe7aba064922bf4d5fb4546cc32f596b76e3bbec",
-      "merged_at": null,
-      "labels": [],
-      "score": 28,
-      "reasons": [
-        "T2 watchlist",
-        "protocol: transport, streamable, sse",
-        "draft PR"
-      ],
-      "fingerprint": "eacad9fb30015709b955"
     },
     {
       "id": "https://github.com/awslabs/mcp/pull/4557",
@@ -60148,31 +60201,6 @@
       "fingerprint": "6290183f8163b5f55930"
     },
     {
-      "id": "https://github.com/cloudflare/agents/pull/2819",
-      "source": "cloudflare/agents",
-      "kind": "pull_request",
-      "topic": "platform",
-      "tier": 1,
-      "title": "feat(think): move to Computer 0.10 and its codemode names",
-      "url": "https://github.com/cloudflare/agents/pull/2819",
-      "status": "open",
-      "created_at": "2026-11-04T14:44:21Z",
-      "updated_at": "2026-11-04T14:49:01Z",
-      "excerpt": "Computer 0.10 renames the JavaScript backend and its host modules, so Think, its docs and the examples need to follow before they can move to it. This upgrades every `@cloudflare/computer` dependency, and Think's peer range, to `^0.10.0`. Draft until Computer 0.10.0 is published. The top commit points everything at the preview build of cloudflare/computer#305 so CI can run now, and gets dropped before merging. ## Sum",
-      "body_hash": "9ea181b14f72378dab60",
-      "number": 2819,
-      "draft": true,
-      "head_sha": "e54e610ad1c1c9ce7e74479e79bdf1928ce71ee2",
-      "merged_at": null,
-      "labels": [],
-      "score": 20,
-      "reasons": [
-        "T1 watchlist",
-        "draft PR"
-      ],
-      "fingerprint": "779b70cf29a5f5ca78ad"
-    },
-    {
       "id": "https://github.com/github/github-mcp-server/pull/1345",
       "source": "github/github-mcp-server",
       "kind": "pull_request",
@@ -60310,31 +60338,6 @@
         "draft PR"
       ],
       "fingerprint": "651d8936b217d1a929a5"
-    },
-    {
-      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3509",
-      "source": "modelcontextprotocol/modelcontextprotocol",
-      "kind": "pull_request",
-      "topic": "protocol",
-      "tier": 1,
-      "title": "ci: build and validate website content",
-      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3509",
-      "status": "open",
-      "created_at": "2026-11-05T13:09:05Z",
-      "updated_at": "2026-11-05T13:09:05Z",
-      "excerpt": "Builds website content into `.build/docs/` and adds a read-only CI check that validates source, generated pages, and links before uploading the bundle. Navigation moves to `docs/docs.source.json`, and `generate` and `serve:docs` use the bundle. Keeps tracked generated files and their existing workflows working until hosting switches over. Updates release generation and contributor guidance for that transition. Based ",
-      "body_hash": "d9b46a1ce5199473ffb1",
-      "number": 3509,
-      "draft": true,
-      "head_sha": "101813add818206aa96fc97204449cc2c93bc6dd",
-      "merged_at": null,
-      "labels": [],
-      "score": 20,
-      "reasons": [
-        "T1 watchlist",
-        "draft PR"
-      ],
-      "fingerprint": "b8277205cecbb49c7b22"
     },
     {
       "id": "https://github.com/modelcontextprotocol/typescript-sdk/pull/3040",
@@ -61280,19 +61283,21 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6730",
       "status": "open",
       "created_at": "2026-09-09T19:21:34Z",
-      "updated_at": "2026-11-05T13:42:15Z",
+      "updated_at": "2026-11-05T13:50:32Z",
       "excerpt": "This PR routes audit and observability identity capture through `get_user_id()`. The `UserContext` identity now comes from `get_user_id(user)`. All eleven audit calls in the tool and gateway services use the exact guard `get_user_id(x) if x else \"system\"` — an empty identity keeps `\"system\"` and never becomes `\"unknown\"`. Column comments in `AuditTrail` and `ObservabilityTrace` state the new semantics. `get_user_emai",
       "body_hash": "1611f055a4d337d7d775",
       "number": 6730,
       "draft": false,
       "head_sha": "13b1b235f5f146af5a343bbea49926a6102c211f",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 18,
       "reasons": [
         "T2 watchlist"
       ],
-      "fingerprint": "307a9b674871991933f0"
+      "fingerprint": "2e8572d710990c62512b"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6731",
@@ -61304,19 +61309,21 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6731",
       "status": "open",
       "created_at": "2026-09-09T19:33:20Z",
-      "updated_at": "2026-11-05T13:42:15Z",
+      "updated_at": "2026-11-05T13:50:36Z",
       "excerpt": "This PR resolves the caller identity through `get_user_id()` in the RBAC middleware. `check_permission_inline`, the `require_permission`/`require_admin_permission`/`require_any_permission` wrapper paths, and the permission-checker class now pass the canonical user_id to `PermissionService`. Of the 22 `user_context[\"email\"]` occurrences in `rbac.py`, 13 identity uses were replaced; 9 logging uses keep the e-mail attri",
       "body_hash": "24f7eb8cd1615a40c57b",
       "number": 6731,
       "draft": false,
       "head_sha": "a65a181c58cb52f81b4d18ccffb18a53cf8e49ae",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 18,
       "reasons": [
         "T2 watchlist"
       ],
-      "fingerprint": "567cff55e0466ebdb597"
+      "fingerprint": "fa9321a9cee5a2fac76c"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6733",
@@ -61328,19 +61335,21 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6733",
       "status": "open",
       "created_at": "2026-09-09T20:12:32Z",
-      "updated_at": "2026-11-05T13:42:14Z",
+      "updated_at": "2026-11-05T13:50:42Z",
       "excerpt": "This PR re-keys the auth caches by canonical user_id. Redis keys gain a version segment through `_get_redis_key` (`mcpgw:auth:{version}:{key_type}:{identifier}`), so a future auth-mode change cannot serve stale cross-mode context. The version comes from the new `auth_cache_key_version` setting (default `v1`), documented in `.env.example`. Cache call sites in `get_current_user` derive the identity via `get_user_id()` ",
       "body_hash": "e766b5701464978ecf69",
       "number": 6733,
       "draft": false,
       "head_sha": "92bfa3abf44ade2e975779b064de8e90beea251a",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 18,
       "reasons": [
         "T2 watchlist"
       ],
-      "fingerprint": "e081d6a8fb4168239e7c"
+      "fingerprint": "81c1edef698cba909cb8"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6735",
@@ -61352,19 +61361,21 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6735",
       "status": "open",
       "created_at": "2026-09-09T21:35:09Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:50:47Z",
       "excerpt": "SSO provisioning stores the IdP subject as `user_id` (per-provider `user_id_claim` setting, default `sub`; missing configured claim fails the login closed with an actionable log; invalid setting rejected at provider save). Local registration and bootstrap default `user_id` to the e-mail. All five verified writer sites (one `UserRole` in `role_service.assign_role_to_user`; four `EmailTeamMember` in `team_management_se",
       "body_hash": "b199cf7bddc2bd803848",
       "number": 6735,
       "draft": false,
       "head_sha": "6d2bfef4cd3421b2cb0f1ec70ec5c12ca1830c17",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 18,
       "reasons": [
         "T2 watchlist"
       ],
-      "fingerprint": "2b4ded09d22c650f005a"
+      "fingerprint": "a50f2578b36af5ab231a"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6737",
@@ -61376,19 +61387,21 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6737",
       "status": "open",
       "created_at": "2026-09-09T22:37:05Z",
-      "updated_at": "2026-11-05T13:42:17Z",
+      "updated_at": "2026-11-05T13:50:52Z",
       "excerpt": "This PR runs the Epic 1 gate and completes the identity documentation sweep. `AGENTS.md` \"User Identity Extraction\" now states the canonical contract: `get_user_id` returns the identity; the e-mail is a mutable attribute; `get_user_email` remains the e-mail accessor; `docs/docs/architecture/identity-domains.md` is the mapping contract. `docs/docs/manage/rbac.md` and `docs/docs/architecture/multitenancy.md` state that",
       "body_hash": "f69fcf3bfad7ae70de3d",
       "number": 6737,
       "draft": false,
       "head_sha": "1f56ca93045680d2f022b6e2a25573eb35e914e7",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 18,
       "reasons": [
         "T2 watchlist"
       ],
-      "fingerprint": "e8c68bcc0b30537ad88e"
+      "fingerprint": "507ed8692fa9e8fa26a8"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6740",
@@ -61400,19 +61413,21 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6740",
       "status": "open",
       "created_at": "2026-09-09T23:09:09Z",
-      "updated_at": "2026-11-05T13:42:15Z",
+      "updated_at": "2026-11-05T13:51:00Z",
       "excerpt": "Adds the trust-mode config surface: `jwt_trust_mode` (Literal `db`/`jwt-trust`, default `db`), the five claim-mapping settings (`jwt_claim_user_id` default `sub`, `jwt_claim_email` `email`, `jwt_claim_teams` `teams`, `jwt_claim_roles` `roles`, `jwt_claim_admin` `is_admin`), `jwt_trust_overage_policy` (default `fail_closed`), and `jwt_trust_revocation_claim` (default `jti`; `uti` supported for Entra roots). A startup ",
       "body_hash": "bbd1e2fe25f7f2166e7c",
       "number": 6740,
       "draft": false,
       "head_sha": "28f6320d0d9ee160dc07cca85578c600bd7c7336",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 18,
       "reasons": [
         "T2 watchlist"
       ],
-      "fingerprint": "faf55133442625cdf083"
+      "fingerprint": "d3c95079db29049b2206"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6749",
@@ -61424,19 +61439,21 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/6749",
       "status": "open",
       "created_at": "2026-09-10T02:31:29Z",
-      "updated_at": "2026-11-05T13:42:16Z",
+      "updated_at": "2026-11-05T13:51:21Z",
       "excerpt": "In trust mode, the mapped admin claim (`jwt_claim_admin`, default `is_admin`) now populates BOTH admin tracks as one atomic server-side mapping: the principal's `is_admin` flag and the effective-roles set (a server-injected `platform_admin` entry, added after roles-table validation so it can never be dropped as an unknown role). There is no intermediate state where one track says admin and the other denies. `Permissi",
       "body_hash": "ae4db0beeaa4635e1222",
       "number": 6749,
       "draft": false,
       "head_sha": "1950f29ba6c185facbe1e9a11681eb9e72e09fb2",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 18,
       "reasons": [
         "T2 watchlist"
       ],
-      "fingerprint": "95b990a5c9eca3d41555"
+      "fingerprint": "be628c6bb03fd231f521"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/6772",
@@ -67242,37 +67259,6 @@
       "fingerprint": "72c3e6eeb357c62c3d85"
     },
     {
-      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1227",
-      "source": "modelcontextprotocol/java-sdk",
-      "kind": "pull_request",
-      "topic": "sdk",
-      "tier": 3,
-      "title": "Bump springframework.version from 6.2.1 to 6.2.19",
-      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/1227",
-      "status": "merged",
-      "created_at": "2026-10-22T10:28:18Z",
-      "updated_at": "2026-10-22T13:45:56Z",
-      "excerpt": "Bumps `springframework.version` from 6.2.1 to 6.2.19. Updates `org.springframework:spring-webflux` from 6.2.1 to 6.2.19 Release notes Sourced from org.springframework:spring-webflux's releases . v6.2.19 :warning: Security Fixes This maintenance release fixes a high number of CVEs. You can learn more about this in the \"Spring and Security In The Times Of AI\" blog post. Here is the full list of 16 CVEs: CVE-2026-41838 ",
-      "body_hash": "712ef7a257c371ff7a6b",
-      "number": 1227,
-      "draft": false,
-      "head_sha": "e30de6c4684c7bf5c3697fe7b8cee1f846ad6a2a",
-      "merged_at": "2026-10-22T13:45:53Z",
-      "labels": [
-        "dependencies",
-        "maintenance",
-        "waiting for triage"
-      ],
-      "score": 14,
-      "reasons": [
-        "T3 watchlist",
-        "security: security, cve-",
-        "merged implementation; verify release separately",
-        "routine maintenance penalty"
-      ],
-      "fingerprint": "7faf50f85e3e5dc55e02"
-    },
-    {
       "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1142",
       "source": "modelcontextprotocol/kotlin-sdk",
       "kind": "pull_request",
@@ -68356,20 +68342,22 @@
       "url": "https://github.com/IBM/mcp-context-forge/pull/7241",
       "status": "open",
       "created_at": "2026-10-15T10:51:15Z",
-      "updated_at": "2026-11-05T13:42:15Z",
+      "updated_at": "2026-11-05T13:51:40Z",
       "excerpt": "# Pull Request ## 🔗 Related Issue Closes # --- ## 📝 Summary _What does this PR do and why?_ --- ## 📏 Reviewability - [ ] This PR has one clear purpose - [ ] The linked issue is not labeled `triage` - [ ] Unrelated bugs or improvements are tracked in separate issues/PRs - [ ] Tests are included with the code they validate - [ ] If AI-assisted, I understand and can explain the generated changes --- ## 🏷️ Type of Change",
       "body_hash": "37523c290fd068b2f83d",
       "number": 7241,
       "draft": true,
       "head_sha": "b37c4b94cfb0147aac83f58d6b9b77f2cf177c48",
       "merged_at": null,
-      "labels": [],
+      "labels": [
+        "work-queue"
+      ],
       "score": 8,
       "reasons": [
         "T2 watchlist",
         "draft PR"
       ],
-      "fingerprint": "0b41588255f0f156738e"
+      "fingerprint": "c3db554c400a196eb15b"
     },
     {
       "id": "https://github.com/IBM/mcp-context-forge/pull/7284",
@@ -69058,33 +69046,6 @@
         "draft PR"
       ],
       "fingerprint": "47ef209e429b0b7eb056"
-    },
-    {
-      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1259",
-      "source": "modelcontextprotocol/java-sdk",
-      "kind": "pull_request",
-      "topic": "sdk",
-      "tier": 3,
-      "title": "Bump com.networknt:json-schema-validator 2.0.4 -> 2.0.8 and 3.0.6 -> 3.0.8",
-      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/1259",
-      "status": "merged",
-      "created_at": "2026-10-22T13:37:05Z",
-      "updated_at": "2026-10-22T13:45:48Z",
-      "excerpt": "",
-      "body_hash": "e3b0c44298fc1c149afb",
-      "number": 1259,
-      "draft": false,
-      "head_sha": "28ac8196037644d9388b025dabbea621ef75bb68",
-      "merged_at": "2026-10-22T13:45:45Z",
-      "labels": [],
-      "score": 8,
-      "reasons": [
-        "T3 watchlist",
-        "protocol: schema",
-        "merged implementation; verify release separately",
-        "routine maintenance penalty"
-      ],
-      "fingerprint": "2cc5b31bfae35d590ac5"
     },
     {
       "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1278",
@@ -71263,36 +71224,6 @@
         "routine maintenance penalty"
       ],
       "fingerprint": "5dd34dbf2084e5f75ac0"
-    },
-    {
-      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1253",
-      "source": "modelcontextprotocol/java-sdk",
-      "kind": "pull_request",
-      "topic": "sdk",
-      "tier": 3,
-      "title": "Bump io.projectreactor:reactor-bom from 2024.0.0 to 2024.0.18",
-      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/1253",
-      "status": "merged",
-      "created_at": "2026-10-22T10:29:02Z",
-      "updated_at": "2026-10-22T13:46:51Z",
-      "excerpt": "Bumps [io.projectreactor:reactor-bom](https://github.com/reactor/reactor) from 2024.0.0 to 2024.0.18. Release notes Sourced from io.projectreactor:reactor-bom's releases . 2024.0.18 This is the last release of 2024.0.x , as 2024.0.x Release Train is going out of OSS support. For the next steps, check our support policy . 2024.0.18 release train is made of: reactor-core 3.7.19 reactor-addons 3.5.5 reactor-pool 1.1.9 r",
-      "body_hash": "9e9b517b837a45562355",
-      "number": 1253,
-      "draft": false,
-      "head_sha": "1ba4fbb73d530a5ec2b191a5ca6c96530193c9bc",
-      "merged_at": "2026-10-22T13:46:48Z",
-      "labels": [
-        "dependencies",
-        "maintenance",
-        "waiting for triage"
-      ],
-      "score": 0,
-      "reasons": [
-        "T3 watchlist",
-        "merged implementation; verify release separately",
-        "routine maintenance penalty"
-      ],
-      "fingerprint": "f34f49cb92c027b59eb5"
     },
     {
       "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1277",

@@ -1,10 +1,10 @@
 # MCP Radar · 2026-11-05 (UTC)
 
-采集时间：2026-11-05T13:42:30+00:00 · 回看窗口：14 天。
+采集时间：2026-11-05T13:52:53+00:00 · 回看窗口：14 天。
 
 这是公开来源的更新索引和选题素材，不是已经审读、复现的技术结论。标题和摘录来自上游；优先级由可见规则计算。
 
-本次窗口内 2699 条记录；本日累计 2699 个新增/变更版本；失败端点 0 个；覆盖警告 1 个。
+本次窗口内 2695 条记录；本日累计 2730 个新增/变更版本；失败端点 0 个；覆盖警告 0 个。
 
 ## 覆盖与限制
 
@@ -12,11 +12,11 @@ PR merged 表示代码进入分支，不代表已发布；release 不自动证�
 
 仅跟踪 watchlist 中公开仓库的 PR、指定仓库 issue/commit、release、公开安全公告和订阅源。未提供 API 的社区讨论、社交媒体和完整标准文档变更不在覆盖保证内。RSS 仅提供源当前保留的条目。
 
-- 覆盖提示：`cloudflare/workers-sdk` / releases — Pagination cap reached; coverage may be incomplete. Increase limits or narrow the window.
+本次未报告采集错误或分页截断；这不代表覆盖整个 MCP 生态。
 
 ## 重点 PR / 提案
 
-显示 20 / 2545 条；全部数据见当日 JSON。
+显示 20 / 2576 条；全部数据见当日 JSON。
 
 ### [SEP-2076: Agent Skills as a First-Class MCP Primitive](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2076)
 
