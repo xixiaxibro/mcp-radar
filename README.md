@@ -41,7 +41,14 @@ python3 scripts/radar.py collect --days 7 \
 
 ## 自动跟踪
 
-GitHub Actions 每天 **01:17 UTC / 北京时间 09:17** 调度，并支持手动运行。使用仓库自动提供的 `GITHUB_TOKEN`，不需要额外的模型或第三方付费凭证。工作流只提交 `data/`、`reports/`，使用并发锁防止相互覆盖。
+GitHub Actions 工作流定义了每天 **01:17 UTC / 北京时间 09:17** 的调度，并支持手动运行。**当前以本机 launchd 为主，云端更新工作流处于手动停用状态，避免两个调度器同时提交。** 恢复云端时先移除本机任务，再启用：
+
+```bash
+python3 scripts/install_launchd.py remove
+gh workflow enable radar.yml --repo xixiaxibro/mcp-radar
+```
+
+云端使用仓库自动提供的 `GITHUB_TOKEN`，不需要额外的模型或第三方付费凭证。工作流只提交 `data/`、`reports/`，使用并发锁防止相互覆盖。
 
 Actions 定时任务可能延迟；公开仓库长期无活动时 GitHub 可能停用 schedule。是否正常运行以 [Actions](https://github.com/xixiaxibro/mcp-radar/actions) 和报告时间为准。仓库管理员禁用 Actions 或限制 token 写权限也会影响更新。
 
