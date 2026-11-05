@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Public-source MCP activity collector. Python 3.11+, no third-party dependencies."""
+"""Public-source MCP activity collector. Python 3.9+, no third-party dependencies."""
 from __future__ import annotations
 
 import argparse

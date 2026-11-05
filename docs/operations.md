@@ -8,6 +8,14 @@
 
 如果仓库策略禁止 token 推送，需由仓库管理员调整 Actions workflow permissions；若有分支保护，应改为由维护者合并更新分支，不绕过保护。当前默认在 main 上提交数据。
 
+## macOS 本机调度
+
+`install_launchd.py` 生成当前用户的 `~/Library/LaunchAgents/org.xixiaxibro.mcp-radar.plist`，默认本地时间 09:17；不需要 root，不存凭证。`run_scheduled.py` 用文件锁防止本机重叠，要求 main 和干净工作区，先 `git pull --ff-only`，采集后仅提交生成目录并通过已有 SSH 连接推送。
+
+安装与关闭命令见 README。首次可用 `launchctl kickstart gui/$(id -u)/org.xixiaxibro.mcp-radar` 测试；日志在 `~/Library/Logs/mcp-radar/`。本机调度依赖登录、网络、GitHub 授权与 SSH，不是常在线云服务。修改工作时间、移动仓库或更换 Python 后，remove 再 install。
+
+选择一个主要调度器；恢复 GitHub Actions 后可移除本机任务，避免两端同时提交。文件锁只保护本机进程，GitHub 的 concurrency 只保护云端任务，两者不能构成跨机器锁；推送冲突会失败并保留本地提交，不强推。
+
 ## 配置
 
 - 新项目：编辑 `repositories`，填写主题、tier、是否收集 issue/commit、关键词。只接受公开仓库。

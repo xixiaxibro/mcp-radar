@@ -22,7 +22,7 @@ T1 是主线，T2 是专题，T3 是补充对照。大仓库设置 MCP 关键词
 
 ## 本地运行
 
-Python 3.11+，标准库实现，无需 LLM API Key。公开订阅源遇到本机 TLS 问题时会尝试系统 `curl`（可选；GitHub Actions 环境已提供）。通过 `GH_TOKEN` / `GITHUB_TOKEN` 或本机已登录的 `gh` 获得 GitHub API 权限；凭证只发送给 GitHub API，不写入输出。
+Python 3.9+，标准库实现，无需 LLM API Key。公开订阅源遇到本机 TLS 问题时会尝试系统 `curl`（可选；GitHub Actions 环境已提供）。通过 `GH_TOKEN` / `GITHUB_TOKEN` 或本机已登录的 `gh` 获得 GitHub API 权限；凭证只发送给 GitHub API，不写入输出。
 
 ```bash
 python3 scripts/radar.py validate
@@ -44,6 +44,18 @@ python3 scripts/radar.py collect --days 7 \
 GitHub Actions 每天 **01:17 UTC / 北京时间 09:17** 调度，并支持手动运行。使用仓库自动提供的 `GITHUB_TOKEN`，不需要额外的模型或第三方付费凭证。工作流只提交 `data/`、`reports/`，使用并发锁防止相互覆盖。
 
 Actions 定时任务可能延迟；公开仓库长期无活动时 GitHub 可能停用 schedule。是否正常运行以 [Actions](https://github.com/xixiaxibro/mcp-radar/actions) 和报告时间为准。仓库管理员禁用 Actions 或限制 token 写权限也会影响更新。
+
+## 本机定时任务（可选）
+
+当云端 Actions 不可用时，可用 macOS 用户级 launchd 每日运行并推送同一份报告：
+
+```bash
+python3 scripts/install_launchd.py install --hour 9 --minute 17
+python3 scripts/install_launchd.py status
+python3 scripts/install_launchd.py remove
+```
+
+使用本机已有 `gh` 登录和 Git SSH 配置，不在 plist 保存 token。需要这台 Mac 已登录、联网，并且仓库位于 main 且工作区干净。任务会先同步远端，只提交 `data/` 与 `reports/`；工作区有未提交修改时直接退出，保留你的工作。睡眠可能推迟执行，日志位于 `~/Library/Logs/mcp-radar/`。详见 [运维说明](docs/operations.md)。
 
 ## 边界
 
