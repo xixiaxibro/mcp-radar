@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "baseline_protocol_version": "2026-07-28",
+  "repositories": [
+    {
+      "repo": "modelcontextprotocol/modelcontextprotocol",
+      "topic": "protocol",
+      "tier": 1,
+      "issues": true,
+      "commits": true,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/python-sdk",
+      "topic": "sdk",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/typescript-sdk",
+      "topic": "sdk",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/conformance",
+      "topic": "testing",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/inspector",
+      "topic": "testing",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/registry",
+      "topic": "ecosystem",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/ext-auth",
+      "topic": "authorization",
+      "tier": 1,
+      "issues": true,
+      "commits": true,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/ext-apps",
+      "topic": "extension",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/ext-tasks",
+      "topic": "extension",
+      "tier": 1,
+      "issues": true,
+      "commits": true,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/transports-wg",
+      "topic": "protocol",
+      "tier": 1,
+      "issues": true,
+      "commits": true,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/agents-wg",
+      "topic": "protocol",
+      "tier": 2,
+      "issues": true,
+      "commits": true,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/ext-skills",
+      "topic": "extension",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/go-sdk",
+      "topic": "sdk",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/rust-sdk",
+      "topic": "sdk",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/java-sdk",
+      "topic": "sdk",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/csharp-sdk",
+      "topic": "sdk",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/kotlin-sdk",
+      "topic": "sdk",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/swift-sdk",
+      "topic": "sdk",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/ruby-sdk",
+      "topic": "sdk",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/php-sdk",
+      "topic": "sdk",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "topic": "reference-server",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "modelcontextprotocol/mcpb",
+      "topic": "ecosystem",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "cloudflare/workers-oauth-provider",
+      "topic": "authorization",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "cloudflare/agents",
+      "topic": "platform",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [
+        "mcp",
+        "oauth",
+        "protocol",
+        "authorization",
+        "transport",
+        "tool",
+        "schema"
+      ],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "cloudflare/workers-sdk",
+      "topic": "platform",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "releases": false,
+      "keywords": [
+        "mcp",
+        "oauth",
+        "model context protocol"
+      ],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "Tencent/AI-Infra-Guard",
+      "topic": "security",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [
+        "mcp",
+        "protocol",
+        "schema",
+        "transport",
+        "oauth",
+        "dependency",
+        "dependencies"
+      ],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "PrefectHQ/fastmcp",
+      "topic": "framework",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "snyk/agent-scan",
+      "topic": "security",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [
+        "mcp",
+        "tool",
+        "protocol",
+        "oauth",
+        "poison",
+        "schema"
+      ],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "github/github-mcp-server",
+      "topic": "production-server",
+      "tier": 1,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "getsentry/toolkit",
+      "topic": "production-server",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [
+        "mcp",
+        "oauth",
+        "protocol",
+        "transport"
+      ],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "awslabs/mcp",
+      "topic": "production-server",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "microsoft/playwright-mcp",
+      "topic": "production-server",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "IBM/mcp-context-forge",
+      "topic": "gateway",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [
+        "mcp",
+        "oauth",
+        "protocol",
+        "transport",
+        "auth"
+      ],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "stacklok/toolhive",
+      "topic": "gateway",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "sparfenyuk/mcp-proxy",
+      "topic": "gateway",
+      "tier": 2,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    },
+    {
+      "repo": "lastmile-ai/mcp-agent",
+      "topic": "framework",
+      "tier": 3,
+      "issues": false,
+      "commits": false,
+      "keywords": [],
+      "verified_at": "2026-11-05T13:27:46+00:00",
+      "archived_at_bootstrap": false
+    }
+  ],
+  "feeds": [
+    {
+      "id": "mcp-official-blog",
+      "url": "https://blog.modelcontextprotocol.io/index.xml",
+      "topics": [
+        "protocol",
+        "ecosystem"
+      ],
+      "tier": 1,
+      "keywords": []
+    },
+    {
+      "id": "cloudflare-mcp",
+      "url": "https://blog.cloudflare.com/rss/",
+      "topics": [
+        "platform"
+      ],
+      "tier": 2,
+      "keywords": [
+        "mcp",
+        "model context protocol"
+      ]
+    }
+  ],
+  "limits": {
+    "max_pages": 8,
+    "per_page": 100,
+    "workers": 6
+  },
+  "keywords": {
+    "breaking": [
+      "breaking",
+      "migration",
+      "deprecat",
+      "backward",
+      "compatib"
+    ],
+    "security": [
+      "security",
+      "vulnerab",
+      "cve-",
+      "ghsa-",
+      "oauth",
+      "authorization",
+      "audience",
+      "pkce",
+      "token",
+      "ssrf",
+      "injection",
+      "poison"
+    ],
+    "protocol": [
+      "protocol",
+      "transport",
+      "streamable",
+      "sse",
+      "stdio",
+      "negotiat",
+      "schema",
+      "cancel",
+      "timeout",
+      "lifecycle",
+      "capabilit",
+      "conformance",
+      "mrtr",
+      "pagination"
+    ],
+    "proposal": [
+      "sep-",
+      "sep:",
+      "proposal",
+      "specification",
+      "extension"
+    ],
+    "noise": [
+      "chore(deps)",
+      "build(deps)",
+      "bump ",
+      "version packages",
+      "typo",
+      "formatting"
+    ]
+  }
+}

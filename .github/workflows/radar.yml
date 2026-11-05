@@ -1,0 +1,46 @@
+name: Update MCP Radar
+on:
+  schedule:
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Lookback window (1–90 days)'
+        default: '14'
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: mcp-radar-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/radar.py validate
+      - run: python -m unittest discover -s tests -v
+      - name: Collect public updates
+        id: collect
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RADAR_LOOKBACK_DAYS: ${{ inputs.days || '14' }}
+        run: python scripts/radar.py collect --days "$RADAR_LOOKBACK_DAYS"
+      - name: Persist reports and collection diagnostics
+        if: always() && steps.collect.outcome != 'skipped'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ reports/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: update MCP activity and coverage report'
+            git push
+          fi
+      - name: Surface partial or failed collection
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
