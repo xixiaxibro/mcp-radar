@@ -1,8 +1,8 @@
 # MCP Radar · 滚动七日选题
 
-观测日期：2026-10-30 至 2026-11-05（UTC）。仅汇总已经采集的日报，不补造缺失日期。
+观测日期：2026-10-31 至 2026-11-06（UTC）。仅汇总已经采集的日报，不补造缺失日期。
 
-去重条目 2701；日报记录的失败端点 0 个。分数表示阅读优先级，不表示技术正确性。
+去重条目 2761；日报记录的失败端点 4 个。分数表示阅读优先级，不表示技术正确性。
 
 | 优先级 | 来源 | 状态 | 条目 |
 |---:|---|---|---|
@@ -29,6 +29,7 @@
 | 94 | modelcontextprotocol/modelcontextprotocol | open | [Streamable HTTP: no precedence between UnsupportedProtocolVersionError (-32022) and HeaderMismatch (-32020) when an unsupported version arrives without the modern headers](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3449) |
 | 94 | modelcontextprotocol/modelcontextprotocol | open | [SEP-2293: Add Support for Completions Metadata](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2293) |
 | 92 | IBM/mcp-context-forge | open | [Fix helm chart deployments to OC](https://github.com/IBM/mcp-context-forge/pull/4954) |
+| 92 | github/github-mcp-server | open | [Omit app-only ui\_get unless the client advertises MCP Apps](https://github.com/github/github-mcp-server/pull/3687) |
 | 92 | modelcontextprotocol/ext-apps | merged | [Update clients page link in README.md](https://github.com/modelcontextprotocol/ext-apps/pull/838) |
 | 92 | modelcontextprotocol/modelcontextprotocol | closed | [redirect URIs using localhost](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3223) |
 | 92 | modelcontextprotocol/modelcontextprotocol | closed | [A list of Implementation Requirements for OAuth Client ID Metadata Document](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3224) |
@@ -45,6 +46,5 @@
 | 90 | modelcontextprotocol/rust-sdk | merged | [fix(auth): allow cross-origin resource\_metadata urls](https://github.com/modelcontextprotocol/rust-sdk/pull/1302) |
 | 90 | modelcontextprotocol/rust-sdk | merged | [fix(auth): accept ID-JAGs without a resource claim](https://github.com/modelcontextprotocol/rust-sdk/pull/1406) |
 | 89 | awslabs/mcp | published | [AWS API MCP Server OAuth Token Audience Validation Bypass](https://github.com/awslabs/mcp/security/advisories/GHSA-4prq-p2x5-w9fh) |
-| 89 | modelcontextprotocol/modelcontextprotocol | committed | [docs: fix client-credentials samples and pin the issuer (#3472)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/da72d8e77a619b3213f1d31fdaa5a3a43c97a14c) |
 
 写作前检查：规范版本 → PR 与测试 → 发布版本 → 最小复现 → 结论边界。
