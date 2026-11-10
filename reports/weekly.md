@@ -1,8 +1,8 @@
 # MCP Radar · 滚动七日选题
 
-观测日期：2026-11-03 至 2026-11-09（UTC）。仅汇总已经采集的日报，不补造缺失日期。
+观测日期：2026-11-04 至 2026-11-10（UTC）。仅汇总已经采集的日报，不补造缺失日期。
 
-去重条目 3139；日报记录的失败端点 7 个。分数表示阅读优先级，不表示技术正确性。
+去重条目 3216；日报记录的失败端点 29 个。分数表示阅读优先级，不表示技术正确性。
 
 | 优先级 | 来源 | 状态 | 条目 |
 |---:|---|---|---|
@@ -37,6 +37,7 @@
 | 94 | modelcontextprotocol/modelcontextprotocol | open | [SEP-2293: Add Support for Completions Metadata](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2293) |
 | 94 | modelcontextprotocol/registry | merged | [chore(deploy): promote registry v1.8.8 to production](https://github.com/modelcontextprotocol/registry/pull/1811) |
 | 94 | modelcontextprotocol/registry | merged | [feat(deploy): complete standalone staging Gateway migration](https://github.com/modelcontextprotocol/registry/pull/1822) |
+| 94 | modelcontextprotocol/registry | merged | [Clean up completed Gateway migration operations](https://github.com/modelcontextprotocol/registry/pull/1830) |
 | 92 | IBM/mcp-context-forge | open | [Fix helm chart deployments to OC](https://github.com/IBM/mcp-context-forge/pull/4954) |
 | 92 | github/github-mcp-server | open | [Omit app-only ui\_get unless the client advertises MCP Apps](https://github.com/github/github-mcp-server/pull/3687) |
 | 92 | modelcontextprotocol/ext-apps | merged | [Update clients page link in README.md](https://github.com/modelcontextprotocol/ext-apps/pull/838) |
@@ -45,6 +46,5 @@
 | 92 | modelcontextprotocol/modelcontextprotocol | open | [Access Token Privilege Restriction: does "MUST NOT pass through" cover an API of the same authorization server/project (Supabase Edge MCP pattern)?](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3413) |
 | 92 | modelcontextprotocol/modelcontextprotocol | open | [Icon origin guidance differs between basic/index and Icon.src](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3486) |
 | 92 | modelcontextprotocol/modelcontextprotocol | open | [Tool annotations: the spec does not say how the untrusted-annotations rule applies to clients that force a tool call](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3492) |
-| 92 | modelcontextprotocol/modelcontextprotocol | open | [SEP-1932: DPoP Profile for MCP](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1932) |
 
 写作前检查：规范版本 → PR 与测试 → 发布版本 → 最小复现 → 结论边界。
