@@ -1,0 +1,2447 @@
+{
+  "date": "2026-11-11",
+  "events": [
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2880",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "issue_or_proposal",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "(implementation): SEP-2352 - Clarify authorization server binding and migration",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2880",
+      "status": "closed",
+      "created_at": "2026-06-06T09:24:02Z",
+      "updated_at": "2026-11-10T10:47:53Z",
+      "excerpt": "### Where was this agreed? https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2352 ### Description Implement [SEP-2352](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2352). - [x] modelcontextprotocol/typescript-sdk#2201 - [x] modelcontextprotocol/csharp-sdk#1634 - [x] modelcontextprotocol/go-sdk#978 - [ ] modelcontextprotocol/java-sdk#1007 - [ ] modelcontextprotocol/kotlin-sdk#811 -",
+      "body_hash": "81fc4ece75defc6d42f0",
+      "number": 2880,
+      "labels": [
+        "implementation-needed",
+        "tracking"
+      ],
+      "score": 120,
+      "reasons": [
+        "T1 watchlist",
+        "breaking: migration",
+        "security: authorization",
+        "protocol: protocol",
+        "proposal: sep-"
+      ],
+      "fingerprint": "0a083ffa251a0c3665c6",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3538",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "issue_or_proposal",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "Runtime enforcement: the Security section's missing layer",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3538",
+      "status": "open",
+      "created_at": "2026-11-11T01:27:43Z",
+      "updated_at": "2026-11-11T01:27:43Z",
+      "excerpt": "The specification's Security and Trust & Safety section states that MCP itself cannot enforce its security principles at the protocol level, and that implementors SHOULD build consent and authorization flows, access controls, and documentation. That leaves the enforcement question to each implementor, with no shared account of what enforcement must look like to hold. Once a host connects an agent to tools, the agent'",
+      "body_hash": "c471d1c117c4e934d8e2",
+      "number": 3538,
+      "labels": [],
+      "score": 92,
+      "reasons": [
+        "T1 watchlist",
+        "security: security, authorization",
+        "protocol: protocol",
+        "proposal: specification"
+      ],
+      "fingerprint": "ab15c8fa01a2f01cb925",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-oauth-provider/pull/423",
+      "source": "cloudflare/workers-oauth-provider",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "fix: narrow DCR grant types to the subset this server supports",
+      "url": "https://github.com/cloudflare/workers-oauth-provider/pull/423",
+      "status": "merged",
+      "created_at": "2026-10-25T23:25:11Z",
+      "updated_at": "2026-11-10T19:49:39Z",
+      "excerpt": "Closes #422. DCR currently refuses VS Code's published client metadata because it declares `urn:ietf:params:oauth:grant-type:device_code` alongside `authorization_code` and `refresh_token`, and `negotiateDynamicClientRegistrationCapabilities` hands the full list to `validateClientCapabilities`, which throws on the first unsupported entry. RFC 7591 §3.2.1 allows the server to ignore unsupported requested values, and C",
+      "body_hash": "3cf003b124ded5181548",
+      "number": 423,
+      "draft": false,
+      "head_sha": "d589214f7c121c94a6e2e09e2ac1af00c334c2f5",
+      "merged_at": "2026-11-10T19:49:38Z",
+      "labels": [],
+      "score": 86,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth, authorization, token",
+        "protocol: negotiat, capabilit",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "13a9489d0597798fa006",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2863",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(mcp): coordinate OAuth callbacks, refreshes, step-ups and server changes",
+      "url": "https://github.com/cloudflare/agents/pull/2863",
+      "status": "open",
+      "created_at": "2026-11-10T15:51:18Z",
+      "updated_at": "2026-11-10T16:25:40Z",
+      "excerpt": "This fixes eight races in the MCP client where OAuth callbacks, token refreshes, step-ups and server changes (`closeConnection`, `removeServer`, `migrateServerId`, `configureElicitationHandlers`) overlap. Each fix is its own commit with a replay test in `authorization-races.test.ts`. Every replay fails on `main` and passes after its commit. TLA+ models of the module found them. What each race did on `main`: - a token",
+      "body_hash": "27ebb10027f0f32afc49",
+      "number": 2863,
+      "draft": false,
+      "head_sha": "a473119e9c5af9ac49194c93c254047b18862196",
+      "merged_at": null,
+      "labels": [],
+      "score": 76,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth, authorization, token",
+        "protocol: sse"
+      ],
+      "fingerprint": "42e023d8abf165bbca9d",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.9",
+      "source": "modelcontextprotocol/registry",
+      "kind": "release",
+      "topic": "ecosystem",
+      "tier": 1,
+      "title": "v1.8.9",
+      "url": "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.9",
+      "status": "published",
+      "created_at": "2026-11-10T11:07:52Z",
+      "updated_at": "2026-11-10T11:13:38Z",
+      "excerpt": "Optimize incremental-sync pagination by selecting indexed page keys before fetching payloads, while retaining prepared statement reuse. Includes staged production autoscaling configuration and deployment guardrails. See #1840 for validation and rollout details.",
+      "body_hash": "dbdd109a75486ae46252",
+      "version": "v1.8.9",
+      "prerelease": false,
+      "published_at": "2026-11-10T11:08:07Z",
+      "labels": [],
+      "score": 75,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: pagination",
+        "release"
+      ],
+      "fingerprint": "150b465debd8e18936bd",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1172",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix(server)!: return INVALID_PARAMS for unknown resources",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1172",
+      "status": "open",
+      "created_at": "2026-11-10T16:57:23Z",
+      "updated_at": "2026-11-10T17:11:55Z",
+      "excerpt": "Per SEP-2164, `resources/read` for an unknown URI now fails with `-32602` (Invalid Params) instead of `-32002`, on every protocol version. The error data still carries the `uri`. ## Breaking Changes `Client.readResource` for a missing resource throws `McpException` with `INVALID_PARAMS` instead of `RESOURCE_NOT_FOUND`. Clients matching on `-32002` should also accept `-32602`. Closes #805",
+      "body_hash": "2928cfe02b904592b0f9",
+      "number": 1172,
+      "draft": false,
+      "head_sha": "90eb95893246188e1db7970333d88e58c8341d2a",
+      "merged_at": null,
+      "labels": [],
+      "score": 72,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: breaking",
+        "protocol: protocol",
+        "proposal: sep-"
+      ],
+      "fingerprint": "20432146a04c2d90a6d8",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ext-auth/pull/38",
+      "source": "modelcontextprotocol/ext-auth",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "Mark DPoP as experimental extension",
+      "url": "https://github.com/modelcontextprotocol/ext-auth/pull/38",
+      "status": "open",
+      "created_at": "2026-10-23T16:21:16Z",
+      "updated_at": "2026-11-10T14:56:42Z",
+      "excerpt": "Brings @PieterKas's DPoP profile to `specification/experimental/dpop.mdx`, as an Experimental extension under [SEP-3392](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3392). The proposal is [SEP-1932](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1932). - Merges `pieterkas-dpop-extension` and the heads of #33, #35 and #36, keeping all 18 of his commits. - Moves the file, runs P",
+      "body_hash": "b0e683c9db54731c5e69",
+      "number": 38,
+      "draft": false,
+      "head_sha": "c1d664ea5602c4e973259e8a60d8c3554f25d0bf",
+      "merged_at": null,
+      "labels": [],
+      "score": 66,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol",
+        "proposal: sep-, proposal, specification"
+      ],
+      "fingerprint": "f8f6618d921417ac5edf",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2881",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "issue_or_proposal",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "(implementation): SEP-2468 - Recommend Issuer (iss) Parameter in MCP Auth Responses",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2881",
+      "status": "closed",
+      "created_at": "2026-06-06T09:24:03Z",
+      "updated_at": "2026-11-10T10:47:50Z",
+      "excerpt": "### Where was this agreed? https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2468 ### Description Implement [SEP-2468](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2468). - [x] modelcontextprotocol/typescript-sdk#2197 - [x] modelcontextprotocol/csharp-sdk#1571 - [x] modelcontextprotocol/go-sdk#941 - [ ] modelcontextprotocol/java-sdk#1008 - [ ] modelcontextprotocol/kotlin-sdk#812 -",
+      "body_hash": "3acc89b52f313c28a202",
+      "number": 2881,
+      "labels": [
+        "implementation-needed",
+        "tracking"
+      ],
+      "score": 66,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol",
+        "proposal: sep-"
+      ],
+      "fingerprint": "84f3932196ca0ad7405f",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1433",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(auth): omit scope on refresh unless caller sets one",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1433",
+      "status": "open",
+      "created_at": "2026-11-05T13:41:24Z",
+      "updated_at": "2026-11-10T04:06:25Z",
+      "excerpt": "fixes #1408 refresh was always sending `scope` from the stored grant, which some servers (salesforce) reject. rfc 6749 §6 says scope is optional on refresh and leaving it out keeps the original grant. now refresh omits `scope` unless the caller sets it via `AuthorizationManager::set_refresh_scopes()`. when set, only scopes from the original grant get sent (keeps the #1331 behaviour). if none of them are in the grant,",
+      "body_hash": "6401d2903bd00a50aadd",
+      "number": 1433,
+      "draft": false,
+      "head_sha": "ba03e34a88aecbd144cbba1925ebae619176a700",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-documentation",
+        "T-transport"
+      ],
+      "score": 64,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization",
+        "protocol: transport"
+      ],
+      "fingerprint": "f1c0972534f642128fcf",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2856",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(mcp): start clean when a server is removed and added again under the same id",
+      "url": "https://github.com/cloudflare/agents/pull/2856",
+      "status": "merged",
+      "created_at": "2026-11-10T11:23:43Z",
+      "updated_at": "2026-11-10T11:56:08Z",
+      "excerpt": "An MCP server removed and added again under the same id (`addMcpServer(..., { id })`) now starts clean, even while a connect for the removed server is still running. `bringUp` remembers the connection it started on and stops with `removed` once the id holds another one. `removeServer` no longer deletes the row of a server registered again while it cleared credentials. A TLA+ model of the server lifecycle found three ",
+      "body_hash": "f5635eaca7f1ae123888",
+      "number": 2856,
+      "draft": false,
+      "head_sha": "85cdf8e66c4fdd38f1387da091b42abef9fd9c5b",
+      "merged_at": "2026-11-10T11:56:06Z",
+      "labels": [],
+      "score": 60,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: lifecycle",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "59f0afc7ee5d976396c0",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/transports-wg/pull/73",
+      "source": "modelcontextprotocol/transports-wg",
+      "kind": "pull_request",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "feat: add weekly meeting notes (2026-07-24 to 2026-11-06)",
+      "url": "https://github.com/modelcontextprotocol/transports-wg/pull/73",
+      "status": "merged",
+      "created_at": "2026-11-06T19:28:33Z",
+      "updated_at": "2026-11-10T08:44:38Z",
+      "excerpt": "Adds weekly MCP Transport Working Group meeting summaries from July through November 2026: - `meetings/2026-07-24_weekly.md` - `meetings/2026-07-31_weekly.md` - `meetings/2026-08-14_weekly.md` - `meetings/2026-08-21_weekly.md` - `meetings/2026-08-28_weekly.md` - `meetings/2026-09-04_weekly.md` - `meetings/2026-09-25_weekly.md` - `meetings/2026-10-02_weekly.md` - `meetings/2026-10-09_weekly.md` - `meetings/2026-10-16_",
+      "body_hash": "1a34f46f922088c9cb7d",
+      "number": 73,
+      "draft": false,
+      "head_sha": "28c23159d9e7a57971f35d60214b94099e8c5723",
+      "merged_at": "2026-11-10T08:44:35Z",
+      "labels": [],
+      "score": 60,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: transport",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "e1c5fb2cd571b463aa98",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-oauth-provider/pull/426",
+      "source": "cloudflare/workers-oauth-provider",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "feat: keep CIMD clients signed in while their document's host is down",
+      "url": "https://github.com/cloudflare/workers-oauth-provider/pull/426",
+      "status": "open",
+      "created_at": "2026-10-27T17:57:33Z",
+      "updated_at": "2026-11-10T20:00:46Z",
+      "excerpt": "The provider now keeps the last validated copy of each Client ID Metadata Document in `OAUTH_KV`, and uses it when the origin times out, fails at the network level, or answers 404, 408, 429 or 5xx. It is always on, with no option. The copy expires 24 hours after the last successful fetch. 401, 403 and other 4xx responses, and fresh documents that fail to parse or validate, never fall back. A 410 deletes the copy, so ",
+      "body_hash": "b7b833fec015f4fcc50e",
+      "number": 426,
+      "draft": false,
+      "head_sha": "5819f3c4c6afa04120ff3ff9d1e651768e595cb2",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth"
+      ],
+      "fingerprint": "d7907871e9f26defa46e",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/transports-wg/commit/a433b1bb9995427b2cce27407605782b0526f292",
+      "source": "modelcontextprotocol/transports-wg",
+      "kind": "commit",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "feat: add weekly meeting notes (2026-07-24 to 2026-11-06) (#73)",
+      "url": "https://github.com/modelcontextprotocol/transports-wg/commit/a433b1bb9995427b2cce27407605782b0526f292",
+      "status": "committed",
+      "created_at": null,
+      "updated_at": "2026-11-10T08:44:35Z",
+      "excerpt": "feat: add weekly meeting notes (2026-07-24 to 2026-11-06) (#73) Adds weekly MCP Transport Working Group meeting summaries from July through November 2026: - `meetings/2026-07-24_weekly.md` - `meetings/2026-07-31_weekly.md` - `meetings/2026-08-14_weekly.md` - `meetings/2026-08-21_weekly.md` - `meetings/2026-08-28_weekly.md` - `meetings/2026-09-04_weekly.md` - `meetings/2026-09-25_weekly.md` - `meetings/2026-10-02_week",
+      "body_hash": "cc75c1e9dc8cd3933c52",
+      "labels": [],
+      "score": 55,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: transport"
+      ],
+      "fingerprint": "293ac7aa365656c19f19",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2014",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Return 400 for unreadable strings in Streamable HTTP POST validation",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2014",
+      "status": "open",
+      "created_at": "2026-11-10T06:34:46Z",
+      "updated_at": "2026-11-10T06:34:46Z",
+      "excerpt": "Fixes #1984 ## Problem `HandlePostRequestAsync` reads some request values as strings while it validates the headers against the body. Two kinds of input make those reads throw `InvalidOperationException`, which the handler does not catch (it only catches `JsonException`), so the request returns **500**: - **A string that is not valid UTF-8.** `Utf8JsonReader` accepts the bytes inside a string token and only validates",
+      "body_hash": "3dc6e3dd3ee8d8ce708b",
+      "number": 2014,
+      "draft": false,
+      "head_sha": "d126a53a287d7bd5eeb1eee3534b359e213228bc",
+      "merged_at": null,
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "security: token",
+        "protocol: streamable"
+      ],
+      "fingerprint": "e688ef4fe1b27beb5075",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1024",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "mcp/experimental: add ServerCard convenience helper (SEP-2127)",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1024",
+      "status": "open",
+      "created_at": "2026-06-25T09:59:48Z",
+      "updated_at": "2026-11-10T15:18:22Z",
+      "excerpt": "## Summary Draft Go reference implementation for SEP-2127 MCP Server Cards. This adds an experimental `mcp/experimental/servercard` package that ports the server-side convenience helper from modelcontextprotocol/python-sdk#2951 for building a static Server Card from `mcp.Implementation` metadata and serving it with the discovery CORS/cache headers. ## Tracking / coordination - SEP-2127: MCP Server Cards - Spec/source",
+      "body_hash": "9579316358c9661a9046",
+      "number": 1024,
+      "draft": false,
+      "head_sha": "96edebb812be2fc9093c4694e6ba221bc5df7503",
+      "merged_at": null,
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol",
+        "proposal: sep-"
+      ],
+      "fingerprint": "b58783bf3aac5779fa5b",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1325",
+      "source": "modelcontextprotocol/java-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Add a modern client for MCP 2026-07-28",
+      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/1325",
+      "status": "open",
+      "created_at": "2026-11-10T08:13:40Z",
+      "updated_at": "2026-11-10T15:18:27Z",
+      "excerpt": "The latest protocol revision introduced a stateless incarnation of the protocol. It requires no initialization handshake or session management, and it doesn't allow server-to-client requests. An instance of the modern client is meant to stand for one user. It does no I/O when built and can share its transport with other clients, so an application that handles authorization creates one per user over a single HTTP tran",
+      "body_hash": "82e39db9ecd62042225a",
+      "number": 1325,
+      "draft": false,
+      "head_sha": "b58d21c335619853ffff912d168ce5c7c6084204",
+      "merged_at": null,
+      "labels": [
+        "area/client",
+        "enhancement"
+      ],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "security: authorization",
+        "protocol: protocol, transport"
+      ],
+      "fingerprint": "1457a74dd27791d59fc4",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1171",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix(client): resume Streamable HTTP SSE streams independently",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1171",
+      "status": "open",
+      "created_at": "2026-11-10T16:02:42Z",
+      "updated_at": "2026-11-10T16:22:56Z",
+      "excerpt": "Run the standalone GET stream and each resumed request stream in separate jobs, so resuming one no longer cancels the others. A resumption stops when its request is cancelled. `Protocol` no longer sends `notifications/cancelled` with the request's resumption token, which made the transport resume a stream instead of sending the cancel. fixes #1170 ## How Has This Been Tested? Integration tests against a scripted serv",
+      "body_hash": "607d48569118b466a9f1",
+      "number": 1171,
+      "draft": false,
+      "head_sha": "6d77b483cb2e3b1324c4a617b0d16ba940ad2c52",
+      "merged_at": null,
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "security: token",
+        "protocol: protocol, transport, streamable"
+      ],
+      "fingerprint": "76662ad1ff40ab63dca1",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1173",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "docs(samples): add simple OAuth client sample (#166)",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1173",
+      "status": "open",
+      "created_at": "2026-11-10T20:05:13Z",
+      "updated_at": "2026-11-10T21:20:41Z",
+      "excerpt": "Closes #166. Adds `samples/simple-oauth-client`, a command-line client that signs in to an OAuth-protected MCP server over Streamable HTTP. The SDK doesn't ship client-side OAuth yet, so the sample implements the MCP authorization flow with plain Ktor: - A Ktor `HttpSend` interceptor adds the bearer token. On `401` it runs the flow and retries once. - It discovers the protected resource metadata (RFC 9728), using the",
+      "body_hash": "c627dcd9a7f8c75523bb",
+      "number": 1173,
+      "draft": false,
+      "head_sha": "52f3af1d4cad3e89fed9d8d4177108b5ad3f5e03",
+      "merged_at": null,
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth, authorization, token",
+        "protocol: streamable"
+      ],
+      "fingerprint": "4c0fb2fa2cbbb0f4d2f6",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2855",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(agents): support Pi 1.5.1",
+      "url": "https://github.com/cloudflare/agents/pull/2855",
+      "status": "closed",
+      "created_at": "2026-11-10T09:27:13Z",
+      "updated_at": "2026-11-10T15:28:43Z",
+      "excerpt": "## Summary **Moves `agents/models/pi-ai`, `agents/harness/pi` and the pi tool adapters from Pi 1.5.0 to Pi 1.5.1.** | Package | From | To | | --- | --- | --- | | `@earendil-works/pi-ai`, `pi-durable`, `chord`, `pi-schema`, `pi-codemode` (lockfile; dev and peer ranges stay `~1.5.0`) | 1.5.0 | 1.5.1 | | `@earendil-works/pi-tui` (dev, exact) | 1.5.0 | 1.5.1 | | `@earendil-works/pi-telemetry`, `pi-agent-core` (examples, ",
+      "body_hash": "3aec1b14d3037c9da543",
+      "number": 2855,
+      "draft": false,
+      "head_sha": "da24816803d3d11dfe6622532eb892ac30363ce8",
+      "merged_at": null,
+      "labels": [
+        "dependencies"
+      ],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "c4b0ae814bbbd0f8a114",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2862",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(agents): support Pi 1.5.2",
+      "url": "https://github.com/cloudflare/agents/pull/2862",
+      "status": "open",
+      "created_at": "2026-11-10T15:28:36Z",
+      "updated_at": "2026-11-10T15:30:10Z",
+      "excerpt": "## Summary **Moves `agents/models/pi-ai`, `agents/harness/pi` and the pi tool adapters from Pi 1.5.0 to Pi 1.5.2.** | Package | From | To | | --- | --- | --- | | `@earendil-works/pi-ai`, `pi-durable`, `chord`, `pi-schema`, `pi-codemode` (lockfile; dev and peer ranges stay `~1.5.0`) | 1.5.0 | 1.5.2 | | `@earendil-works/pi-tui` (dev, exact) | 1.5.0 | 1.5.2 | | `@earendil-works/pi-telemetry`, `pi-agent-core` (examples, ",
+      "body_hash": "f832275a3641fdc1bb27",
+      "number": 2862,
+      "draft": false,
+      "head_sha": "cfb6eba72971705a1d773f8e8e8b60b61751492c",
+      "merged_at": null,
+      "labels": [
+        "dependencies"
+      ],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "d5fa83975ebeaaa26d39",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ext-auth/pull/42",
+      "source": "modelcontextprotocol/ext-auth",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "Add WIF extension based on WAG as experimental",
+      "url": "https://github.com/modelcontextprotocol/ext-auth/pull/42",
+      "status": "open",
+      "created_at": "2026-11-09T16:56:23Z",
+      "updated_at": "2026-11-10T14:38:42Z",
+      "excerpt": "",
+      "body_hash": "e3b0c44298fc1c149afb",
+      "number": 42,
+      "draft": false,
+      "head_sha": "f48bfa74467e53ebcb21060310123002bfdff907",
+      "merged_at": null,
+      "labels": [],
+      "score": 46,
+      "reasons": [
+        "T1 watchlist",
+        "proposal: extension"
+      ],
+      "fingerprint": "dfc0d205491b0988cd84",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1163",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "build: require Kotlin 2.3 and stop core from pulling in the Ktor server",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1163",
+      "status": "merged",
+      "created_at": "2026-11-04T13:30:07Z",
+      "updated_at": "2026-11-10T17:12:12Z",
+      "excerpt": "The SDK is now compiled with Kotlin language and API version 2.3. JVM consumers already needed Kotlin 2.3: kotlin-stdlib 2.4 and kotlinx-serialization 1.12.0 carry 2.4 metadata, which a 2.2 compiler cannot read. `kotlin-sdk-core` now depends on `ktor-websockets` instead of `ktor-server-websockets`, so client-only consumers no longer pull in the Ktor server. ## Breaking Changes The minimum Kotlin version is now 2.3. #",
+      "body_hash": "91dc2384083fdb799049",
+      "number": 1163,
+      "draft": false,
+      "head_sha": "de9b2b3ace9dcee7de322a736d78d9ae851fc2b4",
+      "merged_at": "2026-11-10T17:12:10Z",
+      "labels": [],
+      "score": 46,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: breaking",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "f3d721a22ad42aca6a02",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/985",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "feat!: implement SEP-2575 stateless MCP",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/985",
+      "status": "open",
+      "created_at": "2026-09-08T11:07:34Z",
+      "updated_at": "2026-11-10T12:05:23Z",
+      "excerpt": "Implements SEP-2575 alongside the legacy handshake era. Closes #815 - Per-request `_meta` envelope; `resultType` on every result, cache hints (`ttlMs`/`cacheScope`) - Error codes `-32020`/`-32021`/`-32022`; `-32002` no longer emitted - `server/discover` (auto-registered); era-gated method registry - Modern Streamable HTTP: POST-only, sessionless, deferred SSE commit - Client version negotiation (Legacy/Auto/Pin) + op",
+      "body_hash": "483cda1f56fbdbf9a393",
+      "number": 985,
+      "draft": false,
+      "head_sha": "aa7a9ef5f8d9ff1351dd8f8d9d4d4aee9e670f56",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: streamable, sse, negotiat",
+        "proposal: sep-"
+      ],
+      "fingerprint": "c65277882145e151e631",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ext-apps/releases/tag/v2.1.0",
+      "source": "modelcontextprotocol/ext-apps",
+      "kind": "release",
+      "topic": "extension",
+      "tier": 2,
+      "title": "v2.1.0",
+      "url": "https://github.com/modelcontextprotocol/ext-apps/releases/tag/v2.1.0",
+      "status": "published",
+      "created_at": "2026-11-10T19:42:59Z",
+      "updated_at": "2026-11-10T23:38:20Z",
+      "excerpt": "## What's Changed Minor release: the SDK gains WebMCP interoperability, and the pdf-server example gets strict annotation validation. ### Features - **WebMCP interoperability** — instead of choosing between `App.registerTool` and [WebMCP](https://webmachinelearning.github.io/webmcp/), the SDK now bridges them in both directions: tools registered with `App.registerTool()` are mirrored into `document.modelContext` when",
+      "body_hash": "62807955303d4f4f98ed",
+      "version": "v2.1.0",
+      "prerelease": false,
+      "published_at": "2026-11-10T22:53:57Z",
+      "labels": [],
+      "score": 43,
+      "reasons": [
+        "T2 watchlist",
+        "release"
+      ],
+      "fingerprint": "b09529c7d4ee1a59ef3b",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2860",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(ai-chat): chat turn races across tabs, clear, regenerate and tool results",
+      "url": "https://github.com/cloudflare/agents/pull/2860",
+      "status": "merged",
+      "created_at": "2026-11-10T13:29:58Z",
+      "updated_at": "2026-11-10T16:10:39Z",
+      "excerpt": "Fixes four chat turn races in `AIChatAgent`. Each one shows up when two tabs share a chat. - **Clear stops pending replies.** A turn admitted before a clear no longer streams into the cleared chat or saves its reply there. `_reply` checks the new `TurnQueue.activeGeneration` against `generation`. - **Regenerate replaces a reply that is still streaming.** A regenerate now deletes the stale rows when its turn starts. I",
+      "body_hash": "ed27f6c7ec31fb89d6c5",
+      "number": 2860,
+      "draft": false,
+      "head_sha": "d65d9f8a896c8fb8a198c0e4ffa7a68f565cb066",
+      "merged_at": "2026-11-10T16:10:37Z",
+      "labels": [],
+      "score": 40,
+      "reasons": [
+        "T1 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "e17f9bc10efc449c720d",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1341",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "mcp: reject x-mcp-header annotations not reachable through properties",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1341",
+      "status": "closed",
+      "created_at": "2026-10-05T03:32:53Z",
+      "updated_at": "2026-11-10T10:00:38Z",
+      "excerpt": "The spec only allows `x-mcp-header` on a property you can reach from the schema root through `properties` keys. `validateParamHeaderAnnotations` only ever looked at `properties`, because `headerSchemaProperty` doesn't decode anything else. So an annotation under `items`, `oneOf`/`anyOf`/`allOf`, `not`, `if`/`then`/`else` or a `$ref` target was silently accepted and then ignored. The fix walks the decoded schema and r",
+      "body_hash": "81e0e8364ff5d7db80c3",
+      "number": 1341,
+      "draft": false,
+      "head_sha": "9ac8ea2d51986ed9f7523eba0353efc79f1460fb",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "5fa1cf787ead25e71e27",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1514",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "mcp: reject batches when no supported version allows them",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1514",
+      "status": "closed",
+      "created_at": "2026-11-10T09:16:18Z",
+      "updated_at": "2026-11-10T09:16:33Z",
+      "excerpt": "Fixes #1513 A Streamable HTTP request without `MCP-Protocol-Version` is treated as 2025-03-26, so its JSON-RPC batch was accepted even when `ServerOptions.SupportedProtocolVersions` excluded every version before 2025-06-18. The same batch with an explicit `MCP-Protocol-Version: 2025-03-26` header is rejected as an unsupported version. `servePOST` now rejects such a batch with 400 when the server supports no version b",
+      "body_hash": "70de396604289d9e8ce7",
+      "number": 1514,
+      "draft": false,
+      "head_sha": "0379adf968d3b9776138ae31164d9fe532f7194a",
+      "merged_at": null,
+      "labels": [
+        "missing-issue-link"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol, streamable"
+      ],
+      "fingerprint": "180d178bdd29107ef099",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1327",
+      "source": "modelcontextprotocol/java-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Fix race condition in `subscription/listen`",
+      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/1327",
+      "status": "merged",
+      "created_at": "2026-11-10T10:40:48Z",
+      "updated_at": "2026-11-10T12:27:22Z",
+      "excerpt": "Under highly contentious load, there might be a race condition in subscription/listen. Every change broadcast before subscribing to the change feed is lost. Subscription happens on a thread, and writing to the wire happens in another thread. The `ack` might be fully written to the transport, and received by the client, before the changes are subscribed to. A test harness might fire a change right after the test clien",
+      "body_hash": "1381f2bce86735071b3a",
+      "number": 1327,
+      "draft": false,
+      "head_sha": "c7cc1ba8750fbcbfe01c71ea425ec4bb907cdab4",
+      "merged_at": "2026-11-10T12:27:19Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "2d44da07da18b526f9ef",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1101",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix(core,server): keep StdioServerTransport running when a handler is cancelled",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1101",
+      "status": "merged",
+      "created_at": "2026-10-07T08:10:02Z",
+      "updated_at": "2026-11-10T17:58:34Z",
+      "excerpt": "Fixes #1086 ## Problem When a message handler threw `CancellationException`, `processorPump` rethrew it. The read loop ended, the `finally` block closed the write channel, and the transport fired `onClose` without `onError`. A single handler's cancellation, for example a cancelled request scope leaking out of a handler, closed the whole connection. Other handler exceptions are logged and the loop continues. ## Change",
+      "body_hash": "97f7bd5687c1b97622a7",
+      "number": 1101,
+      "draft": false,
+      "head_sha": "0854ce7fa12529d93612113b4795aed95f4026bf",
+      "merged_at": "2026-11-10T17:58:33Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, stdio, cancel",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "c2f3078ace3847f5a7e7",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1439",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(server): send skill text with NUL bytes as a blob",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1439",
+      "status": "open",
+      "created_at": "2026-11-08T15:48:03Z",
+      "updated_at": "2026-11-10T20:48:22Z",
+      "excerpt": "## Motivation and Context Following up on https://github.com/modelcontextprotocol/rust-sdk/pull/1409#pullrequestreview-5810443208, send a skill file with a textual MIME type as a blob if its contents include a NUL byte. This handles the UTF-16LE XML case. Files with a textual MIME type are sent as text when their bytes are valid UTF-8. UTF-16 with a BOM already fails this check and is sent as a blob. But UTF-16LE wit",
+      "body_hash": "81d035bd79d636eb4a47",
+      "number": 1439,
+      "draft": false,
+      "head_sha": "6b5a9a1748c6f7c0a85b71ad08afb12ca5a85ec3",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-handler",
+        "T-test"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "bd165fd2441502e3ebd2",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1444",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(transport): retain terminal cause for startup failures (#1441)",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1444",
+      "status": "open",
+      "created_at": "2026-11-11T01:24:41Z",
+      "updated_at": "2026-11-11T01:29:15Z",
+      "excerpt": "## What Fixes #1441 — a streamable-http startup handshake failure was reported as `WorkerQuitReason::Fatal` with the real typed error replaced by a synthetic `TransportChannelClosed`, and the terminal reason had no retained carrier, so an observer whose own timeout already fired lost the cause entirely. Implements options **B** and **C** from @jokemanfire's triage comment on #1441. ### B — typed error in the terminal",
+      "body_hash": "7d9882bd500d1e5fa5cb",
+      "number": 1444,
+      "draft": false,
+      "head_sha": "ce07d77f971a7d004054c3763ae2cf06c5977922",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-transport"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: transport, streamable, timeout"
+      ],
+      "fingerprint": "ace251b9e9771c14a911",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/329",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: space conformance progress notifications",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/329",
+      "status": "merged",
+      "created_at": "2026-11-10T08:26:15Z",
+      "updated_at": "2026-11-10T10:50:26Z",
+      "excerpt": "## Motivation and Context The shared conformance server sends progress notifications 50 microseconds apart, while the conformance scenario expects about 50 milliseconds. The test can receive only one or two notifications before the tool result. I reproduced this on `main`, so this is separate from #307. This changes the two fixture delays to 50 milliseconds. ## How Has This Been Tested? - On unchanged `main`, the pro",
+      "body_hash": "ad2d0ade11d38ac694ff",
+      "number": 329,
+      "draft": false,
+      "head_sha": "e1b03d9a9860a11331434df19bb27eb986a0efb8",
+      "merged_at": "2026-11-10T10:50:26Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "48e32a4a8d41ac58ad05",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/666",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: validate JWT algorithms against verification keys",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/666",
+      "status": "open",
+      "created_at": "2026-11-06T06:13:55Z",
+      "updated_at": "2026-11-10T20:47:12Z",
+      "excerpt": "## Motivation and Context A PS256 token checked against an EC key made `JWTVerifier` return 500 instead of 401 with older jwt versions. The verifier now checks the resolved key against the token's algorithm before signature verification and raises the existing `InvalidTokenError` on a mismatch. The existing path then returns 401 `invalid_token`. The configured algorithm allowlist, JWK lookup and claim checks are unch",
+      "body_hash": "d7a554c21526ff7c3dd7",
+      "number": 666,
+      "draft": false,
+      "head_sha": "556ada2b969aa5c3fdb5c9c179efb64ea8b4d2b7",
+      "merged_at": null,
+      "labels": [],
+      "score": 34,
+      "reasons": [
+        "T3 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "63721ae9bfcac19cb75f",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2849",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(agents): upgrade opencode to 2.2.6",
+      "url": "https://github.com/cloudflare/agents/pull/2849",
+      "status": "closed",
+      "created_at": "2026-11-09T09:29:56Z",
+      "updated_at": "2026-11-10T12:27:20Z",
+      "excerpt": "## Summary **Moves `agents/harness/opencode` and `agents/models/opencode` from opencode 2.0.24 to 2.2.6, and switches the Cloudflare provider to OpenCode's `sdk` hook.** | Package | From | To | | --- | --- | --- | | `@opencode/sdk` (dev, example) | `2.0.24` | `2.2.6` | | `@opencode/plugin` (dev, example) | `2.0.24` | `2.2.6` | | `@opencode/sdk` peer range | `^2.0.24` | `^2.2.3` | | `@opencode/plugin` peer range | `^2",
+      "body_hash": "c91725e77100d1cc9f98",
+      "number": 2849,
+      "draft": false,
+      "head_sha": "1ab86735c5848d7c50e77e666072f06aa72e6a43",
+      "merged_at": null,
+      "labels": [
+        "dependencies"
+      ],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "099ae34d9dbac18d6846",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2857",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(agents): upgrade opencode to 2.2.7",
+      "url": "https://github.com/cloudflare/agents/pull/2857",
+      "status": "open",
+      "created_at": "2026-11-10T12:27:13Z",
+      "updated_at": "2026-11-10T12:28:04Z",
+      "excerpt": "## Summary **Moves `agents/harness/opencode` and `agents/models/opencode` from opencode 2.0.24 to 2.2.7, and switches the Cloudflare provider to OpenCode's `sdk` hook.** | Package | From | To | | --- | --- | --- | | `@opencode/sdk` (dev, example) | `2.0.24` | `2.2.7` | | `@opencode/plugin` (dev, example) | `2.0.24` | `2.2.7` | | `@opencode/sdk` peer range | `^2.0.24` | `^2.2.3` | | `@opencode/plugin` peer range | `^2",
+      "body_hash": "ea2d6698082d05cba252",
+      "number": 2857,
+      "draft": false,
+      "head_sha": "9b4007985666089d6856f485bd18ffa5d59bd589",
+      "merged_at": null,
+      "labels": [
+        "dependencies"
+      ],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "348a8ed114398305f029",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1515",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "mcp: restrict x-mcp-header annotations to properties reachable via properties keys alone",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1515",
+      "status": "merged",
+      "created_at": "2026-11-10T09:22:05Z",
+      "updated_at": "2026-11-10T09:59:34Z",
+      "excerpt": "Fixes #1250",
+      "body_hash": "92110959cc665e7f371d",
+      "number": 1515,
+      "draft": false,
+      "head_sha": "0283491dcd9c111bbad8600c26bd8b2aa39aae3b",
+      "merged_at": "2026-11-10T09:59:32Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "556b59327b20edaf7319",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1517",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "mcp: allow nil params for ListRoots inputRequests",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1517",
+      "status": "merged",
+      "created_at": "2026-11-10T10:16:36Z",
+      "updated_at": "2026-11-10T11:43:12Z",
+      "excerpt": "",
+      "body_hash": "e3b0c44298fc1c149afb",
+      "number": 1517,
+      "draft": false,
+      "head_sha": "f52dc2a8d81e9814ae72607679e8e724577ff54d",
+      "merged_at": "2026-11-10T11:43:10Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "adeeca3f8591470a980c",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/1326",
+      "source": "modelcontextprotocol/java-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Forward Mcp-Name header in McpTransportContext",
+      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/1326",
+      "status": "open",
+      "created_at": "2026-11-10T10:14:26Z",
+      "updated_at": "2026-11-10T13:38:18Z",
+      "excerpt": "Fixes #1317 ## Motivation Server features (e.g. routing-header checks for methods like `tasks/get`) need the decoded `Mcp-Name` request header, but the modern transport only used it internally in `validateHeaders()` and did not expose it through `McpTransportContext`. ## Changes - New `McpNameHeader` value, stored under `McpNameHeader.TRANSPORT_CONTEXT_KEY`, modelled on `McpParamHeaders`. - **HTTP:** every validated ",
+      "body_hash": "6b5f765ccbbc16cf9a3e",
+      "number": 1326,
+      "draft": false,
+      "head_sha": "1d26903b79e250a08fa9403c9b046a0e9839feca",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport"
+      ],
+      "fingerprint": "ca6b1651eaa5aceeb6c4",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/675",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "test: avoid stubbing ENV in case-insensitive lookup test",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/675",
+      "status": "open",
+      "created_at": "2026-11-10T20:20:01Z",
+      "updated_at": "2026-11-10T20:20:01Z",
+      "excerpt": "Replace the ENV stubs in the case-insensitive lookup test with a temporary environment Hash. ## Motivation and Context Stubbing ENV raises `Ractor::IsolationError` on Ruby head. Use a temporary `Stdio::ENV` constant instead. The Hash retains the mixed-case `Path` name and accepts case-insensitive lookups, so the test still checks that the child receives `PATH`. Remove the constant in `ensure`. Only this test changes.",
+      "body_hash": "d7e3d4442ce501702a4f",
+      "number": 675,
+      "draft": false,
+      "head_sha": "9d4a4727c9e6c59e7e8354403b77b8e315af53de",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: stdio"
+      ],
+      "fingerprint": "97f7ed937d8126caae32",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/229",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Add MCPError.paymentRequired for the MPP Payment scheme over JSON-RPC",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/229",
+      "status": "closed",
+      "created_at": "2026-05-31T02:55:34Z",
+      "updated_at": "2026-11-10T18:05:01Z",
+      "excerpt": "## Summary JSON-RPC servers that implement the [Machine Payments Protocol](https://paymentauth.org) (\"Payment\" HTTP auth scheme, bound to JSON-RPC/MCP) signal *payment required* with error code **-32042** (and **-32043** for *verification failed*), carrying the offered challenges in **`error.data.challenges`**. `MCPError` currently can't represent that: - `serverError(code:message:)` has **no `data`**, so the challen",
+      "body_hash": "4377a8100f9918296d7d",
+      "number": 229,
+      "draft": false,
+      "head_sha": "fe4faf15a7e51888f945ae74481453b172276164",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "97a620007c535f121e89",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/298",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Keep HTTP requests separate during cancellation",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/298",
+      "status": "open",
+      "created_at": "2026-09-26T13:34:34Z",
+      "updated_at": "2026-11-10T08:00:06Z",
+      "excerpt": "Combines #264, #260, and #270. Stateless HTTP requests get private IDs, and each response restores the client's original ID without changing the rest of the JSON. Invalid IDs return 400. Valid JSON with an invalid request ID now returns `-32600` Invalid Request; malformed JSON returns `-32700` Parse error. Ambiguous cancellation IDs leave active requests alone. The cancellation POST returns 202. The original POST end",
+      "body_hash": "798b7b4b11312e1d67fd",
+      "number": 298,
+      "draft": false,
+      "head_sha": "770798c884d6ed93ad668598201fae5c5ae4f4c4",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: cancel"
+      ],
+      "fingerprint": "528a13f75a3ca74be935",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/307",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Allow stateful HTTP endpoints to recover after DELETE",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/307",
+      "status": "open",
+      "created_at": "2026-10-22T17:34:52Z",
+      "updated_at": "2026-11-10T10:58:14Z",
+      "excerpt": "Fixes #286 for stateful HTTP endpoints. The session manager creates a fresh server and transport for each initialize. DELETE stops the old server and lets the client initialize a new session. A rejected DELETE leaves the existing session available; the manager removes it only after DELETE succeeds. Initialize is validated once before the server factory runs. `maxSessions` is opt-in, and a configured limit returns 503",
+      "body_hash": "4dfc3e4faa351818517b",
+      "number": 307,
+      "draft": false,
+      "head_sha": "24debbf2153997dccb9e0cc4ced8f4899b25aa96",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport"
+      ],
+      "fingerprint": "cf36aae7dd4831c09a2e",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/328",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Complete batch request tasks when withBatch fails",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/328",
+      "status": "open",
+      "created_at": "2026-11-09T05:01:58Z",
+      "updated_at": "2026-11-10T01:57:39Z",
+      "excerpt": "## Summary When `Client.withBatch` throws, tasks returned by `Batch.addRequest` can remain suspended. Registration happens asynchronously, so cleaning up only the requests already registered at failure time misses continuations that register later. This change coordinates batch completion and request registration on the `Client` actor. It handles both transport send failures and a body closure that throws after addin",
+      "body_hash": "267eaa794d2ad35aa0f8",
+      "number": 328,
+      "draft": false,
+      "head_sha": "e8b76789477ed41c8b08c120741e2e7194b75921",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, sse"
+      ],
+      "fingerprint": "72016c7f026776d27974",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-oauth-provider/pull/321",
+      "source": "cloudflare/workers-oauth-provider",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "build(deps): bump js-yaml",
+      "url": "https://github.com/cloudflare/workers-oauth-provider/pull/321",
+      "status": "closed",
+      "created_at": "2026-09-23T10:48:37Z",
+      "updated_at": "2026-11-10T14:28:44Z",
+      "excerpt": "Bumps and [js-yaml](https://github.com/nodeca/js-yaml). These dependencies needed to be updated together. Updates `js-yaml` from 3.14.2 to 3.15.2 Changelog Sourced from js-yaml's changelog . 3.15.2 - 2026-08-26 Changed [backport] Hard-limit merge sequence size to 100. Security [backport] Count empty mappings in merge sequences toward maxTotalMergeKeys to limit CPU usage, #797 . 3.15.1 - 2026-07-31 Security [backport]",
+      "body_hash": "7acc310f7388a0c274a3",
+      "number": 321,
+      "draft": false,
+      "head_sha": "9a0af3aeb670e7fc2cd6bef0fbf715e9dc4bf8d8",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "score": 26,
+      "reasons": [
+        "T1 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "210e043cc1cc224616ae",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-oauth-provider/pull/432",
+      "source": "cloudflare/workers-oauth-provider",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "Version Packages",
+      "url": "https://github.com/cloudflare/workers-oauth-provider/pull/432",
+      "status": "open",
+      "created_at": "2026-11-10T19:51:17Z",
+      "updated_at": "2026-11-10T19:55:00Z",
+      "excerpt": "This PR was opened by the [Changesets release](https://github.com/changesets/action) GitHub action. When you're ready to do a release, you can merge this and the packages will be published to npm automatically. If you're not ready to do a release yet, that's fine, whenever you add more changesets to main, this PR will be updated. # Releases ## @cloudflare/workers-oauth-provider@1.2.5 ### Patch Changes - [#423](https:",
+      "body_hash": "e0b296351adf16fed14e",
+      "number": 432,
+      "draft": false,
+      "head_sha": "1c6bee0050210dd45e314ac35f704a06ee39fa20",
+      "merged_at": null,
+      "labels": [],
+      "score": 26,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "6e2aac9c3768b2e1c359",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2794",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "fix(agents): upgrade Pi to 1.5.0",
+      "url": "https://github.com/cloudflare/agents/pull/2794",
+      "status": "closed",
+      "created_at": "2026-11-02T15:51:38Z",
+      "updated_at": "2026-11-10T09:27:19Z",
+      "excerpt": "## Summary **Moves `agents/harness/pi`, `agents/models/pi-ai` and the pi tool adapters from Pi 1.4.0 to Pi 1.5.0.** | Package | From | To | | --- | --- | --- | | `@earendil-works/pi-ai` | 1.4.0 | 1.5.0 | | `@earendil-works/pi-durable` | 1.4.0 | 1.5.0 | | `@earendil-works/chord` | 1.4.0 | 1.5.0 | | `@earendil-works/pi-tui` (dev, exact) | 1.4.0 | 1.5.0 | | `@earendil-works/pi-telemetry`, `pi-agent-core` (examples, expe",
+      "body_hash": "8d4fd12195314b69e326",
+      "number": 2794,
+      "draft": true,
+      "head_sha": "6c7a4cd8f327a35807d9db5603cdd4720a96306e",
+      "merged_at": null,
+      "labels": [
+        "dependencies"
+      ],
+      "score": 20,
+      "reasons": [
+        "T1 watchlist",
+        "draft PR"
+      ],
+      "fingerprint": "39ae858785e6e4adefe8",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1122",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: omit empty _meta from outgoing requests (#1121)",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1122",
+      "status": "merged",
+      "created_at": "2026-10-16T17:46:12Z",
+      "updated_at": "2026-11-10T18:27:13Z",
+      "excerpt": "Fixes #1121 ## Motivation and Context `Client.callTool` wrapped `meta` in `RequestMeta` even when empty, so every request carried `\"_meta\": {}`. Strict servers reject it: a Python SDK user hit HTTP 400 / -32602 \"_meta for Request must be a dict or null\" from Meta's hosted Ads MCP server (python-sdk#3473, fixed in python-sdk#3628). The Kotlin client now only sends `_meta` when it's non-empty, like the Swift, Go, Java ",
+      "body_hash": "7e3cdffb3fdd72ac63c2",
+      "number": 1122,
+      "draft": false,
+      "head_sha": "8504e8823aba0906f8fdad2a042df607658686af",
+      "merged_at": "2026-11-10T18:27:13Z",
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T3 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "ab76ca116c5080065422",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1431",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(skills): validate percent-encoded skill names",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1431",
+      "status": "open",
+      "created_at": "2026-11-03T22:31:03Z",
+      "updated_at": "2026-11-10T04:04:48Z",
+      "excerpt": "## Motivation and context `Skill::validate` compares a URI segment with the UTF-8 name from `SKILL.md` frontmatter. A skill named `café` therefore fails validation with `NameMismatch` when a server advertises `skill://caf%C3%A9/SKILL.md`. This came up while reviewing the filesystem catalog in #1409 and also affects servers that construct their own entries. Percent-decode the name segment once and compare it with the ",
+      "body_hash": "997b40ff44f17201f0d3",
+      "number": 1431,
+      "draft": false,
+      "head_sha": "933e86f4b8df3f942e74895860c66a5294cc42e5",
+      "merged_at": null,
+      "labels": [
+        "T-config",
+        "T-core",
+        "T-model"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "e42b85885c7498ce2d4c",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1438",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(skills): prevent symlink swaps during catalog loads",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1438",
+      "status": "open",
+      "created_at": "2026-11-07T06:05:38Z",
+      "updated_at": "2026-11-10T04:15:43Z",
+      "excerpt": "## Motivation The filesystem catalog added in #1409 walks the skill tree and reads the files later. A file or parent directory replaced by a symlink between those steps could redirect the read to a hidden or sibling file inside the catalog root. This PR targets `main` after #1409 merged. ## Changes - Open each directory and file relative to its parent handle with symlink following disabled. Accept only normal relativ",
+      "body_hash": "7a7a320918e2c7d0f871",
+      "number": 1438,
+      "draft": false,
+      "head_sha": "ab66e0b6ca2c981c22d5e5a835fc2e3c4955cfac",
+      "merged_at": null,
+      "labels": [
+        "T-config",
+        "T-core",
+        "T-handler"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "ae39fed14ad4c1c51ce6",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1167",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "chore(deps): bump org.jetbrains.kotlinx:kotlinx-io-core from 0.9.1 to 0.9.2 in the kotlinx group across 1 directory",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1167",
+      "status": "merged",
+      "created_at": "2026-11-09T07:06:51Z",
+      "updated_at": "2026-11-10T18:48:06Z",
+      "excerpt": "Bumps the kotlinx group with 1 update in the / directory: [org.jetbrains.kotlinx:kotlinx-io-core](https://github.com/Kotlin/kotlinx-io). Updates `org.jetbrains.kotlinx:kotlinx-io-core` from 0.9.1 to 0.9.2 Release notes Sourced from org.jetbrains.kotlinx:kotlinx-io-core's releases . v0.9.2 Features Random.nextByteString extension generating random byte strings added #510 Bug fixes Native FileSink and FileSource were r",
+      "body_hash": "e33d41510973b2ea8fbf",
+      "number": 1167,
+      "draft": false,
+      "head_sha": "05f6f5c20400986b0d12b6dea8fa5e123ea4e2c6",
+      "merged_at": "2026-11-10T18:48:03Z",
+      "labels": [
+        "dependencies",
+        "kotlin"
+      ],
+      "score": 4,
+      "reasons": [
+        "T3 watchlist",
+        "proposal: extension",
+        "merged implementation; verify release separately",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "74b145476360c9446eba",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/agents/pull/2808",
+      "source": "cloudflare/agents",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 1,
+      "title": "Version Packages",
+      "url": "https://github.com/cloudflare/agents/pull/2808",
+      "status": "open",
+      "created_at": "2026-11-03T14:51:22Z",
+      "updated_at": "2026-11-10T16:13:48Z",
+      "excerpt": "This PR was opened by the [Changesets release](https://github.com/changesets/action) GitHub action. When you're ready to do a release, you can merge this and the packages will be published to npm automatically. If you're not ready to do a release yet, that's fine, whenever you add more changesets to main, this PR will be updated. # Releases ## agents@0.34.0 ### Minor Changes - [#2782](https://github.com/cloudflare/ag",
+      "body_hash": "f0820de78f102c7ed06f",
+      "number": 2808,
+      "draft": false,
+      "head_sha": "a567296648a9cb5dd99f52df944c9036f18d7302",
+      "merged_at": null,
+      "labels": [],
+      "score": 0,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "49363dbdd43814c7f6da",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-oauth-provider/pull/306",
+      "source": "cloudflare/workers-oauth-provider",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "build(deps): bump @vitest/mocker and vitest",
+      "url": "https://github.com/cloudflare/workers-oauth-provider/pull/306",
+      "status": "closed",
+      "created_at": "2026-09-10T01:01:51Z",
+      "updated_at": "2026-11-10T14:27:50Z",
+      "excerpt": "Bumps [@vitest/mocker](https://github.com/vitest-dev/vitest/tree/HEAD/packages/mocker) to 4.1.11 and updates ancestor dependency [vitest](https://github.com/vitest-dev/vitest/tree/HEAD/packages/vitest). These dependencies need to be updated together. Updates `@vitest/mocker` from 4.1.8 to 4.1.11 Release notes Sourced from @​vitest/mocker's releases . v4.1.11 🐞 Bug Fixes Revive global concurrency limit for test lifecy",
+      "body_hash": "abbcc612f97347c8adea",
+      "number": 306,
+      "draft": false,
+      "head_sha": "000743b0432d37df4d971ef89173e2456ca680ce",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "score": 0,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "b48423cbbe922ab72bee",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-oauth-provider/pull/307",
+      "source": "cloudflare/workers-oauth-provider",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "build(deps): bump sharp and wrangler",
+      "url": "https://github.com/cloudflare/workers-oauth-provider/pull/307",
+      "status": "closed",
+      "created_at": "2026-09-11T03:22:43Z",
+      "updated_at": "2026-11-10T14:28:23Z",
+      "excerpt": "Bumps [sharp](https://github.com/lovell/sharp) to 0.35.4 and updates ancestor dependency [wrangler](https://github.com/cloudflare/workers-sdk/tree/HEAD/packages/wrangler). These dependencies need to be updated together. Updates `sharp` from 0.35.2 to 0.35.4 Release notes Sourced from sharp's releases . v0.35.4 https://github.com/lovell/sharp-libvips/releases/tag/v1.3.3 Bound resize dimensions to coordinate limit. Bou",
+      "body_hash": "3385070d71ac44bb8d35",
+      "number": 307,
+      "draft": false,
+      "head_sha": "c950332b484b23fe943966599589ee5216d92953",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "score": 0,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "654428eeb5a492bf8529",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ext-apps/pull/854",
+      "source": "modelcontextprotocol/ext-apps",
+      "kind": "pull_request",
+      "topic": "extension",
+      "tier": 2,
+      "title": "Bump version to 2.1.0",
+      "url": "https://github.com/modelcontextprotocol/ext-apps/pull/854",
+      "status": "merged",
+      "created_at": "2026-11-10T17:36:44Z",
+      "updated_at": "2026-11-10T19:43:00Z",
+      "excerpt": "Minor release: new public API and behavior from #829 (the WebMCP bridge and its `webMcpBridge` opt-out). Root and all workspace versions move to 2.1.0, workspace dependency ranges to `^2.1.0`, and the lockfile is synced (version strings only). This reapplies the version change from #833, which was reverted in #835. The manifests and lockfile have not otherwise changed since. **Testing:** `scripts/check-versions.mjs` ",
+      "body_hash": "a2752c39215969d30326",
+      "number": 854,
+      "draft": false,
+      "head_sha": "a0228ce0448bc371f44ad8f0be3a09ecd695b13c",
+      "merged_at": "2026-11-10T19:42:59Z",
+      "labels": [],
+      "score": 0,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "6bbcbca3d9db558e0eb2",
+      "change_type": "new",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/999",
+      "source": "modelcontextprotocol/kotlin-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Fix response result deserialization to use the original request method (#601)",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk/pull/999",
+      "status": "open",
+      "created_at": "2026-09-18T06:44:26Z",
+      "updated_at": "2026-11-10T16:22:32Z",
+      "excerpt": "Closes #601. Response results were selected by JSON shape before being correlated with their original request. Overlapping shapes could therefore produce the wrong runtime type and a ClassCastException, especially for tasks/result and tasks/get. The shared wire decoder now captures the original result JSON, and request correlation decodes it using the request method. Provisional shape checks, including those that thr",
+      "body_hash": "ab0ff012185f07b90819",
+      "number": 999,
+      "draft": true,
+      "head_sha": "44c0630c62ae0107990016c0217a8eaf7b12b837",
+      "merged_at": null,
+      "labels": [],
+      "score": 0,
+      "reasons": [
+        "T3 watchlist",
+        "draft PR"
+      ],
+      "fingerprint": "777ae2585f091ff4de97",
+      "change_type": "updated",
+      "observed_at": "2026-11-11T01:20:50+00:00"
+    }
+  ],
+  "last_run": {
+    "schema_version": 1,
+    "date": "2026-11-11",
+    "generated_at": "2026-11-11T01:20:50+00:00",
+    "lookback_days": 14,
+    "baseline": false,
+    "item_count": 612,
+    "changes_this_run": 55,
+    "sources": [
+      {
+        "source": "IBM/mcp-context-forge",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "PrefectHQ/fastmcp",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "Tencent/AI-Infra-Guard",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "awslabs/mcp",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "cloudflare-mcp",
+        "kind": "feed",
+        "status": "failed"
+      },
+      {
+        "source": "cloudflare/agents",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "cloudflare/agents",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare/workers-oauth-provider",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 40,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "cloudflare/workers-oauth-provider",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "cloudflare/workers-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "getsentry/toolkit",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "github/github-mcp-server",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "lastmile-ai/mcp-agent",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "mcp-official-blog",
+        "kind": "feed",
+        "status": "failed"
+      },
+      {
+        "source": "microsoft/playwright-mcp",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 27,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 30,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/agents-wg",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/conformance",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 17,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/conformance",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/csharp-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 1,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 50,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/csharp-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-apps",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 41,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-apps",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 27,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 41,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/ext-auth",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-skills",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-skills",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-tasks",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 26,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 36,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 3,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-tasks",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/go-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 32,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/go-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/inspector",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 14,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 75,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/inspector",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/java-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 7,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 43,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/java-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/kotlin-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 3,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 31,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/kotlin-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/mcpb",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 1,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 9,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 77,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/modelcontextprotocol",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/php-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/python-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 12,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 73,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/python-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 5,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 44,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/registry",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ruby-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 7,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 42,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ruby-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/rust-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 8,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 130,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/rust-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/servers",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/swift-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 23,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/swift-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/transports-wg",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 68,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 73,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/transports-wg",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 10,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 201,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/typescript-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "snyk/agent-scan",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "sparfenyuk/mcp-proxy",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      }
+    ],
+    "errors": [
+      {
+        "source": "IBM/mcp-context-forge",
+        "error": "Network error from api.github.com/repos/IBM/mcp-context-forge"
+      },
+      {
+        "source": "PrefectHQ/fastmcp",
+        "error": "Network error from api.github.com/repos/PrefectHQ/fastmcp"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "endpoint": "releases",
+        "error": "Network error from api.github.com/repos/Tencent/AI-Infra-Guard/releases"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "endpoint": "security-advisories",
+        "error": "Network error from api.github.com/repos/Tencent/AI-Infra-Guard/security-advisories"
+      },
+      {
+        "source": "awslabs/mcp",
+        "error": "Network error from api.github.com/repos/awslabs/mcp"
+      },
+      {
+        "source": "cloudflare-mcp",
+        "error": "Network error from blog.cloudflare.com/rss/"
+      },
+      {
+        "source": "cloudflare/agents",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "endpoint": "security-advisories",
+        "error": "Network error from api.github.com/repos/cloudflare/workers-sdk/security-advisories"
+      },
+      {
+        "source": "getsentry/toolkit",
+        "error": "Network error from api.github.com/repos/getsentry/toolkit"
+      },
+      {
+        "source": "github/github-mcp-server",
+        "error": "Network error from api.github.com/repos/github/github-mcp-server"
+      },
+      {
+        "source": "lastmile-ai/mcp-agent",
+        "error": "Network error from api.github.com/repos/lastmile-ai/mcp-agent"
+      },
+      {
+        "source": "mcp-official-blog",
+        "error": "Network error from blog.modelcontextprotocol.io/index.xml"
+      },
+      {
+        "source": "microsoft/playwright-mcp",
+        "error": "Network error from api.github.com/repos/microsoft/playwright-mcp"
+      },
+      {
+        "source": "modelcontextprotocol/conformance",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "endpoint": "security-advisories",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/inspector",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "endpoint": "releases",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/mcpb/releases"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "endpoint": "security-advisories",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/mcpb/security-advisories"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "endpoint": "releases",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/php-sdk/releases"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "endpoint": "security-advisories",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/php-sdk/security-advisories"
+      },
+      {
+        "source": "modelcontextprotocol/python-sdk",
+        "endpoint": "pulls",
+        "error": "[Errno 54] Connection reset by peer"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "endpoint": "releases",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/servers/releases"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "endpoint": "security-advisories",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/servers/security-advisories"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "snyk/agent-scan",
+        "error": "Network error from api.github.com/repos/snyk/agent-scan"
+      },
+      {
+        "source": "sparfenyuk/mcp-proxy",
+        "error": "Network error from api.github.com/repos/sparfenyuk/mcp-proxy"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "error": "Network error from api.github.com/repos/stacklok/toolhive"
+      }
+    ],
+    "warnings": []
+  }
+}

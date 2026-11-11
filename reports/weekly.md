@@ -1,13 +1,14 @@
 # MCP Radar · 滚动七日选题
 
-观测日期：2026-11-04 至 2026-11-10（UTC）。仅汇总已经采集的日报，不补造缺失日期。
+观测日期：2026-11-05 至 2026-11-11（UTC）。仅汇总已经采集的日报，不补造缺失日期。
 
-去重条目 3216；日报记录的失败端点 29 个。分数表示阅读优先级，不表示技术正确性。
+去重条目 3246；日报记录的失败端点 63 个。分数表示阅读优先级，不表示技术正确性。
 
 | 优先级 | 来源 | 状态 | 条目 |
 |---:|---|---|---|
 | 129 | modelcontextprotocol/inspector | published | [1.0.4](https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.4) |
 | 129 | modelcontextprotocol/inspector | published | [2.14.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.14.0) |
+| 120 | modelcontextprotocol/modelcontextprotocol | closed | [(implementation): SEP-2352 - Clarify authorization server binding and migration](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2880) |
 | 120 | modelcontextprotocol/modelcontextprotocol | closed | [SEP-2076: Agent Skills as a First-Class MCP Primitive](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2076) |
 | 120 | modelcontextprotocol/modelcontextprotocol | open | [SEP-2778: Adding Type Constraints to the MCP](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2778) |
 | 110 | modelcontextprotocol/modelcontextprotocol | merged | [docs: rework the authorization guide for the 2026-07-28 specification](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3518) |
@@ -45,6 +46,5 @@
 | 92 | modelcontextprotocol/modelcontextprotocol | closed | [A list of Implementation Requirements for OAuth Client ID Metadata Document](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3224) |
 | 92 | modelcontextprotocol/modelcontextprotocol | open | [Access Token Privilege Restriction: does "MUST NOT pass through" cover an API of the same authorization server/project (Supabase Edge MCP pattern)?](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3413) |
 | 92 | modelcontextprotocol/modelcontextprotocol | open | [Icon origin guidance differs between basic/index and Icon.src](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3486) |
-| 92 | modelcontextprotocol/modelcontextprotocol | open | [Tool annotations: the spec does not say how the untrusted-annotations rule applies to clients that force a tool call](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3492) |
 
 写作前检查：规范版本 → PR 与测试 → 发布版本 → 最小复现 → 结论边界。
