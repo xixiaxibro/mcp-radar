@@ -1,8 +1,8 @@
 # MCP Radar · 滚动七日选题
 
-观测日期：2026-11-06 至 2026-11-12（UTC）。仅汇总已经采集的日报，不补造缺失日期。
+观测日期：2026-11-07 至 2026-11-13（UTC）。仅汇总已经采集的日报，不补造缺失日期。
 
-去重条目 1098；日报记录的失败端点 67 个。分数表示阅读优先级，不表示技术正确性。
+去重条目 1415；日报记录的失败端点 63 个。分数表示阅读优先级，不表示技术正确性。
 
 | 优先级 | 来源 | 状态 | 条目 |
 |---:|---|---|---|
@@ -44,7 +44,7 @@
 | 89 | stacklok/toolhive | published | [v0.64.0](https://github.com/stacklok/toolhive/releases/tag/v0.64.0) |
 | 89 | stacklok/toolhive | published | [List response filter passes compressed responses through unfiltered](https://github.com/stacklok/toolhive/security/advisories/GHSA-v869-pp2g-ff4q) |
 | 89 | stacklok/toolhive | published | [Tool filter passes an unfiltered tools/list through on a decode type error or a case-folded 'tools' alias](https://github.com/stacklok/toolhive/security/advisories/GHSA-v9xx-q4mg-gwmv) |
-| 88 | modelcontextprotocol/registry | merged | [Adopt production Gateway IP and certificates while retaining ingress traffic](https://github.com/modelcontextprotocol/registry/pull/1827) |
-| 88 | modelcontextprotocol/registry | merged | [Prepare production certificate ownership for Gateway migration](https://github.com/modelcontextprotocol/registry/pull/1828) |
+| 88 | PrefectHQ/fastmcp | merged | [fix(proxy): relay non-object tool results across MCP versions](https://github.com/PrefectHQ/fastmcp/pull/5763) |
+| 88 | PrefectHQ/fastmcp | merged | [Fix the CLI .js deprecation warning and a dead error-message link](https://github.com/PrefectHQ/fastmcp/pull/6453) |
 
 写作前检查：规范版本 → PR 与测试 → 发布版本 → 最小复现 → 结论边界。
