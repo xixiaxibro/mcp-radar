@@ -1,0 +1,2439 @@
+{
+  "date": "2026-11-15",
+  "events": [
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3847",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "docs(http): document --authorization-server for RFC 7591 DCR clients",
+      "url": "https://github.com/github/github-mcp-server/pull/3847",
+      "status": "open",
+      "created_at": "2026-11-14T04:04:03Z",
+      "updated_at": "2026-11-14T09:29:58Z",
+      "excerpt": "## Summary Clarifies `docs/streamable-http.md` to document using `--authorization-server` (`GITHUB_AUTHORIZATION_SERVER`) with an external OAuth 2.1 + Dynamic Client Registration (RFC 7591) proxy when self-hosting HTTP mode for MCP clients that require automated DCR and JSON token/refresh responses. Related to #3519 and #2532. ## Why In addition to GitHub Enterprise Server deployments, `https://github.com/login/oauth",
+      "body_hash": "c5f95414aae90bfb797d",
+      "number": 3847,
+      "draft": false,
+      "head_sha": "98dc897a117d4041ffb03bd88ca2a3e158a59d8f",
+      "merged_at": null,
+      "labels": [],
+      "score": 76,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth, authorization, token",
+        "protocol: streamable"
+      ],
+      "fingerprint": "7f955288281e6ec48f73",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "pull_request",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "sep(SEP-3415): Events Extension",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415",
+      "status": "open",
+      "created_at": "2026-10-05T19:39:35Z",
+      "updated_at": "2026-11-14T20:22:50Z",
+      "excerpt": "Defines Events, an extension (`io.modelcontextprotocol/events`) that lets an MCP client subscribe to things that happen in an upstream system, such as a Slack message, a repository push or a PagerDuty incident, and have an agent react without the user being present. - A server lists event types with `events/list`: a name, an `inputSchema` for subscription arguments, a `payloadSchema`, and the delivery modes it suppor",
+      "body_hash": "df28a69f970c9725079a",
+      "number": 3415,
+      "draft": false,
+      "head_sha": "4165cc2e580afa795842002f631edbbe17c63757",
+      "merged_at": null,
+      "labels": [
+        "SEP",
+        "accepted",
+        "extension",
+        "triggers-event-wg"
+      ],
+      "score": 66,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol, schema",
+        "proposal: sep-, extension"
+      ],
+      "fingerprint": "fea512be015e364e51a7",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3550",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "pull_request",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "docs: add release cycle page",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3550",
+      "status": "open",
+      "created_at": "2026-11-14T03:30:30Z",
+      "updated_at": "2026-11-14T03:58:41Z",
+      "excerpt": "Adds `docs/community/release-cycle.mdx`, the release-cycle documentation required by [SEP-3398](https://modelcontextprotocol.io/seps/3398-release-cycle-updates) (Reference Implementation, item 2). - Schedule: six-month releases, eight-month cycles, and the two-month overlap, with an example timeline from the release cycle blog post. - Milestones table with the timing and outcome of each milestone. - Steps for getting",
+      "body_hash": "edd0d3633e44c9e87fad",
+      "number": 3550,
+      "draft": false,
+      "head_sha": "066781f5ddcd2b4ed19d09227b589e92e53439cb",
+      "merged_at": null,
+      "labels": [],
+      "score": 66,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol",
+        "proposal: sep-"
+      ],
+      "fingerprint": "fbfbd0b8d567241cc4e4",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-sdk/pull/16874",
+      "source": "cloudflare/workers-sdk",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 3,
+      "title": "[wrangler] Reuse OAuth credentials refreshed by another process",
+      "url": "https://github.com/cloudflare/workers-sdk/pull/16874",
+      "status": "merged",
+      "created_at": "2026-11-12T16:11:55Z",
+      "updated_at": "2026-11-14T08:27:38Z",
+      "excerpt": "Addresses #15089. Alternative approach to #15136. When another Wrangler process has already refreshed our credentials, reuse its valid access token instead of immediately refreshing again. This prevents an unnecessary extra rotation that can leave an already-used refresh token on disk. ### How the failure happens The expiry check and refresh-token read currently happen separately. A process can decide to refresh usin",
+      "body_hash": "2fb16cb28aeba0e7eee2",
+      "number": 16874,
+      "draft": false,
+      "head_sha": "f45017049e627cc049c88b101505db216ecf9774",
+      "merged_at": "2026-11-14T08:27:35Z",
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth, token",
+        "protocol: sse",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "b2a63cde03c026c1c3a5",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3848",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Fix/3748 omit directory download url",
+      "url": "https://github.com/github/github-mcp-server/pull/3848",
+      "status": "open",
+      "created_at": "2026-11-14T04:34:11Z",
+      "updated_at": "2026-11-14T09:10:08Z",
+      "excerpt": "## Summary Fixes #3748. Omit credential-bearing `download_url` values from `get_file_contents` directory listings by default. Callers can still explicitly request this field through `fields: [\"download_url\"]`. ## Why GitHub's Contents API can return short-lived tokenized raw-content URLs for files in private repositories. Directory listings generally need metadata such as names, paths, sizes, and SHAs—not bearer URLs",
+      "body_hash": "6e4d0c35849fb5f1f997",
+      "number": 3848,
+      "draft": false,
+      "head_sha": "41b6081e2ad28f251bde4d5cf5cd3ef35f87b16d",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "78b64a040df08beaf41d",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/typescript-sdk/pull/3184",
+      "source": "modelcontextprotocol/typescript-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 1,
+      "title": "fix(server-legacy): serve the RFC 8414 issuer without a trailing slash",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/3184",
+      "status": "open",
+      "created_at": "2026-11-14T20:07:50Z",
+      "updated_at": "2026-11-14T22:19:28Z",
+      "excerpt": "## Summary `createOAuthMetadata` wrote `issuer: issuerUrl.href`, and `new URL('https://host').href` normalizes to `https://host/` — so an authorization server constructed from a slash-less origin string advertised a **slashed** issuer. RFC 8414 §2 forbids a trailing slash on the issuer identifier, and §3.3 requires the metadata `issuer` to be byte-identical to the URL the well-known document was fetched from. The pra",
+      "body_hash": "bb0745e5d85ddab2a002",
+      "number": 3184,
+      "draft": false,
+      "head_sha": "a85d2029a4b9d625d172f6e257421d0586f2eee8",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth, authorization"
+      ],
+      "fingerprint": "c72889120d4414d56b52",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/681",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Resume SSE streams from `Last-Event-ID` in the Streamable HTTP transport",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/681",
+      "status": "merged",
+      "created_at": "2026-11-12T15:24:38Z",
+      "updated_at": "2026-11-14T03:03:00Z",
+      "excerpt": "## Motivation and Context MCP 2025-11-25 (SEP-1699) lets a client whose SSE connection dropped reconnect with a GET carrying `Last-Event-ID` and receive what it missed, and lets a server close a connection on purpose during a long operation so the client polls instead of holding it open. The TypeScript, Python, Go, and Rust SDKs implement it with an event store on the server transport, a priming event carrying `retry",
+      "body_hash": "dff33916094660454767",
+      "number": 681,
+      "draft": false,
+      "head_sha": "49903e9fe020649e1b455ef4eb94e83d4efe3b38",
+      "merged_at": "2026-11-14T03:02:53Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, streamable, sse",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "2b7d40d83d102f9a9dbd",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/685",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Accept every `Origin` with `allowed_origins: :any` and keep the `Host` check",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/685",
+      "status": "open",
+      "created_at": "2026-11-14T15:24:11Z",
+      "updated_at": "2026-11-14T15:24:11Z",
+      "excerpt": "## Motivation and Context `StreamableHTTPTransport` accepts a cross-origin request only when its `Origin` is listed in `allowed_origins:`. A remote server that browser-based clients on any origin may call, authenticated by a bearer token alone, had two ways to admit them: `dns_rebinding_protection: false`, which also turns off the `Host` check, or building the transport per request with that request's own `Origin` in",
+      "body_hash": "afd33666512d8bf89fdd",
+      "number": 685,
+      "draft": false,
+      "head_sha": "7f1147a4d18f1ccf2efb493a9ff436058f1ad340",
+      "merged_at": null,
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "security: token",
+        "protocol: transport, streamable"
+      ],
+      "fingerprint": "92e66eb55d1e12069799",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1413",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(transport): answer an unparsable Streamable HTTP body with 400",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1413",
+      "status": "closed",
+      "created_at": "2026-10-30T07:32:54Z",
+      "updated_at": "2026-11-14T02:15:47Z",
+      "excerpt": "## Motivation and Context `StreamableHttpService` answers a POST whose body isn't a JSON-RPC message (invalid JSON, empty, `null`, `\"jsonrpc\":\"1.0\"`) with 415 Unsupported Media Type, although the `Content-Type: application/json` check already passed. The [transports spec](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports#sending-messages-to-the-server) asks for 400 here, optionally with a JSON",
+      "body_hash": "0bf5bd060f7f076e491b",
+      "number": 1413,
+      "draft": false,
+      "head_sha": "c3ae4e496a0c93630bdb3e628ef73f3b7aac34e5",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-test",
+        "T-transport"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol, transport, streamable",
+        "proposal: specification"
+      ],
+      "fingerprint": "1c4eb65e52e9f1ec42ad",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/Tencent/AI-Infra-Guard/pull/763",
+      "source": "Tencent/AI-Infra-Guard",
+      "kind": "pull_request",
+      "topic": "security",
+      "tier": 1,
+      "title": "fix(mcp-scan): accept tool inputSchema without \"properties\"",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/pull/763",
+      "status": "open",
+      "created_at": "2026-11-14T14:59:24Z",
+      "updated_at": "2026-11-14T14:59:24Z",
+      "excerpt": "## Summary `describe_mcp_tools` read `t.input_schema[\"properties\"]`. The MCP spec makes `properties` optional in a tool's `inputSchema`, so a tool with no arguments declared as `{\"type\": \"object\"}` raised `KeyError: 'properties'`. A server that sends `\"properties\": null` raised `AttributeError`. In dynamic scan this broke the connection check in `ToolDispatcher._ensure_mcp_manager`, so the whole server could not be s",
+      "body_hash": "cce5881919e2e2f6a549",
+      "number": 763,
+      "draft": false,
+      "head_sha": "92cb848a066b53b28a82052ef76592be80167ad3",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "604ac8382497ae9eeea5",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3852",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "feat: Support choosing the merge commit author email",
+      "url": "https://github.com/github/github-mcp-server/pull/3852",
+      "status": "open",
+      "created_at": "2026-11-14T19:55:40Z",
+      "updated_at": "2026-11-14T21:31:39Z",
+      "excerpt": "## Summary Allow `merge_pull_request` callers to choose the merge commit's author email with an optional `author_email` argument. Calls that omit the email retain the existing REST merge path. ## Why Fixes #3814. Accounts with multiple verified email addresses need to select the appropriate work or noreply address when merging through MCP, as they can in GitHub's web UI. ## What changed - Add the optional argument to",
+      "body_hash": "b141269dda449b309641",
+      "number": 3852,
+      "draft": false,
+      "head_sha": "83751e9a4743a0f351ebaa33448cd6a51a954662",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "e6b8af9ffcd84c2f921d",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/conformance/pull/563",
+      "source": "modelcontextprotocol/conformance",
+      "kind": "pull_request",
+      "topic": "testing",
+      "tier": 1,
+      "title": "fix(server): stamp resultType on the hand-written stateless tool results",
+      "url": "https://github.com/modelcontextprotocol/conformance/pull/563",
+      "status": "open",
+      "created_at": "2026-10-16T15:35:13Z",
+      "updated_at": "2026-11-14T15:25:14Z",
+      "excerpt": "Fixes #562. ## Problem `test_logging_tool` and `test_streaming_elicitation` are the two stateless `tools/call` branches that write their response by hand: each emits a notification line first, so it cannot use `res.json()`. Writing directly with `res.end(JSON.stringify(...))` also bypassed `normalizeStatelessResponse`, so their results came back without `resultType`: ``` { \"jsonrpc\": \"2.0\", \"id\": 1, \"result\": { \"cont",
+      "body_hash": "488d28537a8d54f1a1c7",
+      "number": 563,
+      "draft": false,
+      "head_sha": "a832c3ab1d5caa8f3580869ab5f615205ed87983",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "0e577b8053316a95f109",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2932",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "issue_or_proposal",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "MCP protocol lacks a mechanism for tools to stream incremental results",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2932",
+      "status": "open",
+      "created_at": "2026-06-16T23:42:08Z",
+      "updated_at": "2026-11-14T21:03:46Z",
+      "excerpt": "The current tool call flow in MCP is strictly request-response. A client sends tools/call and waits for a full response. For long-running tools this means the client sees nothing until the tool completes completely. This is inconsistent with how MCP already handles prompt/message streaming via SSE. Tools should have a similar streaming capability. A practical approach: add a notifications/tool/progress message that s",
+      "body_hash": "61ebd0a9d913ef89e654",
+      "number": 2932,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol, sse, capabilit"
+      ],
+      "fingerprint": "2092ba8daa8ef03fc727",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/python-sdk/pull/3859",
+      "source": "modelcontextprotocol/python-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 1,
+      "title": "Record tool error results on the client OpenTelemetry span",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3859",
+      "status": "closed",
+      "created_at": "2026-11-14T04:46:41Z",
+      "updated_at": "2026-11-14T04:46:54Z",
+      "excerpt": "Fixes #3810 Records tool error results on the client OpenTelemetry span when `CallToolResult.isError` is `True`. ## Motivation and Context In MCP, application-level tool errors return a successful JSON-RPC response containing `isError=True` in the result payload rather than a JSON-RPC `ErrorData` protocol error. Previously, `send_raw_request` only checked if `outcome` was an `ErrorData` instance to record errors on t",
+      "body_hash": "5bcddc6c2ef6e7a1db28",
+      "number": 3859,
+      "draft": false,
+      "head_sha": "56f253f6ff90ef9fd4ebe9f6a009e8f2fc45f921",
+      "merged_at": null,
+      "labels": [
+        "missing-issue-link"
+      ],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "d2e69926670aef471678",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/registry/pull/1757",
+      "source": "modelcontextprotocol/registry",
+      "kind": "pull_request",
+      "topic": "ecosystem",
+      "tier": 1,
+      "title": "docs: add a Go stdio publishing example for OCI packages",
+      "url": "https://github.com/modelcontextprotocol/registry/pull/1757",
+      "status": "open",
+      "created_at": "2026-10-28T07:30:21Z",
+      "updated_at": "2026-11-14T04:58:39Z",
+      "excerpt": "Adds a Go + OCI path to the publishing quickstart: a minimal stdio server using the official Go SDK, a Dockerfile with the required `io.modelcontextprotocol.server.name` annotation, an OCI `server.json`, and the build/publish/verify commands. Also links the walkthrough from the OCI section of the package types page. The Go snippet builds against the current SDK, and the `server.json` example validates against the cur",
+      "body_hash": "c695d91cfaa7a98aab84",
+      "number": 1757,
+      "draft": false,
+      "head_sha": "d1095098c2679bc1933f5e43ff5ac4779fe684a3",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol, stdio"
+      ],
+      "fingerprint": "af04a3e03c993b893d42",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/registry/pull/1858",
+      "source": "modelcontextprotocol/registry",
+      "kind": "pull_request",
+      "topic": "ecosystem",
+      "tier": 1,
+      "title": "docs: add SourceWeft MCP Directory to community projects",
+      "url": "https://github.com/modelcontextprotocol/registry/pull/1858",
+      "status": "open",
+      "created_at": "2026-11-14T13:01:33Z",
+      "updated_at": "2026-11-14T13:01:33Z",
+      "excerpt": "## Motivation and Context Adds the SourceWeft MCP Directory to the \"Browsers\" section of the community projects list. The directory at https://sourceweft.com/mcp is a web browser for the official MCP Registry: its entries are federated from `registry.modelcontextprotocol.io` (the sync lives in `apps/backend/src/modules/market/federation.ts` of the linked repository). Each server page shows the tools the server expose",
+      "body_hash": "e5d002906bb6ec7f259c",
+      "number": 1858,
+      "draft": false,
+      "head_sha": "736a90dca0274d23d888523e7d28194b3da4874c",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "c6efa45458b572ec028a",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/typescript-sdk/pull/3138",
+      "source": "modelcontextprotocol/typescript-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 1,
+      "title": "fix(core-internal): use an already-converted JSON Schema document directly",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/3138",
+      "status": "open",
+      "created_at": "2026-10-31T06:59:50Z",
+      "updated_at": "2026-11-14T07:52:08Z",
+      "excerpt": "## Summary `registerTool()` / `registerPrompt()` schemas (and elicitation `requestedSchema`) that are themselves already-converted JSON Schema documents — most prominently the output of zod's `toJSONSchema()`, which retains a `~standard` prop whose converters reference the original zod schema — were re-converted through those converters on every `tools/list` and `toolInputSchemaJson()` call, instead of being used dir",
+      "body_hash": "5c6879ce708f0b25d971",
+      "number": 3138,
+      "draft": false,
+      "head_sha": "6178311441cee5458a245b28bcb3ba462f05b0fd",
+      "merged_at": null,
+      "labels": [
+        "v2"
+      ],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "a334d582e7c3ffc4a705",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/typescript-sdk/pull/3183",
+      "source": "modelcontextprotocol/typescript-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 1,
+      "title": "fix(uri-template): support the ';' operator and RFC 6570 empty-list expansion",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/3183",
+      "status": "open",
+      "created_at": "2026-11-14T05:04:50Z",
+      "updated_at": "2026-11-15T01:17:22Z",
+      "excerpt": "Fixes #3182 Per `CONTRIBUTING.md` (\"Before starting work, comment on the issue so we can assign it to you\"), I asked for assignment in https://github.com/modelcontextprotocol/typescript-sdk/issues/3182#issuecomment-6871957250; the issue is still unassigned, so I'm opening this small, test-covered fix now and will hand it over if a maintainer prefers to assign it to someone else. ## Root cause `packages/core-internal/",
+      "body_hash": "3caf58d8912c0a399d95",
+      "number": 3183,
+      "draft": false,
+      "head_sha": "ef8612430b29934cd55bceeedb140e5f8ef271a5",
+      "merged_at": null,
+      "labels": [
+        "v2"
+      ],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "4eec21d71dc4f131ee43",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/683",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Accept names under `localhost` for the URLs Protected Resource Metadata publishes",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/683",
+      "status": "merged",
+      "created_at": "2026-11-13T08:38:33Z",
+      "updated_at": "2026-11-14T17:39:12Z",
+      "excerpt": "## Motivation and Context `ProtectedResourceMetadata` refused a plain-http `resource` or `authorization_servers` entry unless its host was `localhost` or a loopback address, so a server that gives each tenant a subdomain could not be run in development as `http://acme.localhost:3000/mcp`: neither the metadata document nor the `401` challenge could be built. Every name under `localhost` is reserved for loopback and ca",
+      "body_hash": "5da0c8b257b829a31835",
+      "number": 683,
+      "draft": false,
+      "head_sha": "17cfbaf801c858a4fbe31dcf8593ddbafe663516",
+      "merged_at": "2026-11-14T17:39:12Z",
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T3 watchlist",
+        "security: authorization",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "e58a20f50779f251703e",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1528",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "mcp: preserve wrapped protocol errors from typed tools",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1528",
+      "status": "closed",
+      "created_at": "2026-11-14T11:03:44Z",
+      "updated_at": "2026-11-14T12:42:45Z",
+      "excerpt": "Fixes #1529 Typed tool handlers that wrap a `*jsonrpc.Error` currently return an `isError` tool result instead of a JSON-RPC error. Recognize wrapped errors with `errors.As` and return the underlying protocol error, preserving its code, message, and data. Add a client/server regression test for single, nested, and joined errors.",
+      "body_hash": "f3c62a3c3bc321202aa8",
+      "number": 1528,
+      "draft": false,
+      "head_sha": "6ac7c576f004feed1e7f30368e6e1ae14c38ee04",
+      "merged_at": null,
+      "labels": [
+        "missing-issue-link"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "c1cb3b74297946db631f",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1530",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "Preserve wrapped JSON-RPC errors from typed tool handlers",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1530",
+      "status": "closed",
+      "created_at": "2026-11-14T14:10:27Z",
+      "updated_at": "2026-11-14T14:10:41Z",
+      "excerpt": "## Summary - Use `errors.As` to recognize wrapped `*jsonrpc.Error` values returned by typed tool handlers. - Add a regression test verifying that wrapped protocol errors remain protocol errors with their code and message intact. Closes #1529 ## Testing - Added a focused regression test in `mcp/server_test.go`. - Tests have not been executed in this environment.",
+      "body_hash": "20d40641334e1d71313f",
+      "number": 1530,
+      "draft": false,
+      "head_sha": "3008882fed26eaf859ce9217ff0faaf8f7ce2621",
+      "merged_at": null,
+      "labels": [
+        "missing-issue-link"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "08c31b3c823c33d29de0",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1444",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(transport): retain terminal cause for startup failures (#1441)",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1444",
+      "status": "open",
+      "created_at": "2026-11-11T01:24:41Z",
+      "updated_at": "2026-11-14T13:56:43Z",
+      "excerpt": "## What Fixes #1441 — a streamable-http startup handshake failure was reported as `WorkerQuitReason::Fatal` with the real typed error replaced by a synthetic `TransportChannelClosed`, and the terminal reason had no retained carrier, so an observer whose own timeout already fired lost the cause entirely. Implements options **B** and **C** from @jokemanfire's triage comment on #1441. ### B — typed error in the terminal",
+      "body_hash": "4a4897399b7bffd630ad",
+      "number": 1444,
+      "draft": false,
+      "head_sha": "78f77c136f377d1e4eff2e582f07b594e6fbdc1c",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-service",
+        "T-test",
+        "T-transport"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: transport, streamable, timeout"
+      ],
+      "fingerprint": "4c90effe314e91d4a3ab",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1446",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix: reject unadvertised capability methods by default",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1446",
+      "status": "open",
+      "created_at": "2026-11-11T22:05:17Z",
+      "updated_at": "2026-11-14T08:06:02Z",
+      "excerpt": "Fixes #1445 ## Why The default `ServerHandler` implementations for `prompts/list`, `completion/complete`, `resources/list`, `resources/templates/list`, and `tools/list` returned successful empty results even when `get_info()` did not advertise the corresponding capability. This can mislead capability discovery and conformance clients. ## Change - Return JSON-RPC `-32601` (`method not found`) when the corresponding ca",
+      "body_hash": "b2b8307eadd6a7ed4673",
+      "number": 1446,
+      "draft": false,
+      "head_sha": "e4684ee3a20e5d7a1148f63db6cfb34a46c31eee",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-handler",
+        "T-test"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: capabilit, conformance"
+      ],
+      "fingerprint": "da99e12c175fdbdd12aa",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1453",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(transport): match unix-socket media types case-insensitively",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1453",
+      "status": "open",
+      "created_at": "2026-11-14T03:29:21Z",
+      "updated_at": "2026-11-14T13:18:19Z",
+      "excerpt": "Fixes #1443 ## Problem `UnixSocketHttpClient` chose JSON vs SSE by byte-prefix comparison: ``` ct.as_bytes().starts_with(JSON_MIME_TYPE.as_bytes()) ``` Media types are case-insensitive (RFC 9110 §8.3.1) and may carry parameters, so a response labelled `Application/JSON; charset=utf-8` — legal and common behind proxies — was rejected with `UnexpectedContentType`, failing the request even though the body was a valid JS",
+      "body_hash": "3b23db019489734ba9a0",
+      "number": 1453,
+      "draft": false,
+      "head_sha": "257d55bbd987d7621ac453f8d035f76e24d85e1f",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-test",
+        "T-transport"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: transport, sse"
+      ],
+      "fingerprint": "47a80fdb533df99c7310",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1455",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "fix(model): validate elicitation enum defaults against min/max items in any setter order",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1455",
+      "status": "open",
+      "created_at": "2026-11-14T08:25:15Z",
+      "updated_at": "2026-11-14T14:54:01Z",
+      "excerpt": "Fixes #1454 ## Why `EnumSchemaBuilder ` rejects inconsistent elicitation schemas, but whether it does so depends on the order of the setter calls. `with_default()` checks the number of default values against `min_items` / `max_items`; `min_items()` and `max_items()` never check a default that was already set. So `.max_items(1)?.with_default([\"a\", \"b\"])?` is rejected, while `.with_default([\"a\", \"b\"])?.max_items(1)?` s",
+      "body_hash": "95c7b028b6b0f6e212fa",
+      "number": 1455,
+      "draft": false,
+      "head_sha": "18bdebe540a3902bbf9a367d733185714d3fab0e",
+      "merged_at": null,
+      "labels": [
+        "T-core",
+        "T-model"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "7c8afaadbe13c1c87faf",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/sparfenyuk/mcp-proxy/pull/316",
+      "source": "sparfenyuk/mcp-proxy",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(config): reject non-object mcpServers values",
+      "url": "https://github.com/sparfenyuk/mcp-proxy/pull/316",
+      "status": "open",
+      "created_at": "2026-11-14T04:36:29Z",
+      "updated_at": "2026-11-14T04:36:29Z",
+      "excerpt": "A named-server config with a non-object `mcpServers` value passes the required-key check and fails at `.items()` with an internal `AttributeError`. Validate the collection before iterating and use the loader's documented `ValueError` for invalid config shapes. The error names the configuration file and field. Existing handling for an empty object and malformed individual entries continues to apply. ### Validation - F",
+      "body_hash": "d7032b0a17b2fb2332c9",
+      "number": 316,
+      "draft": false,
+      "head_sha": "1bd66fcb83fb3df80f1b65b9cbb0fac6d539bf7a",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "72dae9e12e35574bdb25",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/686",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Answer 401 to a JWT whose header is not an object",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/686",
+      "status": "open",
+      "created_at": "2026-11-14T17:45:19Z",
+      "updated_at": "2026-11-14T17:45:19Z",
+      "excerpt": "## Motivation and Context `JWTVerifier` answered a token whose JOSE header decodes to an array, a number, a boolean or `null` with an error that is not a `JWT::DecodeError`: the jwt gem reads members of the header before it has checked that the header is an object, in the unverified decode `validate_time_claims!` runs or in the verifying decode, depending on the gem version. `verify` rescues only the gem's own errors",
+      "body_hash": "8f91dc2a86ad888432a5",
+      "number": 686,
+      "draft": false,
+      "head_sha": "5100cf45f7c20fd11ef7fa7647f9ba1f50ed0229",
+      "merged_at": null,
+      "labels": [],
+      "score": 34,
+      "reasons": [
+        "T3 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "161aac20bc654e237945",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/Tencent/AI-Infra-Guard/pull/760",
+      "source": "Tencent/AI-Infra-Guard",
+      "kind": "pull_request",
+      "topic": "security",
+      "tier": 1,
+      "title": "fix(agent-scan,mcp-scan): honor finish tool name casing",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/pull/760",
+      "status": "open",
+      "created_at": "2026-11-14T05:30:11Z",
+      "updated_at": "2026-11-14T05:30:11Z",
+      "excerpt": "## Summary ` ` (also `FINISH` / `fInIsH`) resolves to the registered finish tool in agent-scan and mcp-scan, but does not end the Agent loop. The registries deliberately accept case variations; the special termination checks still compare against lowercase only. The finish function executes as an ordinary tool and the scanner requests another model response. Repeated uppercase finish replies can consume the remaining",
+      "body_hash": "21a862d81e6f092b48d1",
+      "number": 760,
+      "draft": false,
+      "head_sha": "33e3d1e8723e57b27889d046937eb91d4be99870",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "cc76147388b252b91255",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3149",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "feat(issues): add batch_update_issue_labels granular tool",
+      "url": "https://github.com/github/github-mcp-server/pull/3149",
+      "status": "open",
+      "created_at": "2026-08-24T11:13:06Z",
+      "updated_at": "2026-11-14T07:32:15Z",
+      "excerpt": "Closes #2412 ## Summary Adds a feature-flagged granular tool `batch_update_issue_labels` that applies label changes to **multiple issues in a single MCP call**. Today the only path for bulk labeling is N sequential `update_issue_labels` calls, which is exactly the friction described in #2412 (label all issues from milestone X as `priority/high` forces either N noisy round-trips or dropping out of the MCP-first patter",
+      "body_hash": "12ee4e85e08ed343cc66",
+      "number": 3149,
+      "draft": false,
+      "head_sha": "3e25aa4ebb7cc6397fe14c9cde1695d0e1c52eac",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "41d3b3356f1c6099feee",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3750",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Reject invalid boolean values for GITHUB_READ_ONLY and other bool env vars",
+      "url": "https://github.com/github/github-mcp-server/pull/3750",
+      "status": "open",
+      "created_at": "2026-11-09T01:42:07Z",
+      "updated_at": "2026-11-14T13:18:31Z",
+      "excerpt": "Boolean settings such as `GITHUB_READ_ONLY` and `GITHUB_LOCKDOWN_MODE` were read with `viper.GetBool`. It runs the value through `strconv.ParseBool` and returns `false` if parsing fails. So `GITHUB_READ_ONLY=yes`, `on`, `enabled` or a typo like `tru` quietly left read-only mode off and exposed every write tool. viper also treats an empty variable (`GITHUB_READ_ONLY=`) as unset, which has the same effect. The `--read-",
+      "body_hash": "48dd623fcbe005d44a51",
+      "number": 3750,
+      "draft": false,
+      "head_sha": "d161d0732ffc8ca0e4fc24da9bc5486db81da231",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "c8c21cd5fa5daaac5dc6",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3849",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "docs: correct Node.js version in MCP Apps contribution steps",
+      "url": "https://github.com/github/github-mcp-server/pull/3849",
+      "status": "open",
+      "created_at": "2026-11-14T10:09:28Z",
+      "updated_at": "2026-11-14T10:14:09Z",
+      "excerpt": "## Summary Correct the Node.js prerequisite in the MCP Apps UI contribution steps to Node.js 26.x. ## Why The MCP Apps UI section currently permits Node.js 20.19+ or 22.12+, while `ui/package.json` declares `engines.node: \"^26.0.0\"`. Following the older prerequisite gives contributors a runtime outside the supported package range. The UI development section already specifies Node.js 26.x. ## What changed - Replace th",
+      "body_hash": "4e28e135c69ae6612a64",
+      "number": 3849,
+      "draft": false,
+      "head_sha": "8a32891c360b33bfd0921e7e36254756f8f17a23",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "4de792e7aeddc4fa26ee",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/python-sdk/pull/3860",
+      "source": "modelcontextprotocol/python-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 1,
+      "title": "fix: parse {;var} before a literal starting with '='",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3860",
+      "status": "closed",
+      "created_at": "2026-11-14T10:09:18Z",
+      "updated_at": "2026-11-14T10:09:32Z",
+      "excerpt": "## What this fixes Fixes #3852. `_scan_prefix` in `src/mcp/shared/uri_template.py` took the empty-value reading whenever the URI at the name's position began with the following literal, and it did that before checking for the `=` separator. When the literal itself starts with `=`, that test fires on the separator, so the value is read as empty and the literal text is pushed into the greedy variable. Measured on `7700",
+      "body_hash": "3b6d2f730c95daf00e87",
+      "number": 3860,
+      "draft": false,
+      "head_sha": "12ca4d9c69c03fddd0fd28a46da81b5d628c01c2",
+      "merged_at": null,
+      "labels": [
+        "missing-issue-link"
+      ],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "f82df414f7e68ddcf7ce",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/registry/pull/1859",
+      "source": "modelcontextprotocol/registry",
+      "kind": "pull_request",
+      "topic": "ecosystem",
+      "tier": 1,
+      "title": "feat: add RubyGems (rubygems.org) as a package registry type",
+      "url": "https://github.com/modelcontextprotocol/registry/pull/1859",
+      "status": "open",
+      "created_at": "2026-11-14T16:20:51Z",
+      "updated_at": "2026-11-14T16:23:14Z",
+      "excerpt": "## Motivation and Context Ruby MCP servers published to rubygems.org cannot be registered through their native package registry today; the only options are an OCI image or an MCPB download. This adds registryType \"rubygems\", following docs/contributing/add-package-registry.md and mirroring the cargo work (#1207). Design decisions: - Ownership verification reads the gemspec metadata key \"mcp_name\" from the version-spe",
+      "body_hash": "bd56ca1de0900cb5dd3d",
+      "number": 1859,
+      "draft": false,
+      "head_sha": "12b062633eeca142ac5d1635360725c0af3fae34",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "dba00cd5fd3f50c6b8ca",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/lastmile-ai/mcp-agent/pull/798",
+      "source": "lastmile-ai/mcp-agent",
+      "kind": "pull_request",
+      "topic": "framework",
+      "tier": 3,
+      "title": "fix(timer): align deployed widget mount ID with React entry",
+      "url": "https://github.com/lastmile-ai/mcp-agent/pull/798",
+      "status": "open",
+      "created_at": "2026-11-13T06:27:11Z",
+      "updated_at": "2026-11-13T06:29:30Z",
+      "excerpt": "## Summary Fixes #785. Apply the mount-ID correction reported in the issue: the deployed HTML must provide coinflip-root, matching the existing React entry and inline template. Asset URLs and countdown behavior are unchanged. Add a regression checking both template variants against the actual entry selector without importing the server or requiring generated bundles. ## Validation - Current main with the regression: ",
+      "body_hash": "dcdb81e1e01b45f03af0",
+      "number": 798,
+      "draft": false,
+      "head_sha": "95a601417492f602a30ff0d0f2008bb862bd2d79",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "454351cc2b810b41ce26",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/php-sdk/pull/744",
+      "source": "modelcontextprotocol/php-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[Server] Handle notifications/cancelled on the handshake era",
+      "url": "https://github.com/modelcontextprotocol/php-sdk/pull/744",
+      "status": "closed",
+      "created_at": "2026-11-14T06:43:04Z",
+      "updated_at": "2026-11-14T19:27:24Z",
+      "excerpt": "Register CancelledNotification handler in Protocol (via anonymous impl) that abandons+terminates matching suspended fiber (by awaited ID) and clears pending. Update classifier to route it via new cancelled() (204 status, legacy) to ensure no response. Extend StdioSuspendedFibersTest (and tweak for coverage) and update CancellationTest doc. Follows cancellation utility; drops fiber, no response sent. Fixes #732 --- _T",
+      "body_hash": "45a62de2a0ef1f87c498",
+      "number": 744,
+      "draft": false,
+      "head_sha": "e7f73e371c0c93b18ff87aa19ad103681921b782",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol, stdio, cancel"
+      ],
+      "fingerprint": "19b5ef024777967e8c78",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/316",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Disconnect when the server picks an unsupported protocol version",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/316",
+      "status": "closed",
+      "created_at": "2026-10-29T06:24:15Z",
+      "updated_at": "2026-11-14T02:16:19Z",
+      "excerpt": "## Motivation and Context The lifecycle spec says a client that doesn't support the version in the server's initialize response SHOULD disconnect. The client accepts any version and sends `notifications/initialized`. It now checks `Version.supported` and, on a mismatch, disconnects and throws, as the TypeScript and Python SDKs do. ## How Has This Been Tested? A new ClientTest has the server answer with `1999-01-01` a",
+      "body_hash": "c325d3948aabdccf4fdb",
+      "number": 316,
+      "draft": false,
+      "head_sha": "ed040f03b8c41ee3f66813a982ee83017ffdc21c",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol, lifecycle"
+      ],
+      "fingerprint": "8be8ac56315ed20ce00c",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-sdk/pull/16930",
+      "source": "cloudflare/workers-sdk",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 3,
+      "title": "[vite-plugin] Reuse refreshed OAuth credentials in v1 remote bindings",
+      "url": "https://github.com/cloudflare/workers-sdk/pull/16930",
+      "status": "open",
+      "created_at": "2026-11-14T14:08:43Z",
+      "updated_at": "2026-11-14T14:09:19Z",
+      "excerpt": "Backports #16874 to Vite plugin v1. Retained private remote-bindings calls `createWranglerAuth` from its direct workers-auth dependency to authenticate remote bindings. Pin workers-auth 0.18.3 so its long-lived OAuth flow reuses a valid token refreshed by another process instead of exchanging and overwriting credentials again. This direct pin is independently necessary: upgrading the plugin's Wrangler dependency alon",
+      "body_hash": "0f551215ccfff9688309",
+      "number": 16930,
+      "draft": true,
+      "head_sha": "99735a54e9151f1570eeb65d260a1abdbf7bfbe3",
+      "merged_at": null,
+      "labels": [
+        "ci:no-tests"
+      ],
+      "score": 24,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth, token",
+        "draft PR"
+      ],
+      "fingerprint": "569b122bd0172b152e65",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4591",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(aws-dataprocessing-mcp-server): add injectable clients and structured errors",
+      "url": "https://github.com/awslabs/mcp/pull/4591",
+      "status": "closed",
+      "created_at": "2026-09-07T15:59:34Z",
+      "updated_at": "2026-11-15T01:09:53Z",
+      "excerpt": "Fixes #4123 ## Summary ### Changes * Add an optional service-aware `client_factory` to the Data Processing handlers and Glue Data Catalog managers while preserving the existing default boto3 client creation path. * Keep the caller-provided factory distinct from the resolved service-client factory so default handlers retain the existing ambient STS account/partition cache behavior, while injected factories use their o",
+      "body_hash": "6973e8cf9174abbace47",
+      "number": 4591,
+      "draft": false,
+      "head_sha": "f44fa97a282fa99477b03042e0d26cae864d0750",
+      "merged_at": null,
+      "labels": [
+        "stale"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "41ba25bb059d33ad9ab4",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4604",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(cicd): make a server's version a single source of truth",
+      "url": "https://github.com/awslabs/mcp/pull/4604",
+      "status": "closed",
+      "created_at": "2026-09-09T06:11:17Z",
+      "updated_at": "2026-11-15T01:09:51Z",
+      "excerpt": "Fixes #4476, fixes #4477, fixes #425 ## Summary `pyproject.toml` is the only version that reaches PyPI — `python.yml`'s `uv build` reads nothing else. Every hardcoded version literal inside a package is therefore a second copy that something has to keep in sync, and the thing meant to keep it in sync fails open. `PyPiPackage.bump_version()` in `.github/workflows/release.py` always bumps `pyproject.toml`, then makes a",
+      "body_hash": "1b94f51f1cfa6a0f7b09",
+      "number": 4604,
+      "draft": false,
+      "head_sha": "0bf48f73ab65e3b9d2a215ad358c5a5309a817d2",
+      "merged_at": null,
+      "labels": [
+        "stale"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "5e340392d23f22bc4561",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4677",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "docs(iam-mcp-server): correct read-only mode flag (--allow-write)",
+      "url": "https://github.com/awslabs/mcp/pull/4677",
+      "status": "closed",
+      "created_at": "2026-09-27T02:47:41Z",
+      "updated_at": "2026-11-15T01:09:48Z",
+      "excerpt": "��Fixes #3531. The iam-mcp-server README told people to pass `--readonly`, but that flag doesn't exist. Looking at `server.py`, the server actually defaults to read-only and uses `--allow-write` to turn on mutating operations. Looks like the docs just didn't get updated when that behavior changed (in #2861). This updates the Read-Only Mode section to say read-only is the default, replaces the `--readonly` examples wi",
+      "body_hash": "ea2cc8dccb923a906a03",
+      "number": 4677,
+      "draft": false,
+      "head_sha": "b8e0cc51ef7f488766ae8f7d1a482cc749caecd6",
+      "merged_at": null,
+      "labels": [
+        "stale"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "1cffd3e942cd07dcdc65",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4725",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(amazon-mq): preserve literal RabbitMQ credentials in AMQPS URLs",
+      "url": "https://github.com/awslabs/mcp/pull/4725",
+      "status": "closed",
+      "created_at": "2026-10-03T19:48:50Z",
+      "updated_at": "2026-11-15T01:09:46Z",
+      "excerpt": "## Summary RabbitMQ connection initialization can fail locally for valid Amazon MQ passwords containing URL delimiters such as `#`, `/`, `?`, `[` or `]`. `RabbitMQConnection` interpolates raw credentials into an AMQPS URL before passing it to `pika.URLParameters`, so the parser interprets password characters as URL syntax. A literal percent escape such as `%2F` is also decoded into a different password. [Amazon MQ's ",
+      "body_hash": "b090061490db18d899e9",
+      "number": 4725,
+      "draft": false,
+      "head_sha": "0d4caa6de72153f1a6dfdbabf9b2bb90b104fc8a",
+      "merged_at": null,
+      "labels": [
+        "stale"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "dda7f87ca9b881e1f7a1",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4770",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(aurora-dsql-mcp-server): allow replace() in read-only queries",
+      "url": "https://github.com/awslabs/mcp/pull/4770",
+      "status": "open",
+      "created_at": "2026-10-14T11:01:13Z",
+      "updated_at": "2026-11-15T01:10:22Z",
+      "excerpt": "## Summary ### Changes `readonly_query` and `transact` in read-only mode reject reads that call PostgreSQL's `replace()` string function. `REPLACE` is in the bare `MUTATING_KEYWORDS` list in `mutable_sql_detector.py`, which is matched anywhere in the query, so `SELECT replace(name, ' ', '_') FROM users` is treated as a write. `REPLACE INTO` is a write statement in MySQL, but PostgreSQL (and so Aurora DSQL) has no `RE",
+      "body_hash": "13cfbc2096363fc60a6c",
+      "number": 4770,
+      "draft": false,
+      "head_sha": "0570b1ffd70dc9fe98ebd87c9c59aeb0e5b63fa3",
+      "merged_at": null,
+      "labels": [
+        "stale"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "ce03b5e5a595f8d778a6",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5101",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(redshift-mcp-server): end a read-only transaction with ROLLBACK whatever closes it",
+      "url": "https://github.com/awslabs/mcp/pull/5101",
+      "status": "open",
+      "created_at": "2026-11-14T01:56:03Z",
+      "updated_at": "2026-11-14T02:00:41Z",
+      "excerpt": "## Summary ### Changes In read-only mode, a named transaction now always ends in `ROLLBACK`, whether the caller closes it with `commit_transaction` or `rollback_transaction`. A standalone statement in read-only mode already ends this way. - `redshift.py::_execute_statement_in_transaction`: after the SQL guard, a read-only call that names a closer has it replaced with `ROLLBACK` (a 2-line `if` and a 2-line comment). E",
+      "body_hash": "46b0e57871b3ff3ff254",
+      "number": 5101,
+      "draft": false,
+      "head_sha": "1813e9c4cae1c560ab269098d38f7895fe84ed37",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "9dba84732d3ee00e9c7d",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5103",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(document-loader): remove partially written slides when extraction fails",
+      "url": "https://github.com/awslabs/mcp/pull/5103",
+      "status": "open",
+      "created_at": "2026-11-14T13:56:01Z",
+      "updated_at": "2026-11-14T20:41:26Z",
+      "excerpt": "Fixes #5082 ## Summary ### Changes `extract_slides_as_images` now tracks the slides it writes during a call. If a later slide fails (a full disk, a page Pillow can't encode), it removes those slides before the error propagates, so an error response again means no slides were written by this call. I went with the first option in the issue because it keeps the existing error response unchanged. Removal uses the same sa",
+      "body_hash": "3e3709ee59e64a63258f",
+      "number": 5103,
+      "draft": false,
+      "head_sha": "ad3b641b628b349bad408449543f310b8574cd34",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "b3a6ab21bb07cb2b718b",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5105",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "docs(healthimaging-mcp-server): fix links to a nonexistent repo",
+      "url": "https://github.com/awslabs/mcp/pull/5105",
+      "status": "open",
+      "created_at": "2026-11-14T20:09:28Z",
+      "updated_at": "2026-11-14T20:09:28Z",
+      "excerpt": "Fixes ## Summary ### Changes The HealthImaging MCP server docs page refers to `github.com/awslabs/mcp-server-collection`, which returns 404. The server lives in this repo under `src/healthimaging-mcp-server/`, whose own README already uses the right links. This updates the docs page and its Japanese copy to match: - install steps: `git clone https://github.com/awslabs/mcp-server-collection.git` / `cd mcp-server-colle",
+      "body_hash": "25ddb0319ad820811251",
+      "number": 5105,
+      "draft": false,
+      "head_sha": "22f7279d6aeb64590493b0570d338fa43df78fc9",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "3e2ff6ef8b01901cde94",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5106",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore: fix CRLF line ending in CODEOWNERS",
+      "url": "https://github.com/awslabs/mcp/pull/5106",
+      "status": "open",
+      "created_at": "2026-11-14T22:46:54Z",
+      "updated_at": "2026-11-14T22:52:00Z",
+      "excerpt": "Fixes the `mixed-line-ending` pre-commit failure on every open PR. ## Summary ### Changes Converts the AgentCore line in `.github/CODEOWNERS` (line 21) from a CRLF line ending to LF. The CRLF came in with e80a210e (\"Apply batched suggestions from code review\") in #5098. No other change. ### User experience Before: the `mixed-line-ending` pre-commit hook fails on every open PR, because CI runs it on the PR merged with",
+      "body_hash": "6da19af23daad63f3053",
+      "number": 5106,
+      "draft": false,
+      "head_sha": "d453c727dbbb8eb9004166639a1953cb11cad7a2",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "a879f18522b831e4298f",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/go-sdk/pull/1527",
+      "source": "modelcontextprotocol/go-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "mcp: stop retaining uncacheable and expired resources/read results",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/pull/1527",
+      "status": "closed",
+      "created_at": "2026-11-14T10:14:09Z",
+      "updated_at": "2026-11-14T10:14:22Z",
+      "excerpt": "Fixes #1526. On a 2026-07-28 session, `ClientSession.ReadResource` stored each result in the session's resource cache whatever its `ttlMs`. Results with `ttlMs` 0, which a Go SDK server sends unless a TTL is set, can never be served from the cache, and an entry was only removed when its own URI was read again after expiring, or on `notifications/resources/updated`. A client reading many distinct URIs therefore kept a",
+      "body_hash": "b7ad94fcf2db9dd4ab7b",
+      "number": 1527,
+      "draft": false,
+      "head_sha": "b1bef940c5593c926ccf23b12e86fc898feac9d7",
+      "merged_at": null,
+      "labels": [
+        "missing-issue-link"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "0c1972e9691f8ea5bc57",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/rust-sdk/pull/1449",
+      "source": "modelcontextprotocol/rust-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 2,
+      "title": "Add opt-in BM25 tool search for large catalogs",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/pull/1449",
+      "status": "open",
+      "created_at": "2026-11-12T14:26:14Z",
+      "updated_at": "2026-11-14T06:17:37Z",
+      "excerpt": "Large tool catalogs consume model context and reduce tool-selection accuracy. This adds server-side discovery and a standalone search API for gateways, behind a dependency-free `tool-search` feature. - **Search index:** Lazy BM25 Okapi ranking over names, titles, descriptions, and optional parameter metadata. Returns full tool definitions and scores; supports catalog replacement. - **Server wrapper:** `ToolSearchServ",
+      "body_hash": "374c72b0878625403750",
+      "number": 1449,
+      "draft": false,
+      "head_sha": "28b11e4a71552b45d269aede8073fb01879b446e",
+      "merged_at": null,
+      "labels": [
+        "T-config",
+        "T-core",
+        "T-documentation",
+        "T-handler",
+        "T-test"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "fc29bcc3eda75b4c3f97",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/lastmile-ai/mcp-agent/pull/799",
+      "source": "lastmile-ai/mcp-agent",
+      "kind": "pull_request",
+      "topic": "framework",
+      "tier": 3,
+      "title": "fix: honor empty tool allowlists",
+      "url": "https://github.com/lastmile-ai/mcp-agent/pull/799",
+      "status": "open",
+      "created_at": "2026-11-14T11:40:27Z",
+      "updated_at": "2026-11-14T11:42:47Z",
+      "excerpt": "Treat an empty allowlist as allowing no tools. Existing filter overrides still apply. ## Summary by CodeRabbit * **Bug Fixes** * Tool filtering now distinguishes between an omitted allowlist and an explicitly empty one. Omitting the list leaves tools available, while an empty list blocks tools unless a server-specific or custom rule allows them. * Short and full tool names continue to match the corresponding allowlis",
+      "body_hash": "7a7945c8d6d90eaa09f0",
+      "number": 799,
+      "draft": false,
+      "head_sha": "5fb27a6414536aafee8a52dc3965931c7f83a1d4",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "ae3f5509bae05940cb36",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/315",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Answer pre-initialization requests in strict server mode",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/315",
+      "status": "closed",
+      "created_at": "2026-10-29T06:24:10Z",
+      "updated_at": "2026-11-14T02:16:21Z",
+      "excerpt": "## Motivation and Context In strict mode, a request sent before `initialize` throws out of `handleRequest()`, and the receive loop's `try?` swallows the error, so the client waits forever for a response. A notification sent before `initialize` instead gets an error reply under a random id, though notifications never get responses. Requests now get an `invalidRequest` (-32600) response with their own id, as the `Confi",
+      "body_hash": "0086ed46171da8cf9e58",
+      "number": 315,
+      "draft": false,
+      "head_sha": "eadbd847b8185ae12a8bc08d1a2ac6b29f7178da",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "6d316952475e07500084",
+      "change_type": "updated",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/330",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Return invalid params when typed request decoding fails",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/330",
+      "status": "open",
+      "created_at": "2026-11-14T14:21:32Z",
+      "updated_at": "2026-11-14T14:21:33Z",
+      "excerpt": "When a request's parameters cannot be decoded for its method, the SDK returns JSON-RPC error `-32602` with the original request ID. Previously, the decoding error reached the generic internal-error handler and returned `-32603`. The regression tests send two malformed `tools/call` requests over an in-memory connection, one missing the tool name and one supplying an array for `arguments`. The change applies to typed r",
+      "body_hash": "7ed21b031fae4a57bb71",
+      "number": 330,
+      "draft": false,
+      "head_sha": "94f3804b6155cee1b98371b241f3a3bf6ad4dddc",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "dc1a15bc9a434e9884a7",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-sdk/pull/16915",
+      "source": "cloudflare/workers-sdk",
+      "kind": "pull_request",
+      "topic": "platform",
+      "tier": 3,
+      "title": "Version Packages",
+      "url": "https://github.com/cloudflare/workers-sdk/pull/16915",
+      "status": "open",
+      "created_at": "2026-11-13T18:01:32Z",
+      "updated_at": "2026-11-14T21:49:13Z",
+      "excerpt": "This PR was opened by the [Changesets release](https://github.com/changesets/action) GitHub action. When you're ready to do a release, you can merge this and the packages will be published to npm automatically. If you're not ready to do a release yet, that's fine, whenever you add more changesets to main, this PR will be updated. # Releases ## @cloudflare/autoconfig@0.13.0 ### Minor Changes - [#16803](https://github.",
+      "body_hash": "3dd7971c825e75583024",
+      "number": 16915,
+      "draft": false,
+      "head_sha": "719f65300192d0fa915afd1864ca0eef3162617e",
+      "merged_at": null,
+      "labels": [],
+      "score": 0,
+      "reasons": [
+        "T3 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "d3e0e8434a9c69fe265e",
+      "change_type": "new",
+      "observed_at": "2026-11-15T01:29:52+00:00"
+    }
+  ],
+  "last_run": {
+    "schema_version": 1,
+    "date": "2026-11-15",
+    "generated_at": "2026-11-15T01:29:52+00:00",
+    "lookback_days": 14,
+    "baseline": false,
+    "item_count": 1538,
+    "changes_this_run": 52,
+    "sources": [
+      {
+        "source": "IBM/mcp-context-forge",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 19,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 31,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "IBM/mcp-context-forge",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "PrefectHQ/fastmcp",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 24,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 147,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "PrefectHQ/fastmcp",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 65,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "Tencent/AI-Infra-Guard",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "awslabs/mcp",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 300,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 16,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 236,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "awslabs/mcp",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare-mcp",
+        "kind": "feed",
+        "status": "ok",
+        "entries_available": 20,
+        "entries_in_window": 0
+      },
+      {
+        "source": "cloudflare/agents",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 424,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "cloudflare/agents",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare/workers-oauth-provider",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 40,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "cloudflare/workers-oauth-provider",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 300,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 6,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "cloudflare/workers-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "getsentry/toolkit",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 50,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "getsentry/toolkit",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "github/github-mcp-server",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 87,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "github/github-mcp-server",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "lastmile-ai/mcp-agent",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 9,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "lastmile-ai/mcp-agent",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "mcp-official-blog",
+        "kind": "feed",
+        "status": "ok",
+        "entries_available": 29,
+        "entries_in_window": 2
+      },
+      {
+        "source": "microsoft/playwright-mcp",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 75,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "microsoft/playwright-mcp",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 27,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 30,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/agents-wg",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/conformance",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 17,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/conformance",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/csharp-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 1,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 50,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/csharp-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-apps",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 41,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-apps",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 27,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 41,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-auth",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-skills",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-skills",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-tasks",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 26,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 36,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 3,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-tasks",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/go-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 32,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/go-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/inspector",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 18,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 77,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/inspector",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/java-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 7,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 44,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/java-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/kotlin-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 3,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 31,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/kotlin-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 20,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/mcpb",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 1,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 9,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 64,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/modelcontextprotocol",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 14,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/php-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/python-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 12,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 73,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/python-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 5,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 44,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/registry",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ruby-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 7,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 43,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ruby-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/rust-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 8,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 132,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/rust-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 21,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 34,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/servers",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/swift-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 23,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/swift-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/transports-wg",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 71,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 76,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/transports-wg",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 10,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 201,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/typescript-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "snyk/agent-scan",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 140,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "snyk/agent-scan",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "sparfenyuk/mcp-proxy",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 24,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "sparfenyuk/mcp-proxy",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 55,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 386,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "stacklok/toolhive",
+        "archived": false,
+        "default_branch": "main"
+      }
+    ],
+    "errors": [
+      {
+        "source": "IBM/mcp-context-forge",
+        "endpoint": "pulls",
+        "error": "Unterminated string starting at: line 1 column 1198043 (char 1198042)"
+      },
+      {
+        "source": "PrefectHQ/fastmcp",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "getsentry/toolkit",
+        "endpoint": "pulls",
+        "error": "Unterminated string starting at: line 1 column 16754 (char 16753)"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "endpoint": "pulls",
+        "error": "Unterminated string starting at: line 1 column 92783 (char 92782)"
+      }
+    ],
+    "warnings": []
+  }
+}
