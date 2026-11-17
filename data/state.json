@@ -3,11 +3,11 @@
   "items": {
     "https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.4": {
       "fingerprint": "223fe8dc34fee37d266f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.14.0": {
       "fingerprint": "3d8e46b2449ad8c80ad9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2076": {
       "fingerprint": "f94bd2b7d9264b5ab191",
@@ -15,7 +15,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2778": {
       "fingerprint": "cb71c46a1bfc3a124f74",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-auth/pull/36": {
       "fingerprint": "ffc7089367345a2c2b52",
@@ -59,7 +59,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3149": {
       "fingerprint": "0e6deb42fd39a9a586a9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/627": {
       "fingerprint": "2eb23a3ba16eebe25f8d",
@@ -87,7 +87,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2293": {
       "fingerprint": "25cf48f0eb66b96c00c6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/4954": {
       "fingerprint": "f5028e56bfcffd1a731f",
@@ -95,7 +95,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/838": {
       "fingerprint": "54a298fd7ede36065d4a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3223": {
       "fingerprint": "fa43461231a736da0956",
@@ -119,11 +119,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1932": {
       "fingerprint": "befa68d6edd13508439b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2848": {
       "fingerprint": "6d39e1e575bf2114ee15",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/issues/62": {
       "fingerprint": "435a88e1fd923b7c2001",
@@ -139,7 +139,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3143": {
       "fingerprint": "010129de82488e0f40b4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/core%402.4.0": {
       "fingerprint": "f3ce8b2183174d4d13d6",
@@ -263,11 +263,11 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2877": {
       "fingerprint": "431677441f21367d11fc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2879": {
       "fingerprint": "36c70bee78a30080dcf4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3446": {
       "fingerprint": "f2ddfda4dbca0608f9b3",
@@ -279,7 +279,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1803": {
       "fingerprint": "a2b583cf60e0fd35070b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2877": {
       "fingerprint": "d8188a6d88bbc20e75bb",
@@ -343,7 +343,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3466": {
       "fingerprint": "35da5328e5e7e42d8312",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3472": {
       "fingerprint": "21046469e3c662cbcb78",
@@ -399,15 +399,15 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3738": {
       "fingerprint": "6cff24d29303288d4125",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/66": {
       "fingerprint": "c94d5df55b971bfd34c5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2449": {
       "fingerprint": "2ff90136447b70b06f55",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3035": {
       "fingerprint": "715e134dc61f3530c0d3",
@@ -535,7 +535,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/pull/32": {
       "fingerprint": "f86d051052b00cb8f859",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1266": {
       "fingerprint": "3ab31a46d19989a7e98c",
@@ -603,11 +603,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3496": {
       "fingerprint": "c8c8b5feb25d5cdf977b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/2858": {
       "fingerprint": "43a9fe0c3c02e580b9c7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3516": {
       "fingerprint": "663fc181a0823d897c76",
@@ -631,7 +631,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1788": {
       "fingerprint": "e33721e93f5bf8a0b479",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5301": {
       "fingerprint": "15d59ecf1fafcf45bbf3",
@@ -643,11 +643,11 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2370": {
       "fingerprint": "1e54004993fff4ba0397",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2544": {
       "fingerprint": "5da2f89b91cee10f09cb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3065": {
       "fingerprint": "1e2c9b95110e5576eeff",
@@ -683,19 +683,19 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/releases/tag/v0.2.3": {
       "fingerprint": "7884d15cd13f9bf88b1c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-2fw8-7jmw-r937": {
       "fingerprint": "80e36bf1fb46c4e3f212",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-h9j8-vj8g-v3gg": {
       "fingerprint": "7441a3c8ac17ba5a8058",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-rwv7-mh2c-ff2p": {
       "fingerprint": "1f3aa96c09b22df22dbe",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-rwrf-2pqf-9j8j": {
       "fingerprint": "6dd4f1eeca5a56c75340",
@@ -807,7 +807,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3506": {
       "fingerprint": "7f4bac0219e250992743",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1305": {
       "fingerprint": "e0aed1d90946da780b14",
@@ -923,11 +923,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1913": {
       "fingerprint": "b5de94d35e7c4e02ecce",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1933": {
       "fingerprint": "2c46ef6240e3387e6789",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/645": {
       "fingerprint": "345b2f8a896c16c36284",
@@ -947,11 +947,11 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/67": {
       "fingerprint": "5de5e77f70812e783737",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/68": {
       "fingerprint": "96dcf8157a887b447e68",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/6963": {
       "fingerprint": "5aca840646f3f274f0a2",
@@ -963,7 +963,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/commit/5f68e144656118bd3f20a0713700219d4a114370": {
       "fingerprint": "43a770cc215b287f7e85",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/04bd3f462497858d5f7758e7fffe6946c200e0c9": {
       "fingerprint": "1c38db2e780bd045bf7a",
@@ -1191,23 +1191,23 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/473": {
       "fingerprint": "2d9649eb82aa015cc33a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/785": {
       "fingerprint": "54fd04486f8b6c0bd0b6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/837": {
       "fingerprint": "0e092f995b5ba415f0cc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-auth/pull/33": {
       "fingerprint": "f6c15f9a2065dfe6a58d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-auth/pull/38": {
       "fingerprint": "f8f6618d921417ac5edf",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1027": {
       "fingerprint": "971a823e593a010b9782",
@@ -1247,35 +1247,35 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2875": {
       "fingerprint": "1baf20ac9e739e8d02ca",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2876": {
       "fingerprint": "be7990275abe514b0bca",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2882": {
       "fingerprint": "19ab29dee1fdbe7a6ee6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2886": {
       "fingerprint": "efcd32fcef175f51801b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2891": {
       "fingerprint": "1cc12f0bfcf296295521",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2892": {
       "fingerprint": "ed2a1ea798728515e8c9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2893": {
       "fingerprint": "fd496869762fbd4e261e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2902": {
       "fingerprint": "baa40df420cdf786d723",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1128": {
       "fingerprint": "d7c680e4966cb91cde13",
@@ -1355,19 +1355,19 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2145": {
       "fingerprint": "4239b50a2d4cc1afccd8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2624": {
-      "fingerprint": "02f7ab2c8daeb11091b8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "6b6d579b5cd799ffadd7",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2792": {
       "fingerprint": "28186da8f85445c6ef5f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3094": {
       "fingerprint": "6e246f3bce530a5484bd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3118": {
       "fingerprint": "60794d9777b265182916",
@@ -1375,7 +1375,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3304": {
       "fingerprint": "c1a8f130db101d2ab5bb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3306": {
       "fingerprint": "199b3c09c129a9264340",
@@ -1383,15 +1383,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3371": {
       "fingerprint": "7c184571231551d89bd2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415": {
       "fingerprint": "fea512be015e364e51a7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3498": {
       "fingerprint": "1573cb027ee12ae66e51",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3764": {
       "fingerprint": "72838dab801c064ec877",
@@ -1407,11 +1407,11 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3795": {
       "fingerprint": "22f72199f158700cdd7b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3822": {
       "fingerprint": "e2f6f4d4724ac7e249ac",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1523": {
       "fingerprint": "b16c56e1c09a4aa60444",
@@ -1419,15 +1419,15 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1801": {
       "fingerprint": "ec1f60613c54b5374c44",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1802": {
       "fingerprint": "8b53d20b0fada47ed0a6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/58": {
       "fingerprint": "f3362e15187e431e3e4c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/70": {
       "fingerprint": "f6782b3d2fd64a91a8f0",
@@ -1443,7 +1443,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2782": {
       "fingerprint": "fd05653f7f0b3e5d1f84",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2825": {
       "fingerprint": "2f9365139aa2689ba5a8",
@@ -1455,7 +1455,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3063": {
       "fingerprint": "7dc706b2050d3a2f0279",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3085": {
       "fingerprint": "e92fcded056a6b62ba33",
@@ -1571,7 +1571,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/717": {
       "fingerprint": "0d3d793b3d0b5b96f40d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/161": {
       "fingerprint": "6abccd290a17ca559345",
@@ -1759,7 +1759,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2343": {
       "fingerprint": "74bf1dafb35336792d46",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1197": {
       "fingerprint": "a198b3c0748e7ccfd83d",
@@ -2007,19 +2007,19 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2867": {
       "fingerprint": "514098817b470b0a2e77",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2871": {
       "fingerprint": "467051cf33fa4389807c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2901": {
       "fingerprint": "0dcc650014f4a15e9303",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2906": {
       "fingerprint": "1b8412c29bda9231ae64",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3462": {
       "fingerprint": "5717ae3dc3787cb42975",
@@ -2043,11 +2043,11 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3812": {
       "fingerprint": "cb84bb3cc7e3cfea1070",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3820": {
       "fingerprint": "ccd0730a017b1ae87373",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1583": {
       "fingerprint": "8304707e0cb1cee74a7d",
@@ -2095,11 +2095,11 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1798": {
       "fingerprint": "dd71ba50a1d25ed51670",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1799": {
       "fingerprint": "479a2312f5170046d3aa",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2858": {
       "fingerprint": "65479e58764481b92742",
@@ -2155,7 +2155,7 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3796": {
       "fingerprint": "1fe1a5e1773e988c3499",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7301": {
       "fingerprint": "0fa9362a6fcf8808dc0a",
@@ -2451,7 +2451,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1734": {
       "fingerprint": "c628484987d12019672f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/648": {
       "fingerprint": "0b70a3afaabbf9c1096c",
@@ -2495,7 +2495,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2924": {
       "fingerprint": "ad2f85a62f1e82a17cc7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2937": {
       "fingerprint": "c37afad75116d623dbcc",
@@ -2503,7 +2503,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3023": {
       "fingerprint": "4afb7a9cc6be4bd29013",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3039": {
       "fingerprint": "5a9b1ac923e9b3ddc853",
@@ -2511,7 +2511,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3062": {
       "fingerprint": "f64179a18650995462a6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3068": {
       "fingerprint": "8e913b1f17bb10d43860",
@@ -2523,7 +2523,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3115": {
       "fingerprint": "477c0ca0f6bb93b5a7b2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3121": {
       "fingerprint": "b8bfb508b279654411ca",
@@ -2531,7 +2531,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3139": {
       "fingerprint": "b041b4a7ef60679f267d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7032": {
       "fingerprint": "a012e103af50e4946719",
@@ -2583,7 +2583,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3c4d91b7e832d9b74338d56eed03403ccc662123": {
       "fingerprint": "3e8e7eebc9d253bcfdff",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/6a6c3d42a162d1927c0d36d03838d1f626db5ade": {
       "fingerprint": "ecf084ad4fbd6c2f8ee1",
@@ -2719,11 +2719,11 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/733": {
       "fingerprint": "691ba29be82ca328f45b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/844": {
       "fingerprint": "c5a8ee6793c70bd20810",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/166": {
       "fingerprint": "1e3ca0a3ea7a24f78a5b",
@@ -3431,15 +3431,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3469": {
       "fingerprint": "9ded7b7526349cfa025a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3479": {
       "fingerprint": "461dd11ed94641658812",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3503": {
       "fingerprint": "ebaab5a4d7118f3f811b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/2680": {
       "fingerprint": "94b8693afbd5475e7fc7",
@@ -3487,19 +3487,19 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3809": {
       "fingerprint": "75f514f62057b281bf24",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3815": {
       "fingerprint": "4f1e576ae5f908d3bef7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3816": {
       "fingerprint": "c20408cd5a72789ed5a8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3819": {
       "fingerprint": "0e00de0bc8792bcba9b0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1446": {
       "fingerprint": "e985d00c52c531684be6",
@@ -3515,7 +3515,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1757": {
       "fingerprint": "af04a3e03c993b893d42",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1786": {
       "fingerprint": "9436b1966acfa7e6bba0",
@@ -3527,7 +3527,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/57": {
       "fingerprint": "30ce501ab8b22801e9e1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2492": {
       "fingerprint": "6777525359bcf29337f8",
@@ -3535,11 +3535,11 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2625": {
       "fingerprint": "7e32e954e8377fcf36c5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2634": {
       "fingerprint": "bec34286e5bdd58dc7c8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2747": {
       "fingerprint": "9ec969b82f44629be52b",
@@ -3571,11 +3571,11 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2978": {
       "fingerprint": "c2d40d28e4fae4221648",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3024": {
       "fingerprint": "efb6e49f364f9144ca58",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3038": {
       "fingerprint": "6c8da6d30d95b7f68788",
@@ -3619,7 +3619,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3092": {
       "fingerprint": "c3a6c5c077a2fe5d50df",
-      "last_seen": "2026-11-12T01:32:11+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3093": {
       "fingerprint": "1eb9032c7e902c6d2c58",
@@ -3631,7 +3631,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3098": {
       "fingerprint": "38ab389a928ab2b38b0f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3099": {
       "fingerprint": "80e54e9b520101d0e520",
@@ -3639,7 +3639,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3100": {
       "fingerprint": "d86c0fad1a456233df04",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3105": {
       "fingerprint": "c8d9b1c78b161e7ae2fd",
@@ -3647,7 +3647,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3107": {
       "fingerprint": "60865c1676d474f12b0c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3113": {
       "fingerprint": "92b01f5f39395e3aecff",
@@ -3663,7 +3663,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3123": {
       "fingerprint": "6b8397ee28273ba86844",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3129": {
       "fingerprint": "0466f71824f420459356",
@@ -3671,31 +3671,31 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3130": {
       "fingerprint": "dde8957030052c78e5e9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3134": {
       "fingerprint": "4796e8eae0e220a57260",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3137": {
       "fingerprint": "ba78613192c52213a61d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3138": {
       "fingerprint": "a334d582e7c3ffc4a705",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3140": {
       "fingerprint": "9d60064e74485f1ef372",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3146": {
       "fingerprint": "070ae960b6f0b7cad400",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3151": {
       "fingerprint": "9076bec1645405a889bd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/snyk/agent-scan/pull/511": {
       "fingerprint": "32aa8b2740b3cf115286",
@@ -4331,19 +4331,19 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/273": {
       "fingerprint": "071e749badbbb9e81e8e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/596": {
       "fingerprint": "6908ae55fe8f2524c047",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/604": {
       "fingerprint": "f00c10e43c8989d2311b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/608": {
       "fingerprint": "3e5903d2c15d41395856",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/836": {
       "fingerprint": "ee9ce37c5b6e5dbd62cf",
@@ -4371,7 +4371,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3507": {
       "fingerprint": "f988229a7c361fb81636",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/511": {
       "fingerprint": "54c7b1d7516739d29986",
@@ -4415,15 +4415,15 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/69": {
       "fingerprint": "a7a3831b4c11c9aa3eee",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2820": {
       "fingerprint": "610efe45c3ab9d0285b4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3066": {
       "fingerprint": "f50d4e95174c0370bc82",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/4535": {
       "fingerprint": "c2c552d73595c84a2515",
@@ -4803,7 +4803,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/845": {
       "fingerprint": "f928d5588b1c8b7c585f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1135": {
       "fingerprint": "93670c25db5ae79b7fab",
@@ -4819,11 +4819,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1214": {
       "fingerprint": "aae4a23e554e7c006261",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/994": {
       "fingerprint": "4362aa526eddd36bfd76",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1118": {
       "fingerprint": "b398a6018649638d0b22",
@@ -5459,43 +5459,43 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2868": {
       "fingerprint": "7715c16cc82c1e53e1a4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2888": {
       "fingerprint": "e2ec48cca478c8a57555",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2890": {
       "fingerprint": "88d248826d41be7465b2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2894": {
       "fingerprint": "90199fca61416d2735d7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2896": {
       "fingerprint": "ef432745f4612cbca561",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2903": {
       "fingerprint": "d56528c271ed9cd4f8f9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2908": {
       "fingerprint": "befcd7c80b013b433176",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2909": {
       "fingerprint": "82d2eee26b2ddf146a86",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2915": {
       "fingerprint": "7e135d81574462788876",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2916": {
       "fingerprint": "0bb4ad7e45ae9776b72c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3451": {
       "fingerprint": "fe6417315da46be39ac4",
@@ -5527,7 +5527,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3500": {
       "fingerprint": "ad16758eeb3f71552b17",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3741": {
       "fingerprint": "9061d03ba022ac8bda09",
@@ -5679,35 +5679,35 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1790": {
       "fingerprint": "08e690e021885222a949",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1791": {
       "fingerprint": "c92e7a246da329b002fc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1793": {
       "fingerprint": "db799c067c2ddf620bfc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1794": {
       "fingerprint": "f26ab03487b4456ea5b2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1795": {
       "fingerprint": "4249a6c75151b5e5f367",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1800": {
       "fingerprint": "6301307069d64b4d76ca",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1804": {
       "fingerprint": "11ef707658319d11e76e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3016": {
       "fingerprint": "82f1beab522b79c32375",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/4640": {
       "fingerprint": "e04a66105054846b3209",
@@ -6003,7 +6003,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/609": {
       "fingerprint": "e1089f3bd9acbfa907b3",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/784": {
       "fingerprint": "65fac35a3db3a7018cea",
@@ -6027,11 +6027,11 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/842": {
       "fingerprint": "4070476067aadcaf0ab4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/843": {
       "fingerprint": "cec8c2c4e89d0ed094aa",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1129": {
       "fingerprint": "3b25b2866fb1aaba32ba",
@@ -6127,11 +6127,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1309": {
       "fingerprint": "68ccfc5fe50d5b4cd510",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1310": {
       "fingerprint": "eac034ffc02568b54e8e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1129": {
       "fingerprint": "971efe05838ca012d56c",
@@ -6391,11 +6391,11 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2895": {
       "fingerprint": "b2e6d847c512d03d0eca",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2900": {
       "fingerprint": "b588df0b653c4c230f68",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1151": {
       "fingerprint": "f9a16bc021f2d96c3f00",
@@ -6439,7 +6439,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/commit/cc9aaac1047a9440b07486e38f37060bbebeef4c": {
       "fingerprint": "1ebbfe58d9625be4b043",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1aca59bd76408843d235f8a2cf09be68cc9fc3aa": {
       "fingerprint": "459a5a000f5bfeaaf210",
@@ -6563,7 +6563,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/799": {
       "fingerprint": "6dcd818ad83f74fa6a86",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/372": {
       "fingerprint": "ccab3e858e617b37c9a0",
@@ -6911,7 +6911,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/pull/34": {
       "fingerprint": "1d33b7ba720f8b9e7015",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2799": {
       "fingerprint": "0791de2cfef44f8dc864",
@@ -6923,7 +6923,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2884": {
       "fingerprint": "71c77489f37922f1bfc8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3233": {
       "fingerprint": "8179f27010504bf87ebb",
@@ -6935,15 +6935,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3441": {
       "fingerprint": "760f37557a106339c877",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3480": {
       "fingerprint": "db91cbf4db69d69d4c51",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3482": {
       "fingerprint": "dc4908470a80daf9e53d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3493": {
       "fingerprint": "172b49f7ad0fb5d2c764",
@@ -6951,7 +6951,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3508": {
       "fingerprint": "294469f0da80202b8127",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3772": {
       "fingerprint": "5550e0bc6d192d6ab3a2",
@@ -6963,11 +6963,11 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3814": {
       "fingerprint": "ff341a1b6e2564d4ff9e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3818": {
       "fingerprint": "6dab3f51182c03efbc87",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1208": {
       "fingerprint": "4eb7026c043204e78a8b",
@@ -7019,7 +7019,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3003": {
       "fingerprint": "ea0ebff72ed5b3023597",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3049": {
       "fingerprint": "36caee83c710b291b1bb",
@@ -7055,19 +7055,19 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3122": {
       "fingerprint": "53d4e29caf93878192d2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3141": {
       "fingerprint": "5c8b80ba14f8fc6387ec",
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3147": {
-      "fingerprint": "5ebdfd1747cb0200982f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "333dfca0f88e773763d8",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3149": {
       "fingerprint": "62ad8c85f27d96a393fe",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/5121": {
       "fingerprint": "6978b8194191e18f54d3",
@@ -7919,11 +7919,11 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/846": {
       "fingerprint": "871850a6cc9c92ace2cd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/848": {
       "fingerprint": "24392c662231b3eefd50",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/162": {
       "fingerprint": "b083533bb78ca32a0478",
@@ -8003,23 +8003,23 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1152": {
       "fingerprint": "bab58b5114c7f90523ee",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1159": {
       "fingerprint": "f0c93c2cce4920344c0b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1160": {
       "fingerprint": "08aaccbbbbae76bee3a6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1163": {
       "fingerprint": "26044e0f5141d62bf94e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1194": {
       "fingerprint": "5609d41cf96e4459cf2b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1275": {
       "fingerprint": "891cc3cd958995eb3eeb",
@@ -8039,7 +8039,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1314": {
       "fingerprint": "f42801411db4a0cb9fde",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1091": {
       "fingerprint": "e79df286d8e6791c533f",
@@ -8739,7 +8739,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/commit/7c427386b026fab49cc73a44a2316fe88c8ae522": {
       "fingerprint": "1efa3fb82cf96d8251ee",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/microsoft/playwright-mcp/pull/1807": {
       "fingerprint": "f772649a6b27ac7bf47d",
@@ -8751,7 +8751,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/847": {
       "fingerprint": "77913ae40f5d140261b9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1488": {
       "fingerprint": "282489df59311b2191c5",
@@ -8759,7 +8759,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1037": {
       "fingerprint": "0d2305506c24cf7fdf13",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1202": {
       "fingerprint": "6566176285fc7fd61469",
@@ -8875,7 +8875,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/pull/36": {
       "fingerprint": "99c715478177c4b6a265",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2858": {
       "fingerprint": "651d8936b217d1a929a5",
@@ -8883,7 +8883,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3509": {
       "fingerprint": "82bf79dd4ecb0f3a71f9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3040": {
       "fingerprint": "7b272fbfe8bb876829dd",
@@ -9555,11 +9555,11 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/384": {
       "fingerprint": "2e40898626c4808044f1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/699": {
       "fingerprint": "64ce06533c24581fdfdb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/818": {
       "fingerprint": "eb9f393a37643e8d645e",
@@ -9623,11 +9623,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1153": {
       "fingerprint": "390984d99509ce5269ff",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1154": {
       "fingerprint": "f1f0edc3abf06c5b1dba",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1261": {
       "fingerprint": "89be34c6fa36dc114547",
@@ -9967,7 +9967,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/377": {
       "fingerprint": "1d491a80650c972b2918",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/163": {
       "fingerprint": "72c3e6eeb357c62c3d85",
@@ -10051,11 +10051,11 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2864": {
       "fingerprint": "fe810949403b635472cf",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2887": {
       "fingerprint": "016f597b0f76aa630fc7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3443": {
       "fingerprint": "f7317584283318487763",
@@ -10075,7 +10075,7 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3797": {
       "fingerprint": "4f80cf8d74691fb45aba",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1721": {
       "fingerprint": "2b0e82065055d282f736",
@@ -10703,11 +10703,11 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1796": {
       "fingerprint": "f81bc6954bf9fda5b48d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1797": {
       "fingerprint": "74624233d128292e6ff1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1422": {
       "fingerprint": "d1fb56bb3337892cd26a",
@@ -10755,7 +10755,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3106": {
       "fingerprint": "9aa480c80a87fbb519b7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/265": {
       "fingerprint": "7fc93673ef817d2eeaad",
@@ -10799,7 +10799,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2793": {
       "fingerprint": "0956eef3112708ca77ac",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7457": {
       "fingerprint": "f93ce2f005cfdf66615d",
@@ -10819,19 +10819,19 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/commit/bb57534ac838326a2f9d7ee8d6cb86697a79e9d8": {
       "fingerprint": "accf0261180be81808bb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-tasks/issues/24": {
       "fingerprint": "d31e414da7ca551a9120",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2918": {
       "fingerprint": "b9cbc652686b6107f1b9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2920": {
       "fingerprint": "bd8a8f27eb93acc266db",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/releases/tag/rmcp-macros-v3.9.0": {
       "fingerprint": "8c951cda3a4ca818f6c0",
@@ -10847,31 +10847,31 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2919": {
       "fingerprint": "442d56c2bf69f6feaa8a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2926": {
       "fingerprint": "0657c734d0f2cbc2ad78",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2927": {
       "fingerprint": "22133ee4fa0a8092f1a0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2930": {
       "fingerprint": "2e7f1d37682c3a44133d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/572": {
       "fingerprint": "39b9f41b541e2211a555",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/574": {
       "fingerprint": "3a875e9fede6a08862c2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3510": {
       "fingerprint": "e8157f5fdfe0ab1ba246",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/305": {
       "fingerprint": "7f94e1c9968352d2f404",
@@ -10891,15 +10891,15 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1529": {
       "fingerprint": "b641a613f7bff950c7eb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3153": {
       "fingerprint": "62d81bbfc27e523bb84c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/71": {
       "fingerprint": "d5f0fadbab2e328b1375",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1995": {
       "fingerprint": "97d14bda04e71f607632",
@@ -10919,35 +10919,35 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2917": {
       "fingerprint": "45125462fdfc4d1e8748",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2921": {
       "fingerprint": "ed18b710704b044dfab1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2923": {
       "fingerprint": "a15b824d63ffae74fb08",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2929": {
       "fingerprint": "88228f0e7b3021f46314",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2931": {
       "fingerprint": "d67538f39f985f88c4df",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2933": {
       "fingerprint": "53a66156b78a07d05953",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3511": {
       "fingerprint": "69d11f23c5c7f94ab27b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3512": {
       "fingerprint": "3888011a581fc333c0e0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/490": {
       "fingerprint": "ecdb7716eb156abffc4f",
@@ -10983,15 +10983,15 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2925": {
       "fingerprint": "7eb274be04df7f9ed5bd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1806": {
       "fingerprint": "054ae21a714da678a48c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/72": {
       "fingerprint": "15422351138ee6b0d2f8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3690": {
       "fingerprint": "ef0990d965dfd66aff29",
@@ -11003,7 +11003,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/700": {
       "fingerprint": "b81af010faed699e0369",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1504": {
       "fingerprint": "dbec5d53bb8b14cf2990",
@@ -11047,7 +11047,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.8": {
       "fingerprint": "8e304f9173be53b9b7af",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6334": {
       "fingerprint": "3c32cce81051e8732bc7",
@@ -11059,11 +11059,11 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1811": {
       "fingerprint": "6c1c69b834e851c8c538",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3279": {
       "fingerprint": "c1e6962d4eb6761fc56d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/security/advisories/GHSA-v869-pp2g-ff4q": {
       "fingerprint": "f4eb58c945fe12045f2b",
@@ -11083,11 +11083,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2487": {
       "fingerprint": "90902adfbf1b82f199a2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2643": {
-      "fingerprint": "0b25adf9573fffad8a11",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "be4d55594a7068115bb4",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7059": {
       "fingerprint": "9b92ddf2321c9433d093",
@@ -11099,7 +11099,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/61": {
       "fingerprint": "4a007e96ecf34c6a3c5b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6324": {
       "fingerprint": "d98c94d3cc24cc5a420c",
@@ -11107,7 +11107,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3185": {
       "fingerprint": "331f05a76769bf3dd416",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2013": {
       "fingerprint": "ce404ab67eb2444edfed",
@@ -11123,11 +11123,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/38353251fab3bdeead03dd8283b9e66076ce1a7f": {
       "fingerprint": "14d282bf5089c9cea215",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c9b51b3a02f3851f9821d5191718652bab97adac": {
       "fingerprint": "bcdef2f91a67406d335b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6337": {
       "fingerprint": "68bdd22dff951d035141",
@@ -11135,35 +11135,35 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3405": {
       "fingerprint": "9fd119eaf7f2e6367b6e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3514": {
       "fingerprint": "4a8af3e5873fe7b40fe0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1809": {
       "fingerprint": "4c2273adab265578b493",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/31": {
       "fingerprint": "0570787c0ae61e9e4259",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/45": {
       "fingerprint": "d04ab03685727bf1312e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/54": {
       "fingerprint": "ea101c1ced3665de2805",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/55": {
       "fingerprint": "072849157de42cad5184",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/56": {
       "fingerprint": "2fd686dd1907f0671c30",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7461": {
       "fingerprint": "45501bf79c13b8c097f4",
@@ -11175,15 +11175,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2028": {
       "fingerprint": "8207253cf19e776b5e20",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2419": {
       "fingerprint": "78dd315fe3a0ad0777ec",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bf2c1bc3f37a0bf7c4ea60ad7dfc1b8698d80863": {
       "fingerprint": "0bdaf1094daaa65de46b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/cloudflare/agents/pull/2834": {
       "fingerprint": "f1faf680e434510f0d7c",
@@ -11195,27 +11195,27 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2532": {
       "fingerprint": "9c5101c0c35bd9991fd3",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2752": {
       "fingerprint": "c543f5e3231a1589d66b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2817": {
       "fingerprint": "01a2c1602d3a3cd80732",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3824": {
       "fingerprint": "ec150772edafa6d978fb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/53": {
       "fingerprint": "d881a07a11f5daa2cdf1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1e69fea8ee88fff4c2d5a64b78f01ee61eb373a9": {
       "fingerprint": "8c035e28fd076bf022c4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/21a8a3eba3b6929793b59342d9e5856b671856a7": {
       "fingerprint": "901fb6c6545305d0fca3",
@@ -11223,15 +11223,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/22bb5b965a58e7f502deb184b51a8a4b8bf6067a": {
       "fingerprint": "c623fcd39d3230961e91",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/352c0c9fc451387788fe8a0121184c944f1c82b7": {
       "fingerprint": "5001dcbde8da91d893cd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/d9d26ddbbe8e0bc97b4f365b4445b2642e664fef": {
       "fingerprint": "d27d52468e8f6da1040f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ea7dca839fbc6a1e6ad5009602612b41034a2ea8": {
       "fingerprint": "c8c1d7e222a234395d73",
@@ -11255,7 +11255,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/commit/205d03deb1ca819d4b18c96e7cc2e11c041442ae": {
       "fingerprint": "75f3e079c32c274d929c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6325": {
       "fingerprint": "5fda414247dd0a28316c",
@@ -11275,23 +11275,23 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/575": {
       "fingerprint": "3cd4ecded121ad79d88c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/73": {
       "fingerprint": "e1c5fb2cd571b463aa98",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2017": {
       "fingerprint": "92567879774c64a6bf29",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2039": {
       "fingerprint": "e59e8243c9177c890bad",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3156": {
       "fingerprint": "58179453b0965263780d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/1983": {
       "fingerprint": "cd12e021adde51cee365",
@@ -11479,19 +11479,19 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3312": {
       "fingerprint": "6727f8eb8cf93ce8e273",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1810": {
       "fingerprint": "ac9f8d0a21b43049c546",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1813": {
       "fingerprint": "f5929f60239ddfd33049",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3155": {
       "fingerprint": "d51b57fbfe6fd2db20ae",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7462": {
       "fingerprint": "610fa56aed110cbd5c68",
@@ -11543,27 +11543,27 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2495": {
       "fingerprint": "416ca4325e2f2c5c1a2e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2632": {
       "fingerprint": "222cd0ca793279674231",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2694": {
       "fingerprint": "23de003131985d8a6f0e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2809": {
       "fingerprint": "8c1f880e4b36f51cefd7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3313": {
       "fingerprint": "72279fde48100d1837fa",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3515": {
       "fingerprint": "55b2ec5dfdbe3b75d6bd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/081d180bda48f0399019b22a7c9bb71d27ec3dbe": {
       "fingerprint": "bdb6503aa96fe030076a",
@@ -11571,7 +11571,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/09e0e8bbd17973aaf517a8fca5c0103f580d6c9d": {
       "fingerprint": "5d40e3ece83a418dc3c2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/109c23ec44affc044e7581ee2b88baef5c2e4ea8": {
       "fingerprint": "9c1b918b7f44bb565774",
@@ -11583,19 +11583,19 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2dfb4ec0eb039394a27d3b78f102fd2b2216f6d0": {
       "fingerprint": "33b5a33af8500c168d9a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3f952f35da2fb861a8e114f32fe80ea7decb6f84": {
       "fingerprint": "8f28a0118024f032e8ff",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/4acacf939ba4e3d726ba0aba322cf044cfdc6104": {
       "fingerprint": "50da5bbe94b73c397f9b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/4d7b669254d8bed72240cf95d2e1c1787adad710": {
       "fingerprint": "4af77783ebb6b0797539",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/566ee5d8e15834727c620ab7a99bf29cb6c0e380": {
       "fingerprint": "1c2672501cb6d47e3b34",
@@ -11603,15 +11603,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/598afa591e1bd5e38052b5e03c16d358ea9fa17e": {
       "fingerprint": "831d48c1f9db4fe97ed4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/5e3035b54cbad2343a7836449805fd94bf9b9621": {
       "fingerprint": "91271bebfd7b093dec26",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/8a694e1175c0a9c4bcd16cbb9933bb0ffdc8eec0": {
       "fingerprint": "83a5cfd490cb13b9642a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/a5dc029b866e26d0354f303d8075333f4e264e29": {
       "fingerprint": "179d6e30e15e4f81af58",
@@ -11619,15 +11619,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bfe9502547784cca14cdeb3ab3c3899468e58a77": {
       "fingerprint": "199534d93a0eb3d10702",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c46c0fb806654a8f230c79481f55b3816868880e": {
       "fingerprint": "2c41266fca8c824351ae",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/e6a3501ecd3fe9b25907e63c340855bdaff26ca1": {
       "fingerprint": "ff31c1a7f791bd5bdeb2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/fdb64b8e795a45b5b2ce7b0443e56c661a5f4cd5": {
       "fingerprint": "f99bf98045f568b1fa28",
@@ -11635,7 +11635,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/commit/2f941bd349ca43cb241516b38a5b6004cac1e922": {
       "fingerprint": "8b7e1732b96892b96d0c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7482": {
       "fingerprint": "a95050990ef1eea3eef9",
@@ -11666,12 +11666,12 @@
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3516": {
-      "fingerprint": "fdd4f1d2787622783b58",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "e7b97ae444e734fa891a",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3823": {
       "fingerprint": "86e1b3c719277f9b6a0f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3825": {
       "fingerprint": "fba0d09f27e9ca5f1227",
@@ -11679,11 +11679,11 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/43": {
       "fingerprint": "7e2011e015534dcb3347",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3157": {
       "fingerprint": "418fafb2345f8b2303a8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/awslabs/mcp/pull/5035": {
       "fingerprint": "c7f8b50942df3eb7f7d2",
@@ -11747,7 +11747,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/956": {
       "fingerprint": "83dfd9672d50e9c279ec",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/674": {
       "fingerprint": "2dbf0e8f2f5e59484cb4",
@@ -11799,7 +11799,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3513": {
       "fingerprint": "15dcfc278906d46f06d1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/snyk/agent-scan/pull/539": {
       "fingerprint": "08babd0cc4f889d4e2a1",
@@ -11895,7 +11895,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1316": {
       "fingerprint": "2360e90ede0f57f53583",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/664": {
       "fingerprint": "1a26614da1a327aede06",
@@ -11915,7 +11915,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1808": {
       "fingerprint": "afb300252a536e0f649b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/325": {
       "fingerprint": "874f91098f248a5510ef",
@@ -11923,11 +11923,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3518": {
       "fingerprint": "143bee245a53793b1bcc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/fd502785f2732ae0028de7e9fa34d6ebcd950c65": {
       "fingerprint": "e3025ec7ce8b4b73d5af",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3038": {
       "fingerprint": "d361ad8b6db0877a0ae6",
@@ -11939,7 +11939,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1822": {
       "fingerprint": "9df76cb0589686df65b3",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/releases/tag/v0.15.0": {
       "fingerprint": "b087dd824628c24d8a79",
@@ -11951,7 +11951,7 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3832": {
       "fingerprint": "3f0947e6cb9729e277cf",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3731": {
       "fingerprint": "54f016bed19be808e6d9",
@@ -11959,7 +11959,7 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3840": {
       "fingerprint": "8f02cde7204cbddead09",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/493": {
       "fingerprint": "ee1c137bd7970041e912",
@@ -11971,11 +11971,11 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/521": {
       "fingerprint": "d2cf4ff1e8efd61168d0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/559": {
       "fingerprint": "5b3fa3d85d174444c481",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/680": {
       "fingerprint": "58f440433d05efa43309",
@@ -11991,7 +11991,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3519": {
       "fingerprint": "1061f5d3a7147b52b89f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/684": {
       "fingerprint": "2eca9506326f7795ee86",
@@ -12015,7 +12015,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1825": {
       "fingerprint": "adb5aaf8aea431e5f422",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6342": {
       "fingerprint": "c75c57eac552a79ef834",
@@ -12051,15 +12051,15 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/556": {
       "fingerprint": "75f0e6fcb7ce8a7d0e71",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3191": {
       "fingerprint": "fab961c5854a338eed5b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3235": {
       "fingerprint": "c57a5bf0bf4593498641",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/424": {
       "fingerprint": "a339c9c61930fb67ca34",
@@ -12067,15 +12067,15 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/cf59bb0d8b43e711420f5f7313aa6cca3f1e1898": {
       "fingerprint": "55a9db58f99ce75f470c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/e5a28a6841fd85b4624399c77d1d7ce764dc5420": {
       "fingerprint": "a9012c7665adc4024921",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/853": {
       "fingerprint": "f62b1c9a570252dffc60",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/673": {
       "fingerprint": "5db3610717e792913adc",
@@ -12091,7 +12091,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/94f4ebc8ecb3764584bc30d5139d57c03692b734": {
       "fingerprint": "596d832641da2b56f5a9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6350": {
       "fingerprint": "9906d8bf51c138f692dd",
@@ -12115,51 +12115,51 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/541": {
       "fingerprint": "654c1c6fca82dc69c3d4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2697": {
       "fingerprint": "d22735a54033919a641d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3826": {
       "fingerprint": "115cd32bd4c4025db8e7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3829": {
       "fingerprint": "3e3f7ec165954e09e9f7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3834": {
       "fingerprint": "cebe3f5c36c483b80a15",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3835": {
       "fingerprint": "e5f1c25a2d02f0d7f452",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3838": {
       "fingerprint": "a6544900e696a5912ef5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3839": {
       "fingerprint": "8f0a7dcbf18505702ec5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3158": {
       "fingerprint": "92f13c4f5985c7ff87d0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3160": {
       "fingerprint": "863f1277163a67eabd82",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3161": {
       "fingerprint": "d447c1e35814d0798539",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3162": {
       "fingerprint": "efec26ce8cafe0dc2e79",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2080": {
       "fingerprint": "ce868e6ae018055116d8",
@@ -12227,15 +12227,15 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1817": {
       "fingerprint": "a651f699e35ff4f1fb9b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1821": {
       "fingerprint": "f5aebd7f7c81d77d92fd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1824": {
       "fingerprint": "641e2746b7c90e1207fd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7487": {
       "fingerprint": "ada10e70a861b3d99bcb",
@@ -12323,19 +12323,19 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1103ff1264dfabe5c5fb3a3ea4ada2769e61cdb1": {
       "fingerprint": "41f0ff2785c073a00bbe",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/77d4f1afd50e3563dc26cefef106e79c049a4a99": {
       "fingerprint": "bbfadae3cc60801b1706",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/781687f6c996b7a641b8416de2c0fd5f6fd04b08": {
       "fingerprint": "e847e311ca064092ea8b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ed94711ea227e882ea7c2b3c76c586bf76cda095": {
       "fingerprint": "97ce22d14b67eeeb3950",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/5747": {
       "fingerprint": "9763dd8e142d65a8551b",
@@ -12387,35 +12387,35 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3827": {
       "fingerprint": "f21a0d94846d1c45db6c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3828": {
       "fingerprint": "0bf03076cc7b0bfc203b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3830": {
       "fingerprint": "ff5321b0fb94ea749d55",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3831": {
       "fingerprint": "b1bf10ef39c1d5f87f23",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3841": {
       "fingerprint": "5d81fcbbbc291116eede",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3842": {
       "fingerprint": "445bdb27d6fab151c5b3",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1816": {
       "fingerprint": "8140dc2621757e94ff3d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1818": {
       "fingerprint": "699a3d5107d6c781c25d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2085": {
       "fingerprint": "ac10d5d332edbe9b5272",
@@ -12543,7 +12543,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/92e1221b3d915ca3e08b77d36e64a57412363dce": {
       "fingerprint": "9c57f91b434fd4df4dbf",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/cloudflare/workers-sdk/pull/16783": {
       "fingerprint": "20ab6450106b304a9335",
@@ -12559,47 +12559,47 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1830": {
       "fingerprint": "9a5f712fa817734b672e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1827": {
       "fingerprint": "2cf935067641332530b9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1828": {
       "fingerprint": "3074cad8e3ecb8ea1b54",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3521": {
       "fingerprint": "cc4aef79858bc0eaa604",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/222640c8e771dd57f41e655d3c3eef6e5dec8b34": {
       "fingerprint": "01d90c3364197b6a56a7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3526": {
       "fingerprint": "5953ee55fbf57d2063d1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/d3bcb0d593f486ea689bd615ec88e362c2862bb0": {
       "fingerprint": "658ab006b1c0c6c4717b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1837": {
       "fingerprint": "024e61645c6d396e0a2a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1829": {
       "fingerprint": "c6b1796e0a8a9ec865ac",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1835": {
       "fingerprint": "c19193cf45b5979434be",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1839": {
       "fingerprint": "3cb5f2bfa37fd3224fba",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/Tencent/AI-Infra-Guard/pull/745": {
       "fingerprint": "83569204836b7c2b011c",
@@ -12607,23 +12607,23 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3165": {
       "fingerprint": "b0ab9dba070d826bedf2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/329a210d877cd582b7215828715103cc068a43ab": {
       "fingerprint": "abba3fe9ddcb5bfcbf52",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/632a0c9a65c9b4fbc889d8aface5c9cf5edef3b7": {
       "fingerprint": "287675c46e94ad2d932e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/a8df9b04df17305a0e4e67be0d54ae4c818b36c8": {
       "fingerprint": "2db15c58645e1a3f0650",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c1d7587934b7b8568c47ae86161c3c16d8b050ee": {
       "fingerprint": "556614900b61fb019f07",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/708": {
       "fingerprint": "fb16c967125d88a546f3",
@@ -12647,11 +12647,11 @@
     },
     "https://github.com/modelcontextprotocol/ext-auth/pull/42": {
       "fingerprint": "dfc0d205491b0988cd84",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3528": {
       "fingerprint": "1ceaf7b75d949a843c89",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/713": {
       "fingerprint": "05577054c53c3a8a5ee3",
@@ -12659,27 +12659,27 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3529": {
       "fingerprint": "e9df2ceeb53821868dce",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1831": {
       "fingerprint": "df0d76d5716c9c94c005",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1832": {
       "fingerprint": "7167aa079b97e588d84d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1833": {
       "fingerprint": "d0dd2d303c6606201458",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1836": {
       "fingerprint": "ab2ce97ded206e5ea38d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1838": {
       "fingerprint": "cf550a28a8d2eb57cbd1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1094": {
       "fingerprint": "3abd99706f597b6feeee",
@@ -12687,7 +12687,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3524": {
       "fingerprint": "62a86976caf0050e8862",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/706": {
       "fingerprint": "d836261e7e46133cd6a8",
@@ -12711,39 +12711,39 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3523": {
       "fingerprint": "a5e488f0fec29e38f84d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3525": {
       "fingerprint": "54af698cfd5d0c1bfa11",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/10897920871fbd92772cd4a06d314e1bc4395e4c": {
       "fingerprint": "16efb1e96dce0a6daaac",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/394567887feccae8b3e27c7c84106edb5fbac116": {
       "fingerprint": "7cbb1eacf55aa6236c8f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/5e49a92ff67f54b1e2c0decd4992137c202f0d86": {
       "fingerprint": "16efb1e96dce0a6daaac",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/7827b68705e7fcaa024fc76ebfddc027cc37227d": {
       "fingerprint": "9f8ad152272bba5ef5cc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/9ee7e0918d4e75fe594712da48e479524579260f": {
       "fingerprint": "ac8a799272e33dd7e97a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b40b4612d4428a3554e5e691f017881719301044": {
       "fingerprint": "04de1eb035b3753da01c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/befb7fd376cf2b5773bd5dc696b0530ed9ede63f": {
       "fingerprint": "16efb1e96dce0a6daaac",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/705": {
       "fingerprint": "218140cfc3b8bb7fa7bb",
@@ -12763,19 +12763,19 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3009": {
       "fingerprint": "dc8db4de47b2240e4628",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3164": {
       "fingerprint": "79b535d033b4a9d67920",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3167": {
       "fingerprint": "f6bed33d62c35ce2f837",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1158": {
       "fingerprint": "733e66ba207be95eeb72",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/328": {
       "fingerprint": "72016c7f026776d27974",
@@ -12787,15 +12787,15 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1322": {
       "fingerprint": "cb8d51e3c070f96cbb0d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1323": {
       "fingerprint": "f891f3eeb39ac2809b84",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1324": {
       "fingerprint": "2076d49dafd334d44a59",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/717": {
       "fingerprint": "f45c58535c19167b1c00",
@@ -12811,19 +12811,19 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1319": {
       "fingerprint": "7a02a766fe85ddf548ac",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/be9b25a6dc78b3801eedd9908f95f6d8bdd676e3": {
       "fingerprint": "e17185b15a6825880c8e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bec8a19bdb10463773aa27533ba40285a7c6e5e0": {
       "fingerprint": "22c8190d68c6473b112e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ef79bc742bfad34bd69fcb03203661a069eb551e": {
       "fingerprint": "a0fcbc0d6746837a5239",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1168": {
       "fingerprint": "8082427cd6c005c3dbca",
@@ -12863,7 +12863,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1826": {
       "fingerprint": "6f51047c7519cf819a24",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2880": {
       "fingerprint": "0a083ffa251a0c3665c6",
@@ -12879,7 +12879,7 @@
     },
     "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.9": {
       "fingerprint": "150b465debd8e18936bd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1172": {
       "fingerprint": "13b7c3b48a40a1ca4ec3",
@@ -12895,7 +12895,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/commit/a433b1bb9995427b2cce27407605782b0526f292": {
       "fingerprint": "293ac7aa365656c19f19",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2014": {
       "fingerprint": "e688ef4fe1b27beb5075",
@@ -12907,7 +12907,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1325": {
       "fingerprint": "74bd9b1d8a5951c9dfe6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1171": {
       "fingerprint": "82c2051f3c8b491b6c9d",
@@ -12931,7 +12931,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/releases/tag/v2.1.0": {
       "fingerprint": "b09529c7d4ee1a59ef3b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/cloudflare/agents/pull/2860": {
       "fingerprint": "e17f9bc10efc449c720d",
@@ -12943,7 +12943,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1327": {
       "fingerprint": "2d44da07da18b526f9ef",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1444": {
       "fingerprint": "4c90effe314e91d4a3ab",
@@ -12967,7 +12967,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1326": {
       "fingerprint": "c4cef810d34bf28c74d3",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/675": {
       "fingerprint": "589c419631e261d0182a",
@@ -12983,11 +12983,11 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/854": {
       "fingerprint": "6bbcbca3d9db558e0eb2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.5": {
       "fingerprint": "728c8a9c9f9556dc3385",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-3rxj-6jhw-qfv7": {
       "fingerprint": "bc1b6d5fb7dc07cb8571",
@@ -13003,7 +13003,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.15.0": {
       "fingerprint": "5e93e39454d1deaf3ca0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/releases/tag/v1.10.0": {
       "fingerprint": "bdf4b799fe2390e56c4a",
@@ -13014,12 +13014,12 @@
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/481": {
-      "fingerprint": "e79ac97172d4fddc0850",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "646c2a226ba54e0e136b",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3543": {
       "fingerprint": "b6ab6bcec59b0d201ffe",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/awslabs/mcp/security/advisories/GHSA-4wq9-grf3-qg2p": {
       "fingerprint": "fe7f2d6cf5f9382ddd68",
@@ -13039,23 +13039,23 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1846": {
       "fingerprint": "7ee492bc01b0710fe871",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1851": {
       "fingerprint": "916a79d015ab5e48075c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2942": {
       "fingerprint": "2eb8a8d60f312213d3a9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2943": {
       "fingerprint": "87a3eadd609603144c56",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2945": {
       "fingerprint": "8d5708fa2661b18ae0d4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/679": {
       "fingerprint": "03d6f4c42e6b8ce79a7b",
@@ -13075,23 +13075,23 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/511": {
       "fingerprint": "8b8e4a9bb053f07a996b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/581": {
       "fingerprint": "dc64ddf0049d9715e432",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3535": {
       "fingerprint": "f9b77b08be82defd12d8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3540": {
       "fingerprint": "c4da5e3056464f2f8b50",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2745": {
       "fingerprint": "87aad858726eeda07be3",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2148": {
       "fingerprint": "a7b2a94c4ccb3abd8686",
@@ -13127,7 +13127,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3531": {
       "fingerprint": "0290f2654f3dce3c7d28",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/727": {
       "fingerprint": "254e70a1c1a124e429bb",
@@ -13135,11 +13135,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/283d8d6a10ca9c4de63bc3a8d798762dfed52e86": {
       "fingerprint": "e1d73b49c5dd10940df2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/a40b29a92906d43f2ffaff8c9ba8217b5e5a68d4": {
       "fingerprint": "440f40453a5b76d921f8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/releases/tag/v1.1.1": {
       "fingerprint": "e8953590f16c2267fc5e",
@@ -13151,23 +13151,23 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2940": {
       "fingerprint": "d7a3f35b65857923488a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2944": {
       "fingerprint": "e99b4e6034b33d755236",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2946": {
       "fingerprint": "ba9130745a58f91ee0b6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3533": {
       "fingerprint": "c76d99af0c05611c1a3f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/2951": {
       "fingerprint": "64bb091452c4486cf4fa",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/awslabs/mcp/pull/4700": {
       "fingerprint": "2e82cbd21c2cba81cf1c",
@@ -13203,23 +13203,23 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/200d5339bbc7649ee92d6445dc17368e2b5b11ba": {
       "fingerprint": "ffa92a5dfacdcc6482f8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2952": {
       "fingerprint": "e7207564d536f9093851",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2961": {
       "fingerprint": "844d6d9365c4e0f6b0e0",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3532": {
       "fingerprint": "5521a25e36bc62d3e264",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3542": {
       "fingerprint": "7a866d86b8f4110fc1c8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.85": {
       "fingerprint": "e001bd8ae7c6eaa68443",
@@ -13227,27 +13227,27 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2953": {
       "fingerprint": "a1dec26235e3c895f3b7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/495": {
       "fingerprint": "230726c276993d4f9283",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3537": {
       "fingerprint": "795c679261d9fc3f93c7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3539": {
       "fingerprint": "2e36bfbc0a05d24e553b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3541": {
       "fingerprint": "31dbfafddb6bdf21487b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3169": {
       "fingerprint": "ab6a8e476707d89129bd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.0a4": {
       "fingerprint": "ab89ea95d1a0a60f623c",
@@ -13255,11 +13255,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/0b22bfed6e94c0c7751046d2e845fac954cac8a7": {
       "fingerprint": "f1779250c1f312abe996",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/751ea06c2310978c85c1bcef7f6e22f9dbf4e2c9": {
       "fingerprint": "bab2e7999655aea5c475",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7495": {
       "fingerprint": "a64632832a72ab09513f",
@@ -13291,7 +13291,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/751": {
       "fingerprint": "681e1e60158a1674feb5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/729": {
       "fingerprint": "84a153ae75d8ed8d168a",
@@ -13335,11 +13335,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/5324218639be4a6c696902d70f98f225326bbe4b": {
       "fingerprint": "341df2ad0864ecc44f5b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/9a67316897f90f97bcd2ee939ca8e7e1532a27d3": {
       "fingerprint": "9faf1acb608564909c38",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp/": {
       "fingerprint": "29c3a58871e63bd5e461",
@@ -13355,43 +13355,43 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2959": {
       "fingerprint": "3933b83b51b856cfa88a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3545": {
       "fingerprint": "2fd9f996aa2b57a79838",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3848": {
       "fingerprint": "06c1c2d1582d45d785a9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1847": {
       "fingerprint": "417634ddbf215ecf05ee",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/issues/36": {
       "fingerprint": "8444ecdd38062ab3e0a5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/1083": {
       "fingerprint": "4b38127c445786838509",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3172": {
       "fingerprint": "578469bf1a655861e65c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3174": {
       "fingerprint": "abc4ff06359206e85881",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3176": {
       "fingerprint": "0144f9bbdf4bb8f3c37c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3177": {
       "fingerprint": "c6726b354ba042b66fbb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/microsoft/playwright-mcp/pull/1847": {
       "fingerprint": "a457076bb0e147814ebb",
@@ -13443,7 +13443,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3547": {
       "fingerprint": "ca78cb886d987ca538ef",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/723": {
       "fingerprint": "037682adb4c8471b0ba0",
@@ -13499,35 +13499,35 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3534": {
       "fingerprint": "7c4aa07d0e9b0ecc5c74",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1840": {
       "fingerprint": "ccc93a41bc882ec033a7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1841": {
       "fingerprint": "b5f12334a4ac148be447",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1842": {
       "fingerprint": "7da2407ae207bc0d74fd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1843": {
       "fingerprint": "237ac2dcf6dbf557a09c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1844": {
       "fingerprint": "89e78b87e7228ba5f482",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1845": {
       "fingerprint": "627a0b30ab979aac5801",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1848": {
       "fingerprint": "93c7940a4a9258590ab7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7508": {
       "fingerprint": "52025f26b37f33d15ab0",
@@ -13575,7 +13575,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2939": {
       "fingerprint": "4fe08cc500c9bc7c27e8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/610": {
       "fingerprint": "7eed7f3228c54861aa79",
@@ -13615,19 +13615,19 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2957": {
       "fingerprint": "0b9589c8f4f9e17d2cdb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3546": {
       "fingerprint": "262b15e903d695a8edd8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c6d8d167677c0bda559ead9daf16f43e75cb71cc": {
       "fingerprint": "aaba713443ce216ac9ca",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ddbbf0f8ab3038a3406844e9ee063644eae57cc3": {
       "fingerprint": "ab91e272153474aec87a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/awslabs/mcp/pull/4796": {
       "fingerprint": "e4cd1c63b7bed9f1a88a",
@@ -13667,31 +13667,31 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2956": {
       "fingerprint": "876422fb8b24318fb3f5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3544": {
       "fingerprint": "4d0586a0e5b4ccac730b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3847": {
       "fingerprint": "33d6030be3878c8b890a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1849": {
       "fingerprint": "ad1d826c5ce733fc6a66",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1850": {
       "fingerprint": "5902fbf199ff3406fb24",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2892": {
       "fingerprint": "7a90722a49d4041a33f4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3010": {
       "fingerprint": "49fd1df9c3bd0454b286",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7501": {
       "fingerprint": "99d6e1c54c0dfb4d1805",
@@ -13807,7 +13807,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1257": {
       "fingerprint": "51fa375c4f6907e630ef",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/731": {
       "fingerprint": "f21bdc0181921cf1129e",
@@ -13875,11 +13875,11 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/74": {
       "fingerprint": "37dff37590065aaa0834",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/75": {
       "fingerprint": "0a8f3af5d850878d989c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7505": {
       "fingerprint": "6603a59c4d04d331eca0",
@@ -14023,7 +14023,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2966": {
       "fingerprint": "91c3ad35c043d8f61844",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2136": {
       "fingerprint": "baff40984e3656540b83",
@@ -14083,11 +14083,11 @@
     },
     "https://github.com/modelcontextprotocol/registry/pull/1852": {
       "fingerprint": "28e1b41c1c1ff2f226d1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1853": {
       "fingerprint": "836e8c57a122b4586dbf",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7083": {
       "fingerprint": "bfef9aa0a49ae2cd436d",
@@ -14103,11 +14103,11 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2968": {
       "fingerprint": "6f6909e1e8e861d01c3b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1854": {
       "fingerprint": "5c6e82ae4af28e939219",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/5509": {
       "fingerprint": "b7f2c423f66508e92213",
@@ -14155,15 +14155,15 @@
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-5572-x678-xmv8": {
       "fingerprint": "b04ffa38eed63854beef",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-fvg8-f358-w2c8": {
       "fingerprint": "bb9f160a24a919eca46d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-pp85-586h-2m95": {
       "fingerprint": "a2511b4fe96d435bd726",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3824": {
       "fingerprint": "3422ba4094b3c5c645da",
@@ -14179,7 +14179,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-9w48-x22j-rrm7": {
       "fingerprint": "c5ad7c8eda35722a9642",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7121": {
       "fingerprint": "ae0af5e4b8145c11ab8a",
@@ -14191,7 +14191,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2630": {
       "fingerprint": "557fe34d3497f51ee63b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6376": {
       "fingerprint": "419e7e9d267a3d553b6f",
@@ -14235,11 +14235,11 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/583": {
       "fingerprint": "fe784b9ace776c9583ee",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2971": {
       "fingerprint": "a2ec884a80eeed309c68",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2873": {
       "fingerprint": "a6705bbe5afb741381ba",
@@ -14399,23 +14399,23 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2969": {
       "fingerprint": "ce25caabb66532a54b3f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2974": {
       "fingerprint": "3f471fcebccc7e8c02e8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2976": {
       "fingerprint": "42f832167645397937b7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2977": {
       "fingerprint": "b6a415a3e56b3f92f4b4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1573": {
       "fingerprint": "aab1707f2032adfbe373",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6440": {
       "fingerprint": "94b9ce491893c15a361b",
@@ -14467,7 +14467,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/99a8e4605c4278b6f905c98e585f98b393b15623": {
       "fingerprint": "73bafbc234da74011ed6",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/cloudflare/workers-sdk/pull/16874": {
       "fingerprint": "b2a63cde03c026c1c3a5",
@@ -14499,7 +14499,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2eb3a8e345aaee53461a3c5c5f6900659d3ecb27": {
       "fingerprint": "4b465299e000d4b0be12",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/3840": {
       "fingerprint": "a39028fe08fa763ad79c",
@@ -14771,19 +14771,19 @@
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2970": {
       "fingerprint": "ad7cdc3b1f302c6fd522",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2972": {
       "fingerprint": "8cdf5a0db3ce221ffca5",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2975": {
       "fingerprint": "732105223c067d4e3961",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2978": {
       "fingerprint": "daab1eb70d1261149576",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7522": {
       "fingerprint": "69aee1202e99e6eb9f3b",
@@ -14799,7 +14799,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/856": {
       "fingerprint": "ee6579cdbf160a875364",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1523": {
       "fingerprint": "956c67d3cf0cf15fb581",
@@ -14827,11 +14827,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/06e923405df3df242f1471b9300d9db90ebd10fd": {
       "fingerprint": "9d80a558799fedca95ba",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/d72c778b468f82b2c6431e5d64f7524c4ad01374": {
       "fingerprint": "c4606f24a1ec26efdc03",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2222": {
       "fingerprint": "245a31cb693c0573d79f",
@@ -15147,7 +15147,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/855": {
       "fingerprint": "5f09b8021dc656a3e900",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/6419": {
       "fingerprint": "50c059dee25a82cad940",
@@ -15183,7 +15183,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1329": {
       "fingerprint": "693f6d0591da835ac826",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1449": {
       "fingerprint": "61154b6759cbb1ed3e53",
@@ -15231,27 +15231,27 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/122e27e869b71a7947661b60c1cb10dc512346fa": {
       "fingerprint": "e568ab0a5e397c4237cc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2757": {
       "fingerprint": "59b6d14d0f0f126a6712",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3858": {
       "fingerprint": "dc4f3ff387cc923a1408",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/76": {
       "fingerprint": "0ad1e7af2f07ed7124ce",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/529": {
       "fingerprint": "2bca99e29429cf42fec8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/1838": {
       "fingerprint": "1e9bbf5a65d0782be2c4",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1450": {
       "fingerprint": "fa7753d13b3a445abfe1",
@@ -15287,11 +15287,11 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/1846": {
       "fingerprint": "d0cf20c3bdc656b2a9e1",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3180": {
       "fingerprint": "bf6fad3ea06885da79b8",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.0": {
       "fingerprint": "afbedda743fd5154215d",
@@ -15299,7 +15299,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/0175d20f8b2c49e0402c37c37ed39ae2be47277e": {
       "fingerprint": "b3f80367f5a72bccc3bf",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7531": {
       "fingerprint": "56507bd65254e3ea1c9d",
@@ -15311,19 +15311,19 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/585": {
       "fingerprint": "bb74e45677776259b43a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/1818": {
       "fingerprint": "5fe180a3025a5fa16622",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3853": {
       "fingerprint": "e4efed922e1ab4c5a8e2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2807": {
       "fingerprint": "e5b4a5f04c9688d4b89f",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/awslabs/mcp/pull/5098": {
       "fingerprint": "317972e4a484e2c21d6f",
@@ -15339,7 +15339,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1334": {
       "fingerprint": "32d7952e2b662692b457",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7526": {
       "fingerprint": "4267c6c66e0b11c3ce1e",
@@ -15387,11 +15387,11 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/586": {
       "fingerprint": "7ec01aad817ff7a76f6a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/587": {
       "fingerprint": "1e82cdeaff223bb10cdd",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7530": {
       "fingerprint": "58a61570eede323b7ec0",
@@ -15407,11 +15407,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1333": {
       "fingerprint": "7f670c45545c563fdd28",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1335": {
       "fingerprint": "3e940e53c71c90ea4169",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1451": {
       "fingerprint": "8b5dadb5691374585dd6",
@@ -15454,20 +15454,20 @@
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3549": {
-      "fingerprint": "e47ee59e2a520d0ac516",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "60fa84d4830737cab3db",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1856": {
       "fingerprint": "5a80b9eee456f29164e2",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2429": {
       "fingerprint": "a07c6dbd6d992b549b8a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3181": {
       "fingerprint": "0a73716a217789e2e9ba",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7533": {
       "fingerprint": "d2dd7df62bcc9c51b6f0",
@@ -15499,7 +15499,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1171": {
       "fingerprint": "b4386112721c2a8e5284",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/743": {
       "fingerprint": "4704df372b4dc44a674f",
@@ -15567,11 +15567,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1331": {
       "fingerprint": "918fba1e8b5bd7268548",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1332": {
       "fingerprint": "9fbd9027c74bb3173918",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/mcpb/pull/309": {
       "fingerprint": "2e599925a6afcc66ed78",
@@ -15618,8 +15618,8 @@
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3550": {
-      "fingerprint": "52071591048b54cf495b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "c6c4c639bba8156997dc",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3848": {
       "fingerprint": "78b64a040df08beaf41d",
@@ -15627,7 +15627,7 @@
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3184": {
       "fingerprint": "f51034aa293e69fb2236",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/685": {
       "fingerprint": "92e66eb55d1e12069799",
@@ -15643,7 +15643,7 @@
     },
     "https://github.com/modelcontextprotocol/conformance/pull/563": {
       "fingerprint": "0e577b8053316a95f109",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2932": {
       "fingerprint": "2092ba8daa8ef03fc727",
@@ -15651,15 +15651,15 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3859": {
       "fingerprint": "d2e69926670aef471678",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1858": {
       "fingerprint": "c6efa45458b572ec028a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3183": {
       "fingerprint": "2e9d2aa47bc9670db771",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1528": {
       "fingerprint": "c1cb3b74297946db631f",
@@ -15695,11 +15695,11 @@
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3860": {
       "fingerprint": "f82df414f7e68ddcf7ce",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1859": {
       "fingerprint": "dba00cd5fd3f50c6b8ca",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/798": {
       "fingerprint": "454351cc2b810b41ce26",
@@ -15746,16 +15746,16 @@
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3552": {
-      "fingerprint": "96f204fc019a45e9e81b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "dc9c0db13fa5a0649f1a",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3554": {
       "fingerprint": "cd43854ec467d7c68a19",
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3188": {
-      "fingerprint": "397b84d275e5da5f0efc",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "7c0c9d8fb1f62468f3eb",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/Tencent/AI-Infra-Guard/pull/768": {
       "fingerprint": "33a33719aa86065a901a",
@@ -15767,7 +15767,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/859": {
       "fingerprint": "983fcc31235a1bd147ff",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1457": {
       "fingerprint": "23bb749979c7dd90201e",
@@ -15810,8 +15810,8 @@
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3187": {
-      "fingerprint": "9a5b9a8ea5ba92ddfe3e",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "d50388d86693254ad4a7",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7140": {
       "fingerprint": "a58b14f504257c07656d",
@@ -15847,11 +15847,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3551": {
       "fingerprint": "2c0f8b4ed221131ea0e7",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3553": {
       "fingerprint": "608d4a32242e12a33b7a",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/awslabs/mcp/pull/5107": {
       "fingerprint": "96a72ad35f67091e7ae5",
@@ -15863,7 +15863,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/858": {
       "fingerprint": "7d96d22e7b5a8faff520",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/687": {
       "fingerprint": "548e6a42747d1065c6dd",
@@ -15883,11 +15883,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2be673cfa63064b243a6016588411343c0f9fdee": {
       "fingerprint": "c2ced970a4c7a11f9218",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/4414a49c82d7fcc5f2a2ed9ddfc76139a09c1789": {
       "fingerprint": "9b52547ab1032dfd849b",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6497": {
       "fingerprint": "cf45dd649747c0f678ad",
@@ -15919,11 +15919,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1100": {
       "fingerprint": "349419bf79820f235a90",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1138": {
       "fingerprint": "d37d8822260bc367bf34",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-17T01:17:44+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/688": {
       "fingerprint": "51f495ed590bed2fb05a",
@@ -15980,6 +15980,90 @@
     "https://github.com/IBM/mcp-context-forge/pull/7541": {
       "fingerprint": "4cdcbe8cb01110186f00",
       "last_seen": "2026-11-16T01:17:05+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/de3550c9fea3c5269e42ac95204eef44a2b2cb92": {
+      "fingerprint": "106fc8a400d5d69a0238",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/conformance/pull/589": {
+      "fingerprint": "3a9212ec0e85378041e8",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/python-sdk/pull/3865": {
+      "fingerprint": "163abf8996b99d6e3f6a",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/python-sdk/pull/2853": {
+      "fingerprint": "8acb49a78519e156474a",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3561": {
+      "fingerprint": "f120f264e3ab08a43284",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/python-sdk/pull/3864": {
+      "fingerprint": "266eed879bc9de66c7b8",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/typescript-sdk/pull/3190": {
+      "fingerprint": "107d77c106bea2d88497",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/typescript-sdk/pull/3192": {
+      "fingerprint": "9f1ccadb6808661e1756",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/conformance/pull/590": {
+      "fingerprint": "52ee80c36539655c55ae",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ac00313ff7f5e9f47b0e0d1ebdf9c0ad6411380b": {
+      "fingerprint": "8cbfd3f72cfe451d46cc",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3563": {
+      "fingerprint": "41adf01c9f9043c3b52b",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3560": {
+      "fingerprint": "191d3ee4524d4e5778b6",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3558": {
+      "fingerprint": "78518596ae85ca9242ab",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3556": {
+      "fingerprint": "c8bfa81d04551c2e2f4b",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/java-sdk/pull/1337": {
+      "fingerprint": "c13e4e0c1fe07fe4ddc6",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/java-sdk/pull/1338": {
+      "fingerprint": "bcd0218ef31880112ba1",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/java-sdk/pull/1339": {
+      "fingerprint": "3af6827d989eeacccfed",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/java-sdk/pull/1340": {
+      "fingerprint": "61c4faae3a23f5f8ab62",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/java-sdk/pull/1341": {
+      "fingerprint": "4c05273c85d7db6c3556",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3557": {
+      "fingerprint": "4fd6b5cde9816aad6483",
+      "last_seen": "2026-11-17T01:17:44+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3559": {
+      "fingerprint": "42a92988c0148c7547be",
+      "last_seen": "2026-11-17T01:17:44+00:00"
     }
   }
 }

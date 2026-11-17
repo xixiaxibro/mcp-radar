@@ -1,10 +1,10 @@
-# MCP Radar · 2026-11-16 (UTC)
+# MCP Radar · 2026-11-17 (UTC)
 
-采集时间：2026-11-16T01:17:05+00:00 · 回看窗口：14 天。
+采集时间：2026-11-17T01:17:44+00:00 · 回看窗口：14 天。
 
 这是公开来源的更新索引和选题素材，不是已经审读、复现的技术结论。标题和摘录来自上游；优先级由可见规则计算。
 
-本次窗口内 2445 条记录；本日累计 138 个新增/变更版本；失败端点 1 个；覆盖警告 0 个。
+本次窗口内 534 条记录；本日累计 31 个新增/变更版本；失败端点 38 个；覆盖警告 0 个。
 
 ## 覆盖与限制
 
@@ -12,35 +12,72 @@ PR merged 表示代码进入分支，不代表已发布；release 不自动证�
 
 仅跟踪 watchlist 中公开仓库的 PR、指定仓库 issue/commit、release、公开安全公告和订阅源。未提供 API 的社区讨论、社交媒体和完整标准文档变更不在覆盖保证内。RSS 仅提供源当前保留的条目。
 
-- 采集失败：`PrefectHQ/fastmcp` / releases — Unterminated string starting at: line 1 column 688660 (char 688659)
+- 采集失败：`IBM/mcp-context-forge` / source — Network error from api.github.com/repos/IBM/mcp-context-forge
+- 采集失败：`PrefectHQ/fastmcp` / source — Network error from api.github.com/repos/PrefectHQ/fastmcp
+- 采集失败：`Tencent/AI-Infra-Guard` / source — Network error from api.github.com/repos/Tencent/AI-Infra-Guard
+- 采集失败：`awslabs/mcp` / source — Network error from api.github.com/repos/awslabs/mcp
+- 采集失败：`cloudflare-mcp` / source — Network error from blog.cloudflare.com/rss/
+- 采集失败：`cloudflare/agents` / source — Network error from api.github.com/repos/cloudflare/agents
+- 采集失败：`cloudflare/workers-oauth-provider` / source — Network error from api.github.com/repos/cloudflare/workers-oauth-provider
+- 采集失败：`cloudflare/workers-sdk` / source — Network error from api.github.com/repos/cloudflare/workers-sdk
+- 采集失败：`getsentry/toolkit` / source — Network error from api.github.com/repos/getsentry/toolkit
+- 采集失败：`github/github-mcp-server` / source — Network error from api.github.com/repos/github/github-mcp-server
+- 采集失败：`lastmile-ai/mcp-agent` / source — Network error from api.github.com/repos/lastmile-ai/mcp-agent
+- 采集失败：`mcp-official-blog` / source — Network error from blog.modelcontextprotocol.io/index.xml
+- 采集失败：`microsoft/playwright-mcp` / source — Network error from api.github.com/repos/microsoft/playwright-mcp
+- 采集失败：`modelcontextprotocol/agents-wg` / commits — Network error from api.github.com/repos/modelcontextprotocol/agents-wg/commits
+- 采集失败：`modelcontextprotocol/agents-wg` / issues — Network error from api.github.com/repos/modelcontextprotocol/agents-wg/issues
+- 采集失败：`modelcontextprotocol/agents-wg` / releases — Network error from api.github.com/repos/modelcontextprotocol/agents-wg/releases
+- 采集失败：`modelcontextprotocol/agents-wg` / security-advisories — The read operation timed out
+- 采集失败：`modelcontextprotocol/csharp-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/csharp-sdk
+- 采集失败：`modelcontextprotocol/ext-skills` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/ext-skills` / releases — Network error from api.github.com/repos/modelcontextprotocol/ext-skills/releases
+- 采集失败：`modelcontextprotocol/ext-skills` / security-advisories — Network error from api.github.com/repos/modelcontextprotocol/ext-skills/security-advisories
+- 采集失败：`modelcontextprotocol/go-sdk` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/go-sdk` / releases — Network error from api.github.com/repos/modelcontextprotocol/go-sdk/releases
+- 采集失败：`modelcontextprotocol/go-sdk` / security-advisories — Network error from api.github.com/repos/modelcontextprotocol/go-sdk/security-advisories
+- 采集失败：`modelcontextprotocol/java-sdk` / releases — Network error from api.github.com/repos/modelcontextprotocol/java-sdk/releases
+- 采集失败：`modelcontextprotocol/java-sdk` / security-advisories — The read operation timed out
+- 采集失败：`modelcontextprotocol/kotlin-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/kotlin-sdk
+- 采集失败：`modelcontextprotocol/mcpb` / source — Network error from api.github.com/repos/modelcontextprotocol/mcpb
+- 采集失败：`modelcontextprotocol/modelcontextprotocol` / issues — Unterminated string starting at: line 1 column 15896 (char 15895)
+- 采集失败：`modelcontextprotocol/php-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/php-sdk
+- 采集失败：`modelcontextprotocol/ruby-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/ruby-sdk
+- 采集失败：`modelcontextprotocol/rust-sdk` / source — The read operation timed out
+- 采集失败：`modelcontextprotocol/servers` / source — Network error from api.github.com/repos/modelcontextprotocol/servers
+- 采集失败：`modelcontextprotocol/swift-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/swift-sdk
+- 采集失败：`modelcontextprotocol/typescript-sdk` / security-advisories — The read operation timed out
+- 采集失败：`snyk/agent-scan` / source — Network error from api.github.com/repos/snyk/agent-scan
+- 采集失败：`sparfenyuk/mcp-proxy` / source — Network error from api.github.com/repos/sparfenyuk/mcp-proxy
+- 采集失败：`stacklok/toolhive` / source — Network error from api.github.com/repos/stacklok/toolhive
 
 ## 重点 PR / 提案
 
-显示 20 / 136 条；全部数据见当日 JSON。
+显示 20 / 29 条；全部数据见当日 JSON。
 
 ### [docs: stop presenting deprecated features as current on the spec overview pages](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3552)
 
-`modelcontextprotocol/modelcontextprotocol` · **open** · new · 分数 94 · 上游时间 2026-11-15T19:55:09Z
+`modelcontextprotocol/modelcontextprotocol` · **merged** · updated · 分数 104 · 上游时间 2026-11-16T17:32:46Z
 
-入选依据：T1 watchlist; breaking: deprecat; protocol: protocol; proposal: sep-。
+入选依据：T1 watchlist; breaking: deprecat; protocol: protocol; proposal: sep-; merged implementation; verify release separately。
 
 > 上游摘录（未审读）：The architecture and base protocol overview pages are where many people new to MCP start. Both still presented sampling, roots and logging as current features, with no indication that they are deprecated as of '2026-07-28' (SEP-2577). Fixes #3548 ## Architecture page Builds on the branch Lazzaretti proposed in #3548 (their commit is included as-is), which updates the five places the issue lists: - Intro: "context exc
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [Runtime enforcement: the Security section's missing layer](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3538)
+### [feat(server): add SEP-2350 scope challenge scenario](https://github.com/modelcontextprotocol/conformance/pull/481)
 
-`modelcontextprotocol/modelcontextprotocol` · **closed** · updated · 分数 92 · 上游时间 2026-11-15T21:05:30Z
+`modelcontextprotocol/conformance` · **open** · updated · 分数 92 · 上游时间 2026-11-16T15:00:21Z
 
-入选依据：T1 watchlist; security: security, authorization; protocol: protocol; proposal: specification。
+入选依据：T1 watchlist; security: oauth, token; protocol: sse, conformance; proposal: sep-。
 
-> 上游摘录（未审读）：The specification's Security and Trust & Safety section states that MCP itself cannot enforce its security principles at the protocol level, and that implementors SHOULD build consent and authorization flows, access controls, and documentation. That leaves the enforcement question to each implementor, with no shared account of what enforcement must look like to hold. Once a host connects an agent to tools, the agent'
+> 上游摘录（未审读）：## Summary - add a language-neutral server conformance scenario for request-time OAuth 'insufficient\_scope' challenges - exercise 'tools/call', static and templated 'resources/read', and 'prompts/get' with a fixed cross-SDK fixture contract - assert HTTP 403, \*\*\*\*\*\* parameters, the complete required scope set in one challenge, and successful upgraded-token retries - restore 'sep-2350-server-single-challenge' traceabi
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
 ### [sep(SEP-2643): Structured Authorization Denials](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2643)
 
-`modelcontextprotocol/modelcontextprotocol` · **open** · updated · 分数 82 · 上游时间 2026-11-15T21:45:04Z
+`modelcontextprotocol/modelcontextprotocol` · **open** · updated · 分数 82 · 上游时间 2026-11-16T12:04:35Z
 
 入选依据：T1 watchlist; security: authorization; protocol: protocol, transport; proposal: sep-, proposal; draft PR。
 
@@ -48,19 +85,9 @@ PR merged 表示代码进入分支，不代表已发布；release 不自动证�
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [Output Schema: say how a server can change a tool's 'outputSchema' without breaking clients that cached it](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3554)
-
-`modelcontextprotocol/modelcontextprotocol` · **open** · new · 分数 78 · 上游时间 2026-11-15T22:50:57Z
-
-入选依据：T1 watchlist; breaking: breaking; protocol: schema。
-
-> 上游摘录（未审读）：The Output Schema section says servers \*\*MUST\*\* return structured results that conform to the schema, and clients \*\*SHOULD\*\* validate them against it. It doesn't say which schema applies when the two sides hold different versions. Clients cache tool lists, so after a server changes a tool, a client can validate a new result against the old schema. What happened to us: our server removed two fields that a tool's 'outp
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
 ### [docs: add troubleshooting entry for empty inputSchema / reading '\_def'](https://github.com/modelcontextprotocol/typescript-sdk/pull/3188)
 
-`modelcontextprotocol/typescript-sdk` · **open** · new · 分数 78 · 上游时间 2026-11-15T15:57:21Z
+`modelcontextprotocol/typescript-sdk` · **open** · updated · 分数 78 · 上游时间 2026-11-16T08:11:28Z
 
 入选依据：T1 watchlist; breaking: migration; protocol: schema。
 
@@ -68,153 +95,163 @@ PR merged 表示代码进入分支，不代表已发布；release 不自动证�
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [feat(fingerprint): add MCP Inspector fingerprint and CVE-2025-49596 rule](https://github.com/Tencent/AI-Infra-Guard/pull/768)
+### [feat(server): add tools-call-input-validation scenario (SEP-1303)](https://github.com/modelcontextprotocol/conformance/pull/589)
 
-`Tencent/AI-Infra-Guard` · **open** · new · 分数 76 · 上游时间 2026-11-15T21:25:43Z
+`modelcontextprotocol/conformance` · **open** · new · 分数 72 · 上游时间 2026-11-16T11:33:49Z
 
-入选依据：T1 watchlist; security: cve-, ghsa-; protocol: protocol, transport。
+入选依据：T1 watchlist; security: security; proposal: sep-。
 
-> 上游摘录（未审读）：## Summary Adds detection for MCP Inspector ('@modelcontextprotocol/inspector'), the official MCP debugging tool, plus a rule for CVE-2025-49596 / GHSA-7f8r-222p-6f5g. Nothing under 'data/' mentions Inspector today. - 'data/fingerprints/mcp-inspector.yaml': 'GET /config' on the proxy (port 6277) returns 'defaultEnvironment', 'defaultCommand' and 'defaultArgs' but not 'defaultTransport'. - 'data/vuln/mcp-inspector/CVE
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Move OAuth error classification to oauthproto](https://github.com/stacklok/toolhive/pull/7131)
-
-`stacklok/toolhive` · **merged** · updated · 分数 74 · 上游时间 2026-11-14T16:39:01Z
-
-入选依据：T2 watchlist; security: oauth, token; protocol: protocol; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：## Summary The OAuth token-endpoint error predicates lived in 'pkg/auth/oautherr'. Code in 'pkg/authserver' and the DCR probe that classifies upstream failures therefore had to import the client-side 'pkg/auth' tree. As a result, the OAuth protocol and authserver packages cannot be used without 'pkg/auth'. - Move 'IsTransientRetrieveError', 'IsPermanentCredentialError', 'IsRejectedRefreshGrant', and 'IsParseError' to
+> 上游摘录（未审读）：Closes #588. Adds a server scenario for SEP-1303 and the security requirement that servers \*\*MUST\*\* "Validate all tool inputs" ('server/tools', 2025-11-25 and draft). Shape and questions are in #588; happy to adjust. ## What it adds - 'src/scenarios/server/tools-input-validation.ts': scenario 'tools-call-input-validation' ('introducedIn: '2025-11-25'', active suite, not added to any 'requirements/\*.yaml'). One connec
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [fix(auth): relax revoked\_by FK and persist revocations for trust-mode principals](https://github.com/IBM/mcp-context-forge/pull/6747)
+### [SEP-2624: Interceptors for the Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2624)
 
-`IBM/mcp-context-forge` · **open** · updated · 分数 72 · 上游时间 2026-11-15T14:31:23Z
+`modelcontextprotocol/modelcontextprotocol` · **open** · updated · 分数 66 · 上游时间 2026-11-16T14:02:12Z
 
-入选依据：T2 watchlist; breaking: migration; security: token。
+入选依据：T1 watchlist; protocol: protocol, lifecycle; proposal: sep-。
 
-> 上游摘录（未审读）：One idempotent migration ('f7a8b9c0d1e2', parent 'e5f6a7b8c9d0') makes 'TokenRevocation.revoked\_by' nullable and drops the FK to 'email\_users.email' — trust-mode principals have no user row, and the old NOT-NULL FK broke every revocation insert for them (the idle path silently swallowed the failure). The 'revoker' relationship that depended on the FK is removed. All six revocation insert sites now store the canonical
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Restore Marvin labeling and reopen disputed duplicates](https://github.com/PrefectHQ/fastmcp/pull/6495)
-
-`PrefectHQ/fastmcp` · **merged** · new · 分数 66 · 上游时间 2026-11-15T08:14:06Z
-
-入选依据：T1 watchlist; security: token; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：Marvin now returns a structured list of labels. GitHub Actions validates the selection against its allowlist and existing repository labels, then applies the labels to the triggering issue or PR using a separate write token. Duplicate auto-closure now checks the full comment and reaction history. After Marvin closes a duplicate, a new comment from the reporter, a repository contributor, or a maintainer reopens it for
+> 上游摘录（未审读）：### Summary This PR introduces a SEP for an interceptor framework for the Model Context Protocol, defining a new MCP primitive that allows context operations to be intercepted, validated, and transformed at key points in the agentic lifecycle. ### Motivation The MCP ecosystem is rapidly developing a sprawling landscape of sidecars, proxies, client-wrappers and gateways to address cross-cutting context governance conc
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
 ### [docs: add release cycle page](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3550)
 
-`modelcontextprotocol/modelcontextprotocol` · **open** · updated · 分数 66 · 上游时间 2026-11-16T01:08:30Z
+`modelcontextprotocol/modelcontextprotocol` · **open** · updated · 分数 66 · 上游时间 2026-11-17T00:11:17Z
 
 入选依据：T1 watchlist; protocol: protocol; proposal: sep-。
 
-> 上游摘录（未审读）：Adds 'docs/community/release-cycle.mdx', the release-cycle documentation required by \[SEP-3398\](https://modelcontextprotocol.io/seps/3398-release-cycle-updates) (Reference Implementation, item 2). - Schedule: six-month releases, eight-month cycles, and the two-month overlap, with an example timeline (light and dark SVG) of a March and a September cycle. - Milestones table with the timing and outcome of each milestone
+> 上游摘录（未审读）：Adds 'docs/community/release-cycle.mdx', the release-cycle documentation required by \[SEP-3398\](https://modelcontextprotocol.io/seps/3398-release-cycle-updates) (Reference Implementation, item 2), and aligns the governance pages that SEP-3398 changes. ## Release cycle page - Schedule: six-month releases, eight-month cycles, and the two-month overlap, with an example timeline (light and dark SVG) of a March and a Sept
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [docs(auth): document JWT-trust mode and complete validation gate](https://github.com/IBM/mcp-context-forge/pull/6755)
+### [Drop client-side validation of tool results against the output schema](https://github.com/modelcontextprotocol/python-sdk/pull/3865)
 
-`IBM/mcp-context-forge` · **open** · updated · 分数 64 · 上游时间 2026-11-15T14:31:24Z
+`modelcontextprotocol/python-sdk` · **open** · new · 分数 66 · 上游时间 2026-11-16T11:55:28Z
 
-入选依据：T2 watchlist; security: token; protocol: sse。
+入选依据：T1 watchlist; protocol: schema; proposal: specification。
 
-> 上游摘录（未审读）：Completes Epic 2 (#5885): executable tests for every disabled-with-clear-error row of the feature-mode matrix, the trust-mode documentation sweep, and the validation gate in both modes. Matrix coverage: 20 tests in 'tests/unit/mcpgateway/test\_trust\_mode\_disabled\_surfaces.py' assert BOTH the status code and the exact message for all seven disabled rows (TDD: 17 red first). Only the token-catalog row had landed with #5
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: add add-apps-to-host skill for building MCP Apps hosts](https://github.com/modelcontextprotocol/ext-apps/pull/859)
-
-`modelcontextprotocol/ext-apps` · **closed** · new · 分数 64 · 上游时间 2026-11-15T03:39:50Z
-
-入选依据：T2 watchlist; security: security; protocol: protocol。
-
-> 上游摘录（未审读）：## Problem The repo ships skills for building MCP Apps (create-mcp-app, add-app-to-server, convert-web-app, migrate-oai-app). Nothing covers the other side of the protocol: a chat client that wants to render MCP Apps. Host authors have to reverse-engineer examples/basic-host and the spec to learn which pieces to build, in what order, and which security rules are mandatory. Most mistakes happen in the browser parts, t
+> 上游摘录（未审读）：'ClientSession.call\_tool' checked every tool result's 'structured\_content' against the 'outputSchema' from 'tools/list', using 'jsonschema'. The server writes both the schema and the result, so the check could only tell you that a server disagrees with itself. It also cost a dependency tree ('jsonschema', 'jsonschema-specifications', 'referencing', 'rpds-py') and an implicit 'tools/list' the first time you called eac
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [fix(auth): omit scope on refresh unless caller sets one](https://github.com/modelcontextprotocol/rust-sdk/pull/1433)
+### [fix: retry token refresh without RFC 8707 resource param when the AS rejects it](https://github.com/modelcontextprotocol/python-sdk/pull/2853)
 
-`modelcontextprotocol/rust-sdk` · **open** · updated · 分数 64 · 上游时间 2026-11-15T18:06:34Z
+`modelcontextprotocol/python-sdk` · **open** · new · 分数 56 · 上游时间 2026-11-16T20:28:04Z
 
-入选依据：T2 watchlist; security: authorization; protocol: transport。
+入选依据：T1 watchlist; security: oauth, token。
 
-> 上游摘录（未审读）：fixes #1408 refresh was always sending 'scope' from the stored grant, which some servers (salesforce) reject. rfc 6749 §6 says scope is optional on refresh and leaving it out keeps the original grant. now refresh omits 'scope' unless the caller sets it via 'AuthorizationManager::set\_refresh\_scopes()'. when set, only scopes from the original grant get sent (keeps the #1331 behaviour). if none of them are in the grant,
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [fix(auth): avoid refreshing short-lived access tokens on every call](https://github.com/modelcontextprotocol/rust-sdk/pull/1450)
-
-`modelcontextprotocol/rust-sdk` · **open** · updated · 分数 64 · 上游时间 2026-11-16T00:37:41Z
-
-入选依据：T2 watchlist; security: token; protocol: transport。
-
-> 上游摘录（未审读）：Fixes #1442 ## Problem get\_access\_token refreshes whenever remaining < 30s. Tokens with expires\_in <= 30s are always inside the window, so every call triggers a refresh (and a rotated refresh token each time). ## Change - Buffer is now min(REFRESH\_BUFFER\_SECS, expires\_in / 2), as agreed in the issue. - Added remaining == 0 so expired tokens with expires\_in <= 1 (buffer 0) still refresh/re-auth instead of being return
+> 上游摘录（未审读）：## Motivation and Context Fixes #2578. Microsoft Entra ID v2.0 rejects the RFC 8707 'resource' parameter on 'refresh\_token' grants ('AADSTS9010010', strictly enforced since March 2026). Because the SDK sends it on every refresh, MCP clients using Entra OAuth lose authentication after ~1 hour: the silent refresh fails, tokens are cleared, and the user is forced through interactive re-auth every hour. At the same time,
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [fix(client): cap list\_all\_\* pagination like the MRTR round cap](https://github.com/modelcontextprotocol/rust-sdk/pull/1457)
+### [build(deps-dev): bump mint from 4.3.5 to 4.3.23](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3561)
 
-`modelcontextprotocol/rust-sdk` · **open** · new · 分数 64 · 上游时间 2026-11-15T13:19:15Z
+`modelcontextprotocol/modelcontextprotocol` · **open** · new · 分数 54 · 上游时间 2026-11-16T08:09:54Z
 
-入选依据：T2 watchlist; security: token; protocol: mrtr, pagination。
+入选依据：T1 watchlist; breaking: compatib; security: security, vulnerab; routine maintenance penalty。
 
-> 上游摘录（未审读）：Fixes #1456 ## Problem 'list\_all\_tools' / 'list\_all\_prompts' / 'list\_all\_resources' / 'list\_all\_resource\_templates' / 'list\_all\_skills' looped until 'next\_cursor' was 'None'. The spec forbids interpreting the cursor value — '""' is a valid cursor — so a peer that keeps returning one (a fresh token per page, the same token again, or a repeated cursor served from the page cache under a positive 'ttlMs') made the walk a
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Filter SSE list answers on the event stream](https://github.com/stacklok/toolhive/pull/6949)
-
-`stacklok/toolhive` · **open** · updated · 分数 64 · 上游时间 2026-11-14T01:27:53Z
-
-入选依据：T2 watchlist; security: authorization; protocol: streamable, sse。
-
-> 上游摘录（未审读）：Fixes #6926. ## Summary \*\*Why:\*\* Over SSE, list answers (tools, prompts, resources, resource templates, skills) reached the client on the GET event stream, which was not filtered. \*\*What:\*\* Each GET event is now filtered as it arrives, with the same per-entry authorization as the streamable path. The filter is picked from the shape of each result. ## Does this introduce a user-facing change? - \*\*SSE list answers.\*\* B
+> 上游摘录（未审读）：Bumps \[mint\](https://github.com/mintlify/mint/tree/HEAD/packages/mint) from 4.3.5 to 4.3.23. Commits See full diff in compare view \[!\[Dependabot compatibility score\](https://dependabot-badges.githubapp.com/badges/compatibility\_score?dependency-name=mint&package-manager=npm\_and\_yarn&previous-version=4.3.5&new-version=4.3.23)\](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [Give triage's assess agent public facts about the people on an issue](https://github.com/PrefectHQ/fastmcp/pull/6486)
+### [docs: link roadmap to release cycle](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3549)
 
-`PrefectHQ/fastmcp` · **merged** · new · 分数 60 · 上游时间 2026-11-14T01:40:39Z
+`modelcontextprotocol/modelcontextprotocol` · **open** · updated · 分数 50 · 上游时间 2026-11-16T23:14:27Z
 
-入选依据：T1 watchlist; protocol: sse; merged implementation; verify release separately。
+入选依据：T1 watchlist; protocol: protocol, sse。
 
-> 上游摘录（未审读）：the assess agent never saw who it was assessing. intake collected each author's login and nothing else, and the prompt told the agent to "check unfamiliar contributors" with commands it has no credential to run. a maintainer skimming an issue sees in a second that the reporter has 3,000 followers, or that the PR author filed the issue an hour before their own fix and opens PRs across dozens of repos. the assess conte
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Add the Events extension with poll and push delivery (SEP-3415)](https://github.com/PrefectHQ/fastmcp/pull/6489)
-
-`PrefectHQ/fastmcp` · **open** · new · 分数 56 · 上游时间 2026-11-14T07:29:09Z
-
-入选依据：T1 watchlist; protocol: protocol; proposal: sep-, proposal, extension; draft PR。
-
-> 上游摘录（未审读）：A server has no way to tell a client that something happened outside a request: an alert fired, a build finished. The Events extension (\[SEP-3415\](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415), accepted, not yet merged) defines event types a client subscribes to, with poll, push and webhook delivery. This adds poll and push delivery ('events/list', 'events/poll', 'events/stream') as an 'Even
+> 上游摘录（未审读）：Adds a direct link from the roadmap to '/community/release-cycle' so readers can find the release schedule and SEP timing. Depends on https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3550, which adds the new page and must merge first. Validation: 'npm run prep' passes with the proposed page and its images temporarily present. Those files are not included in this PR; without them, the link check repor
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [fix: deliver progress notifications that share a read with their response](https://github.com/modelcontextprotocol/typescript-sdk/pull/3023)
+### [fix(server): return HTTP 200 for handler-origin INVALID\_PARAMS in modern streamable HTTP](https://github.com/modelcontextprotocol/python-sdk/pull/3864)
 
-`modelcontextprotocol/typescript-sdk` · **open** · updated · 分数 56 · 上游时间 2026-11-15T20:43:30Z
+`modelcontextprotocol/python-sdk` · **closed** · new · 分数 50 · 上游时间 2026-11-16T11:22:05Z
 
-入选依据：T1 watchlist; security: token。
+入选依据：T1 watchlist; protocol: streamable。
 
-> 上游摘录（未审读）：## Summary Fixes #3018. '\_onnotification' deferred handlers with 'Promise.resolve()', while '\_onresponse' runs synchronously and deletes the matching progress handler. When a progress notification and its response arrive in the same read/turn, the response cleared the handler before the deferred notification ran, so progress was dropped and 'onerror' reported an unknown token. This dispatches notification handlers sy
+> 上游摘录（未审读）：## Summary On the 2026-07-28 modern Streamable HTTP path ('src/mcp/server/\_streamable\_http\_modern.py'), '\_write' previously mapped every 'JSONRPCError' through 'ERROR\_CODE\_HTTP\_STATUS' regardless of error origin. Because 'ERROR\_CODE\_HTTP\_STATUS' maps 'INVALID\_PARAMS' ('-32602') to HTTP '400' for inbound envelope rejections, handler-origin '-32602' errors (such as reading an unknown resource URI via 'MCPServer') were
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [fix(server-legacy): serve the RFC 8414 issuer without a trailing slash](https://github.com/modelcontextprotocol/typescript-sdk/pull/3184)
+### [fix(server): initialize completions after registration updates](https://github.com/modelcontextprotocol/typescript-sdk/pull/3187)
 
-`modelcontextprotocol/typescript-sdk` · **open** · updated · 分数 56 · 上游时间 2026-11-15T08:08:53Z
+`modelcontextprotocol/typescript-sdk` · **open** · updated · 分数 50 · 上游时间 2026-11-16T08:11:25Z
 
-入选依据：T1 watchlist; security: oauth, authorization。
+入选依据：T1 watchlist; protocol: schema。
 
-> 上游摘录（未审读）：## Summary 'createOAuthMetadata' wrote 'issuer: issuerUrl.href', and 'new URL('https://host').href' normalizes to 'https://host/' — so an authorization server constructed from a slash-less origin string advertised a \*\*slashed\*\* issuer. RFC 8414 §2 forbids a trailing slash on the issuer identifier, and §3.3 requires the metadata 'issuer' to be byte-identical to the URL the well-known document was fetched from. The pra
+> 上游摘录（未审读）：# fix(server): initialize completions after registration updates Adding a completion callback through 'prompt.update({ argsSchema })' or 'resource.update({ template })' before connecting leaves the server without its completion handler. 'completion/complete' returns '-32601 Method not found', even though registering the same callback initially works. Reuse the existing completion setup for registration and updates. V
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [fix(core-internal): classify an inbound message by its envelope keys](https://github.com/modelcontextprotocol/typescript-sdk/pull/3190)
+
+`modelcontextprotocol/typescript-sdk` · **open** · new · 分数 50 · 上游时间 2026-11-16T08:11:31Z
+
+入选依据：T1 watchlist; protocol: protocol, schema。
+
+> 上游摘录（未审读）：# fix(core-internal): classify an inbound JSON-RPC message by its envelope keys ## What 'Protocol''s 'onmessage' now settles the message kind from its envelope keys before validating, so each inbound message runs one schema walk instead of three or four. - 'result' or 'error' → the result and error response schemas only. - 'method' with 'id' → the request schema only. - 'method' without 'id' → the notification schema
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [test(e2e): close the in-process stdio client the way the real transport does](https://github.com/modelcontextprotocol/typescript-sdk/pull/3192)
+
+`modelcontextprotocol/typescript-sdk` · **open** · new · 分数 50 · 上游时间 2026-11-16T21:35:30Z
+
+入选依据：T1 watchlist; protocol: protocol, transport, sse。
+
+> 上游摘录（未审读）：The e2e 'stdio' leg runs over 'stdioClientOverPipes', a test-only client on in-process pipes, instead of 'StdioClientTransport'. Its 'close()' only ended the server's stdin and never fired 'onclose', so 'typescript:protocol:error:connection-closed' was listed as a known failure on stdio although the real transport passes it. The real transport fires 'onclose' from the child process's 'close' event, and its 'close()'
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [docs: correct 2026-07-28 and draft content](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3516)
+
+`modelcontextprotocol/modelcontextprotocol` · **merged** · updated · 分数 40 · 上游时间 2026-11-16T04:15:12Z
+
+入选依据：T1 watchlist; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：Taking an accuracy pass over the MCP docs.
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [feat(sep-2640): grade 13 more rows, including two-server host rules](https://github.com/modelcontextprotocol/conformance/pull/590)
+
+`modelcontextprotocol/conformance` · **open** · new · 分数 36 · 上游时间 2026-11-16T08:46:54Z
+
+入选依据：T1 watchlist; proposal: sep-; draft PR。
+
+> 上游摘录（未审读）：## What changes Grades 13 more 'sep-2640.yaml' rows. The yaml counted 46 of its 89 checks as emitted, and now counts 59. Six server checks join the existing scenarios: - 'enumeration.ts': 'sep-2640-resources-nested-completeness' and 'sep-2640-nested-publication-flat' for nested skills, plus 'sep-2640-error-standard-codes' ('-32602' for a skill file the server does not serve) and 'sep-2640-error-informative-messages'
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [feat(blog): add a quote block for person quotes](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3563)
+
+`modelcontextprotocol/modelcontextprotocol` · **open** · new · 分数 30 · 上游时间 2026-11-17T01:16:31Z
+
+入选依据：T1 watchlist。
+
+> 上游摘录（未审读）：Long quotations from named people were written as plain blockquotes: italic text in quotation marks behind a bar, with a '✦ \*\*Name\*\*, Title, Company' line underneath. In the first anniversary post, eleven of them in a row read as a wall of text. ## What changes - \*\*'quote' shortcode on its own\*\* now renders a quote block: a panel on '--surface' in the text column, with a large opening quotation mark cut by the top ed
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [fix(core-internal): match query variables that expand omitted](https://github.com/modelcontextprotocol/typescript-sdk/pull/3147)
+
+`modelcontextprotocol/typescript-sdk` · **open** · updated · 分数 30 · 上游时间 2026-11-16T15:58:30Z
+
+入选依据：T1 watchlist。
+
+> 上游摘录（未审读）：## What breaks 'UriTemplate' disagrees with itself for query expressions. 'expand' treats a query variable as optional — it drops the pair when the variable is 'undefined': '''ts new UriTemplate('/search{?q,page}').expand({ q: 'test' }); // '/search?q=test' ''' 'match' does not. 'partToRegExp' builds one \*\*mandatory\*\* group per name: '''ts pattern: prefix + this.escapeRegExp(name) + '=(\[^&\]+)' ''' so the matcher dema
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [build(deps-dev): bump typescript-eslint from 8.72.1 to 8.72.2](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3560)
+
+`modelcontextprotocol/modelcontextprotocol` · **open** · new · 分数 28 · 上游时间 2026-11-16T08:09:44Z
+
+入选依据：T1 watchlist; breaking: deprecat; routine maintenance penalty。
+
+> 上游摘录（未审读）：Bumps \[typescript-eslint\](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint) from 8.72.1 to 8.72.2. Release notes Sourced from typescript-eslint's releases . v8.72.2 8.72.2 (2026-11-09) 🩹 Fixes eslint-plugin: \[prefer-string-starts-ends-with\] parse RegExps with the v flag in unicode sets mode ( #13102 ) eslint-plugin: \[no-deprecated\] stop on circular alias chains ( #13117 ) es
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
@@ -228,23 +265,23 @@ PR merged 表示代码进入分支，不代表已发布；release 不自动证�
 
 显示 2 / 2 条；全部数据见当日 JSON。
 
-### [feat(blog): draw a share card for every post (#3553)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2be673cfa63064b243a6016588411343c0f9fdee)
+### [docs: stop presenting deprecated features as current on the spec overview pages (#3552)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/de3550c9fea3c5269e42ac95204eef44a2b2cb92)
 
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 35 · 上游时间 2026-11-15T21:39:00Z
+`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 99 · 上游时间 2026-11-16T17:32:45Z
 
-入选依据：T1 watchlist。
+入选依据：T1 watchlist; breaking: deprecat; protocol: protocol; proposal: sep-。
 
-> 上游摘录（未审读）：feat(blog): draw a share card for every post (#3553) Every page on the blog shared one static 'og-image.png': the wordmark on a dark ground. This draws a share card for each post at build time and fills in the image metadata that was missing. ## The card A 1200x630 PNG on the blog's dark ground. It carries the blog's name, the post's title, its date, and its authors one to a line. There is no description on it. The l
+> 上游摘录（未审读）：docs: stop presenting deprecated features as current on the spec overview pages (#3552) The architecture and base protocol overview pages are where many people new to MCP start. Both still presented sampling, roots and logging as current features, with no indication that they are deprecated as of '2026-07-28' (SEP-2577). Fixes #3548 ## Architecture page Builds on the branch Lazzaretti proposed in #3548 (their commit
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [feat(blog): open search in a dialog and even out the header buttons (#3551)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/4414a49c82d7fcc5f2a2ed9ddfc76139a09c1789)
+### [docs: correct 2026-07-28 and draft content (#3516)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ac00313ff7f5e9f47b0e0d1ebdf9c0ad6411380b)
 
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 35 · 上游时间 2026-11-15T19:26:14Z
+`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 35 · 上游时间 2026-11-16T04:15:09Z
 
 入选依据：T1 watchlist。
 
-> 上游摘录（未审读）：feat(blog): open search in a dialog and even out the header buttons (#3551) Two changes to the blog's header and search. ## Header buttons The social icons sat in 32px boxes 4px apart, while search and the theme switch were 40px boxes in their own grid columns with 16px gaps, so those two stood about twice as far apart as the rest. All five are now one row of 32px boxes with 4px gaps, in the same order. On phones the
+> 上游摘录（未审读）：docs: correct 2026-07-28 and draft content (#3516) Taking an accuracy pass over the MCP docs.
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
