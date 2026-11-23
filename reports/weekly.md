@@ -1,8 +1,8 @@
 # MCP Radar · 滚动七日选题
 
-观测日期：2026-11-16 至 2026-11-22（UTC）。仅汇总已经采集的日报，不补造缺失日期。
+观测日期：2026-11-17 至 2026-11-23（UTC）。仅汇总已经采集的日报，不补造缺失日期。
 
-去重条目 1190；日报记录的失败端点 41 个。分数表示阅读优先级，不表示技术正确性。
+去重条目 1239；日报记录的失败端点 44 个。分数表示阅读优先级，不表示技术正确性。
 
 | 优先级 | 来源 | 状态 | 条目 |
 |---:|---|---|---|
@@ -30,7 +30,6 @@
 | 94 | modelcontextprotocol/modelcontextprotocol | closed | [docs: architecture spec page still presents sampling as a core feature, but is depricated](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3548) |
 | 92 | github/github-mcp-server | open | [Omit app-only ui\_get unless the client advertises MCP Apps](https://github.com/github/github-mcp-server/pull/3687) |
 | 92 | modelcontextprotocol/conformance | open | [feat(server): add SEP-2350 scope challenge scenario](https://github.com/modelcontextprotocol/conformance/pull/481) |
-| 92 | modelcontextprotocol/modelcontextprotocol | closed | [Runtime enforcement: the Security section's missing layer](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3538) |
 | 92 | modelcontextprotocol/rust-sdk | merged | [fix(transport): answer malformed Streamable HTTP bodies with 400](https://github.com/modelcontextprotocol/rust-sdk/pull/1464) |
 | 92 | modelcontextprotocol/rust-sdk | merged | [docs(examples): add skills server and client examples](https://github.com/modelcontextprotocol/rust-sdk/pull/1466) |
 | 92 | modelcontextprotocol/rust-sdk | open | [fix(auth): accept AS-granted scopes beyond the ID-JAG in EMA flow](https://github.com/modelcontextprotocol/rust-sdk/pull/1481) |
@@ -41,10 +40,11 @@
 | 88 | Tencent/AI-Infra-Guard | merged | [fix(mcp-scan,skill-scan): stop reading a reply that only repeats closing tags](https://github.com/Tencent/AI-Infra-Guard/pull/769) |
 | 88 | github/github-mcp-server | merged | [\[Copilot Dreaming\] Avoid invalid tool workflows and remove stale or duplicate guidance](https://github.com/github/github-mcp-server/pull/3894) |
 | 88 | modelcontextprotocol/typescript-sdk | merged | [fix(server): type registerTool structuredContent from outputSchema](https://github.com/modelcontextprotocol/typescript-sdk/pull/2449) |
+| 86 | PrefectHQ/fastmcp | merged | [fix: enforce valid\_scopes for CIMD clients](https://github.com/PrefectHQ/fastmcp/pull/5829) |
+| 86 | PrefectHQ/fastmcp | merged | [Resolve JSON Schema references through arrays](https://github.com/PrefectHQ/fastmcp/pull/6098) |
 | 86 | PrefectHQ/fastmcp | merged | [Raise opentelemetry-api floor past traceparent ReDoS](https://github.com/PrefectHQ/fastmcp/pull/6513) |
 | 86 | PrefectHQ/fastmcp | merged | [\[4.1\] Raise opentelemetry-api floor past traceparent ReDoS](https://github.com/PrefectHQ/fastmcp/pull/6514) |
 | 86 | PrefectHQ/fastmcp | merged | [Keep provider required\_scopes when a custom token\_verifier is passed](https://github.com/PrefectHQ/fastmcp/pull/6535) |
 | 86 | Tencent/AI-Infra-Guard | merged | [feat(fingerprint): add MCP Inspector fingerprint and CVE-2025-49596 rule](https://github.com/Tencent/AI-Infra-Guard/pull/768) |
-| 86 | modelcontextprotocol/inspector | merged | [fix(core): cap SSE line length and event size on every SDK transport stream (v2)](https://github.com/modelcontextprotocol/inspector/pull/2993) |
 
 写作前检查：规范版本 → PR 与测试 → 发布版本 → 最小复现 → 结论边界。
