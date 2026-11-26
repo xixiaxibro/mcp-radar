@@ -1,10 +1,10 @@
-# MCP Radar · 2026-11-25 (UTC)
+# MCP Radar · 2026-11-26 (UTC)
 
-采集时间：2026-11-25T01:17:10+00:00 · 回看窗口：14 天。
+采集时间：2026-11-26T01:18:32+00:00 · 回看窗口：14 天。
 
 这是公开来源的更新索引和选题素材，不是已经审读、复现的技术结论。标题和摘录来自上游；优先级由可见规则计算。
 
-本次窗口内 1494 条记录；本日累计 302 个新增/变更版本；失败端点 13 个；覆盖警告 1 个。
+本次窗口内 884 条记录；本日累计 125 个新增/变更版本；失败端点 37 个；覆盖警告 0 个。
 
 ## 覆盖与限制
 
@@ -12,446 +12,293 @@ PR merged 表示代码进入分支，不代表已发布；release 不自动证�
 
 仅跟踪 watchlist 中公开仓库的 PR、指定仓库 issue/commit、release、公开安全公告和订阅源。未提供 API 的社区讨论、社交媒体和完整标准文档变更不在覆盖保证内。RSS 仅提供源当前保留的条目。
 
-- 采集失败：`IBM/mcp-context-forge` / releases — Remote end closed connection without response
-- 采集失败：`PrefectHQ/fastmcp` / source — Remote end closed connection without response
-- 采集失败：`Tencent/AI-Infra-Guard` / pulls — Unterminated string starting at: line 1 column 161681 (char 161680)
-- 采集失败：`cloudflare/agents` / pulls — Expecting value: line 1 column 1 (char 0)
-- 采集失败：`cloudflare/workers-sdk` / pulls — Remote end closed connection without response
-- 采集失败：`github/github-mcp-server` / pulls — Unterminated string starting at: line 1 column 1944664 (char 1944663)
-- 采集失败：`modelcontextprotocol/conformance` / pulls — Unterminated string starting at: line 1 column 1781266 (char 1781265)
-- 采集失败：`modelcontextprotocol/mcpb` / security-advisories — Remote end closed connection without response
-- 采集失败：`modelcontextprotocol/modelcontextprotocol` / security-advisories — Remote end closed connection without response
-- 采集失败：`modelcontextprotocol/registry` / security-advisories — Remote end closed connection without response
-- 采集失败：`modelcontextprotocol/typescript-sdk` / pulls — Unterminated string starting at: line 1 column 14192 (char 14191)
-- 采集失败：`sparfenyuk/mcp-proxy` / releases — Unterminated string starting at: line 1 column 30989 (char 30988)
-- 采集失败：`stacklok/toolhive` / security-advisories — Remote end closed connection without response
-- 覆盖提示：`modelcontextprotocol/agents-wg` / source — Repository renamed/redirected to modelcontextprotocol/agents-ig
+- 采集失败：`PrefectHQ/fastmcp` / source — Network error from api.github.com/repos/PrefectHQ/fastmcp
+- 采集失败：`Tencent/AI-Infra-Guard` / source — Network error from api.github.com/repos/Tencent/AI-Infra-Guard
+- 采集失败：`cloudflare/agents` / source — Network error from api.github.com/repos/cloudflare/agents
+- 采集失败：`cloudflare/workers-oauth-provider` / source — Network error from api.github.com/repos/cloudflare/workers-oauth-provider
+- 采集失败：`cloudflare/workers-sdk` / source — Network error from api.github.com/repos/cloudflare/workers-sdk
+- 采集失败：`modelcontextprotocol/agents-wg` / source — Network error from api.github.com/repos/modelcontextprotocol/agents-wg
+- 采集失败：`modelcontextprotocol/conformance` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/csharp-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/csharp-sdk
+- 采集失败：`modelcontextprotocol/ext-apps` / source — The read operation timed out
+- 采集失败：`modelcontextprotocol/ext-auth` / commits — Network error from api.github.com/repos/modelcontextprotocol/ext-auth/commits
+- 采集失败：`modelcontextprotocol/ext-auth` / issues — Network error from api.github.com/repos/modelcontextprotocol/ext-auth/issues
+- 采集失败：`modelcontextprotocol/ext-auth` / pulls — Network error from api.github.com/repos/modelcontextprotocol/ext-auth/pulls
+- 采集失败：`modelcontextprotocol/ext-auth` / releases — Network error from api.github.com/repos/modelcontextprotocol/ext-auth/releases
+- 采集失败：`modelcontextprotocol/ext-auth` / security-advisories — Network error from api.github.com/repos/modelcontextprotocol/ext-auth/security-advisories
+- 采集失败：`modelcontextprotocol/ext-skills` / source — Network error from api.github.com/repos/modelcontextprotocol/ext-skills
+- 采集失败：`modelcontextprotocol/ext-tasks` / source — Network error from api.github.com/repos/modelcontextprotocol/ext-tasks
+- 采集失败：`modelcontextprotocol/go-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/go-sdk
+- 采集失败：`modelcontextprotocol/inspector` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/java-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/java-sdk
+- 采集失败：`modelcontextprotocol/kotlin-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/kotlin-sdk
+- 采集失败：`modelcontextprotocol/mcpb` / source — Network error from api.github.com/repos/modelcontextprotocol/mcpb
+- 采集失败：`modelcontextprotocol/modelcontextprotocol` / commits — Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/commits
+- 采集失败：`modelcontextprotocol/modelcontextprotocol` / issues — Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/issues
+- 采集失败：`modelcontextprotocol/modelcontextprotocol` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/modelcontextprotocol` / releases — Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/releases
+- 采集失败：`modelcontextprotocol/modelcontextprotocol` / security-advisories — Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/security-advisories
+- 采集失败：`modelcontextprotocol/php-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/php-sdk
+- 采集失败：`modelcontextprotocol/python-sdk` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/registry` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/ruby-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/ruby-sdk
+- 采集失败：`modelcontextprotocol/rust-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/rust-sdk
+- 采集失败：`modelcontextprotocol/servers` / source — Network error from api.github.com/repos/modelcontextprotocol/servers
+- 采集失败：`modelcontextprotocol/swift-sdk` / source — Network error from api.github.com/repos/modelcontextprotocol/swift-sdk
+- 采集失败：`modelcontextprotocol/transports-wg` / commits — Network error from api.github.com/repos/modelcontextprotocol/transports-wg/commits
+- 采集失败：`modelcontextprotocol/transports-wg` / issues — The read operation timed out
+- 采集失败：`modelcontextprotocol/typescript-sdk` / pulls — The read operation timed out
+- 采集失败：`modelcontextprotocol/typescript-sdk` / releases — The read operation timed out
 
 ## 重点 PR / 提案
 
-显示 20 / 281 条；全部数据见当日 JSON。
+显示 20 / 122 条；全部数据见当日 JSON。
 
-### [feat(web): Events tab (SEP-3415, #3026 phase 3)](https://github.com/modelcontextprotocol/inspector/pull/3038)
+### [fix: accept the swift ecosystem in list\_global\_security\_advisories](https://github.com/github/github-mcp-server/pull/3937)
 
-`modelcontextprotocol/inspector` · **merged** · new · 分数 102 · 上游时间 2026-11-24T13:16:53Z
+`github/github-mcp-server` · **merged** · new · 分数 86 · 上游时间 2026-11-24T15:17:25Z
 
-入选依据：T1 watchlist; security: oauth; protocol: protocol, capabilit; proposal: sep-, extension; merged implementation; verify release separately。
+入选依据：T1 watchlist; security: security; protocol: schema; merged implementation; verify release separately。
 
-> 上游摘录（未审读）：Closes #3030 Phase 3 of #3026: a web client \*\*Events\*\* tab for the Events extension ('io.modelcontextprotocol/events', SEP-3415), built on the phase 1/2 core APIs. ## What changed - \*\*Tab gating.\*\* '"Events"' is added to 'INSPECTOR\_TAB\_IDS' (with its lifted 'EventsUiState', OAuth-resume snapshot and reset). 'InspectorView' shows it only when 'isEventsSupported(capabilities, protocolEra)' holds: modern era and an adve
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: add Gravitee Access Management to the Enterprise-Managed Authorization implementation table](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3583)
-
-`modelcontextprotocol/modelcontextprotocol` · **open** · new · 分数 92 · 上游时间 2026-11-24T10:33:44Z
-
-入选依据：T1 watchlist; security: oauth, authorization, token; protocol: protocol; proposal: extension。
-
-> 上游摘录（未审读）：### What's broken? The documentation is wrong or misleading ### Where in the spec or docs? https://modelcontextprotocol.io/extensions/auth/enterprise-managed-authorization#implementation-support ### What should happen? The Implementation support table lists Gravitee Access Management. Since 4.13, its public documentation covers both roles: it issues ID-JAGs through OAuth 2.0 token exchange, and it accepts them for it
+> 上游摘录（未审读）：## Summary 'list\_global\_security\_advisories' now accepts 'ecosystem: "swift"'. The GitHub Advisory Database has a Swift ecosystem and the REST API accepts it, but the tool's enum left it out, so every Swift request was rejected by schema validation before reaching the API. ## Why The ecosystem enum lists 12 values ending at 'rust'. The REST endpoint's own error message lists 13: 'rubygems, npm, pip, maven, nuget, com
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [Test/session group oauth refresh](https://github.com/modelcontextprotocol/python-sdk/pull/3908)
+### [fix(mcp-cloudflare): Drop an unnecessary non-null assertion in the CIMD test](https://github.com/getsentry/toolkit/pull/2499)
 
-`modelcontextprotocol/python-sdk` · **closed** · new · 分数 84 · 上游时间 2026-11-24T20:13:50Z
+`getsentry/toolkit` · **merged** · new · 分数 74 · 上游时间 2026-11-25T12:59:36Z
 
-入选依据：T1 watchlist; breaking: breaking; security: oauth。
+入选依据：T2 watchlist; security: oauth; protocol: sse; merged implementation; verify release separately。
 
-> 上游摘录（未审读）：Fixes # ## Motivation and Context ## How Has This Been Tested? ## Breaking Changes ## Types of changes - \[ \] Bug fix (non-breaking change which fixes an issue) - \[ \] New feature (non-breaking change which adds functionality) - \[ \] Breaking change (fix or feature that would cause existing functionality to change) - \[ \] Documentation update ## Checklist - \[ \] I am assigned to the linked issue (or it is labeled 'help wa
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: fix small errors in the 2026-07-28 and draft specification](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3586)
-
-`modelcontextprotocol/modelcontextprotocol` · **merged** · new · 分数 82 · 上游时间 2026-11-24T21:51:29Z
-
-入选依据：T1 watchlist; security: oauth, token; proposal: specification; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：Fixes items b to i of #3491 in the 2026-07-28 and draft versions. Item a was fixed in #3516, so this closes the issue. No requirement changes. Fixes #3491 - \*\*b)\*\* The "Client Features" card on the specification index links to the elicitation page. Its old target does not exist. - \*\*c)\*\* The "Refresh Tokens" reference uses 'draft-ietf-oauth-v2-1-13', like the other OAuth 2.1 references. - \*\*d)\*\* The changelog item on
+> 上游摘录（未审读）：The 'Test' workflow has failed on 'main' since #2283. Its "Repository quality" job fails at 'pnpm run lint': ''' packages/mcp-cloudflare/src/server/oauth/client-metadata-failure.integration.test.ts:33:10: This assertion is unnecessary since it does not change the type of the expression. ''' 'handler.fetch' is already typed as defined, so 'handler.fetch!(…)' trips 'typescript(no-unnecessary-type-assertion)'. The PR's
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [auth: drop the query from the 2025-03-26 fallback authorization base URL](https://github.com/modelcontextprotocol/go-sdk/pull/1348)
+### [Let Cedar read user claims the upstream asserts only in its ID token](https://github.com/stacklok/toolhive/pull/6054)
 
-`modelcontextprotocol/go-sdk` · **open** · new · 分数 80 · 上游时间 2026-11-24T04:12:57Z
-
-入选依据：T2 watchlist; security: authorization; protocol: protocol; proposal: specification。
-
-> 上游摘录（未审读）：When an MCP server publishes no protected resource metadata, 'AuthorizationCodeHandler' falls back to the \[2025-03-26 rule\](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization#server-metadata-discovery): the authorization base URL is the MCP server URL with its path discarded. 'getProtectedResourceMetadata' cleared only the path, so a query or fragment on the server URL stayed in the base URL
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [feat(test-servers): Events extension fixture (SEP-3415, #3026 phase 0)](https://github.com/modelcontextprotocol/inspector/pull/3033)
-
-`modelcontextprotocol/inspector` · **merged** · new · 分数 76 · 上游时间 2026-11-24T07:20:27Z
-
-入选依据：T1 watchlist; protocol: protocol; proposal: sep-, extension; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：Closes #3027 Part of #3026. Adds a server-side implementation of the \*\*Events extension\*\* ('io.modelcontextprotocol/events', SEP-3415, Beta) to the composable test server. Phase 1 (#3028) and later phases build against it. No SDK implements Events, so 'test-servers/src/events.ts' is written directly against the spec. It is served as Express middleware ahead of the SDK handler: the modern leg builds a fresh 'McpServer
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [feat(events): core protocol layer for the Events extension (#3028)](https://github.com/modelcontextprotocol/inspector/pull/3036)
-
-`modelcontextprotocol/inspector` · **merged** · new · 分数 76 · 上游时间 2026-11-24T08:28:50Z
-
-入选依据：T1 watchlist; protocol: protocol; proposal: sep-, extension; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：Closes #3028 Part of #3026. \*\*Stacked on #3033\*\* (phase 0, the Events test fixture): the base branch is 'v2/feat/3027-events-test-fixture', and the integration tests run against that fixture. Retarget to 'v2/main' once #3033 merges. Phase 1 of the Events extension ('io.modelcontextprotocol/events', SEP-3415, Beta): the core protocol layer. There is no UI here. The SDK has no Events API, so requests go through 'client
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: add VS Code to Skills extension column in client matrix](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3510)
-
-`modelcontextprotocol/modelcontextprotocol` · **merged** · updated · 分数 76 · 上游时间 2026-11-23T08:54:11Z
-
-入选依据：T1 watchlist; protocol: protocol; proposal: extension; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：Marks VS Code GitHub Copilot as supporting the \[Skills over MCP\](https://modelcontextprotocol.io/extensions/skills/overview) extension ('io.modelcontextprotocol/skills') in the extension support matrix. Support shipped in VS Code 1.147: \[Skills over MCP are now available in VS Code\](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/skills-over-mcp-are-now-available-in-vs-code/4574580). The 'chat.agentHos
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: mark Skills support for Claude and Claude Code in the extension matrix](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3588)
-
-`modelcontextprotocol/modelcontextprotocol` · **merged** · new · 分数 76 · 上游时间 2026-11-24T21:48:40Z
-
-入选依据：T1 watchlist; protocol: protocol; proposal: extension; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：Marks Claude (web) and Claude Code as supporting the \[Skills over MCP\](https://modelcontextprotocol.io/extensions/skills/overview) extension ('io.modelcontextprotocol/skills') in the extension support matrix. Skills over MCP entered public beta in Claude and Claude Code on 2026-11-24: \[MCP servers can now ship skills, run tasks, and more with Claude\](https://claude.com/resources/articles/skills-over-mcp-tasks-and-mor
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Release/1.1.2](https://github.com/IBM/mcp-context-forge/pull/7659)
-
-`IBM/mcp-context-forge` · **merged** · new · 分数 74 · 上游时间 2026-11-24T17:07:08Z
-
-入选依据：T2 watchlist; security: security, oauth; protocol: protocol, transport; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：## \[1.1.2\] - MCP Subscriptions, A2A Agent Cards, AWS SigV4, and Security Hardening ### Overview Release 1.1.2 adds \*\*MCP subscriptions\*\*, \*\*A2A Agent Cards\*\*, \*\*AWS Signature V4 authentication\*\*, and \*\*Redis Cluster support\*\*. It also changes tool response filters to CEL and adds approval for virtual-server OAuth. This section covers \*\*78 PRs merged directly into 'main'\*\*. - \*\*Protocol & Transport\*\* - Modern MCP clie
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [auth: add ErrForbidden for valid tokens the resource must refuse](https://github.com/modelcontextprotocol/go-sdk/pull/1544)
-
-`modelcontextprotocol/go-sdk` · **merged** · new · 分数 74 · 上游时间 2026-11-24T12:54:11Z
-
-入选依据：T2 watchlist; security: oauth, authorization, token; protocol: protocol; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：Fixes #1543 'TokenVerifier' can currently signal an invalid token (401), an OAuth protocol error (400), or a verifier failure (500). A valid token that the resource server must refuse — for example one issued to a client the server does not serve — has no way to reach the 403 that the MCP authorization spec asks for. This adds 'auth.ErrForbidden': when a verifier error unwraps to it, 'RequireBearerToken' answers 403
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Grant pods/attach only for stdio transport](https://github.com/stacklok/toolhive/pull/6841)
-
-`stacklok/toolhive` · **merged** · new · 分数 74 · 上游时间 2026-11-23T05:10:01Z
-
-入选依据：T2 watchlist; security: security; protocol: transport, streamable, sse; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：## Summary The operator currently grants 'pods/attach' ('create', 'get') to every MCPServer proxy-runner Role. Only stdio transport needs this permission; 'streamable-http' and 'sse' communicate with the backend over the network. Unnecessary attach permissions can trigger security audit findings, as reported with Polaris. This change separates the attach rule from the shared RBAC rules and includes it only for stdio
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Pass the JWKS auth token path to vMCP](https://github.com/stacklok/toolhive/pull/7221)
-
-`stacklok/toolhive` · **merged** · new · 分数 74 · 上游时间 2026-11-23T14:02:11Z
+`stacklok/toolhive` · **merged** · updated · 分数 74 · 上游时间 2026-11-25T19:22:16Z
 
 入选依据：T2 watchlist; security: token; protocol: sse; merged implementation; verify release separately。
 
-> 上游摘录（未审读）：## Summary - \*\*Why:\*\* A VirtualMCPServer whose 'incomingAuth.oidcConfigRef' points at an 'MCPOIDCConfig' of type 'kubernetesServiceAccount' rejects every caller with 401. The OIDC resolver sets the pod's service-account token path ('/var/run/secrets/kubernetes.io/serviceaccount/token') so OIDC discovery and JWKS requests can authenticate to the Kubernetes API server. The vMCP converter drops that path and the vMCP co
+> 上游摘录（未审读）：## Summary Cedar read group and role claims from the pinned upstream's \*\*access token\*\* only, so a provider that asserts group membership in its 'id\_token' produced an empty group set and every 'principal in THVGroup::"..."' policy denied for every user, with no diagnostic beyond the 'has' guard failing. Same shape as #5916 — a claim the upstream does assert, in a token ToolHive already holds, that the authorizer nev
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [Send KSA service account token only to the in-cluster API server](https://github.com/stacklok/toolhive/pull/7248)
+### [feat: authenticate scan backend calls with a machine token](https://github.com/snyk/agent-scan/pull/558)
 
-`stacklok/toolhive` · **merged** · new · 分数 74 · 上游时间 2026-11-23T15:38:45Z
+`snyk/agent-scan` · **merged** · updated · 分数 66 · 上游时间 2026-11-25T14:47:07Z
 
-入选依据：T2 watchlist; security: token; protocol: sse; merged implementation; verify release separately。
+入选依据：T1 watchlist; security: token; merged implementation; verify release separately。
 
-> 上游摘录（未审读）：## Summary For an 'MCPOIDCConfig' of type 'kubernetesServiceAccount', 'useClusterAuth' defaults to true. The workload's own service account token was then attached to every OIDC discovery, JWKS and introspection request, whatever host the 'issuer', 'jwksUrl' or 'introspectionUrl' named. The token was added so a workload could fetch JWKS from the Kubernetes API server, which needs authentication (#978). But the token
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Extract the shared JWT-bearer redemption tail](https://github.com/stacklok/toolhive/pull/7249)
-
-`stacklok/toolhive` · **merged** · new · 分数 74 · 上游时间 2026-11-23T14:37:00Z
-
-入选依据：T2 watchlist; security: audience, token; protocol: sse; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：## Summary The plain RFC 7523 JWT-bearer handler and the ID-JAG handler each kept their own copy of the steps that run after their checks: consume the assertion, cap the token lifetime at the assertion's expiry, build the session, set the granted audience, and issue the token. On top of that, 'IDJAGHandler' held a whole '\*JWTBearerHandler' as 'core' and reached into its fields ('h.core.policies', 'h.core.consumer', '
+> 上游摘录（未审读）：## What 'scan' can now authenticate to the backend with a machine identity instead of a push key. The ADS installer sets it up with two values in 'scan-agent-config.yaml' (snyk/ads-distribution-service#651, #655): - 'token\_command': the absolute path of the installer command that prints a bearer token - 'tenant\_id': the tenant the scan reports to Set both to use a machine identity. With only one set, the scan warns a
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [Keep token-file HTTP clients on same-host redirects](https://github.com/stacklok/toolhive/pull/7252)
+### [fix(postgres-mcp-server): accept username-only secret for PG\_WIRE\_IAM\_PROTOCOL](https://github.com/awslabs/mcp/pull/4829)
 
-`stacklok/toolhive` · **merged** · new · 分数 74 · 上游时间 2026-11-23T16:53:34Z
+`awslabs/mcp` · **open** · updated · 分数 64 · 上游时间 2026-11-25T20:04:11Z
 
-入选依据：T2 watchlist; security: oauth, authorization, token; protocol: transport, sse; merged implementation; verify release separately。
+入选依据：T2 watchlist; security: token; protocol: protocol。
 
-> 上游摘录（未审读）：## Summary - \*\*Why:\*\* when a token validator is configured with an auth token file ('--jwks-auth-token-file', 'jwksAuthTokenPath', or the service-account token used for 'kubernetesServiceAccount' MCPOIDCConfigs), 'HttpClientBuilder' attaches that token through 'oauth2.Transport'. The transport re-adds the 'Authorization' header on every round trip, including each redirect hop, so Go's built-in stripping of 'Authoriza
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Resolve ID-JAG subjects and issue marked tokens behind the gate](https://github.com/stacklok/toolhive/pull/7262)
-
-`stacklok/toolhive` · **merged** · new · 分数 74 · 上游时间 2026-11-24T12:05:39Z
-
-入选依据：T2 watchlist; security: authorization, token; protocol: sse; merged implementation; verify release separately。
-
-> 上游摘录（未审读）：## Summary When the gateway's authorization server redeems an ID-JAG, it can't say which of its own users the assertion is for. The token's 'sub' is always ' # ', so the gateway can't find the user's stored connections and no token can name a real user. This change makes redemption map the ID-JAG's 'upstream\_subject' to a local user and, when everything checks out, issue the delegated-access marker that lets the gate
+> 上游摘录（未审读）：Fixes #4824 ## Summary ### Changes With '--connection\_method PG\_WIRE\_IAM\_PROTOCOL', the password is a generated IAM auth token, so the '--secret\_arn' secret only needs a 'username'. Both IAM code paths, however, read the secret through 'get\_credentials\_from\_secret()', which raises when there is no 'password' key. - 'connection/psycopg\_pool\_connection.py': the secret parsing moves into a private '\_read\_credentials\_fro
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [feat(auth): send DPoP proofs on token requests (SEP-1932)](https://github.com/modelcontextprotocol/rust-sdk/pull/1495)
+### [fix(ecs-mcp-server): honor end\_time and paginate stopped tasks in fetch\_task\_failures](https://github.com/awslabs/mcp/pull/5177)
 
-`modelcontextprotocol/rust-sdk` · **open** · new · 分数 70 · 上游时间 2026-11-24T23:45:54Z
+`awslabs/mcp` · **open** · new · 分数 64 · 上游时间 2026-11-25T04:06:26Z
 
-入选依据：T2 watchlist; security: authorization, token; protocol: transport; proposal: sep-; draft PR。
+入选依据：T2 watchlist; security: token; protocol: sse。
 
-> 上游摘录（未审读）：Part of #1472. Stacked on #1494; please review only the last commit, "feat(auth): send DPoP proofs on token requests (SEP-1932)". Stack: 1. #1491: 'DPoP-Nonce' on 401 auth challenges 2. #1494: DPoP signer types 3. this PR: DPoP proofs on token requests 4. #1496: DPoP-bound tokens on MCP requests With a signer set by 'AuthorizationManager::set\_dpop\_signer', every token request carries a DPoP proof (RFC 9449 §5). This
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [feat(auth): send DPoP-bound tokens on MCP requests (SEP-1932)](https://github.com/modelcontextprotocol/rust-sdk/pull/1496)
-
-`modelcontextprotocol/rust-sdk` · **open** · new · 分数 70 · 上游时间 2026-11-24T23:45:56Z
-
-入选依据：T2 watchlist; security: authorization, token; protocol: transport; proposal: sep-; draft PR。
-
-> 上游摘录（未审读）：Part of #1472. Stacked on #1495; please review only the last commit, "feat(auth): send DPoP-bound tokens on MCP requests (SEP-1932)". Stack: 1. #1491: 'DPoP-Nonce' on 401 auth challenges 2. #1494: DPoP signer types 3. #1495: DPoP proofs on token requests 4. this PR: DPoP-bound tokens on MCP requests 'AuthClient' now sends a DPoP-bound access token as 'Authorization: DPoP' with a proof on every request (RFC 9449 §7).
+> 上游摘录（未审读）：## Summary ### Changes 'fetch\_task\_failures' accepts 'end\_time' and computes 'actual\_end\_time', but the value was never used, so tasks stopped after the requested window were still returned. The helper also called 'ListTasks' once (max 100 ARNs per page, 'nextToken' ignored) and passed every ARN to a single 'DescribeTasks' call (limit 100), so clusters with many stopped tasks were silently truncated or hit a validati
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [Prepare staging workload identities for usage jobs](https://github.com/modelcontextprotocol/registry/pull/1911)
+### [Filter SSE list answers on the event stream](https://github.com/stacklok/toolhive/pull/6949)
 
-`modelcontextprotocol/registry` · **merged** · new · 分数 68 · 上游时间 2026-11-23T13:51:53Z
+`stacklok/toolhive` · **open** · updated · 分数 64 · 上游时间 2026-11-25T23:21:15Z
 
-入选依据：T1 watchlist; breaking: migration; merged implementation; verify release separately。
+入选依据：T2 watchlist; security: authorization; protocol: streamable, sse。
 
-> 上游摘录（未审读）：Prepare staging for the usage credential migration from #1909. Enable the GKE workload pool and worker metadata server, and provision separate Kubernetes service accounts and IAM grants. Both scheduled jobs continue using their current credential during this phase. The worker update is planned for the staging maintenance window. Verify the refreshed preview, worker readiness, registry health, and both permission prob
+> 上游摘录（未审读）：Fixes #6926. ## Summary \*\*Why:\*\* Over SSE, list answers (tools, prompts, resources, resource templates, skills) reached the client on the GET event stream, which was not filtered. \*\*What:\*\* Each GET event is now filtered as it arrives, with the same per-entry authorization as the streamable path. The filter is picked from the shape of each result. ## Does this introduce a user-facing change? - \*\*SSE list answers.\*\* B
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Add per-client vMCP scope challenge responses](https://github.com/stacklok/toolhive/pull/7190)
+
+`stacklok/toolhive` · **open** · updated · 分数 64 · 上游时间 2026-11-25T11:20:10Z
+
+入选依据：T2 watchlist; security: oauth, authorization; protocol: transport。
+
+> 上游摘录（未审读）：## Summary Clients use different signals to request additional OAuth consent. Add transport support for the scope policy merged in #7170 so they can share one vMCP gateway URL while authorization stays in the core. - Default to HTTP 403 with an 'insufficient\_scope' challenge containing the full required scopes and gateway resource metadata. - Support forced 'tool-result' and opt-in 'auto': exact configured client nam
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Make secondary chain legs optionally non-fatal](https://github.com/stacklok/toolhive/pull/7311)
+
+`stacklok/toolhive` · **open** · new · 分数 64 · 上游时间 2026-11-25T21:28:31Z
+
+入选依据：T2 watchlist; security: authorization; protocol: cancel。
+
+> 上游摘录（未审读）：## Summary - Today any failed leg of a multi-upstream chain ends the whole authorization. A user who cancels a secondary provider's consent screen, or hits a secondary provider outage, gets no authorization code and loses every upstream, the identity provider included. Embedders that already present a missing upstream in-band (for example a connect link in a tool-call response) can complete the authorization without
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Add list\_code\_quality\_findings tool to code\_quality toolset](https://github.com/github/github-mcp-server/pull/3564)
+
+`github/github-mcp-server` · **merged** · updated · 分数 60 · 上游时间 2026-11-25T15:04:33Z
+
+入选依据：T1 watchlist; protocol: pagination; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary Adds a read-only 'list\_code\_quality\_findings' tool to the 'code\_quality' toolset. It lists a repository's code quality findings through 'GET /repos/{owner}/{repo}/code-quality/findings' and supports the 'state' and 'direction' filters plus cursor pagination. ## Why Closes #3560 ## What changed - Added 'ListCodeQualityFindings' in 'pkg/github/code\_quality.go', modelled on 'list\_dependabot\_alerts': - Uses 'W
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [docs: add go install as a first-class local install method](https://github.com/github/github-mcp-server/pull/3745)
+
+`github/github-mcp-server` · **open** · updated · 分数 56 · 上游时间 2026-11-25T10:04:44Z
+
+入选依据：T1 watchlist; security: oauth。
+
+> 上游摘录（未审读）：## Summary - Documents 'go install github.com/github/github-mcp-server/v2/cmd/github-mcp-server@latest' as a first-class way to run the local server without Docker. - Keeps 'go build' from a checkout for contributors who need embedded VCS metadata. - Points to the native-binary OAuth flow. Fixes #2364 ## Notes The issue suggested 'github.com/github/github-mcp-server/cmd/...@latest'. That resolves to the pre-v2 module
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Fail closed when the token scope fetch errors](https://github.com/github/github-mcp-server/pull/3932)
+
+`github/github-mcp-server` · **open** · new · 分数 56 · 上游时间 2026-11-24T15:16:23Z
+
+入选依据：T1 watchlist; security: oauth, token。
+
+> 上游摘录（未审读）：Fixes #3929 ## Problem When the token scope fetch returns an error, two code paths fail open: - 'WithScopeChallenge' forwarded OAuth 'tools/call' requests to the next handler without the '403 insufficient\_scope' challenge. - 'PATScopeFilter' returned the unfiltered tool inventory, exposing scope-gated tools to a classic PAT whose scopes could not be verified. ## Root cause Both error branches called the success path
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Stop the DCR recheck tests racing their loop](https://github.com/stacklok/toolhive/pull/7172)
+
+`stacklok/toolhive` · **merged** · updated · 分数 54 · 上游时间 2026-11-25T16:45:16Z
+
+入选依据：T2 watchlist; security: token; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary 'TestEmbeddedAuthServer\_DCRRecheckFollowsMovedTokenEndpoint' failed once in CI with a data race and 'expected: \["iat-1","iat-2"\] actual: \["iat-1","iat-1"\]'. The test builds an embedded auth server with 'RegistrationProbeInterval: "1m"', which also starts the background re-check loop. The loop's first tick fires at a random point in the first minute, and the test calls 'tick' by hand as well. When the loop'
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Keep one user per upstream identity](https://github.com/stacklok/toolhive/pull/7277)
+
+`stacklok/toolhive` · **merged** · updated · 分数 54 · 上游时间 2026-11-25T09:29:34Z
+
+入选依据：T2 watchlist; security: authorization; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary Clients compare a user's 'sub\_id' to decide who owns a session, and the agent check compares it with a grant's user. Both assume one upstream identity never maps to two authorization-server users. The code mostly guaranteed this, but nothing tested it, and three gaps could still break it: a Redis link write that was not atomic with its reverse index, a failed link write that could roll back the user that o
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Add the MCP tool-call details type](https://github.com/stacklok/toolhive/pull/7283)
+
+`stacklok/toolhive` · **merged** · updated · 分数 54 · 上游时间 2026-11-25T08:39:02Z
+
+入选依据：T2 watchlist; security: authorization, token; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary - \*\*Why:\*\* a client that redeems an ID-JAG at the gateway's authorization server gets an access token that is good for any call until it expires. To narrow that token to the one MCP call an authorizer approved ("Authorization server: narrow a JWT-bearer access token to one MCP call with authorization\_details" (#7061)), the authorization server and the vMCP need a shared 'authorization\_details' type that de
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Add a per-client access token lifespan for ID-JAG redemption](https://github.com/stacklok/toolhive/pull/7284)
+
+`stacklok/toolhive` · **merged** · updated · 分数 54 · 上游时间 2026-11-25T08:38:14Z
+
+入选依据：T2 watchlist; security: authorization, token; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary A client that redeems ID-JAGs to make one MCP call wants a token that lives for seconds, while every other client keeps the server's access-token lifespan. Today there is one lifespan for the whole server, so a narrow per-call token lives as long as any other token. "Authorization server: narrow a JWT-bearer access token to one MCP call with authorization\_details" (#7061) asks for a per-client lifetime. Th
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Record how a token was admitted on Identity](https://github.com/stacklok/toolhive/pull/7287)
+
+`stacklok/toolhive` · **merged** · updated · 分数 54 · 上游时间 2026-11-25T10:39:42Z
+
+入选依据：T2 watchlist; security: token; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary A delegated token (an access token from ID-JAG redemption that names a real user) has no 'tsid', so the vMCP has no way to tell it apart from any other session-less token, and nothing downstream can decide to read that user's stored credential for it. Part C of "Ownership-checked credential read for delegated tokens, keyed by user and routed provider" (#6407), session binding in "vMCP: bind sessions to the
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Process the ID-JAG authorization\_details claim](https://github.com/stacklok/toolhive/pull/7290)
+
+`stacklok/toolhive` · **merged** · updated · 分数 54 · 上游时间 2026-11-25T13:33:39Z
+
+入选依据：T2 watchlist; security: authorization; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary \*\*Review commit by commit.\*\* The PR is above the usual size, so it is split into two commits: "Keep the raw authorization\_details bytes" (about 60 non-test lines, no behaviour change: the validator keeps the claim's raw bytes so integer precision survives) and "Process the ID-JAG authorization\_details claim" (the processing, refusals, wiring and docs). After those: a merge of main (the per-client lifespan
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Accept a trailing slash on an origin-only DCR issuer](https://github.com/stacklok/toolhive/pull/7292)
+
+`stacklok/toolhive` · **merged** · updated · 分数 54 · 上游时间 2026-11-25T12:51:28Z
+
+入选依据：T2 watchlist; security: oauth; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary - A DCR upstream configured with 'dcrConfig.discoveryUrl' could not register against servers built on FastMCP's OAuth proxy. Those servers publish '"issuer": "https://host.example.com/"' for a root deployment, while ToolHive derives 'https://host.example.com' from the discovery URL and compared the two byte for byte. Registration failed with 'issuer mismatch (RFC 8414 §3.3)'. - 'fetchDiscoveryDocument' now
+
+待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+
+### [Add README for pkg/authserver](https://github.com/stacklok/toolhive/pull/7301)
+
+`stacklok/toolhive` · **merged** · new · 分数 54 · 上游时间 2026-11-25T16:26:00Z
+
+入选依据：T2 watchlist; security: oauth, authorization; merged implementation; verify release separately。
+
+> 上游摘录（未审读）：## Summary Embedders of 'pkg/authserver' currently have to read the code to learn what the package offers, how to mount it, and where the architecture docs live. This adds a README that serves as the single entry point for prospective adopters. - Describes 'pkg/authserver' as an embeddable Go OAuth 2.0 authorization server built on Ory Fosite, with no MCP or ToolHive proxy dependency. - Covers the supported grants an
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
 ## 发布与安全公告
 
-显示 13 / 13 条；全部数据见当日 JSON。
+显示 3 / 3 条；全部数据见当日 JSON。
 
-### [mcp-server-fetch: IPv6 site-local fec0::/10 classified as public (SSRF guard classifier gap, CWE-918)](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-3rxj-6jhw-qfv7)
+### [v1.1.2 - Release 2026-11-25 - MCP Subscriptions, A2A Agent Cards, AWS SigV4, and Security Hardening](https://github.com/IBM/mcp-context-forge/releases/tag/v1.1.2)
 
-`modelcontextprotocol/servers` · **published** · updated · 分数 117 · 上游时间 2026-11-24T21:55:15Z
+`IBM/mcp-context-forge` · **published** · new · 分数 89 · 上游时间 2026-11-25T09:38:04Z
 
-入选依据：T2 watchlist; breaking: deprecat; security: ssrf; protocol: sse; advisory。
+入选依据：T2 watchlist; security: security, oauth; protocol: protocol, transport; release。
 
-> 上游摘录（未审读）：### Summary \_is\_public\_address in mcp-server-fetch omits fec0::/10 (deprecated IPv6 site-local) and ::ffff:0:0/96 from its non-public list and falls back to ip.is\_global, which returns True for fec0::1. A fetch to http://\[fec0::1\]/ passes the SSRF guard. Low real-world reachability on default hosts; this is a classifier-correctness gap, not a proven metadata exploit. ### Details \*\*Server:\*\* fetch ('mcp-server-fetch',
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [v0.69.0](https://github.com/stacklok/toolhive/releases/tag/v0.69.0)
-
-`stacklok/toolhive` · **published** · new · 分数 89 · 上游时间 2026-11-24T23:15:08Z
-
-入选依据：T2 watchlist; security: authorization, token; protocol: sse; release。
-
-> 上游摘录（未审读）：## Behavior changes \*\*The embedded authorization server refuses tokens and assertions that carry 'authorization\_details'\*\* (\[#7282\](https://github.com/stacklok/toolhive/pull/7282)). Before, the claim was dropped and the request succeeded, so a token restricted by 'authorization\_details' could be exchanged for one without the restriction. Now these requests are refused: - RFC 8693 token exchange whose 'subject\_token'
+> 上游摘录（未审读）：## \[1.1.2\] - MCP Subscriptions, A2A Agent Cards, AWS SigV4, and Security Hardening ### Overview Release 1.1.2 adds \*\*MCP subscriptions\*\*, \*\*A2A Agent Cards\*\*, \*\*AWS Signature V4 authentication\*\*, and \*\*Redis Cluster support\*\*. It also changes tool response filters to CEL and adds approval for virtual-server OAuth. This section covers \*\*78 PRs merged directly into 'main'\*\*. - \*\*Protocol & Transport\*\* - Modern MCP clie
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [v1.3.0](https://github.com/cloudflare/workers-oauth-provider/releases/tag/v1.3.0)
+### [MCPOIDCConfig kubernetesServiceAccount does not restrict which service accounts can authenticate](https://github.com/stacklok/toolhive/security/advisories/GHSA-q656-jppg-j2qr)
 
-`cloudflare/workers-oauth-provider` · **published** · new · 分数 81 · 上游时间 2026-11-23T15:37:30Z
+`stacklok/toolhive` · **published** · new · 分数 89 · 上游时间 2026-11-23T14:07:57Z
 
-入选依据：T1 watchlist; security: oauth; release。
+入选依据：T2 watchlist; security: audience, token; protocol: sse; advisory。
 
-> 上游摘录（未审读）：### Minor Changes - \[#426\](https://github.com/cloudflare/workers-oauth-provider/pull/426) \['dbd149a'\](https://github.com/cloudflare/workers-oauth-provider/commit/dbd149a21962f02d732dfa98ae7b2316a814d6ba) Thanks \[@mattzcarey\](https://github.com/mattzcarey)! - Client ID Metadata Document clients stay signed in while their document's host is down. The provider keeps the last validated copy of each document in 'OAUTH\_KV'
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [GitHub MCP Server 2.3.0](https://github.com/github/github-mcp-server/releases/tag/v2.3.0)
-
-`github/github-mcp-server` · **published** · new · 分数 81 · 上游时间 2026-11-24T15:32:07Z
-
-入选依据：T1 watchlist; security: security; release。
-
-> 上游摘录（未审读）：## Highlights - Security product update tools - Swift added global security advisories - Lots of dependency upgrades ## What's Changed \* Remove thread\_resolution\_reason feature flag by @cagesellchen in https://github.com/github/github-mcp-server/pull/3727 \* Add experimental pull request artifact tools by @talum in https://github.com/github/github-mcp-server/pull/3843 \* Add Dependabot alert update tool by @belaltaher8
+> 上游摘录（未审读）：### Summary In the ToolHive Kubernetes operator, an 'MCPOIDCConfig' of type 'kubernetesServiceAccount' has 'serviceAccount' and 'namespace' fields. They were documented as selecting whose service-account tokens a workload accepts, but they were never enforced. The operator dropped both fields when it built the runtime OIDC configuration, and the token validator checked only signature, issuer, audience and expiry. Kub
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
-### [v1.8.12](https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.12)
+### [v0.69.1](https://github.com/stacklok/toolhive/releases/tag/v0.69.1)
 
-`modelcontextprotocol/registry` · **published** · new · 分数 75 · 上游时间 2026-11-22T08:43:44Z
+`stacklok/toolhive` · **published** · new · 分数 69 · 上游时间 2026-11-25T15:26:44Z
 
-入选依据：T1 watchlist; protocol: protocol; release。
+入选依据：T2 watchlist; security: token; release。
 
-> 上游摘录（未审读）：## What's Changed \* Promote registry v1.8.11 to production and switch on the usage collector by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1886 \* Remove four dashboard panels that their neighbours already cover by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1887 \* Manage production's alert rules and Discord contact point from the repository by @rdimitrov in https://git
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [v1.8.13](https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.13)
-
-`modelcontextprotocol/registry` · **published** · new · 分数 75 · 上游时间 2026-11-22T16:35:18Z
-
-入选依据：T1 watchlist; protocol: protocol; release。
-
-> 上游摘录（未审读）：## What's Changed \* Promote registry v1.8.12 to production and switch on the malware sweep by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1891 \* Describe the malware sweep as it now runs in production by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1892 \* Start every malware alert's email subject with the cluster's name by @rdimitrov in https://github.com/modelcontextpro
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [v1.8.14](https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.14)
-
-`modelcontextprotocol/registry` · **published** · new · 分数 75 · 上游时间 2026-11-22T21:07:50Z
-
-入选依据：T1 watchlist; protocol: protocol; release。
-
-> 上游摘录（未审读）：## What's Changed \* Promote registry v1.8.13 to production by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1897 \* Run the staging malware sweep on demand by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1899 \* Fix moderation guidance, warning event counts, and idle-day collection by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1900 \*\*Full Changelog\*\*
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [v1.8.15](https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.15)
-
-`modelcontextprotocol/registry` · **published** · new · 分数 75 · 上游时间 2026-11-22T22:06:14Z
-
-入选依据：T1 watchlist; protocol: protocol; release。
-
-> 上游摘录（未审读）：## What's Changed \* Use imageTag alone with the next production release by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1901 \* Confirm missing packages before sending sweep findings by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1902 \*\*Full Changelog\*\*: https://github.com/modelcontextprotocol/registry/compare/v1.8.14...v1.8.15
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [v1.8.16](https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.16)
-
-`modelcontextprotocol/registry` · **published** · new · 分数 75 · 上游时间 2026-11-23T13:54:26Z
-
-入选依据：T1 watchlist; protocol: protocol; release。
-
-> 上游摘录（未审读）：## What's Changed \* Promote registry v1.8.15 to production by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1904 \* Reduce database work during edits and skip documentation-only staging deploys by @rdimitrov in https://github.com/modelcontextprotocol/registry/pull/1908 \* Separate the usage collector and backup identities in stages by @rdimitrov in https://github.com/modelcontextprotocol/registry/
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [cli@0.51.0](https://github.com/getsentry/toolkit/releases/tag/cli%400.51.0)
-
-`getsentry/toolkit` · **published** · new · 分数 69 · 上游时间 2026-11-24T18:14:26Z
-
-入选依据：T2 watchlist; security: oauth; release。
-
-> 上游摘录（未审读）：Developer workflows gain broader setup, chart, authentication, deployment, and issue handling, while fixes and tooling updates improve consistency and correctness. ### New Features ✨ CLI setup and detection, stable MCP charts, and OAuth hint forwarding expand developer workflows. #### CLI CLI handoffs can use device approval when a claim lacks a setup code, printing the approval URL and code before continuing setup.
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [Sensitive data redaction bypass in the troubleshooting tool in Amazon ECS MCP Server](https://github.com/awslabs/mcp/security/advisories/GHSA-ppc7-5jf2-gcfc)
-
-`awslabs/mcp` · **published** · new · 分数 63 · 上游时间 2026-11-24T19:18:10Z
-
-入选依据：T2 watchlist; protocol: protocol; advisory。
-
-> 上游摘录（未审读）：### Summary Amazon ECS MCP Server is an open-source Model Context Protocol server that lets AI agents and assistants manage and troubleshoot Amazon ECS workloads using the operator's AWS credentials. An issue exists where, under certain circumstances, the troubleshooting tool of the Amazon ECS MCP Server returns cleartext container environment variable values and secret references from ECS task definitions even when
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [mcp-server-git: nested gitdir file bypasses --repository confinement](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-w766-5x43-whvw)
-
-`modelcontextprotocol/servers` · **published** · updated · 分数 63 · 上游时间 2026-11-24T21:54:02Z
-
-入选依据：T2 watchlist; protocol: sse; advisory。
-
-> 上游摘录（未审读）：# 'mcp-server-git': nested gitdir file bypasses '--repository' confinement \*\*Report date:\*\* 2026-10-27 \*\*Reporter:\*\* ShieldPi \*\*Affected package:\*\* 'mcp-server-git' \*\*Confirmed package version:\*\* 2026.10.19 \*\*Tested source commit:\*\* '82acf2aabf47bd462606a0d879e4849c26b2afae' ('v2/main') \*\*Also affected:\*\* 'ef9808f71090d0db3eda99e2af2ba78f1086f4fb' ('main'); the complete 'src/git/src/mcp\_server\_git/server.py' file has
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [v0.68.0](https://github.com/stacklok/toolhive/releases/tag/v0.68.0)
-
-`stacklok/toolhive` · **published** · new · 分数 63 · 上游时间 2026-11-23T14:22:10Z
-
-入选依据：T2 watchlist; protocol: sse; release。
-
-> 上游摘录（未审读）：## What's Changed \* Gate ID-JAG by issuer assertion types by @jhrozek in https://github.com/stacklok/toolhive/pull/6678 \* Log routine vMCP cache sync messages at debug by @FOWEPJF255 in https://github.com/stacklok/toolhive/pull/7216 \* Refuse unauthenticated ID-JAG clients and cnf-bound assertions by @jhrozek in https://github.com/stacklok/toolhive/pull/7214 \* Require the issuer as the only client assertion aud by @jh
+> 上游摘录（未审读）：## What's Changed \* Document the code mode split behind the vMCP optimizer by @rdimitrov in https://github.com/stacklok/toolhive/pull/7294 \* Add a per-client access token lifespan for ID-JAG redemption by @rdimitrov in https://github.com/stacklok/toolhive/pull/7284 \* Add the MCP tool-call details type by @rdimitrov in https://github.com/stacklok/toolhive/pull/7283 \* Keep one user per upstream identity by @jhrozek in
 
 待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
 
 ## 协议 / 工作组提交
 
-显示 7 / 7 条；全部数据见当日 JSON。
+显示 0 / 0 条；全部数据见当日 JSON。
 
-### [docs: fix small errors in the 2026-07-28 and draft specification (#3586)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2bbace557bbf2cb5d03d6f9b48905415cd7607b0)
-
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 77 · 上游时间 2026-11-24T21:51:25Z
-
-入选依据：T1 watchlist; security: oauth, token; proposal: specification。
-
-> 上游摘录（未审读）：docs: fix small errors in the 2026-07-28 and draft specification (#3586) Fixes items b to i of #3491 in the 2026-07-28 and draft versions. Item a was fixed in #3516, so this closes the issue. No requirement changes. Fixes #3491 - \*\*b)\*\* The "Client Features" card on the specification index links to the elicitation page. Its old target does not exist. - \*\*c)\*\* The "Refresh Tokens" reference uses 'draft-ietf-oauth-v2-1
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: add VS Code to Skills extension column in client matrix (#3510)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1c5f400671ba9ac6d558de907b815be4d2c37548)
-
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 71 · 上游时间 2026-11-23T08:54:08Z
-
-入选依据：T1 watchlist; protocol: protocol; proposal: extension。
-
-> 上游摘录（未审读）：docs: add VS Code to Skills extension column in client matrix (#3510) Marks VS Code GitHub Copilot as supporting the \[Skills over MCP\](https://modelcontextprotocol.io/extensions/skills/overview) extension ('io.modelcontextprotocol/skills') in the extension support matrix. Support shipped in VS Code 1.147: \[Skills over MCP are now available in VS Code\](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/ski
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: mark Skills support for Claude and Claude Code in the extension matrix (#3588)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3c8eb0c4e70b0b3af6471fc0cf3419c7098fdf39)
-
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 71 · 上游时间 2026-11-24T21:48:36Z
-
-入选依据：T1 watchlist; protocol: protocol; proposal: extension。
-
-> 上游摘录（未审读）：docs: mark Skills support for Claude and Claude Code in the extension matrix (#3588) Marks Claude (web) and Claude Code as supporting the \[Skills over MCP\](https://modelcontextprotocol.io/extensions/skills/overview) extension ('io.modelcontextprotocol/skills') in the extension support matrix. Skills over MCP entered public beta in Claude and Claude Code on 2026-11-24: \[MCP servers can now ship skills, run tasks, and
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs(community): align IG charters with SEP sponsorship guidelines (#3531)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b878313e34638206d13ddd9df57501567fac58fc)
-
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 61 · 上游时间 2026-11-24T17:39:34Z
-
-入选依据：T1 watchlist; security: authorization。
-
-> 上游摘录（未审读）：docs(community): align IG charters with SEP sponsorship guidelines (#3531) \_Requested by \*\*David Soria Parra\*\* · \[Slack thread\](https://ant-mcp-oss.slack.com/archives/C0BDGKP4PC6/p1794253161846999)\_ \*\*Before:\*\* The Authorization IG charter said SEP sponsorship remains with Maintainers and Core Maintainers and that a proposer "finds a sponsor". The Financial Services IG charter said SEPs move toward the core specifica
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs: fix small errors in the 2026-07-28 and draft docs (#3587)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b7a22b5b15a5db59de002a08699091e0808b7784)
-
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 51 · 上游时间 2026-11-24T21:47:46Z
-
-入选依据：T1 watchlist; proposal: sep-。
-
-> 上游摘录（未审读）：docs: fix small errors in the 2026-07-28 and draft docs (#3587) Fixes small errors found in a sweep of the docs, in the 2026-07-28 and draft versions. The changelog edits are in 2026-07-28 only. \*\*Please look at these:\*\* - Caching: the page now says that 'notifications/resources/updated' is the relevant notification for a cached 'resources/read' result. The existing rule only says "a relevant notification". SEP-2549
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs(blog): celebrate two years of MCP (#3584)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/50145009cb63c9363962408fcdb0758adcadc87b)
-
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 35 · 上游时间 2026-11-24T17:43:14Z
-
-入选依据：T1 watchlist。
-
-> 上游摘录（未审读）：docs(blog): celebrate two years of MCP (#3584) ## Summary Adds the blog post for the second anniversary of MCP, with an animated header, images, and a quote from Angie Jones. It looks back at the year through the people building on MCP and the community that shapes it. Merging publishes the post right away. This stays a draft until the author completes the contribution disclosure. ## Validation - Built the blog and c
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
-
-### [docs(community): add Core Primitives WG charter (#3545)](https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b0be8f0f2481be8d5ea5294cf3fa57cd03cedc48)
-
-`modelcontextprotocol/modelcontextprotocol` · **committed** · new · 分数 35 · 上游时间 2026-11-23T15:22:02Z
-
-入选依据：T1 watchlist。
-
-> 上游摘录（未审读）：docs(community): add Core Primitives WG charter (#3545) \_Requested by \*\*David Soria Parra\*\* · \[Slack thread\](https://ant-mcp-oss.slack.com/archives/C0BDGKP4PC6/p1793975038956449)\_ Follow-up to #3513. Follows #3544. \*\*Before:\*\* The Core Primitives WG has leads, a repository and a weekly meeting. It has no charter page, nav entry or Current groups line. \*\*After:\*\* The group has a charter built from the \[charter templat
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+本日暂无记录。
 
 ## 文章与技术解释
 
-显示 1 / 1 条；全部数据见当日 JSON。
+显示 0 / 0 条；全部数据见当日 JSON。
 
-### [Two Years of MCP Builders](https://blog.modelcontextprotocol.io/posts/mcp-turns-two/)
-
-`mcp-official-blog` · **published** · new · 分数 50 · 上游时间 2026-11-24T09:00:00+00:00
-
-入选依据：T1 watchlist; protocol: protocol。
-
-> 上游摘录（未审读）：This week, our little open-source project, the Model Context Protocol (MCP), turns two years old . And what better way to mark this occasion than by celebrating the people who helped us build it and everyone building with it. When MCP first launched, we could not have imagined how creative and ambitious the community would get with it, or how many people would jump in to help make it become what it is today. Develope
-
-待核实：对应哪一版规范？改变了什么可观察行为？是否有测试、兼容范围和正式发布？
+本日暂无记录。
 
 ## 博客选题工作台
 

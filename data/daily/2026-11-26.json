@@ -1,0 +1,4261 @@
+{
+  "date": "2026-11-26",
+  "events": [
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/releases/tag/v1.1.2",
+      "source": "IBM/mcp-context-forge",
+      "kind": "release",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "v1.1.2 - Release 2026-11-25 - MCP Subscriptions, A2A Agent Cards, AWS SigV4, and Security Hardening",
+      "url": "https://github.com/IBM/mcp-context-forge/releases/tag/v1.1.2",
+      "status": "published",
+      "created_at": "2026-11-25T09:29:45Z",
+      "updated_at": "2026-11-25T09:38:04Z",
+      "excerpt": "## [1.1.2] - MCP Subscriptions, A2A Agent Cards, AWS SigV4, and Security Hardening ### Overview Release 1.1.2 adds **MCP subscriptions**, **A2A Agent Cards**, **AWS Signature V4 authentication**, and **Redis Cluster support**. It also changes tool response filters to CEL and adds approval for virtual-server OAuth. This section covers **78 PRs merged directly into `main`**. - **Protocol & Transport** - Modern MCP clie",
+      "body_hash": "3c71181fc27debac7c91",
+      "version": "v1.1.2",
+      "prerelease": false,
+      "published_at": "2026-11-25T09:38:04Z",
+      "labels": [],
+      "score": 89,
+      "reasons": [
+        "T2 watchlist",
+        "security: security, oauth",
+        "protocol: protocol, transport",
+        "release"
+      ],
+      "fingerprint": "bec2dd4665abb5e4d01b",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/security/advisories/GHSA-q656-jppg-j2qr",
+      "source": "stacklok/toolhive",
+      "kind": "advisory",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "MCPOIDCConfig kubernetesServiceAccount does not restrict which service accounts can authenticate",
+      "url": "https://github.com/stacklok/toolhive/security/advisories/GHSA-q656-jppg-j2qr",
+      "status": "published",
+      "created_at": null,
+      "updated_at": "2026-11-23T14:07:57Z",
+      "excerpt": "### Summary In the ToolHive Kubernetes operator, an `MCPOIDCConfig` of type `kubernetesServiceAccount` has `serviceAccount` and `namespace` fields. They were documented as selecting whose service-account tokens a workload accepts, but they were never enforced. The operator dropped both fields when it built the runtime OIDC configuration, and the token validator checked only signature, issuer, audience and expiry. Kub",
+      "body_hash": "2d3ef460f58e0b99a508",
+      "published_at": "2026-11-23T14:07:57Z",
+      "withdrawn_at": null,
+      "severity": "medium",
+      "identifiers": [
+        {
+          "value": "GHSA-q656-jppg-j2qr",
+          "type": "GHSA"
+        }
+      ],
+      "labels": [],
+      "score": 89,
+      "reasons": [
+        "T2 watchlist",
+        "security: audience, token",
+        "protocol: sse",
+        "advisory"
+      ],
+      "fingerprint": "c6df1767231489c27516",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3937",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "fix: accept the swift ecosystem in list_global_security_advisories",
+      "url": "https://github.com/github/github-mcp-server/pull/3937",
+      "status": "merged",
+      "created_at": "2026-11-24T04:36:08Z",
+      "updated_at": "2026-11-24T15:17:25Z",
+      "excerpt": "## Summary `list_global_security_advisories` now accepts `ecosystem: \"swift\"`. The GitHub Advisory Database has a Swift ecosystem and the REST API accepts it, but the tool's enum left it out, so every Swift request was rejected by schema validation before reaching the API. ## Why The ecosystem enum lists 12 values ending at `rust`. The REST endpoint's own error message lists 13: `rubygems, npm, pip, maven, nuget, com",
+      "body_hash": "3480ac1601dff329eb76",
+      "number": 3937,
+      "draft": false,
+      "head_sha": "8ff10e32a58c7b231bdab3f8f3cff170fa6bc6c4",
+      "merged_at": "2026-11-24T15:17:25Z",
+      "labels": [],
+      "score": 86,
+      "reasons": [
+        "T1 watchlist",
+        "security: security",
+        "protocol: schema",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "31ef6bf25b70c17b6588",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2499",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(mcp-cloudflare): Drop an unnecessary non-null assertion in the CIMD test",
+      "url": "https://github.com/getsentry/toolkit/pull/2499",
+      "status": "merged",
+      "created_at": "2026-11-25T12:55:28Z",
+      "updated_at": "2026-11-25T12:59:36Z",
+      "excerpt": "The `Test` workflow has failed on `main` since #2283. Its \"Repository quality\" job fails at `pnpm run lint`: ``` packages/mcp-cloudflare/src/server/oauth/client-metadata-failure.integration.test.ts:33:10: This assertion is unnecessary since it does not change the type of the expression. ``` `handler.fetch` is already typed as defined, so `handler.fetch!(…)` trips `typescript(no-unnecessary-type-assertion)`. The PR's ",
+      "body_hash": "899ce66cbaac74cf7c01",
+      "number": 2499,
+      "draft": false,
+      "head_sha": "8124db66a2728963ef248c52b30cd901da4d2e00",
+      "merged_at": "2026-11-25T12:59:32Z",
+      "labels": [
+        "risk: low"
+      ],
+      "score": 74,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth",
+        "protocol: sse",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "a7499843f755257d8ac1",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/6054",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Let Cedar read user claims the upstream asserts only in its ID token",
+      "url": "https://github.com/stacklok/toolhive/pull/6054",
+      "status": "merged",
+      "created_at": "2026-07-27T19:46:25Z",
+      "updated_at": "2026-11-25T19:22:16Z",
+      "excerpt": "## Summary Cedar read group and role claims from the pinned upstream's **access token** only, so a provider that asserts group membership in its `id_token` produced an empty group set and every `principal in THVGroup::\"...\"` policy denied for every user, with no diagnostic beyond the `has` guard failing. Same shape as #5916 — a claim the upstream does assert, in a token ToolHive already holds, that the authorizer nev",
+      "body_hash": "87e05a2412fc9b9af7b3",
+      "number": 6054,
+      "draft": false,
+      "head_sha": "e0f3387d414782459cd8fbbffa6c08458e7109e0",
+      "merged_at": "2026-11-25T19:22:14Z",
+      "labels": [
+        "size/XL"
+      ],
+      "score": 74,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "protocol: sse",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "5eab64eb8ee82d34c2a2",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/releases/tag/v0.69.1",
+      "source": "stacklok/toolhive",
+      "kind": "release",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "v0.69.1",
+      "url": "https://github.com/stacklok/toolhive/releases/tag/v0.69.1",
+      "status": "published",
+      "created_at": "2026-11-25T15:09:36Z",
+      "updated_at": "2026-11-25T15:26:44Z",
+      "excerpt": "## What's Changed * Document the code mode split behind the vMCP optimizer by @rdimitrov in https://github.com/stacklok/toolhive/pull/7294 * Add a per-client access token lifespan for ID-JAG redemption by @rdimitrov in https://github.com/stacklok/toolhive/pull/7284 * Add the MCP tool-call details type by @rdimitrov in https://github.com/stacklok/toolhive/pull/7283 * Keep one user per upstream identity by @jhrozek in ",
+      "body_hash": "e5a989d13b7de0af793d",
+      "version": "v0.69.1",
+      "prerelease": false,
+      "published_at": "2026-11-25T15:09:43Z",
+      "labels": [],
+      "score": 69,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "release"
+      ],
+      "fingerprint": "a0d303eab103424d2f3d",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/snyk/agent-scan/pull/558",
+      "source": "snyk/agent-scan",
+      "kind": "pull_request",
+      "topic": "security",
+      "tier": 1,
+      "title": "feat: authenticate scan backend calls with a machine token",
+      "url": "https://github.com/snyk/agent-scan/pull/558",
+      "status": "merged",
+      "created_at": "2026-11-22T14:46:28Z",
+      "updated_at": "2026-11-25T14:47:07Z",
+      "excerpt": "## What `scan` can now authenticate to the backend with a machine identity instead of a push key. The ADS installer sets it up with two values in `scan-agent-config.yaml` (snyk/ads-distribution-service#651, #655): - `token_command`: the absolute path of the installer command that prints a bearer token - `tenant_id`: the tenant the scan reports to Set both to use a machine identity. With only one set, the scan warns a",
+      "body_hash": "f4b190725f5c6378c844",
+      "number": 558,
+      "draft": false,
+      "head_sha": "c60c815d37d71efcbc5d810a9f16d0f32a4964f6",
+      "merged_at": "2026-11-25T14:46:55Z",
+      "labels": [],
+      "score": 66,
+      "reasons": [
+        "T1 watchlist",
+        "security: token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "0a645d3253241a9d3a60",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4829",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(postgres-mcp-server): accept username-only secret for PG_WIRE_IAM_PROTOCOL",
+      "url": "https://github.com/awslabs/mcp/pull/4829",
+      "status": "open",
+      "created_at": "2026-10-22T12:47:33Z",
+      "updated_at": "2026-11-25T20:04:11Z",
+      "excerpt": "Fixes #4824 ## Summary ### Changes With `--connection_method PG_WIRE_IAM_PROTOCOL`, the password is a generated IAM auth token, so the `--secret_arn` secret only needs a `username`. Both IAM code paths, however, read the secret through `get_credentials_from_secret()`, which raises when there is no `password` key. - `connection/psycopg_pool_connection.py`: the secret parsing moves into a private `_read_credentials_fro",
+      "body_hash": "bc8256ac51c0e538607f",
+      "number": 4829,
+      "draft": false,
+      "head_sha": "e46d3448f9e93d7c33525c32cbbc9b1c84d6bf6e",
+      "merged_at": null,
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "protocol: protocol"
+      ],
+      "fingerprint": "b749099a02fc0d990258",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5177",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(ecs-mcp-server): honor end_time and paginate stopped tasks in fetch_task_failures",
+      "url": "https://github.com/awslabs/mcp/pull/5177",
+      "status": "open",
+      "created_at": "2026-11-25T04:06:04Z",
+      "updated_at": "2026-11-25T04:06:26Z",
+      "excerpt": "## Summary ### Changes `fetch_task_failures` accepts `end_time` and computes `actual_end_time`, but the value was never used, so tasks stopped after the requested window were still returned. The helper also called `ListTasks` once (max 100 ARNs per page, `nextToken` ignored) and passed every ARN to a single `DescribeTasks` call (limit 100), so clusters with many stopped tasks were silently truncated or hit a validati",
+      "body_hash": "0d4ec959c782e619cbc1",
+      "number": 5177,
+      "draft": false,
+      "head_sha": "edb86c3a83a6a45075ebde9ef71fb59a050674d1",
+      "merged_at": null,
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "protocol: sse"
+      ],
+      "fingerprint": "c3c25b0952739dbf1d2e",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/6949",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Filter SSE list answers on the event stream",
+      "url": "https://github.com/stacklok/toolhive/pull/6949",
+      "status": "open",
+      "created_at": "2026-10-26T21:58:03Z",
+      "updated_at": "2026-11-25T23:21:15Z",
+      "excerpt": "Fixes #6926. ## Summary **Why:** Over SSE, list answers (tools, prompts, resources, resource templates, skills) reached the client on the GET event stream, which was not filtered. **What:** Each GET event is now filtered as it arrives, with the same per-entry authorization as the streamable path. The filter is picked from the shape of each result. ## Does this introduce a user-facing change? - **SSE list answers.** B",
+      "body_hash": "0df5b4c497cff6ba8d12",
+      "number": 6949,
+      "draft": false,
+      "head_sha": "5ec2d5b60340e8d5c50bbf93a36988ddb8c961ab",
+      "merged_at": null,
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization",
+        "protocol: streamable, sse"
+      ],
+      "fingerprint": "f57b7b985a6de0709ac5",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7190",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Add per-client vMCP scope challenge responses",
+      "url": "https://github.com/stacklok/toolhive/pull/7190",
+      "status": "open",
+      "created_at": "2026-11-19T08:06:58Z",
+      "updated_at": "2026-11-25T11:20:10Z",
+      "excerpt": "## Summary Clients use different signals to request additional OAuth consent. Add transport support for the scope policy merged in #7170 so they can share one vMCP gateway URL while authorization stays in the core. - Default to HTTP 403 with an `insufficient_scope` challenge containing the full required scopes and gateway resource metadata. - Support forced `tool-result` and opt-in `auto`: exact configured client nam",
+      "body_hash": "8f2ac1a92b7c541011a8",
+      "number": 7190,
+      "draft": false,
+      "head_sha": "4c6f732a7e5f9d0b7a331a710f0a1f2ab2f6b1c0",
+      "merged_at": null,
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth, authorization",
+        "protocol: transport"
+      ],
+      "fingerprint": "8a3e8fa37b2267bc26bd",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7311",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Make secondary chain legs optionally non-fatal",
+      "url": "https://github.com/stacklok/toolhive/pull/7311",
+      "status": "open",
+      "created_at": "2026-11-25T19:59:42Z",
+      "updated_at": "2026-11-25T21:28:31Z",
+      "excerpt": "## Summary - Today any failed leg of a multi-upstream chain ends the whole authorization. A user who cancels a secondary provider's consent screen, or hits a secondary provider outage, gets no authorization code and loses every upstream, the identity provider included. Embedders that already present a missing upstream in-band (for example a connect link in a tool-call response) can complete the authorization without ",
+      "body_hash": "81f00ad58c0f3012c22f",
+      "number": 7311,
+      "draft": false,
+      "head_sha": "00dbe6b097f8ec4a11e56e2a7c5f9d63c4e71713",
+      "merged_at": null,
+      "labels": [
+        "size/XL"
+      ],
+      "score": 64,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization",
+        "protocol: cancel"
+      ],
+      "fingerprint": "88d4940437fc9e4738d2",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3564",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Add list_code_quality_findings tool to code_quality toolset",
+      "url": "https://github.com/github/github-mcp-server/pull/3564",
+      "status": "merged",
+      "created_at": "2026-10-23T16:46:44Z",
+      "updated_at": "2026-11-25T15:04:33Z",
+      "excerpt": "## Summary Adds a read-only `list_code_quality_findings` tool to the `code_quality` toolset. It lists a repository's code quality findings through `GET /repos/{owner}/{repo}/code-quality/findings` and supports the `state` and `direction` filters plus cursor pagination. ## Why Closes #3560 ## What changed - Added `ListCodeQualityFindings` in `pkg/github/code_quality.go`, modelled on `list_dependabot_alerts`: - Uses `W",
+      "body_hash": "2a6ee73bc86527d8c5dd",
+      "number": 3564,
+      "draft": false,
+      "head_sha": "c12b117b15d19ccc93b4aba247e91ae131fe168a",
+      "merged_at": "2026-11-25T15:04:11Z",
+      "labels": [],
+      "score": 60,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: pagination",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "2a139164af00a483a90e",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3745",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "docs: add go install as a first-class local install method",
+      "url": "https://github.com/github/github-mcp-server/pull/3745",
+      "status": "open",
+      "created_at": "2026-11-08T10:19:14Z",
+      "updated_at": "2026-11-25T10:04:44Z",
+      "excerpt": "## Summary - Documents `go install github.com/github/github-mcp-server/v2/cmd/github-mcp-server@latest` as a first-class way to run the local server without Docker. - Keeps `go build` from a checkout for contributors who need embedded VCS metadata. - Points to the native-binary OAuth flow. Fixes #2364 ## Notes The issue suggested `github.com/github/github-mcp-server/cmd/...@latest`. That resolves to the pre-v2 module",
+      "body_hash": "5b8db8ec5410bff879ad",
+      "number": 3745,
+      "draft": false,
+      "head_sha": "dcd61be50e54052e92744d1c3493617518fb9cde",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth"
+      ],
+      "fingerprint": "0007e3d4a4d695f931e1",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3932",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Fail closed when the token scope fetch errors",
+      "url": "https://github.com/github/github-mcp-server/pull/3932",
+      "status": "open",
+      "created_at": "2026-11-23T15:08:34Z",
+      "updated_at": "2026-11-24T15:16:23Z",
+      "excerpt": "Fixes #3929 ## Problem When the token scope fetch returns an error, two code paths fail open: - `WithScopeChallenge` forwarded OAuth `tools/call` requests to the next handler without the `403 insufficient_scope` challenge. - `PATScopeFilter` returned the unfiltered tool inventory, exposing scope-gated tools to a classic PAT whose scopes could not be verified. ## Root cause Both error branches called the success path ",
+      "body_hash": "7c507677f8c4a85c2b99",
+      "number": 3932,
+      "draft": false,
+      "head_sha": "e4aebb077dce1728177d17bc0a32c9d016037d4b",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth, token"
+      ],
+      "fingerprint": "5da36d5999943fc1e9ea",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7172",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Stop the DCR recheck tests racing their loop",
+      "url": "https://github.com/stacklok/toolhive/pull/7172",
+      "status": "merged",
+      "created_at": "2026-11-17T13:24:32Z",
+      "updated_at": "2026-11-25T16:45:16Z",
+      "excerpt": "## Summary `TestEmbeddedAuthServer_DCRRecheckFollowsMovedTokenEndpoint` failed once in CI with a data race and `expected: [\"iat-1\",\"iat-2\"] actual: [\"iat-1\",\"iat-1\"]`. The test builds an embedded auth server with `RegistrationProbeInterval: \"1m\"`, which also starts the background re-check loop. The loop's first tick fires at a random point in the first minute, and the test calls `tick` by hand as well. When the loop'",
+      "body_hash": "fce993b221ec6e6d6e8c",
+      "number": 7172,
+      "draft": false,
+      "head_sha": "55c8acad2bc6243e682929a84c389d71c3fd71a2",
+      "merged_at": "2026-11-25T16:45:13Z",
+      "labels": [
+        "size/XS"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "0c8df8746e0fb9d9af58",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7277",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Keep one user per upstream identity",
+      "url": "https://github.com/stacklok/toolhive/pull/7277",
+      "status": "merged",
+      "created_at": "2026-11-24T16:44:36Z",
+      "updated_at": "2026-11-25T09:29:34Z",
+      "excerpt": "## Summary Clients compare a user's `sub_id` to decide who owns a session, and the agent check compares it with a grant's user. Both assume one upstream identity never maps to two authorization-server users. The code mostly guaranteed this, but nothing tested it, and three gaps could still break it: a Redis link write that was not atomic with its reverse index, a failed link write that could roll back the user that o",
+      "body_hash": "c01088d275f117479e61",
+      "number": 7277,
+      "draft": false,
+      "head_sha": "6c1c827ac4e6c65a7aaca03a4ca9f80681f40d98",
+      "merged_at": "2026-11-25T09:29:34Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "dd9725ba7f92bf95f42e",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7283",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Add the MCP tool-call details type",
+      "url": "https://github.com/stacklok/toolhive/pull/7283",
+      "status": "merged",
+      "created_at": "2026-11-24T20:47:44Z",
+      "updated_at": "2026-11-25T08:39:02Z",
+      "excerpt": "## Summary - **Why:** a client that redeems an ID-JAG at the gateway's authorization server gets an access token that is good for any call until it expires. To narrow that token to the one MCP call an authorizer approved (\"Authorization server: narrow a JWT-bearer access token to one MCP call with authorization_details\" (#7061)), the authorization server and the vMCP need a shared `authorization_details` type that de",
+      "body_hash": "3c74c8dafdc2e697116a",
+      "number": 7283,
+      "draft": false,
+      "head_sha": "a4790cb1ac0932d476d1c7b3889f2cfb1a4471dd",
+      "merged_at": "2026-11-25T08:38:59Z",
+      "labels": [
+        "size/M"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization, token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "77271faa8dcd84c5a207",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7284",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Add a per-client access token lifespan for ID-JAG redemption",
+      "url": "https://github.com/stacklok/toolhive/pull/7284",
+      "status": "merged",
+      "created_at": "2026-11-24T21:15:43Z",
+      "updated_at": "2026-11-25T08:38:14Z",
+      "excerpt": "## Summary A client that redeems ID-JAGs to make one MCP call wants a token that lives for seconds, while every other client keeps the server's access-token lifespan. Today there is one lifespan for the whole server, so a narrow per-call token lives as long as any other token. \"Authorization server: narrow a JWT-bearer access token to one MCP call with authorization_details\" (#7061) asks for a per-client lifetime. Th",
+      "body_hash": "f859db4ea2658f766cfb",
+      "number": 7284,
+      "draft": false,
+      "head_sha": "0fa674f9e534a784037390f0b123ead90a75cc68",
+      "merged_at": "2026-11-25T08:38:11Z",
+      "labels": [
+        "size/L"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization, token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "ced7636d7d0da55d587b",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7287",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Record how a token was admitted on Identity",
+      "url": "https://github.com/stacklok/toolhive/pull/7287",
+      "status": "merged",
+      "created_at": "2026-11-24T22:01:45Z",
+      "updated_at": "2026-11-25T10:39:42Z",
+      "excerpt": "## Summary A delegated token (an access token from ID-JAG redemption that names a real user) has no `tsid`, so the vMCP has no way to tell it apart from any other session-less token, and nothing downstream can decide to read that user's stored credential for it. Part C of \"Ownership-checked credential read for delegated tokens, keyed by user and routed provider\" (#6407), session binding in \"vMCP: bind sessions to the",
+      "body_hash": "b12043ed5fd1467454cc",
+      "number": 7287,
+      "draft": false,
+      "head_sha": "8abea5e5351137e8de5e5954f3ea5e549e8e8d17",
+      "merged_at": "2026-11-25T10:39:39Z",
+      "labels": [
+        "size/L"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "3da9722df243adb27bcb",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7290",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Process the ID-JAG authorization_details claim",
+      "url": "https://github.com/stacklok/toolhive/pull/7290",
+      "status": "merged",
+      "created_at": "2026-11-24T22:27:39Z",
+      "updated_at": "2026-11-25T13:33:39Z",
+      "excerpt": "## Summary **Review commit by commit.** The PR is above the usual size, so it is split into two commits: \"Keep the raw authorization_details bytes\" (about 60 non-test lines, no behaviour change: the validator keeps the claim's raw bytes so integer precision survives) and \"Process the ID-JAG authorization_details claim\" (the processing, refusals, wiring and docs). After those: a merge of main (the per-client lifespan ",
+      "body_hash": "d86dc999e1f7684a65da",
+      "number": 7290,
+      "draft": false,
+      "head_sha": "f47fbdd3209b687582b5703ff1e365b6b018234d",
+      "merged_at": "2026-11-25T13:33:36Z",
+      "labels": [
+        "size/XL"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "0981a3a9e1adc6ca1569",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7292",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Accept a trailing slash on an origin-only DCR issuer",
+      "url": "https://github.com/stacklok/toolhive/pull/7292",
+      "status": "merged",
+      "created_at": "2026-11-24T22:44:39Z",
+      "updated_at": "2026-11-25T12:51:28Z",
+      "excerpt": "## Summary - A DCR upstream configured with `dcrConfig.discoveryUrl` could not register against servers built on FastMCP's OAuth proxy. Those servers publish `\"issuer\": \"https://host.example.com/\"` for a root deployment, while ToolHive derives `https://host.example.com` from the discovery URL and compared the two byte for byte. Registration failed with `issuer mismatch (RFC 8414 §3.3)`. - `fetchDiscoveryDocument` now",
+      "body_hash": "10268647efafc06250fe",
+      "number": 7292,
+      "draft": false,
+      "head_sha": "d3ddc4961f300e0e82c333f95b455df9d92d4a79",
+      "merged_at": "2026-11-25T12:51:25Z",
+      "labels": [
+        "size/S"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "0ca4b15334eb04c43b5b",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7301",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Add README for pkg/authserver",
+      "url": "https://github.com/stacklok/toolhive/pull/7301",
+      "status": "merged",
+      "created_at": "2026-11-25T12:02:36Z",
+      "updated_at": "2026-11-25T16:26:00Z",
+      "excerpt": "## Summary Embedders of `pkg/authserver` currently have to read the code to learn what the package offers, how to mount it, and where the architecture docs live. This adds a README that serves as the single entry point for prospective adopters. - Describes `pkg/authserver` as an embeddable Go OAuth 2.0 authorization server built on Ory Fosite, with no MCP or ToolHive proxy dependency. - Covers the supported grants an",
+      "body_hash": "889fcd9f844b2ac8ee80",
+      "number": 7301,
+      "draft": false,
+      "head_sha": "7beae278f8f1663c0484e2552396c203fb91f63d",
+      "merged_at": "2026-11-25T16:25:58Z",
+      "labels": [
+        "size/M"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth, authorization",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "426d96ab14f66aa7c980",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7302",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Enforce call-bound access tokens at the vMCP",
+      "url": "https://github.com/stacklok/toolhive/pull/7302",
+      "status": "merged",
+      "created_at": "2026-11-25T12:46:23Z",
+      "updated_at": "2026-11-25T17:15:02Z",
+      "excerpt": "## Summary An authorization server can now narrow an access token to one MCP call with an RFC 9396 `authorization_details` entry of type `https://toolhive.dev/mcp_tool_call` (#7283). Until the vMCP enforces that entry, a narrowed token still works for any call the user's connections allow until it expires. This PR makes the vMCP accept a call-bound token only for the one `tools/call` its entry names, and only once. I",
+      "body_hash": "2263dc17370ccf74127d",
+      "number": 7302,
+      "draft": false,
+      "head_sha": "06b59acfc3676523d7eb84c403c2eb3525742930",
+      "merged_at": "2026-11-25T17:14:59Z",
+      "labels": [
+        "size/XL"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization, token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "54d89961e344a5ebd9f5",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7303",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Make Redis per-provider upstream delete atomic",
+      "url": "https://github.com/stacklok/toolhive/pull/7303",
+      "status": "merged",
+      "created_at": "2026-11-25T13:27:35Z",
+      "updated_at": "2026-11-25T15:23:33Z",
+      "excerpt": "## Summary `RedisStorage.DeleteUpstreamTokensForProvider` sent four separate commands: GET the row to learn its user ID, DEL the row, then SREM it from the session index and from the user's reverse-index set. If a write to the same row landed between the DEL and the SREMs, the result was a live row missing from both index sets. `GetAllUpstreamTokens` and `GetLatestUpstreamTokensForUser` could not see it, and `DeleteU",
+      "body_hash": "965d77cb9eb08f9d6c5c",
+      "number": 7303,
+      "draft": false,
+      "head_sha": "ad5f00db0c94d410b6e77ee1a6ba4fa1fdf9885e",
+      "merged_at": "2026-11-25T15:23:31Z",
+      "labels": [
+        "size/S"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "e54a7357d8c9324c3a31",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7307",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Stop re-sending upstream refresh tokens the IdP rejected",
+      "url": "https://github.com/stacklok/toolhive/pull/7307",
+      "status": "merged",
+      "created_at": "2026-11-25T15:23:05Z",
+      "updated_at": "2026-11-25T21:53:01Z",
+      "excerpt": "## Summary When the upstream identity provider rejects a refresh with `invalid_grant`, the auth server leaves the row as it is: an expired access token and a dead refresh token. Until something replaces or removes that row, every request that reads it refreshes again. That means another IdP call, another `invalid_grant`, more WARN lines, and another 401. A client that keeps retrying its bearer token costs one IdP cal",
+      "body_hash": "89dc0c617a39e11c2e4d",
+      "number": 7307,
+      "draft": false,
+      "head_sha": "3e55e3d123fc01abad77d8259a1cf939db65d651",
+      "merged_at": "2026-11-25T21:52:58Z",
+      "labels": [
+        "size/XL"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "0b6e84ef3422b1c79840",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7308",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Add user-keyed upstream token storage",
+      "url": "https://github.com/stacklok/toolhive/pull/7308",
+      "status": "merged",
+      "created_at": "2026-11-25T16:37:24Z",
+      "updated_at": "2026-11-25T22:00:22Z",
+      "excerpt": "## Summary Upstream tokens are stored per login session (`tsid`). A token without a `tsid`, or a second client of the same user, therefore finds none of the user's upstream connections, and the user has to connect every provider again. \"User-keyed upstream storage behind the embedder option\" (#7263) moves these rows to one row per user and provider. This PR is the first part: the storage wrapper on its own, not yet a",
+      "body_hash": "28492f177ad99d9fc5d0",
+      "number": 7308,
+      "draft": false,
+      "head_sha": "4be6ed05b3ac60fb0f46b45e03ce95a60aa85d59",
+      "merged_at": "2026-11-25T22:00:19Z",
+      "labels": [
+        "size/L"
+      ],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "4ad6ba96b81e45fb4871",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7314",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Reject Cedar policy entries containing more than one statement",
+      "url": "https://github.com/stacklok/toolhive/pull/7314",
+      "status": "merged",
+      "created_at": "2026-11-25T21:25:05Z",
+      "updated_at": "2026-11-25T23:00:51Z",
+      "excerpt": "## Summary - `cedar.Policy.UnmarshalCedar` and `ast.Policy.UnmarshalCedar` stop parsing at the first statement's semicolon and ignore everything after it. When a single entry in a Cedar `policies` list contained multiple statements (or trailing tokens), both `pkg/authz/authorizers/cedar` and the operator's inline policy validator accepted the entry while silently enforcing only the first statement. - Parse each polic",
+      "body_hash": "43276e527d5472603663",
+      "number": 7314,
+      "draft": false,
+      "head_sha": "e37c26f01795e40fa4e24fad242fe596f38c9016",
+      "merged_at": "2026-11-25T23:00:51Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T2 watchlist",
+        "security: token",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "f152f2af8a2650d45ca6",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3933",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "docs: clarify actions run trigger behavior",
+      "url": "https://github.com/github/github-mcp-server/pull/3933",
+      "status": "open",
+      "created_at": "2026-11-23T16:15:36Z",
+      "updated_at": "2026-11-23T16:16:57Z",
+      "excerpt": "## Summary Clarifies the `actions_run_trigger` title and description so agents and approvers can see its supported operations, permanent log deletion behavior, and success-result shape. Addresses the `actions_run_trigger` portion of #3473. ## Why The existing description says the tool can delete workflow-run logs but does not say that deletion is permanent or explain what successful calls return. Its title also repea",
+      "body_hash": "64472168340102eab2b3",
+      "number": 3933,
+      "draft": false,
+      "head_sha": "de68a7cce007882c19614f60b42663926918dde1",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "f749965f39b6de750e20",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2475",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(mcp): Support same-title and same-supergroup related issue types",
+      "url": "https://github.com/getsentry/toolkit/pull/2475",
+      "status": "merged",
+      "created_at": "2026-11-23T18:07:27Z",
+      "updated_at": "2026-11-26T01:04:20Z",
+      "excerpt": "Sentry's `/organizations/{org}/issues/{id}/related/` endpoint now supports two more relation types (`RelationType` in `src/sentry/issues/related/types.py`): - `same_title`: error issues in the same project whose events in the last 14 days share this issue's event title. Grouping splits one cause reached from several places into several issues, and stack trace similarity misses those by design. - `same_supergroup`: th",
+      "body_hash": "05184fad7c18c58c80c0",
+      "number": 2475,
+      "draft": false,
+      "head_sha": "30ea84d9f90512dcb9725c406f12bf76dcdd743b",
+      "merged_at": "2026-11-26T01:04:15Z",
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 48,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: sse",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "608ab720075fa1bf36d8",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2490",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(mcp): search-attributes output schema instead of output text",
+      "url": "https://github.com/getsentry/toolkit/pull/2490",
+      "status": "merged",
+      "created_at": "2026-11-24T21:50:45Z",
+      "updated_at": "2026-11-25T20:38:47Z",
+      "excerpt": "I noticed that the norm for MCP tools was to have a JSON structured output instead of test so I've fixed the `search-attributes` tool to adhere by the same format. I've returned all the same information in a JSON format along with notes and presentation suggestions. I've also changed the tests to comply with this format.",
+      "body_hash": "b4df8cbb8ff7f6f4db2d",
+      "number": 2490,
+      "draft": false,
+      "head_sha": "0e798f79626999e768bbaea0ab8f61be6c310bc2",
+      "merged_at": "2026-11-25T20:38:44Z",
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 48,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: schema",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "62c4da3259d766b650be",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2505",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "ref(mcp): Say \"not enough credits\" instead of \"out of credits\"",
+      "url": "https://github.com/getsentry/toolkit/pull/2505",
+      "status": "merged",
+      "created_at": "2026-11-25T23:04:23Z",
+      "updated_at": "2026-11-25T23:23:11Z",
+      "excerpt": "The `get_issue_details` output schema told agents that a `failureReason` of `out_of_credits` meant the organization \"ran out of Seer credits\". It now says the organization \"does not have enough Seer credits\". That matches the Seer messages the MCP tools already show (\"does not have enough credits to start/continue your Autofix run\") and the Sentry copy changed in getsentry/sentry#132624 and getsentry/sentry#132625. `",
+      "body_hash": "87455d398eb77e436b43",
+      "number": 2505,
+      "draft": false,
+      "head_sha": "7236c43e94defeb0ac528b104aa3af26e353d835",
+      "merged_at": "2026-11-25T23:23:08Z",
+      "labels": [
+        "risk: low"
+      ],
+      "score": 48,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: schema",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "326d434e3f80cc28e103",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/4943",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Allow container socket paths to be configured via config file",
+      "url": "https://github.com/stacklok/toolhive/pull/4943",
+      "status": "merged",
+      "created_at": "2026-04-20T11:54:31Z",
+      "updated_at": "2026-11-25T23:10:03Z",
+      "excerpt": "## Summary Users with non-standard container socket paths have to set `TOOLHIVE_DOCKER_SOCKET`, `TOOLHIVE_PODMAN_SOCKET`, or `TOOLHIVE_COLIMA_SOCKET` in every shell session or wrapper script. GUI and CLI processes can inherit environment variables differently depending on how they are launched, so it is easy to misconfigure and hard to debug ([user report in #4612](https://github.com/stacklok/toolhive/issues/4612)). ",
+      "body_hash": "cba1f44525721e82016e",
+      "number": 4943,
+      "draft": false,
+      "head_sha": "5103d8f039015ac16a1cae90401b754ecbda537a",
+      "merged_at": "2026-11-25T23:10:01Z",
+      "labels": [
+        "size/M"
+      ],
+      "score": 48,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: sse",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "7e367848be740b8c8e73",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7124",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Cover stdio proxy protocol-version fallback",
+      "url": "https://github.com/stacklok/toolhive/pull/7124",
+      "status": "merged",
+      "created_at": "2026-11-12T11:10:57Z",
+      "updated_at": "2026-11-25T22:04:44Z",
+      "excerpt": "## Summary #7119 reported that `thv proxy stdio` cannot initialize against the Semgrep remote MCP server: the bridge offered protocol version 2026-07-28 upstream, Semgrep 400s it (`Unsupported protocol version: 2026-07-28`), and initialize failed with no fallback. That was reported against CLI v0.53.0. I reproduced the exact scenario on current main before changing anything, and the behavior is already fixed here: th",
+      "body_hash": "5bd8bd6083038887843e",
+      "number": 7124,
+      "draft": false,
+      "head_sha": "6727923a84a381d98ff4dea8ec15f3a74c8b955d",
+      "merged_at": "2026-11-25T22:04:44Z",
+      "labels": [],
+      "score": 48,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol, stdio",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "f20cef67458ceb4e233b",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7146",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Carry explicit identity into vMCP backend calls",
+      "url": "https://github.com/stacklok/toolhive/pull/7146",
+      "status": "merged",
+      "created_at": "2026-11-14T23:35:00Z",
+      "updated_at": "2026-11-25T22:26:01Z",
+      "excerpt": "## Summary `core.VMCP` takes the caller's identity as an explicit parameter and never reads it from `ctx`, but the components below the core still read the caller from `ctx` (`auth.IdentityFromContext`): the outgoing auth strategies, backend telemetry, the backend client's fallback identity, and the capability cache key. #7135 fixed this for composite workflows only; the direct (non-composite) backend branch of `Call",
+      "body_hash": "29c66b5460e262b9d3f6",
+      "number": 7146,
+      "draft": false,
+      "head_sha": "372cb2721c6cce3f4fce39eae0ac865287512efb",
+      "merged_at": "2026-11-25T22:26:01Z",
+      "labels": [],
+      "score": 48,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: capabilit",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "dcb2185a79e35aa19950",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7208",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Update docker images",
+      "url": "https://github.com/stacklok/toolhive/pull/7208",
+      "status": "merged",
+      "created_at": "2026-11-21T05:46:01Z",
+      "updated_at": "2026-11-25T17:15:51Z",
+      "excerpt": "This PR contains the following updates: | Package | Type | Update | Change | |---|---|---|---| | [ghcr.io/modelcontextprotocol/inspector](https://redirect.github.com/modelcontextprotocol/inspector) | | minor | `2.15.0` → `2.16.0` | | [ghcr.io/stacklok/thv-registry-api](https://images.chainguard.dev/directory/image/static/overview) ([source](https://redirect.github.com/stacklok/toolhive-registry-server)) | | patch | `",
+      "body_hash": "21de3015853bb1b1f36c",
+      "number": 7208,
+      "draft": false,
+      "head_sha": "91fab38e3bdbff25a4312956a8d1363454975953",
+      "merged_at": "2026-11-25T17:15:48Z",
+      "labels": [
+        "dependencies",
+        "size/XS"
+      ],
+      "score": 48,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "de9a32477152ca2db0ea",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7148",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(oauth): serve RFC 9728 metadata for OAuth-enabled non-public servers",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7148",
+      "status": "open",
+      "created_at": "2026-10-06T02:31:34Z",
+      "updated_at": "2026-11-26T00:27:25Z",
+      "excerpt": "# 🐛 Bug-fix PR ## 📌 Summary Closes #5074. Supersedes #5080. An OAuth-enabled virtual server with `team` or `private` visibility advertises its RFC 9728 metadata URL in its 401 response. The metadata endpoint returns 404 for that URL. MCP clients that use RFC 9728 discovery cannot find the authorization server, so they cannot start the OAuth flow. This PR serves the metadata for OAuth-enabled servers at every visibili",
+      "body_hash": "b89c4f85a8e3b35a8cb0",
+      "number": 7148,
+      "draft": false,
+      "head_sha": "0049d99903c9c5f659db73a3fd829880944c722a",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth, authorization"
+      ],
+      "fingerprint": "2d979e6fd120bedd83fb",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7523",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(security): require owner-or-admin for team visibility and team reassignment",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7523",
+      "status": "open",
+      "created_at": "2026-11-12T16:48:35Z",
+      "updated_at": "2026-11-25T16:13:59Z",
+      "excerpt": "# 🐛 Bug-fix PR ## 📌 Summary Team visibility had no authorization gate on virtual servers. Any caller with generic RBAC update permission could set `visibility=\"team\"` or reassign `team_id` on a server without owning the target team. This PR enforces an owner-or-admin policy when a server enters team visibility or moves to another team, and delivers the full team-selector UI scope of #5791 for the Admin UI server form",
+      "body_hash": "bd5bda61e2cfeb4a67d8",
+      "number": 7523,
+      "draft": false,
+      "head_sha": "86de26ddd1303d11c82313825f5ddea389c786db",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: security, authorization"
+      ],
+      "fingerprint": "90f6bb06fb69b8117e59",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7656",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(ssrf): honor allowlist for CGNAT destinations",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7656",
+      "status": "open",
+      "created_at": "2026-11-23T03:13:47Z",
+      "updated_at": "2026-11-25T21:06:32Z",
+      "excerpt": "# 🐛 Bug-fix PR ## 📌 Summary Tailscale nodes use RFC 6598 shared address space (`100.64.0.0/10`). SSRF validation blocks this range, and no setting can allow it. This PR lets `SSRF_ALLOWED_NETWORKS` allow specific CGNAT destinations. Without an entry, CGNAT stays blocked. ## 🔁 Reproduction Steps Closes #6531 1. Set `SSRF_ALLOWED_NETWORKS='[\"100.101.102.103/32\"]'`, and remove `100.64.0.0/10` from `SSRF_BLOCKED_NETWORKS",
+      "body_hash": "48d2adcdc0c4b288c035",
+      "number": 7656,
+      "draft": false,
+      "head_sha": "a7df5d815dec367707367000d7847121a7d5cfde",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: ssrf"
+      ],
+      "fingerprint": "e6d6d278a74305ff677c",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7683",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(oauth): skip SSRF and DNS validation for oauth_config.token_issuer",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7683",
+      "status": "open",
+      "created_at": "2026-11-25T07:54:55Z",
+      "updated_at": "2026-11-25T07:54:56Z",
+      "excerpt": "# Pull Request ## 🔗 Related Issue Fixes #7665 --- ## 📝 Summary `oauth_config.token_issuer` goes through `validate_core_url`, which runs the SSRF checks including DNS resolution. The gateway never fetches `token_issuer`. `resolve_expected_token_issuers()` only compares the value, as a string, with the token `iss` claim. An issuer on an internal host that does not resolve, such as the reporter's `http://idp`, fails wit",
+      "body_hash": "0212ae07c2b12d44de0a",
+      "number": 7683,
+      "draft": false,
+      "head_sha": "cb4be2f7c6576a2c5217c0b80ad773d110f3194f",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth, token, ssrf"
+      ],
+      "fingerprint": "50c8336542e1a5d3bdf9",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7688",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Update DCR documentation to reflect CIMD-first OAuth client identification",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7688",
+      "status": "open",
+      "created_at": "2026-11-25T15:42:24Z",
+      "updated_at": "2026-11-25T15:42:26Z",
+      "excerpt": "# Pull Request ## 🔗 Related Issue Closes # --- ## 📝 Summary _What does this PR do and why?_ --- ## 📏 Reviewability - [ ] This PR has one clear purpose - [ ] The linked issue is not labeled `triage` - [ ] Unrelated bugs or improvements are tracked in separate issues/PRs - [ ] Tests are included with the code they validate - [ ] If AI-assisted, I understand and can explain the generated changes --- ## 🏷️ Type of Change",
+      "body_hash": "287b47271aebbc0bcc88",
+      "number": 7688,
+      "draft": false,
+      "head_sha": "68fd17882bf2fa9f54345ee9112fc5a38c3796e5",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth"
+      ],
+      "fingerprint": "742c4a5812b47c38628f",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7690",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix: align A2A agent team scoping with other resource types",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7690",
+      "status": "open",
+      "created_at": "2026-11-25T16:54:15Z",
+      "updated_at": "2026-11-25T16:55:32Z",
+      "excerpt": "# Pull Request ## 🔗 Related Issue Closes #1200[internal] --- ## 📝 Summary Enforce token team scoping on A2A agent routes in middleware and service layers. - Map `/a2a/{agent_id}` routes in `TokenScopingMiddleware` to validate token team membership against agent visibility. - Pass `token_teams` from request context into `A2AAgentService.update_agent()`, `set_agent_state()`, and `delete_agent()`. - Add defense-in-depth",
+      "body_hash": "5ad10e37b60edc4c05eb",
+      "number": 7690,
+      "draft": false,
+      "head_sha": "afbf2b76c1c109e3484b6e2deeea882f586f4104",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "5c214d830a710e25ee05",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5179",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(aws-serverless-mcp-server): paginate ACM, CloudFront and Route 53 lookups in configure_domain",
+      "url": "https://github.com/awslabs/mcp/pull/5179",
+      "status": "open",
+      "created_at": "2026-11-25T04:53:55Z",
+      "updated_at": "2026-11-25T04:53:57Z",
+      "excerpt": "Fixes ## Summary ### Changes `configure_domain` looks up the ACM certificate, the CloudFront distribution and the Route 53 hosted zone with a single `list_certificates()`, `list_distributions()` and `list_hosted_zones()` call each, and never follows the continuation token. All three operations are paginated in the botocore service models (`NextToken` for ACM, `Marker`/`NextMarker`/`IsTruncated` for CloudFront and Rou",
+      "body_hash": "cf41f9d00ef0dc456e51",
+      "number": 5179,
+      "draft": false,
+      "head_sha": "3b84823464b3220375fc9853f39aa242fdfccb0e",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "d6132a39a69535fd6ca1",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5185",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(cloudtrail-mcp-server): fetch all event data store pages",
+      "url": "https://github.com/awslabs/mcp/pull/5185",
+      "status": "open",
+      "created_at": "2026-11-25T19:00:41Z",
+      "updated_at": "2026-11-25T19:00:42Z",
+      "excerpt": "Fixes #5183 ## Summary ### Changes Follow `NextToken` in CloudTrail `ListEventDataStores` responses until all pages are retrieved. Preserve page order and the existing formatting, optional detail retrieval, and error handling. Copy the first response list rather than mutating it while accumulating later pages. The locked botocore model has no paginator for this operation, so the fix uses a small explicit loop without",
+      "body_hash": "292d25ac1a264a8f00d0",
+      "number": 5185,
+      "draft": false,
+      "head_sha": "fd17f0defd71f934a1a4018e7a858d8111dd4926",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "af50da931183adca038f",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2509",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(http): Add @sentry/http and move CLI and MCP caching and retries onto it",
+      "url": "https://github.com/getsentry/toolkit/pull/2509",
+      "status": "open",
+      "created_at": "2026-11-26T00:56:18Z",
+      "updated_at": "2026-11-26T02:36:39Z",
+      "excerpt": "`@sentry/api/client`, the CLI, and Junior (getsentry/junior#4393) each carry their own HTTP cache and retry code. This adds one publishable, provider-neutral package, **`@sentry/http`**, and plugs it into `@sentry/api` from the toolkit side. `@sentry/api` gets no new dependency: it keeps its injection points and its Sentry-specific rules, and a follow-up in getsentry/sentry removes its generic cache and retry code. T",
+      "body_hash": "b98a5a717741190506bf",
+      "number": 2509,
+      "draft": false,
+      "head_sha": "8f0485f27d9d0fd6459aa7f158a05a9e88bf7e21",
+      "merged_at": null,
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: injection"
+      ],
+      "fingerprint": "9cb638664cec5cf564f5",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7291",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(oauthproto): accept trailing slash on origin-only issuer in discovery",
+      "url": "https://github.com/stacklok/toolhive/pull/7291",
+      "status": "closed",
+      "created_at": "2026-11-24T22:29:56Z",
+      "updated_at": "2026-11-25T13:16:37Z",
+      "excerpt": "Fixes #7289 ## Summary - Add `issuersEqual` helper in `pkg/oauthproto/discovery.go` to compare RFC 8414 §3.3 issuers while treating an empty path and `/` on an origin-only URI as equivalent per RFC 3986 §6.2.3. - Keep strict matching for scheme, host, port, userinfo, query/fragment absence, and non-root path issuers (with or without trailing slash). - Add unit tests in `pkg/oauthproto/discovery_test.go` covering `iss",
+      "body_hash": "aff67163a6abcebea758",
+      "number": 7291,
+      "draft": false,
+      "head_sha": "e4cac0aa227cb13954a6295673f30a3164a2174d",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth"
+      ],
+      "fingerprint": "b62eaf8fe9cdd9bbfab1",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7305",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Sign authorization_details into minted ID-JAGs",
+      "url": "https://github.com/stacklok/toolhive/pull/7305",
+      "status": "open",
+      "created_at": "2026-11-25T14:30:12Z",
+      "updated_at": "2026-11-25T22:31:02Z",
+      "excerpt": "## Summary An access token that AS-2 issues from an ID-JAG is good for any call to the resource until it expires. \"Authorization server: narrow a JWT-bearer access token to one MCP call with authorization_details\" (#7061) narrows it to one MCP call. AS-1 signs the call's RFC 9396 `authorization_details` entry into the ID-JAG, and AS-2 copies the signed entry into the access token. AS-2's half merged in \"Process the I",
+      "body_hash": "eedae94b5c5a860089dc",
+      "number": 7305,
+      "draft": false,
+      "head_sha": "f1133bbf42ea2533c106515f4fee6d4c79c4896f",
+      "merged_at": null,
+      "labels": [
+        "size/XL"
+      ],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: authorization, token"
+      ],
+      "fingerprint": "7fc2bebaa8c4c49f9201",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7315",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Bind delegated sessions to client and actor",
+      "url": "https://github.com/stacklok/toolhive/pull/7315",
+      "status": "open",
+      "created_at": "2026-11-25T21:57:25Z",
+      "updated_at": "2026-11-25T22:02:18Z",
+      "excerpt": "## Summary An MCP session is bound to whoever created it, and today that binding is only the issuer and subject (`iss\\x00sub`). With delegated access, one user can have several agents and clients acting for them, each holding its own delegated access token. Under the current binding, any of those agents, another client of the same user, or the user's own interactive login can pick up a delegated session by presenting",
+      "body_hash": "cfc153b053a5144902b6",
+      "number": 7315,
+      "draft": false,
+      "head_sha": "dff98aba1c518c9e7c18d506369ed6259df62686",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T2 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "a06fadd7532a21aa356d",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7686",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "feat(plugins): add Web Bot Auth signing plugin for outbound calls",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7686",
+      "status": "open",
+      "created_at": "2026-11-25T12:07:13Z",
+      "updated_at": "2026-11-25T12:07:15Z",
+      "excerpt": "# 🧱 New Plugin ## 🔗 Closes Closes #7675 ## 🚀 Summary Add `WebBotAuthPlugin` in `plugins/web_bot_auth/`. The plugin signs outbound tool calls and A2A agent calls with Web Bot Auth (draft-ietf-webbotauth-httpsig-protocol, on RFC 9421 HTTP Message Signatures, Ed25519). An upstream server or its CDN can then verify that a request comes from this gateway. - `tool_pre_invoke` signs calls to `gateway.url` for MCP tools and ",
+      "body_hash": "88b2fda729d64ed5a801",
+      "number": 7686,
+      "draft": false,
+      "head_sha": "efa6ecffd8dc80b10e2b7c3f85b5483b189269b1",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "ce6aeb62b2d67f9a7091",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5178",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(ecs-mcp-server): batch DescribeServices in troubleshooting guidance",
+      "url": "https://github.com/awslabs/mcp/pull/5178",
+      "status": "open",
+      "created_at": "2026-11-25T04:06:09Z",
+      "updated_at": "2026-11-25T04:06:30Z",
+      "excerpt": "## Summary ### Changes In `collect_service_details`, cluster-wide discovery (no `service_name`) passes up to 50 service names to a single `DescribeServices` call. ECS accepts at most 10 services per call, so for any cluster with more than 10 services the call fails, the broad `except` swallows it, and the guidance tool reports no service details. This describes the services in batches of 10. ### User experience Befor",
+      "body_hash": "b21005f9ca954c0bccf7",
+      "number": 5178,
+      "draft": false,
+      "head_sha": "a4c57a87a254c1d1818f133a7ea87de79655c269",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "1fcb23e89a96f2c1b436",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5184",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(dynamodb-mcp-server): validate schema text that reaches generated code in repo generator",
+      "url": "https://github.com/awslabs/mcp/pull/5184",
+      "status": "open",
+      "created_at": "2026-11-25T18:42:33Z",
+      "updated_at": "2026-11-25T23:21:15Z",
+      "excerpt": "## Summary ### Changes The repo generation tool renders Jinja2 templates with autoescape off, so schema values are written into the generated Python as-is. PR #4783 validated names, string values and key templates. This change covers the remaining schema values that reach generated code. - Add `validate_description()` and `validate_comment_text()` to `core/identifier_validator.py`. - Validate pattern, parameter and c",
+      "body_hash": "ed5aaec334c95ef585f5",
+      "number": 5184,
+      "draft": false,
+      "head_sha": "79679050019da3560c90b06beaacc50b0811fd80",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "03c3f6f7e9433660223a",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/1919",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(cli): Generate command-catalog.json from the route tree",
+      "url": "https://github.com/getsentry/toolkit/pull/1919",
+      "status": "open",
+      "created_at": "2026-11-03T22:30:56Z",
+      "updated_at": "2026-11-25T16:17:50Z",
+      "excerpt": "Stacks on #1916 (#1880). The base is its branch; retarget to `main` once it merges. The CLI build now writes each command's MCP metadata to JSON, so both MCP servers read the same generated data and list the same commands with the same schemas (`cli-first-mcp` task 1.3). Following #1914, runtime reads generated per-command data instead of computing it: neither `sentry mcp` nor the hosted server on Workers builds sche",
+      "body_hash": "40ff7614b433391f95fa",
+      "number": 1919,
+      "draft": false,
+      "head_sha": "4b448cb617e3586474735db64b93858be9cd1266",
+      "merged_at": null,
+      "labels": [
+        "Stale",
+        "risk: medium"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "19026d97fc9217bc64f3",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/sparfenyuk/mcp-proxy/pull/328",
+      "source": "sparfenyuk/mcp-proxy",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Add hot reload for named stdio servers",
+      "url": "https://github.com/sparfenyuk/mcp-proxy/pull/328",
+      "status": "open",
+      "created_at": "2026-11-25T19:36:42Z",
+      "updated_at": "2026-11-25T20:44:24Z",
+      "excerpt": "## Summary Adds `\"hotreload\": true` for named stdio servers. Edit the server's script and connected clients see the new tools without restarting the proxy. ## Behavior - **Watching:** the proxy polls the server's script for changes, with a debounce. - **Reload:** on change it replaces the child, re-initializes it, and sends `tools/prompts/resources list_changed` to clients that listed that capability. Clients that ig",
+      "body_hash": "a5102fdb725b0ab043b2",
+      "number": 328,
+      "draft": false,
+      "head_sha": "8961bfbed851c156b67c56963b85279b232b33c4",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: stdio, capabilit"
+      ],
+      "fingerprint": "623239072a42279e0d25",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/sparfenyuk/mcp-proxy/pull/333",
+      "source": "sparfenyuk/mcp-proxy",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(config): skip empty-named server entries in JSON config",
+      "url": "https://github.com/sparfenyuk/mcp-proxy/pull/333",
+      "status": "open",
+      "created_at": "2026-11-26T01:43:37Z",
+      "updated_at": "2026-11-26T01:47:26Z",
+      "excerpt": "Fixes #332 An empty key in \"mcpServers\" was silently accepted and mounted as a broken /servers/ route, bypassing the \"no stdio servers configured\" guard when it was the only entry. Skip such entries with a warning, like other malformed entries, so healthy servers keep loading.",
+      "body_hash": "c45ca66a5bd92783284a",
+      "number": 333,
+      "draft": false,
+      "head_sha": "159e084d7790a04d8196c7e64261320d57669372",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: stdio"
+      ],
+      "fingerprint": "2cf01bbfa9b4c691f24f",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7192",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Merge session capabilities on partial backend sweeps",
+      "url": "https://github.com/stacklok/toolhive/pull/7192",
+      "status": "open",
+      "created_at": "2026-11-19T09:27:25Z",
+      "updated_at": "2026-11-26T01:49:33Z",
+      "excerpt": "## Summary Fixes #6829. When a backend flips unhealthy⇄healthy, `resyncSessionsOnBackendHealthChange` fans a tools resync out to every live session, and `resyncSessionTools` **replaced** the session's tool store with the freshly aggregated set. Best-effort aggregation logs and continues on a per-backend query failure, so if a still-healthy backend fails its capability query mid-sweep (transient timeout/401), its tool",
+      "body_hash": "0c5421175d8824f0e2fd",
+      "number": 7192,
+      "draft": false,
+      "head_sha": "7720526debee1f8aaeb681567c5ce00093921529",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: timeout, capabilit"
+      ],
+      "fingerprint": "758f5a0b148ad59e7aae",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7317",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Validate upstream JSON-RPC responses in transparent proxy",
+      "url": "https://github.com/stacklok/toolhive/pull/7317",
+      "status": "open",
+      "created_at": "2026-11-25T23:44:26Z",
+      "updated_at": "2026-11-25T23:44:57Z",
+      "excerpt": "## Summary The transparent proxy forwards whatever the backend returns. A broken backend's malformed answer to a JSON-RPC request (missing `\"jsonrpc\":\"2.0\"`, invalid `id`, a bare array or string, an empty body) therefore reaches the client as a successful `200`. The client gets a protocol violation instead of a clear upstream error. This takes over #5288 by @bishnubista, who is credited as co-author. That PR identifi",
+      "body_hash": "51db27e5c7e8644daab3",
+      "number": 7317,
+      "draft": false,
+      "head_sha": "83b9055807da2f5d915536c500b8ad7d82a1c92b",
+      "merged_at": null,
+      "labels": [
+        "size/L"
+      ],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "6c43a1dcfdd75fe57aca",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7319",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(vmcp): preserve top-level MCP tool Title across pipeline",
+      "url": "https://github.com/stacklok/toolhive/pull/7319",
+      "status": "open",
+      "created_at": "2026-11-26T00:25:16Z",
+      "updated_at": "2026-11-26T00:25:17Z",
+      "excerpt": "## Summary - Add `Title string` to `vmcp.Tool` and `aggregator.ResolvedTool` so top-level MCP `Tool.Title` (introduced in MCP 2025-06-18, distinct from `Annotations.Title`) is preserved end-to-end. - Copy `Title` across backend capability ingestion (`pkg/vmcp/client`, `pkg/vmcp/session/internal/backend`), conflict resolution and tool adaptation (`default_aggregator`, `manual_resolver`, `prefix_resolver`, `priority_re",
+      "body_hash": "80549dce85cadf76f670",
+      "number": 7319,
+      "draft": false,
+      "head_sha": "9d3c8c6af3c43d0885ed34906546e9c1bd669b9b",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: capabilit"
+      ],
+      "fingerprint": "03d1563ea580c0636030",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/2509",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat: add Amazon Inspector MCP server",
+      "url": "https://github.com/awslabs/mcp/pull/2509",
+      "status": "open",
+      "created_at": "2026-02-25T00:28:11Z",
+      "updated_at": "2026-11-26T01:11:39Z",
+      "excerpt": "## Summary - Adds a new `awslabs.inspector-mcp-server` MCP server that provides tools for querying Amazon Inspector findings for vulnerability analysis, security posture monitoring, and compliance reporting. - Implements 7 MCP tools: `list_findings`, `get_finding_details`, `list_finding_aggregations`, `list_coverage`, `list_coverage_statistics`, `get_account_status`, and `create_findings_report`. - Includes comprehen",
+      "body_hash": "07b021eeca5da5bedd2b",
+      "number": 2509,
+      "draft": true,
+      "head_sha": "a938063b25b567bd754818853626ed4ce9272d1d",
+      "merged_at": null,
+      "labels": [
+        "stale"
+      ],
+      "score": 34,
+      "reasons": [
+        "T2 watchlist",
+        "security: security, vulnerab",
+        "draft PR"
+      ],
+      "fingerprint": "6da3afa37cece4e05f0e",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4809",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 59 directories with 3 updates",
+      "url": "https://github.com/awslabs/mcp/pull/4809",
+      "status": "open",
+      "created_at": "2026-10-21T03:41:45Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 2 updates in the /src/prometheus-mcp-server directory: [mcp](https://github.com/modelcontextprotocol/python-s",
+      "body_hash": "096bc61ceed87e465939",
+      "number": 4809,
+      "draft": false,
+      "head_sha": "cce0c0cb26f1f8c32ed267c881ebfee28808f44d",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 34,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "protocol: protocol",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "76abe6fc19c159b18aed",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2496",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(mcp): Tell direct-token clients to replace a rejected token",
+      "url": "https://github.com/getsentry/toolkit/pull/2496",
+      "status": "open",
+      "created_at": "2026-11-25T05:11:02Z",
+      "updated_at": "2026-11-25T05:11:06Z",
+      "excerpt": "A Sentry 401 during a tool call always answered \"**Authorization Expired** … Please re-authorize to continue.\" (`packages/mcp-core/src/internal/error-handling.ts`). That fits OAuth sessions, where `onUpstreamUnauthorized` revokes the grant and the client is pushed into re-auth. A `Sentry-Bearer` session sends its own token: the Cloudflare handler sets no `onUpstreamUnauthorized` for it, so there's nothing stored and ",
+      "body_hash": "0a2da5f5e0f2db614bb7",
+      "number": 2496,
+      "draft": true,
+      "head_sha": "2f9e0260b0239852c6671031078600756adb7373",
+      "merged_at": null,
+      "labels": [],
+      "score": 34,
+      "reasons": [
+        "T2 watchlist",
+        "security: oauth, authorization, token",
+        "draft PR"
+      ],
+      "fingerprint": "25b490bb7904b19cd6f3",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/lastmile-ai/mcp-agent/pull/824",
+      "source": "lastmile-ai/mcp-agent",
+      "kind": "pull_request",
+      "topic": "framework",
+      "tier": 3,
+      "title": "fix(tracing): await async callable objects in TokenCounter.watch",
+      "url": "https://github.com/lastmile-ai/mcp-agent/pull/824",
+      "status": "open",
+      "created_at": "2026-11-25T01:44:01Z",
+      "updated_at": "2026-11-25T20:57:16Z",
+      "excerpt": "## Problem `TokenCounter.watch()` detects async callbacks with `asyncio.iscoroutinefunction(callback)`. That check is false for an observer object implementing `async def __call__`, so the object is routed through the synchronous executor and its returned coroutine is never awaited. The observer never runs and CPython reports \"coroutine was never awaited\". Registering the bound `observer.__call__` works, which makes ",
+      "body_hash": "132d74b2da7f1959cc69",
+      "number": 824,
+      "draft": false,
+      "head_sha": "28946651ce55e01e79a95089f6220fc4f3bc8d68",
+      "merged_at": null,
+      "labels": [],
+      "score": 34,
+      "reasons": [
+        "T3 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "e765791d225389d251af",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/1209",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "feat: Add GitHub Packages toolset",
+      "url": "https://github.com/github/github-mcp-server/pull/1209",
+      "status": "open",
+      "created_at": "2025-10-12T19:09:46Z",
+      "updated_at": "2026-11-25T13:34:07Z",
+      "excerpt": "This PR adds an opt-in `packages` toolset for GitHub Packages, with two consolidated tools. Closes #1208 ## Tools **`packages_read`** (read-only, requires `read:packages`) | Method | Owner | |---|---| | `list_org_packages`, `get_org_package`, `list_org_package_versions`, `get_org_package_version` | `org` | | `list_user_packages`, `get_user_package`, `list_user_package_versions`, `get_user_package_version` | `username",
+      "body_hash": "bf053852ee8ee91146c6",
+      "number": 1209,
+      "draft": false,
+      "head_sha": "a1d036cff72a3205357125826f79013aa6622082",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "5bb8ccb4c97cc73e06b8",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/2742",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "enhance update_issue_labels tool with method options",
+      "url": "https://github.com/github/github-mcp-server/pull/2742",
+      "status": "open",
+      "created_at": "2026-06-21T08:35:44Z",
+      "updated_at": "2026-11-25T13:32:40Z",
+      "excerpt": "## Summary Adds a `method` option to the feature-flagged `update_issue_labels` tool so one tool can replace (default), add, or remove an issue's labels. ## Why Fixes #2724 The tool can only replace an issue's whole label set, so adding or removing one label means reading the current labels and sending back the full list. If that read is stale, labels are silently dropped. #2724 has a live repro: two agents each add a",
+      "body_hash": "a9b4a8e565b7242868bd",
+      "number": 2742,
+      "draft": false,
+      "head_sha": "298e033dcadffdde08eb0274604b0b64746e7114",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "b2271e479a676e554e81",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3783",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "fix(lockdown): check bot accounts with [bot] suffix in review comments",
+      "url": "https://github.com/github/github-mcp-server/pull/3783",
+      "status": "open",
+      "created_at": "2026-11-09T20:21:43Z",
+      "updated_at": "2026-11-23T21:11:24Z",
+      "excerpt": "## Summary Fixes lockdown mode failure when checking repository permissions for bot accounts in `get_review_comments`. ## Why Fixes #3777 When lockdown mode filters pull request review comments, author logins retrieved via GraphQL (Actor interface) omit the `[bot]` suffix. The REST collaborator permission endpoint requires the canonical `[bot]` suffix for bot/app accounts, returning a 404 (` is not a user`) and causi",
+      "body_hash": "82f2dce8b497ccbf86d9",
+      "number": 3783,
+      "draft": false,
+      "head_sha": "e7cf1b53d487e90f3da2ba3355bfab6e14ca864a",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "4de41092695059ddb56e",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3926",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "feat(pull_requests): add pull request auto-merge tools",
+      "url": "https://github.com/github/github-mcp-server/pull/3926",
+      "status": "open",
+      "created_at": "2026-11-22T17:04:59Z",
+      "updated_at": "2026-11-25T00:42:09Z",
+      "excerpt": "## Summary Adds `enable_pull_request_auto_merge` and `disable_pull_request_auto_merge` tools to the pull requests toolset, wrapping the GraphQL `enablePullRequestAutoMerge` / `disablePullRequestAutoMerge` mutations so a PR can be set to merge automatically once its requirements are met — the MCP equivalent of `gh pr merge --auto`. ## Why Fixes #2411 Real-world use case (the one that prompted this PR): an agent runnin",
+      "body_hash": "da27cb4329adb14988e8",
+      "number": 3926,
+      "draft": false,
+      "head_sha": "d94c39deff0c001251a589e09f74f6b73f3a2863",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "2ca3b29f22b8c5b314e3",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3935",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Retain label id in typed governance outputs",
+      "url": "https://github.com/github/github-mcp-server/pull/3935",
+      "status": "open",
+      "created_at": "2026-11-24T02:56:02Z",
+      "updated_at": "2026-11-24T02:57:37Z",
+      "excerpt": "## Summary Preserve the label's `id` on the typed `get_label`/`list_label` outputs so a round-trip through the typed model no longer drops it. ## Why `MinimalLabel` declared only `name`, `color`, and `description`, so `encoding/json` silently ignored the legacy `id` field and re-encoding emitted no `id`. Fixes #3923 ## What changed - Add `ID string` to `MinimalLabel` (the legacy `list_label`/`get_label` producers emi",
+      "body_hash": "824082e94fc4abc79b71",
+      "number": 3935,
+      "draft": false,
+      "head_sha": "96218865b06ad648078930b2ad91b4983c73f0f5",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "7fd65b79bd496d11f546",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3936",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "fix: resolve annotated tags to their commit in get_file_contents",
+      "url": "https://github.com/github/github-mcp-server/pull/3936",
+      "status": "open",
+      "created_at": "2026-11-24T04:36:05Z",
+      "updated_at": "2026-11-24T15:23:17Z",
+      "excerpt": "## Summary `get_file_contents` now resolves an annotated tag to the commit it points at, so the `repo://.../sha/{sha}/contents/...` URI it returns can be read back. Before, the URI named the tag object and reading it failed with 404. ## Why An annotated tag ref (`refs/tags/v1.0.0` in this repo) points at a tag object, not a commit. `resolveGitReference` returned `reference.Object.SHA` as is, so for annotated tags it ",
+      "body_hash": "a4e318f2f5b382e20731",
+      "number": 3936,
+      "draft": false,
+      "head_sha": "6928b9841032535db66af9a20a601bf482ead10e",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "0b7a700e5dbbda996358",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3940",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "skills: teach git notes for debugging context on fix commits",
+      "url": "https://github.com/github/github-mcp-server/pull/3940",
+      "status": "closed",
+      "created_at": "2026-11-24T16:18:40Z",
+      "updated_at": "2026-11-24T16:32:03Z",
+      "excerpt": "## What Adds a \"Recording the why with git notes\" section to the `repository-content-changes` bundled skill. Closes #3939. ## Why Agents landing fix commits through this server produce a commit message but lose the debugging story — root cause, evidence (workflow run ids), why this fix. Git notes are the right home for that (`git log --notes` tells the whole story), but agents systematically mishandle them: notes liv",
+      "body_hash": "0ba8c52747880bf30c33",
+      "number": 3940,
+      "draft": false,
+      "head_sha": "effcd53a0fd019dcceaedd00bd95aee493522c38",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "0a40add1e3b1b1b29f7e",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3941",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "skills: teach git notes for debugging context on fix commits",
+      "url": "https://github.com/github/github-mcp-server/pull/3941",
+      "status": "open",
+      "created_at": "2026-11-24T16:31:35Z",
+      "updated_at": "2026-11-24T20:43:05Z",
+      "excerpt": "## What Adds a \"Recording the why with git notes\" section to the `repository-content-changes` bundled skill. Closes #3939. Supersedes #3940 (that branch was based on a stale fork main predating the skills catalog; this is the identical change rebased onto current `main`). ## Why Agents landing fix commits through this server produce a commit message but lose the debugging story — root cause, evidence (workflow run id",
+      "body_hash": "ee82e7edf5536bac43d2",
+      "number": 3941,
+      "draft": false,
+      "head_sha": "b29706fef0f1b5e817ea4bd7b376a77d21e1ea4c",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "fb9f9994389445877c3b",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3943",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Mark update_issue_labels and update_issue_assignees as destructive",
+      "url": "https://github.com/github/github-mcp-server/pull/3943",
+      "status": "open",
+      "created_at": "2026-11-25T03:26:59Z",
+      "updated_at": "2026-11-25T03:42:30Z",
+      "excerpt": "## Summary Mark `update_issue_labels` and `update_issue_assignees` as destructive so hosts that key confirmation on `destructiveHint` prompt before the tools remove values. ## Why Both tools replace the current values and remove any not in the provided list, but they were annotated `destructiveHint: false`, contradicting their own descriptions. Fixes #3760 ## What changed - Set `DestructiveHint` to `true` for `update",
+      "body_hash": "adc0ca147fbb53bbdf4d",
+      "number": 3943,
+      "draft": false,
+      "head_sha": "b209d1744777d3ab0e57e12eb692e64d1d284884",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "94e2318d2dcd95f032db",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3944",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Fail closed on unrecognized read-only and lockdown boolean values",
+      "url": "https://github.com/github/github-mcp-server/pull/3944",
+      "status": "open",
+      "created_at": "2026-11-25T06:39:34Z",
+      "updated_at": "2026-11-25T06:47:42Z",
+      "excerpt": "## Summary Fail closed on unrecognized `read-only` / `lockdown-mode` boolean values so a misspelled env var can't silently leave write tools exposed. ## Why `GITHUB_READ_ONLY` and `GITHUB_LOCKDOWN_MODE` only turned their mode on for `strconv.ParseBool` spellings (`1`/`true`/`TRUE`/`t`). Common spellings such as `yes`, `on`, and `enabled` — and typos such as `tru` — were silently parsed as `false`, so the server start",
+      "body_hash": "ae764c5b8ed4b0d94632",
+      "number": 3944,
+      "draft": false,
+      "head_sha": "5eac6f6adcd052cb94ce9ba678d5b5fb9bc97d98",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "ad71f3a6575bc327be28",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7660",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "7418 feature make configuration import correct and repeatable",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7660",
+      "status": "merged",
+      "created_at": "2026-11-23T13:40:51Z",
+      "updated_at": "2026-11-25T15:00:52Z",
+      "excerpt": "# Make configuration import correct and repeatable ## Related issue Closes #7418 ## Summary Configuration import now applies the requested entity selection, respects the destination team's scope, and reports what a repeat import will update. A dry run reports conflicts and unresolved references without writing configuration or contacting upstream services. ## Changes - Apply selection to every entity type. Require un",
+      "body_hash": "661c18b681791b25a048",
+      "number": 7660,
+      "draft": false,
+      "head_sha": "b9fd30ceee42ad8fe5919354215a47ed5041399d",
+      "merged_at": "2026-11-25T15:00:50Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "38b7070916cbaa1f4886",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7674",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(a2a): expose the agent tool on a virtual server",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7674",
+      "status": "merged",
+      "created_at": "2026-11-24T09:00:00Z",
+      "updated_at": "2026-11-25T14:00:05Z",
+      "excerpt": "Closes #7672 ## Problem Adding an A2A agent to a virtual server wrote only to `server_a2a_association`. MCP clients list a server's tools from `server_tool_association`, so the server listed no tool for the agent. The agent was attached but not callable. ## What changes - **Create and update:** the tool derived from each associated agent (`a2a_{slug}`) is attached to the server with the agent. - **`PUT` with `associa",
+      "body_hash": "1b55b50ca9345a9220d7",
+      "number": 7674,
+      "draft": false,
+      "head_sha": "08a18289bc58f27696b72298c99b2fd990ef9156",
+      "merged_at": "2026-11-25T14:00:03Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "04e190e33ee1ed61b845",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2494",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(search-docs): Retry AutoRAG internal errors once",
+      "url": "https://github.com/getsentry/toolkit/pull/2494",
+      "status": "merged",
+      "created_at": "2026-11-25T04:47:16Z",
+      "updated_at": "2026-11-25T23:54:40Z",
+      "excerpt": "`search_docs` fails with HTTP 500 when Cloudflare AutoRAG has a transient internal error. The `/api/search` route calls `AI.autorag(...).search()` once, and AutoRAG sometimes rejects with `AutoRAGInternalError` (`All search methods failed: vector`, or `409 ... Cog prediction failed`). The failures are not tied to the query text or the `guide` filter. The route then returns 500 `SEARCH_FAILED`, and the tool reports `F",
+      "body_hash": "b1e4403432d8bee4b207",
+      "number": 2494,
+      "draft": false,
+      "head_sha": "59d8be09325a1c09df7fd57a8477aa5c742a5eb8",
+      "merged_at": "2026-11-25T23:54:37Z",
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "92f58eadd7881fc775bb",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/5379",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Add integration tests for CIMD embedded auth server support",
+      "url": "https://github.com/stacklok/toolhive/pull/5379",
+      "status": "merged",
+      "created_at": "2026-05-25T21:09:35Z",
+      "updated_at": "2026-11-25T22:56:47Z",
+      "excerpt": "## Summary - **Why:** CIMD support in the embedded auth server is covered today only by handler/decorator unit tests with mocks and by a client-side e2e (`thv run` as a CIMD client). Nothing exercises a real `EmbeddedAuthServer`, built from a `RunConfig`, resolving a live client metadata document end to end. - **What:** Adds `TestEmbeddedAuthServer_CIMD` in `test/integration/authserver/`, table-driven over CIMD enabl",
+      "body_hash": "45f9a40289c141953d00",
+      "number": 5379,
+      "draft": false,
+      "head_sha": "cf7adafce7983c4a59b9aa9db898105f92bf9699",
+      "merged_at": "2026-11-25T22:56:45Z",
+      "labels": [
+        "size/S"
+      ],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "c1863ebd67c772325ea1",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/6632",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Restore the release actor lookup the failure notice references",
+      "url": "https://github.com/stacklok/toolhive/pull/6632",
+      "status": "merged",
+      "created_at": "2026-09-10T13:22:08Z",
+      "updated_at": "2026-11-25T23:16:55Z",
+      "excerpt": "## Summary The release failure Slack notice reads `needs.extract-release-actor.outputs.triggered_by`, but no job of that name exists in `releaser.yml` any more: #4982 removed `extract-release-actor` together with the docs-website dispatch it fed, and left the payload's reference behind. The expression is always undefined, so the notice falls through to `github.actor`, which on `release: published` is the release GitH",
+      "body_hash": "be878874cbf696ffd64f",
+      "number": 6632,
+      "draft": false,
+      "head_sha": "c89bc54f28b08b236e6468ffb3736e22e0a8fa00",
+      "merged_at": "2026-11-25T23:07:42Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "aa82f917ac64b075357e",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7008",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Share optimizer embeddings across sessions and replicas",
+      "url": "https://github.com/stacklok/toolhive/pull/7008",
+      "status": "merged",
+      "created_at": "2026-10-30T12:23:22Z",
+      "updated_at": "2026-11-25T20:20:56Z",
+      "excerpt": "## Summary The optimizer embeds a tool only when no stored vector matches its content key (#5847). That reuse sees only rows already committed in the same process, so two cases still embed one catalogue several times: - Builds that start together on a cold store, as the first sessions after a rollout do, all miss and all embed the full catalogue. - Each replica has its own in-memory store, so every replica embeds the",
+      "body_hash": "a20015efc1e86f90d2c5",
+      "number": 7008,
+      "draft": false,
+      "head_sha": "ea2f3778eced4d8573ade410e6714105ef23ad47",
+      "merged_at": "2026-11-25T20:20:55Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "8e7e4e17bbf3d4c0f92f",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7053",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(operator): move vmcp embedding defaulting out of Validate",
+      "url": "https://github.com/stacklok/toolhive/pull/7053",
+      "status": "merged",
+      "created_at": "2026-11-04T12:11:35Z",
+      "updated_at": "2026-11-25T22:50:48Z",
+      "excerpt": "## Summary - `VirtualMCPServer.Validate()` filled the default `Spec.Config.Optimizer` while validating. Validate runs on a cached object, so the default never reached the API and callers could not tell validation from defaulting. - Move the defaulting into a new `ApplyDefaults()` and make `Validate()` pure; the controller calls `ApplyDefaults()` before `Validate()` so the existing behaviour is preserved. Fixes #4628 ",
+      "body_hash": "da05ec8e07edb59841fb",
+      "number": 7053,
+      "draft": false,
+      "head_sha": "40a2bf2e480142e73163991c252b891cffac9815",
+      "merged_at": "2026-11-25T22:50:48Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "9092af12f1a7a51f8847",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7162",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Stop the external auth mirror from clearing conditions it did not write",
+      "url": "https://github.com/stacklok/toolhive/pull/7162",
+      "status": "merged",
+      "created_at": "2026-11-17T02:53:06Z",
+      "updated_at": "2026-11-25T22:51:10Z",
+      "excerpt": "## Summary When a referenced MCPExternalAuthConfig is healthy, `mirrorInvalidOnMCPServer` and `mirrorInvalidOnRemoteProxy` removed the consumer's `ExternalAuthConfigValidated` condition unless `ownedByLocalValidation` claimed it. `isLocalValidationFailure` claims only `False` conditions, so that included the healthy condition (`True`, `ExternalAuthConfigValid`), which `handleExternalAuthConfig` re-adds a few lines la",
+      "body_hash": "77f7299fd17e1f793e8f",
+      "number": 7162,
+      "draft": false,
+      "head_sha": "bb38c475098db31c219c473a693aedf79c5993cc",
+      "merged_at": "2026-11-25T22:51:10Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "1c5fc38b5a630dcf745d",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7207",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Update go modules",
+      "url": "https://github.com/stacklok/toolhive/pull/7207",
+      "status": "merged",
+      "created_at": "2026-11-21T02:45:41Z",
+      "updated_at": "2026-11-25T17:16:07Z",
+      "excerpt": "> [!NOTE] > This PR body was truncated due to platform limits. This PR contains the following updates: | Package | Change | [Age](https://docs.renovatebot.com/merge-confidence/) | [Confidence](https://docs.renovatebot.com/merge-confidence/) | |---|---|---|---| | [cel.dev/cel-go](https://redirect.github.com/cel-expr/cel-go) | `v0.33.2` → `v0.33.4` | ![age](https://developer.mend.io/api/mc/badges/age/go/cel.dev%2fcel-g",
+      "body_hash": "f39553f7d4fd5825be96",
+      "number": 7207,
+      "draft": false,
+      "head_sha": "52fca3afb9e6a8f97b8ca7d423a31f8faf12b5ec",
+      "merged_at": "2026-11-25T17:16:04Z",
+      "labels": [
+        "dependencies",
+        "size/S"
+      ],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "86e545d9895900cfafe6",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7258",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Match .thvignore wildcard directory patterns",
+      "url": "https://github.com/stacklok/toolhive/pull/7258",
+      "status": "merged",
+      "created_at": "2026-11-24T01:52:52Z",
+      "updated_at": "2026-11-25T12:49:06Z",
+      "excerpt": "## Summary `getMatchingPaths` returns early for any directory pattern ending in `/`, only checking it as a literal path via `os.Stat`. A wildcard directory pattern such as `secrets-*/` or `*.egg-info/` therefore never reaches the `filepath.Glob` fallback and matches nothing, leaving the directories it should hide visible in the container. - Glob the trimmed pattern when the literal directory does not exist. - Keep on",
+      "body_hash": "ce198c531f89e917ad51",
+      "number": 7258,
+      "draft": false,
+      "head_sha": "b9fca5de3f6f46c5abdb32ac587cc0fe8ce3277f",
+      "merged_at": "2026-11-25T12:49:05Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "6b39abc589d1469913e5",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7296",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Re-initialize a replaced stdio backend after re-attach",
+      "url": "https://github.com/stacklok/toolhive/pull/7296",
+      "status": "open",
+      "created_at": "2026-11-25T05:01:18Z",
+      "updated_at": "2026-11-25T05:01:18Z",
+      "excerpt": "## Summary When the operator replaces the ` -0` pod of a stdio `MCPServer`, the proxy re-attaches to the new process in place but keeps answering every client `initialize` from the result it cached for the old one. The new process never receives `initialize`, so a server that enforces the MCP lifecycle (anything on the Go SDK) rejects every later request with `method \"tools/call\" is invalid during session initializat",
+      "body_hash": "5cd8c5c2f7ec1c16a677",
+      "number": 7296,
+      "draft": true,
+      "head_sha": "c744ba20e56360cab2e8a172347ea80c353aedfd",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: stdio, lifecycle",
+        "draft PR"
+      ],
+      "fingerprint": "1d93c453c0dfb73319f3",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7300",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Log backend tool errors at Debug and count them",
+      "url": "https://github.com/stacklok/toolhive/pull/7300",
+      "status": "merged",
+      "created_at": "2026-11-25T11:16:08Z",
+      "updated_at": "2026-11-25T12:38:39Z",
+      "excerpt": "## Summary A tool's error text often repeats the call's input: a query the backend could not parse, an ID it could not find, a file name. When a backend answers `tools/call` with `isError: true`, the vMCP backend client logs that text at WARN, so a failed call can write the caller's input into the vMCP logs at the default level, and operators cannot drop it because `logLevel` accepts only `debug` (`pkg/vmcp/config/co",
+      "body_hash": "cf7a0b25210beb2bb1dd",
+      "number": 7300,
+      "draft": false,
+      "head_sha": "6d1579e69cbb9f0d10c80880afdc5a52c1072ed4",
+      "merged_at": "2026-11-25T12:38:38Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "59f11500313c1564d194",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7306",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Release v0.69.1",
+      "url": "https://github.com/stacklok/toolhive/pull/7306",
+      "status": "merged",
+      "created_at": "2026-11-25T14:38:29Z",
+      "updated_at": "2026-11-25T15:11:46Z",
+      "excerpt": "## Release v0.69.1 ### Version Bump **patch** release ### Files Updated - `VERSION` - `deploy/charts/operator-crds/Chart.yaml` (path: `version`) - `deploy/charts/operator-crds/Chart.yaml` (path: `appVersion`) - `deploy/charts/operator/Chart.yaml` (path: `version`) - `deploy/charts/operator/Chart.yaml` (path: `appVersion`) - `deploy/charts/operator/values.yaml` (path: `operator.image`) - `deploy/charts/operator/values",
+      "body_hash": "7117b49dd9f23b2ee9da",
+      "number": 7306,
+      "draft": false,
+      "head_sha": "355a1d32e5a3f8a3c8dc11e2d0c8781716a301f5",
+      "merged_at": "2026-11-25T15:07:59Z",
+      "labels": [
+        "release",
+        "size/XS"
+      ],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "c0daf5a4c25da7ba092d",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7313",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Cover wildcard directory patterns in the confinement test table",
+      "url": "https://github.com/stacklok/toolhive/pull/7313",
+      "status": "merged",
+      "created_at": "2026-11-25T21:13:51Z",
+      "updated_at": "2026-11-25T21:54:41Z",
+      "excerpt": "## Summary - Wildcard directory patterns (`secrets-*/`, `*.egg-info/`) now match through `filepath.Glob` (#7258), but their interaction with overlay mount confinement in `GetOverlayMounts` is untested — the invariant that wildcard matches must not reach paths outside the mount. - This adds the missing coverage to `TestGetOverlayMountsConfinedToMount` as table cases (test-only, no production code changes), as original",
+      "body_hash": "bace620db51576c03f08",
+      "number": 7313,
+      "draft": false,
+      "head_sha": "7b2696046cdac3cdafdffee359b60258e2a07c1f",
+      "merged_at": "2026-11-25T21:54:41Z",
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T2 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "a74e7ddeeffcfecdc0b0",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7442",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "chore: remove cforge CLI and deployment builder",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7442",
+      "status": "open",
+      "created_at": "2026-11-04T14:44:51Z",
+      "updated_at": "2026-11-25T16:32:41Z",
+      "excerpt": "Closes #5824 ## Summary Remove the `cforge` CLI and deployment builder, including Dagger, templates, deployment documentation, and obsolete tests. Relocate the Admin UI packaging hook to `mcpgateway/build_hooks.py` and update setuptools and Containerfile imports. Preserve hook tests and exercise the relocated cmdclass in real minimal wheel builds. Check the actual pyproject cmdclass target and Containerfile COPY path",
+      "body_hash": "1dcbd25c146d87bd4176",
+      "number": 7442,
+      "draft": false,
+      "head_sha": "dd3cd806fca1a5bcbee93d57ba35e6f44a59e674",
+      "merged_at": null,
+      "labels": [
+        "work-queue"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "c47edf10f2935ac4419e",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7689",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "docs: clarify SigV4 gateway and tool registration",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7689",
+      "status": "open",
+      "created_at": "2026-11-25T16:02:57Z",
+      "updated_at": "2026-11-25T16:20:17Z",
+      "excerpt": "## Summary Make the AWS SigV4 guide clear for clients who register gateways and REST tools. State that any SigV4-verifying endpoint works, not only Lambda. ## Changes - `docs/docs/using/sigv4-gateway-auth.md`: - Add a note that the upstream MCP server can run anywhere and that Lambda and API Gateway are examples. - Use generic placeholders in the gateway example. - Add \"Find the region and service\". - Add the require",
+      "body_hash": "5392a5283c7c2366fab9",
+      "number": 7689,
+      "draft": false,
+      "head_sha": "525be69afe3b61d6ca3f12fc174a0a3f0069d10d",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "17d56617c42e4445a5f5",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/IBM/mcp-context-forge/pull/7691",
+      "source": "IBM/mcp-context-forge",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Codex/fix 7589 agent plugin bindings",
+      "url": "https://github.com/IBM/mcp-context-forge/pull/7691",
+      "status": "open",
+      "created_at": "2026-11-25T20:13:08Z",
+      "updated_at": "2026-11-25T20:13:10Z",
+      "excerpt": "Closes #7589 ## Summary Direct A2A invocations read tool bindings and can inherit policies through identical names or team-wide tool bindings. This change resolves agent bindings by resource type and isolates their cached managers. For example, a team can have a `search` tool and a `search` agent with different HeaderFilter settings. The agent now uses its own binding, including after a binding update or deletion. ##",
+      "body_hash": "2b681eb76aa03315c499",
+      "number": 7691,
+      "draft": false,
+      "head_sha": "b77f30337d65460e58f6707a7a2653f956e390f8",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "75d2486673bbe9ae4453",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4807",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat: Add agent-cost MCP server for estimating and budgeting LLM spend per task",
+      "url": "https://github.com/awslabs/mcp/pull/4807",
+      "status": "open",
+      "created_at": "2026-10-20T22:46:48Z",
+      "updated_at": "2026-11-25T03:48:30Z",
+      "excerpt": "## Summary ### Changes Adds a new MCP server, `src/agent-cost-mcp-server/` (`awslabs.agent-cost-mcp-server`), implementing RFC #4772 — the agent cost MCP server proposed there. The existing cost servers in this repo (`aws-pricing-mcp-server`, `billing-cost-management-mcp-server`) cover AWS *infrastructure* spend; this server covers *model* spend: what LLM calls cost per task. This PR also adds the entries required fo",
+      "body_hash": "7309729905ea2a24d62b",
+      "number": 4807,
+      "draft": false,
+      "head_sha": "84cfd0866ce011847416e72694d8ec6801af3fc7",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "3761eccf6ba346aeee54",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4854",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(amazon-neptune-mcp-server): respect FASTMCP_LOG_LEVEL for stderr logging",
+      "url": "https://github.com/awslabs/mcp/pull/4854",
+      "status": "open",
+      "created_at": "2026-10-26T10:18:49Z",
+      "updated_at": "2026-11-25T20:11:40Z",
+      "excerpt": "## Summary ### Changes The Neptune server hard-coded its loguru stderr handler to `INFO`, so `FASTMCP_LOG_LEVEL` (which the README config examples set) had no effect. It now reads `FASTMCP_LOG_LEVEL` and falls back to `WARNING`, the same pattern the other servers in this repo use. Note that the default moves from `INFO` to `WARNING` when the variable is unset, to match the other servers. Happy to keep `INFO` as the f",
+      "body_hash": "9923d73fc45ae359ba57",
+      "number": 4854,
+      "draft": false,
+      "head_sha": "961016fcf6920fb25a25207e9ec1f8221be87a40",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "b120b80b8fdd01abc60c",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5180",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(dynamodb-mcp-server): follow LastEvaluatedTableName when listing tables for validation cleanup",
+      "url": "https://github.com/awslabs/mcp/pull/5180",
+      "status": "open",
+      "created_at": "2026-11-25T04:53:58Z",
+      "updated_at": "2026-11-25T04:53:59Z",
+      "excerpt": "Fixes ## Summary ### Changes `list_tables()` in `model_validation_utils.py` calls `dynamodb_client.list_tables()` once and returns `TableNames`. DynamoDB returns at most 100 names per call (`Limit` defaults to 100, max 100 in the botocore model) and signals more with `LastEvaluatedTableName`. `cleanup_validation_resources()` relies on this helper to wipe DynamoDB Local before a validation run, so anything past the fi",
+      "body_hash": "dbe01020b3e71f7e4f81",
+      "number": 5180,
+      "draft": false,
+      "head_sha": "e3ebcfd1f0e6f62414a5cdb6897ca1892065d6b9",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "d34a0e33d6a8c7b44f61",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5182",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(cloudtrail-mcp-server): yield between query polls",
+      "url": "https://github.com/awslabs/mcp/pull/5182",
+      "status": "open",
+      "created_at": "2026-11-25T09:16:32Z",
+      "updated_at": "2026-11-25T09:19:52Z",
+      "excerpt": "Fixes #5181 ## Summary ### Changes Replace the blocking `time.sleep(poll_interval)` in the async `lake_query` polling loop with `await asyncio.sleep(poll_interval)`. Keep the two-second interval, five-minute polling counter, AWS calls, status handling, and returned result unchanged. Update existing polling tests to mock the async delay. Add two deterministic regression tests showing that another task runs during a po",
+      "body_hash": "2698c9cf083c3a40fffc",
+      "number": 5182,
+      "draft": false,
+      "head_sha": "4c7fec6e762ee5cbb29de806bed42626306d8e9a",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "d22aa189ad7f062a2f23",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5187",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(amazon-translate-mcp-server): validate UTF-8 input size",
+      "url": "https://github.com/awslabs/mcp/pull/5187",
+      "status": "open",
+      "created_at": "2026-11-25T20:59:04Z",
+      "updated_at": "2026-11-25T20:59:05Z",
+      "excerpt": "Fixes #5186 ## Summary ### Changes Validate the UTF-8 encoded size before real-time translation and language detection, which both use TranslateText. Amazon Translate limits input to [10,000 bytes](https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateText.html), not 10,000 characters. Share text-size validation between the two paths. Preserve the existing configurable character limit and its error m",
+      "body_hash": "7a7019806091e6b3eb1e",
+      "number": 5187,
+      "draft": false,
+      "head_sha": "33507fa2dbeea8e2b8cdedd65229cc7ee3e11dab",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "191546ed8f67f35cb09c",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5189",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(aws-documentation-mcp-server): avoid table header suffix collisions",
+      "url": "https://github.com/awslabs/mcp/pull/5189",
+      "status": "open",
+      "created_at": "2026-11-25T22:17:46Z",
+      "updated_at": "2026-11-25T22:22:38Z",
+      "excerpt": "Fixes #5188 ## Summary ### Changes Reserve original table-header names before generating duplicate suffixes, and skip both reserved and previously generated names. For example, `Value, Value, Value_2` now becomes `Value, Value_3, Value_2` rather than producing two `Value_2` keys. Keep the first occurrence of each original name unchanged. Ordinary duplicate-only headers retain their existing suffixes. No dependency, p",
+      "body_hash": "24054d4baf38a477c487",
+      "number": 5189,
+      "draft": false,
+      "head_sha": "0e61920b6ec26a9a68a38a954e4bc05a356ffc1b",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "ffc8d92f699c2cfe22b0",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5191",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(aws-documentation-mcp-server): reserve empty spanning headers",
+      "url": "https://github.com/awslabs/mcp/pull/5191",
+      "status": "open",
+      "created_at": "2026-11-25T22:22:34Z",
+      "updated_at": "2026-11-25T22:22:37Z",
+      "excerpt": "Fixes #5190 ## Summary ### Changes Use `None` for unoccupied slots in the multi-row header grid and test occupancy explicitly. An empty string remains valid occupied header text, so an empty rowspan reservation cannot be overwritten by a lower-row label. ### User experience For a blank two-row header followed by a grouped `Limits / A, B` header, columns previously became `A, Limits - B, Limits`, silently mislabeling ",
+      "body_hash": "dfe5f5b838afeb8a704e",
+      "number": 5191,
+      "draft": false,
+      "head_sha": "482019a7394089a9791d21fda057837cfdff7924",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "4b360ecf0b1b721ec330",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/1833",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(mcp-cloudflare): Cache Sentry API responses in memory behind MCP_RESPONSE_CACHE",
+      "url": "https://github.com/getsentry/toolkit/pull/1833",
+      "status": "open",
+      "created_at": "2026-11-03T00:22:49Z",
+      "updated_at": "2026-11-26T02:37:41Z",
+      "excerpt": "Task 7.1 of the #1669 plan, plus the 7.5 metrics. It wires the shared memory store (#1696) and cache policy (#1688) into the hosted MCP behind `MCP_RESPONSE_CACHE`. **Off by default.** Only `memory` or `tiered` turns it on. An unset, `off`, or unknown value means no caching. This PR changes no wrangler config, so every deployed environment stays uncached. `tiered` behaves like `memory` until the R2 tier lands in the ",
+      "body_hash": "b2fc27524f25ac452759",
+      "number": 1833,
+      "draft": false,
+      "head_sha": "14b420c3cf1ea6762f41309a04896c990181468d",
+      "merged_at": null,
+      "labels": [
+        "Stale",
+        "risk: medium"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "235d1bb882233013e976",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/1842",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(mcp-cloudflare): Share allowlisted cache entries across isolates through R2",
+      "url": "https://github.com/getsentry/toolkit/pull/1842",
+      "status": "open",
+      "created_at": "2026-11-03T00:56:05Z",
+      "updated_at": "2026-11-26T02:37:41Z",
+      "excerpt": "Task 7.3 of the #1669 plan. It is stacked on #1833 (7.1) and adds the R2 tier behind `MCP_RESPONSE_CACHE=tiered`. Merge #1833 first, and only after the buckets below exist. **Still off everywhere.** No config sets `MCP_RESPONSE_CACHE`, so the new binding is inert in every deployed environment. When `tiered` has no bucket, it logs one warning and caches in memory only. **What goes to R2** (`src/server/lib/r2-cache-sto",
+      "body_hash": "25600aa31fe57c5712a8",
+      "number": 1842,
+      "draft": false,
+      "head_sha": "80da97a0519e518123346dea64237ff2b72825ec",
+      "merged_at": null,
+      "labels": [
+        "Stale",
+        "risk: medium"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "1f980881c098b29f236d",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/1922",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(mcp): Serve each exposed CLI command as its own MCP tool",
+      "url": "https://github.com/getsentry/toolkit/pull/1922",
+      "status": "open",
+      "created_at": "2026-11-03T23:46:41Z",
+      "updated_at": "2026-11-26T02:38:55Z",
+      "excerpt": "Closes #1890. Part of the `cli-first-mcp` plan (#1357). **Stacked on #1919 (`feat/command-catalog`), which is stacked on #1916.** Retarget this to `main` once those merge. `sentry mcp --commands` replaces the hand-written tool catalog with one MCP tool for each `exposed` command in the CLI command catalog. Each tool is named from its command path (`sentry issue list` → `sentry_issue_list`). Its description is the com",
+      "body_hash": "c6c7aec1a4eebaebf3d8",
+      "number": 1922,
+      "draft": false,
+      "head_sha": "215a4dc71b24d4fc25f2d3e0784027ed7437e4b6",
+      "merged_at": null,
+      "labels": [
+        "Stale",
+        "risk: medium"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "1882fdb6b101c07472e4",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2251",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(mcp): remove search_attributes experimental flag",
+      "url": "https://github.com/getsentry/toolkit/pull/2251",
+      "status": "open",
+      "created_at": "2026-11-13T19:59:20Z",
+      "updated_at": "2026-11-25T20:48:25Z",
+      "excerpt": "Contributes to EXP-1350 We're taking this off of experimental mode AKA releasing it to prod. We've made evals and it works as intended so i think it's good to release. There are other things from attribute details that will be added in here but this is enough to get some good use out of. I also just audited a bit of the permissions and stuff that was there for `search_events` which is what i copied; this tool doesn't",
+      "body_hash": "c6e42c3c31a3c6fdb89a",
+      "number": 2251,
+      "draft": false,
+      "head_sha": "2a8549fe2302c169f13b01ea27d8ff09dda0ba2b",
+      "merged_at": null,
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "30f18f2bb1140a36b699",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2476",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(mcp): Show Seer investigations in get_issue_details",
+      "url": "https://github.com/getsentry/toolkit/pull/2476",
+      "status": "open",
+      "created_at": "2026-11-23T19:04:47Z",
+      "updated_at": "2026-11-26T01:06:39Z",
+      "excerpt": "Stacked on getsentry/toolkit#2475. The base is that PR's branch, so this diff shows only the investigations change. Retarget it to `main` once #2475 merges. getsentry/sentry#132090 added an `investigations` type to `/organizations/{org}/issues/{id}/related/`. It returns the Seer investigations whose evidence named the issue. They come back in a separate top-level `investigations` list, not in `data`. Each entry has `",
+      "body_hash": "1edc788b02a85971c9a7",
+      "number": 2476,
+      "draft": false,
+      "head_sha": "611b5538b38aed4272112420db2db1be23881260",
+      "merged_at": null,
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "2e2d64a9e51cadc23951",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2503",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(cli): Request user_preference scopes by default",
+      "url": "https://github.com/getsentry/toolkit/pull/2503",
+      "status": "open",
+      "created_at": "2026-11-25T16:39:13Z",
+      "updated_at": "2026-11-25T19:49:53Z",
+      "excerpt": "Adds new user preference scope to the cli, this is a low risk scope that we're releasing, mainly ui specific and deals with non public APIs. We're doing this to keep this iterative, and prove out an entire release of a new scope before we get to the bigger ones. ### Generated description Sentry is releasing `user_preference:read` and `user_preference:write`. They cover state Sentry keeps about the user: stars, starre",
+      "body_hash": "6251ee2270c594ab1383",
+      "number": 2503,
+      "draft": false,
+      "head_sha": "0a6965e0c3f3b803e402ff3d642a85a2b824a5a3",
+      "merged_at": null,
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "3d3f602d1f6431f0c378",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2504",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(mcp): List related issues in get_issue_details outside experimental mode",
+      "url": "https://github.com/getsentry/toolkit/pull/2504",
+      "status": "open",
+      "created_at": "2026-11-25T18:32:58Z",
+      "updated_at": "2026-11-26T00:59:35Z",
+      "excerpt": "Removes the experimental gate on the related issues lookup in `get_issue_details`. Every session now gets the inline `relatedIssues` list and, when that list isn't empty, the `find_related_issues` suggestion. Until now only experimental sessions got either. `get_sentry_resource` uses the same handler for issue and event resources, so it changes too. The lookup still fails soft: a 429 or other failed `/related/` call ",
+      "body_hash": "dcdcb113d3ecf041d796",
+      "number": 2504,
+      "draft": false,
+      "head_sha": "3384cf27305f249840d317dae9432a3e84bcf81f",
+      "merged_at": null,
+      "labels": [
+        "risk: medium"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "ae73e236ef0e3376fff0",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/4844",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Mark failing remote MCP servers unhealthy instead of starting",
+      "url": "https://github.com/stacklok/toolhive/pull/4844",
+      "status": "open",
+      "created_at": "2026-04-15T11:25:47Z",
+      "updated_at": "2026-11-25T23:00:54Z",
+      "excerpt": "## Summary A remote MCP server that keeps returning errors (for example, HTTP 500) leaves its workload stuck in `starting`. `thv list` doesn't show it without `-a`, and the user gets no sign that anything is wrong unless they read debug logs (#4459). There are two causes: 1. Remote health checks were off unless `TOOLHIVE_REMOTE_HEALTHCHECKS=true` was set. 2. Even with checks on, `monitorHealth` counted failures only ",
+      "body_hash": "25c75fb928c5cb01db83",
+      "number": 4844,
+      "draft": false,
+      "head_sha": "ef813611120ab30ba4a37d5f54e479f41b3202a6",
+      "merged_at": null,
+      "labels": [
+        "size/M"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "dfdf869086435425688a",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7049",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Clean up isolation resources when workload setup fails",
+      "url": "https://github.com/stacklok/toolhive/pull/7049",
+      "status": "open",
+      "created_at": "2026-11-03T21:59:24Z",
+      "updated_at": "2026-11-25T23:10:13Z",
+      "excerpt": "## Summary When a network-isolated workload fails during setup before its MCP container exists, its `toolhive- -internal` network and ` -dns` container (plus egress, if it was created) are left behind. `thv rm` cannot remove them, because `RemoveWorkload` derives their names from the MCP container. Each leaked network uses up one of Docker's address pools, so after enough failures every new workload fails with \"all p",
+      "body_hash": "a6d9371eebbc293e4f7e",
+      "number": 7049,
+      "draft": false,
+      "head_sha": "dd454b67c5b11194d957a2514c566f91436630eb",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "7644b2fca1cfbbe8300d",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7183",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Match glob directory patterns in .thvignore",
+      "url": "https://github.com/stacklok/toolhive/pull/7183",
+      "status": "closed",
+      "created_at": "2026-11-18T22:37:07Z",
+      "updated_at": "2026-11-25T13:18:12Z",
+      "excerpt": "## Summary A `.thvignore` pattern ending in `/` was only checked as a literal path, so a directory pattern with a wildcard (`secrets-*/`, `*.egg-info/`) never matched and those directories stayed visible in the mount, while the same pattern without the slash worked. - `getMatchingPaths` now handles directory patterns with the same literal-then-glob lookup as other patterns, and keeps only directories from the glob re",
+      "body_hash": "dc056e87478c3d2cf0f0",
+      "number": 7183,
+      "draft": false,
+      "head_sha": "5f9374abdf0dfaa36e07af4d79de48f9a55abd1b",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "60b1c410b281f9569706",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7195",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Match wildcard .thvignore directory patterns",
+      "url": "https://github.com/stacklok/toolhive/pull/7195",
+      "status": "closed",
+      "created_at": "2026-11-19T14:00:13Z",
+      "updated_at": "2026-11-25T12:39:53Z",
+      "excerpt": "## Summary - `.thvignore` directory patterns (a pattern ending in `/`) that contain wildcards never matched: `getMatchingPaths` only `os.Stat`ed the literal pattern path and returned early, so `filepath.Glob` was never reached for directory patterns. Entries such as `secrets-*/` or `*.egg-info/` therefore produced no overlay and the directories stayed visible inside the container. - Fall back to glob matching for dir",
+      "body_hash": "d0aa86a7bd42df11c63b",
+      "number": 7195,
+      "draft": false,
+      "head_sha": "98e9b99a6ba418f1a9e1fad42edf1df413d6c5d4",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "0979ae3fc141352164c8",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7280",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Let operators set the instructions MCP endpoints return",
+      "url": "https://github.com/stacklok/toolhive/pull/7280",
+      "status": "open",
+      "created_at": "2026-11-24T17:39:42Z",
+      "updated_at": "2026-11-25T23:00:11Z",
+      "excerpt": "## Summary MCP clients add a server's `instructions` to the model's context while the server is connected. Operators need to put policy or usage guidance there without rebuilding the server, and ToolHive had no way to do it. - Add an optional `instructions` field (`mode`, `value`) to MCPServer, MCPRemoteProxy and VirtualMCPServer, in both served API versions. The type lives in `pkg/mcp/instructions` and is shared by ",
+      "body_hash": "5df66e28e3578c8ca00c",
+      "number": 7280,
+      "draft": false,
+      "head_sha": "a0fc8944e524563d0e3ad3956c7c2e223615e939",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "aba4fd49f2b084dcad03",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7309",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Pass through only backend-sent structuredContent",
+      "url": "https://github.com/stacklok/toolhive/pull/7309",
+      "status": "open",
+      "created_at": "2026-11-25T18:49:35Z",
+      "updated_at": "2026-11-25T20:36:06Z",
+      "excerpt": "## Summary When a backend tool result has no `structuredContent`, vMCP builds one from the content array (`conversion.ContentArrayToMap`) and returns it to the client on plain pass-through calls. That map was meant for composite workflow templates, but clients that read `structuredContent` first get a shape the backend never produced: `{\"text\": \"...\"}` for a text result, and the full base64 payload of blob resources ",
+      "body_hash": "1dc15cdb9dbcc9d03342",
+      "number": 7309,
+      "draft": false,
+      "head_sha": "94ce334e1a05c05e0038f2a5b9505ee1982d92fb",
+      "merged_at": null,
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "bf4e6f18d22cf27f1983",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/stacklok/toolhive/pull/7316",
+      "source": "stacklok/toolhive",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "Reframe authserver README around agentic auth challenges",
+      "url": "https://github.com/stacklok/toolhive/pull/7316",
+      "status": "open",
+      "created_at": "2026-11-25T22:11:53Z",
+      "updated_at": "2026-11-25T22:23:55Z",
+      "excerpt": "## Summary Review feedback on \"Add README for pkg/authserver\" (#7301) asked for the README to make it obvious why someone building agent-aware applications or deployments should use the auth server: why it helps, how it helps, and what it saves. The merged README listed features by mechanism, so a reader had to work out which problem each one solves. - Lead the opening with the agentic framing: workload identity (suc",
+      "body_hash": "76125f884e0482dc0e8d",
+      "number": 7316,
+      "draft": false,
+      "head_sha": "f9b9c4e6b679533393e653c36c0fda0a3d579a62",
+      "merged_at": null,
+      "labels": [
+        "size/S"
+      ],
+      "score": 18,
+      "reasons": [
+        "T2 watchlist"
+      ],
+      "fingerprint": "7222f2caaf702eed3998",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4595",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 43 directories with 1 update",
+      "url": "https://github.com/awslabs/mcp/pull/4595",
+      "status": "open",
+      "created_at": "2026-09-08T22:56:04Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/timestream-for-influxdb-mcp-server directory: [httpx2](https://github.com/pydantic/httpx",
+      "body_hash": "9d6000864a9e916881da",
+      "number": 4595,
+      "draft": false,
+      "head_sha": "c5200e35622b5363d6c192e2dedb35bb04f7153d",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "9cede9df49bca1ede0ab",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4598",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 41 directories with 2 updates",
+      "url": "https://github.com/awslabs/mcp/pull/4598",
+      "status": "open",
+      "created_at": "2026-09-08T23:07:04Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/mysql-mcp-server directory: [httpx2](https://github.com/pydantic/httpx2). Bumps the uv-s",
+      "body_hash": "b9a2f922b0fdf3456964",
+      "number": 4598,
+      "draft": false,
+      "head_sha": "abdc3278f52823eb3571e001337f125bfa60da5f",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "d347c502267736940559",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4602",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 42 directories with 2 updates",
+      "url": "https://github.com/awslabs/mcp/pull/4602",
+      "status": "open",
+      "created_at": "2026-09-08T23:26:35Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/elasticache-mcp-server directory: [httpcore2](https://github.com/pydantic/httpx2). Bumps",
+      "body_hash": "622400ba86df01bdb089",
+      "number": 4602,
+      "draft": false,
+      "head_sha": "ca679e11c6be800d8ee4a4e5b4eda04909e8eeb0",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "aabdc2705474f8c3f880",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4648",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 46 directories with 4 updates",
+      "url": "https://github.com/awslabs/mcp/pull/4648",
+      "status": "open",
+      "created_at": "2026-09-18T02:42:48Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 2 updates in the /src/eks-mcp-server directory: [httpx2](https://github.com/pydantic/httpx2) and [soupsieve](",
+      "body_hash": "df913065df3dd5a54e6e",
+      "number": 4648,
+      "draft": false,
+      "head_sha": "4336bfbb395639df15a5b36e70d05b3fff9f0f7c",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "0c87c3cef771d8733cbb",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4651",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 50 directories with 1 update",
+      "url": "https://github.com/awslabs/mcp/pull/4651",
+      "status": "open",
+      "created_at": "2026-09-18T18:39:28Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/valkey-mcp-server directory: [anyio](https://github.com/agronholm/anyio). Bumps the uv-s",
+      "body_hash": "04ff823e78999a15e849",
+      "number": 4651,
+      "draft": false,
+      "head_sha": "852d90d6de1fdad259bda7d760767ec81ee4c5f0",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "57b7cfc485af5aa5309d",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4658",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 50 directories with 1 update",
+      "url": "https://github.com/awslabs/mcp/pull/4658",
+      "status": "open",
+      "created_at": "2026-09-21T14:53:22Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/well-architected-security-mcp-server directory: [anyio](https://github.com/agronholm/any",
+      "body_hash": "89b79cf18b059ed9dbf1",
+      "number": 4658,
+      "draft": false,
+      "head_sha": "3a394bfc4a50f9bab2b02ff35dfd7b55b086f6c5",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "bfddd28b5039d6b2dd21",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4674",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 50 directories with 2 updates",
+      "url": "https://github.com/awslabs/mcp/pull/4674",
+      "status": "open",
+      "created_at": "2026-09-25T00:46:43Z",
+      "updated_at": "2026-11-26T01:52:23Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 2 updates in the /src/ccapi-mcp-server directory: [anyio](https://github.com/agronholm/anyio) and [gitpython]",
+      "body_hash": "992d9e4aed283aade733",
+      "number": 4674,
+      "draft": false,
+      "head_sha": "fdb7f6c170c7b61aa312e5c0a9509352585585ea",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "64574ffa727ff69cad9e",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4707",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 51 directories with 1 update",
+      "url": "https://github.com/awslabs/mcp/pull/4707",
+      "status": "open",
+      "created_at": "2026-10-01T20:12:54Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/valkey-mcp-server directory: [virtualenv](https://github.com/pypa/virtualenv). Bumps the",
+      "body_hash": "ea3323dfadbd32e241a2",
+      "number": 4707,
+      "draft": false,
+      "head_sha": "0fec6a28cdbec2434b43ddcaa37580fed5d9fd03",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "0ed73e8599e2d8a2cea0",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4715",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 50 directories with 1 update",
+      "url": "https://github.com/awslabs/mcp/pull/4715",
+      "status": "open",
+      "created_at": "2026-10-02T20:24:26Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/valkey-mcp-server directory: [virtualenv](https://github.com/pypa/virtualenv). Bumps the",
+      "body_hash": "a14633944f5a95ec1c11",
+      "number": 4715,
+      "draft": false,
+      "head_sha": "38b304149009e949be0694439688f1d290cea3ff",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "8d5e08c87ed84c95b9a4",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/4747",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 35 directories with 2 updates",
+      "url": "https://github.com/awslabs/mcp/pull/4747",
+      "status": "open",
+      "created_at": "2026-10-08T02:40:01Z",
+      "updated_at": "2026-11-26T01:52:22Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /samples/mcp-integration-with-kb directory: [tornado](https://github.com/tornadoweb/tornado).",
+      "body_hash": "d4608b38c943c2dc50d6",
+      "number": 4747,
+      "draft": false,
+      "head_sha": "4a2c5e174cf0e566e4e87a1a334b123f08f48edb",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "13f58721d9f63ee09a50",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5118",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 18 directories with 6 updates",
+      "url": "https://github.com/awslabs/mcp/pull/5118",
+      "status": "open",
+      "created_at": "2026-11-16T19:35:01Z",
+      "updated_at": "2026-11-26T01:52:25Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 1 update in the /src/ccapi-mcp-server directory: [aiohttp](https://github.com/aio-libs/aiohttp). Bumps the uv",
+      "body_hash": "cf8a54829d3ac9542b63",
+      "number": 5118,
+      "draft": false,
+      "head_sha": "4d818b3c5c2013439b4d91607cde60afb6d85a88",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "6f388b86aa620cca5c5e",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5120",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update uv: bump the uv-security-updates group across 17 directories with 6 updates",
+      "url": "https://github.com/awslabs/mcp/pull/5120",
+      "status": "open",
+      "created_at": "2026-11-16T22:04:50Z",
+      "updated_at": "2026-11-26T01:52:25Z",
+      "excerpt": "[//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps the uv-security-updates group with 3 updates in the /samples/mcp-integration-with-kb directory: [aiohttp](https://github.com/aio-libs/aiohttp), ",
+      "body_hash": "0b73d4e33c196aadf453",
+      "number": 5120,
+      "draft": false,
+      "head_sha": "7d54af4fa3e2d158cd61683e7498e50aca9af12f",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ],
+      "score": 14,
+      "reasons": [
+        "T2 watchlist",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "cd8326e85e87aa5be855",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/1837",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "feat(uptime): Create uptime monitors through the detectors endpoint",
+      "url": "https://github.com/getsentry/toolkit/pull/1837",
+      "status": "open",
+      "created_at": "2026-11-03T00:28:03Z",
+      "updated_at": "2026-11-25T16:19:27Z",
+      "excerpt": "`create_uptime_monitor` posted to the legacy `POST /projects/{org}/{project}/uptime/` endpoint. That endpoint goes through `create_uptime_detector`, which never sets `Detector.created_by_id`. As a result, every uptime monitor an agent creates through the MCP has no creator. The Sentry UI uses `POST /organizations/{org}/projects/{project}/detectors/` (`UptimeDomainCheckFailureValidator`). That path sets `created_by_id",
+      "body_hash": "5d9717ec15529f2426de",
+      "number": 1837,
+      "draft": true,
+      "head_sha": "91bb6800cefa1a8bb7885d488638a3d83b3b5c1b",
+      "merged_at": null,
+      "labels": [
+        "Stale"
+      ],
+      "score": 8,
+      "reasons": [
+        "T2 watchlist",
+        "draft PR"
+      ],
+      "fingerprint": "d9328c8d7b7a75cf0ad1",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/pull/2492",
+      "source": "getsentry/toolkit",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "fix(get-doc): Say where an off-site redirect goes and that stale search results fail",
+      "url": "https://github.com/getsentry/toolkit/pull/2492",
+      "status": "open",
+      "created_at": "2026-11-25T04:31:15Z",
+      "updated_at": "2026-11-25T04:32:07Z",
+      "excerpt": "`search_docs` keeps returning docs pages that moved or were removed (getsentry/toolkit#2491). `get_doc` then fails on them, and its error tells the agent to run `search_docs` again. The agent gets the same path back and loops. Two message changes in `get_doc`: - A redirect off the docs hosts now names its target. For example, `ai/mcp.md` and `product/sentry-mcp.md` now redirect to `https://mcp.sentry.dev/`. Before, `",
+      "body_hash": "9f43b34e613a2008aad9",
+      "number": 2492,
+      "draft": true,
+      "head_sha": "3512c2404b3be1627693b529ec36cebd42694bd9",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T2 watchlist",
+        "draft PR"
+      ],
+      "fingerprint": "b4658b3f1b704adf41ea",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5139",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update github-actions: bump the github-actions-version-updates group with 4 updates",
+      "url": "https://github.com/awslabs/mcp/pull/5139",
+      "status": "closed",
+      "created_at": "2026-11-19T01:55:44Z",
+      "updated_at": "2026-11-26T01:55:31Z",
+      "excerpt": "Bumps the github-actions-version-updates group with 4 updates: [github/codeql-action/upload-sarif](https://github.com/github/codeql-action), [bridgecrewio/checkov-action](https://github.com/bridgecrewio/checkov-action), [github/codeql-action/init](https://github.com/github/codeql-action) and [github/codeql-action/analyze](https://github.com/github/codeql-action). Updates `github/codeql-action/upload-sarif` from 3ea37",
+      "body_hash": "ac4bafb607bfb26faef0",
+      "number": 5139,
+      "draft": false,
+      "head_sha": "d42a34a5836c378f6efae950c9e452c0be905218",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ],
+      "score": 0,
+      "reasons": [
+        "T2 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "bbe954b81b738a10879d",
+      "change_type": "updated",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    },
+    {
+      "id": "https://github.com/awslabs/mcp/pull/5192",
+      "source": "awslabs/mcp",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "chore(deps): update github-actions: bump the github-actions-version-updates group across 1 directory with 6 updates",
+      "url": "https://github.com/awslabs/mcp/pull/5192",
+      "status": "open",
+      "created_at": "2026-11-26T01:55:29Z",
+      "updated_at": "2026-11-26T01:55:34Z",
+      "excerpt": "Bumps the github-actions-version-updates group with 6 updates in the / directory: | Package | From | To | | --- | --- | --- | | [astral-sh/setup-uv](https://github.com/astral-sh/setup-uv) | `10.3.3` | `10.4.0` | | [github/codeql-action/upload-sarif](https://github.com/github/codeql-action) | `3ea37a44b6e4e6847c46edae209410d258d548d1` | `776237d428f23fefc3d9e0fe1962921cbcd53e17` | | [bridgecrewio/checkov-action](https",
+      "body_hash": "b724206f6092a0266599",
+      "number": 5192,
+      "draft": false,
+      "head_sha": "b5c2970040b5bc17f5de5839f30ba1e9894038a1",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ],
+      "score": 0,
+      "reasons": [
+        "T2 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "190d7132e233d037c6a9",
+      "change_type": "new",
+      "observed_at": "2026-11-26T01:18:32+00:00"
+    }
+  ],
+  "last_run": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "generated_at": "2026-11-26T01:18:32+00:00",
+    "lookback_days": 14,
+    "baseline": false,
+    "item_count": 884,
+    "changes_this_run": 125,
+    "sources": [
+      {
+        "source": "IBM/mcp-context-forge",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 19,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 32,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "IBM/mcp-context-forge",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "PrefectHQ/fastmcp",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "awslabs/mcp",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 20,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 238,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "awslabs/mcp",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare-mcp",
+        "kind": "feed",
+        "status": "ok",
+        "entries_available": 20,
+        "entries_in_window": 0
+      },
+      {
+        "source": "cloudflare/agents",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "cloudflare/workers-oauth-provider",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "getsentry/toolkit",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 400,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 52,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "getsentry/toolkit",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "github/github-mcp-server",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 89,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "github/github-mcp-server",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "lastmile-ai/mcp-agent",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 9,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "lastmile-ai/mcp-agent",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "mcp-official-blog",
+        "kind": "feed",
+        "status": "ok",
+        "entries_available": 30,
+        "entries_in_window": 1
+      },
+      {
+        "source": "microsoft/playwright-mcp",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 76,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "microsoft/playwright-mcp",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/conformance",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 17,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/conformance",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/csharp-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/ext-apps",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "status": "failed"
+          },
+          "issues": {
+            "status": "failed"
+          },
+          "commits": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/ext-auth",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-skills",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/ext-tasks",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/go-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/inspector",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 19,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 79,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/inspector",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/java-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/kotlin-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "status": "failed"
+          },
+          "issues": {
+            "status": "failed"
+          },
+          "commits": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/modelcontextprotocol",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/python-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 12,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 73,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/python-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 5,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 51,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/registry",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ruby-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/rust-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/swift-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/transports-wg",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 71,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "status": "failed"
+          },
+          "commits": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/transports-wg",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 10,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/typescript-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "snyk/agent-scan",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 144,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "snyk/agent-scan",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "sparfenyuk/mcp-proxy",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 24,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "sparfenyuk/mcp-proxy",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 57,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 392,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "stacklok/toolhive",
+        "archived": false,
+        "default_branch": "main"
+      }
+    ],
+    "errors": [
+      {
+        "source": "PrefectHQ/fastmcp",
+        "error": "Network error from api.github.com/repos/PrefectHQ/fastmcp"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "error": "Network error from api.github.com/repos/Tencent/AI-Infra-Guard"
+      },
+      {
+        "source": "cloudflare/agents",
+        "error": "Network error from api.github.com/repos/cloudflare/agents"
+      },
+      {
+        "source": "cloudflare/workers-oauth-provider",
+        "error": "Network error from api.github.com/repos/cloudflare/workers-oauth-provider"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "error": "Network error from api.github.com/repos/cloudflare/workers-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/agents-wg"
+      },
+      {
+        "source": "modelcontextprotocol/conformance",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/csharp-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/csharp-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/ext-apps",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "endpoint": "commits",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ext-auth/commits"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "endpoint": "issues",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ext-auth/issues"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "endpoint": "pulls",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ext-auth/pulls"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "endpoint": "releases",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ext-auth/releases"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "endpoint": "security-advisories",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ext-auth/security-advisories"
+      },
+      {
+        "source": "modelcontextprotocol/ext-skills",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ext-skills"
+      },
+      {
+        "source": "modelcontextprotocol/ext-tasks",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ext-tasks"
+      },
+      {
+        "source": "modelcontextprotocol/go-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/go-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/inspector",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/java-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/java-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/kotlin-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/kotlin-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/mcpb"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "commits",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/commits"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "issues",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/issues"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "releases",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/releases"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "security-advisories",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/modelcontextprotocol/security-advisories"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/php-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/python-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/ruby-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/ruby-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/rust-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/rust-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/servers"
+      },
+      {
+        "source": "modelcontextprotocol/swift-sdk",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/swift-sdk"
+      },
+      {
+        "source": "modelcontextprotocol/transports-wg",
+        "endpoint": "commits",
+        "error": "Network error from api.github.com/repos/modelcontextprotocol/transports-wg/commits"
+      },
+      {
+        "source": "modelcontextprotocol/transports-wg",
+        "endpoint": "issues",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      }
+    ],
+    "warnings": []
+  }
+}
