@@ -1,0 +1,3891 @@
+{
+  "date": "2026-11-27",
+  "events": [
+    {
+      "id": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.12",
+      "source": "Tencent/AI-Infra-Guard",
+      "kind": "release",
+      "topic": "security",
+      "tier": 1,
+      "title": "AI-Infra-Guard v4.6.12",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.12",
+      "status": "published",
+      "created_at": "2026-11-26T04:03:31Z",
+      "updated_at": "2026-11-26T04:03:59Z",
+      "excerpt": "## [v4.6.12] - 2026-11-26 ### Added - **Agent-Scan**: Add sandboxed --repo source tools and Stage 1 profiling (PR #812, 1ccb658d) - **Skill-Scan**: Add baseline-anchored semantic slicing for pure semantic files (PR #809, cae6e04d) - **MCP**: Add cross-server tool shadowing detection rule (PR #790, 0f53daeb) - **Prompt-Security**: Add RefusalLadderJailbreaking multi-turn attack (PR #780, 8e5e2fd7) ### Fixed - **Docker",
+      "body_hash": "8fbe51e43742b2e34ecb",
+      "version": "v4.6.12",
+      "prerelease": false,
+      "published_at": "2026-11-26T04:03:58Z",
+      "labels": [],
+      "score": 109,
+      "reasons": [
+        "T1 watchlist",
+        "breaking: breaking",
+        "security: security",
+        "release"
+      ],
+      "fingerprint": "fff61c47a10e99077103",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/363",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P8] oauth: issuer checks, application_type, AS migration (SEP-2468/837/2352)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/363",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:25Z",
+      "updated_at": "2026-11-25T12:38:06Z",
+      "excerpt": "| | | |---|---| | Part | P8 of P0–P35, merged into `rel/1.0.0` in order (previous: P7 (#364) · next: P10 (#362)) | | Branch | `conformance/p8-oauth` | | Base | `conformance/p7-mrtr` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `4f1f67d` oauth: issuer checks, application_type, AS migration (SEP-2468/837/2352) `82ab1d5` oauth: review fixes `c6762d9` oauth: compute the P",
+      "body_hash": "17e84dd1bbbc6d3ce0fb",
+      "number": 363,
+      "draft": false,
+      "head_sha": "78cb7d368e855e329f1c8e4140dcd00fed15d14c",
+      "merged_at": "2026-11-25T12:38:02Z",
+      "labels": [],
+      "score": 108,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: migration",
+        "security: oauth",
+        "protocol: conformance, mrtr",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "8a161faf471811f1d0db",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/340",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P31] server cards: serve and fetch Server Cards (SEP-2127)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/340",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:26Z",
+      "updated_at": "2026-11-25T12:54:19Z",
+      "excerpt": "| | | |---|---| | Part | P31 of P0–P35, merged into `rel/1.0.0` in order (previous: P30 (#341) · next: P32 (#339)) | | Branch | `conformance/p31-server-cards` | | Base | `conformance/p30-spec-deprecations` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `b433530` server cards: serve and fetch Server Cards (SEP-2127) `9f193d1` server cards: review fixes `90db10a` server c",
+      "body_hash": "e638351684e3f0ac408c",
+      "number": 340,
+      "draft": false,
+      "head_sha": "fd88feace319355c82583a718855a13afac69cf0",
+      "merged_at": "2026-11-25T12:54:15Z",
+      "labels": [],
+      "score": 82,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: deprecat",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "873a5db3fe936246cfd2",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/341",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P30] deprecations: roots, sampling, logging and includeContext (SEP-2577, SEP-2596)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/341",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:31Z",
+      "updated_at": "2026-11-25T12:53:44Z",
+      "excerpt": "| | | |---|---| | Part | P30 of P0–P35, merged into `rel/1.0.0` in order (previous: P29 (#342) · next: P31 (#340)) | | Branch | `conformance/p30-spec-deprecations` | | Base | `conformance/p29-tool-names` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `a79cda4` deprecations: roots, sampling, logging and includeContext (SEP-2577, SEP-2596) `de7b2f3` deprecations: second-p",
+      "body_hash": "198128df92d7dbde5085",
+      "number": 341,
+      "draft": false,
+      "head_sha": "de7b2f3d598480d91cf5d30cf583626a89f83bf5",
+      "merged_at": "2026-11-25T12:53:40Z",
+      "labels": [],
+      "score": 82,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: deprecat",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "e8c08778163ef5d600e5",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/373",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: build the tests with Swift 6.3 and silence deprecation warnings",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/373",
+      "status": "merged",
+      "created_at": "2026-11-25T23:31:19Z",
+      "updated_at": "2026-11-26T15:45:42Z",
+      "excerpt": "The `macos-latest` and `Apple platforms (iOS)` jobs (Xcode 26.6, Swift 6.3.3) fail to compile `MCPTests`. Every leg also prints hundreds of deprecation warnings since roots, sampling and logging were deprecated (SEP-2577). This PR fixes both. It changes tests, snippets and the server guide only. No library code or public API changes. ### Errors (Swift 6.3) - `URLProtocol` is not `Sendable`, so the `@unchecked Sendabl",
+      "body_hash": "ac807a4160fd02872bd5",
+      "number": 373,
+      "draft": false,
+      "head_sha": "668c10fb843d9a0307a1bd24a0bb4f513cbfa7ab",
+      "merged_at": "2026-11-26T15:45:39Z",
+      "labels": [],
+      "score": 82,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: deprecat",
+        "protocol: protocol",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "0befac62ad16ae341b78",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/cloudflare/workers-oauth-provider/releases/tag/v1.4.0",
+      "source": "cloudflare/workers-oauth-provider",
+      "kind": "release",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "v1.4.0",
+      "url": "https://github.com/cloudflare/workers-oauth-provider/releases/tag/v1.4.0",
+      "status": "published",
+      "created_at": "2026-11-25T21:54:06Z",
+      "updated_at": "2026-11-25T21:54:08Z",
+      "excerpt": "### Minor Changes - [#434](https://github.com/cloudflare/workers-oauth-provider/pull/434) [`151220e`](https://github.com/cloudflare/workers-oauth-provider/commit/151220e1cdf3c2e7528ef5a25f320eb981e37379) Thanks [@mattzcarey](https://github.com/mattzcarey)! - A new authorization from a Client ID Metadata Document client no longer revokes the user's other grants from that client. `revokeExistingGrants` now defaults to ",
+      "body_hash": "13e4fd7e94c97de29ada",
+      "version": "v1.4.0",
+      "prerelease": false,
+      "published_at": "2026-11-25T21:54:08Z",
+      "labels": [],
+      "score": 81,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth, authorization",
+        "release"
+      ],
+      "fingerprint": "7190e747b605dc1f0ce4",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/358",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P13] oauth: DPoP-bound tokens (RFC 9449, SEP-1932)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/358",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:57Z",
+      "updated_at": "2026-11-25T12:40:55Z",
+      "excerpt": "| | | |---|---| | Part | P13 of P0–P35, merged into `rel/1.0.0` in order (previous: P12 (#359) · next: P14 (#357)) | | Branch | `conformance/p13-dpop` | | Base | `conformance/p12-enterprise-auth` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `0679427` oauth: DPoP-bound tokens (RFC 9449, SEP-1932) `7e18ecf` oauth: review fixes `77f5f7d` oauth: second-pass review fixes `",
+      "body_hash": "a6f19c0ea67f5a1b8f6b",
+      "number": 358,
+      "draft": false,
+      "head_sha": "6cf0325a7a2e684d734eb2a776eaa1b57bde5d61",
+      "merged_at": "2026-11-25T12:40:51Z",
+      "labels": [],
+      "score": 80,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth, token",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "5449b982d91813086252",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/183",
+      "source": "modelcontextprotocol/java-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Add message field to ProgressNotification",
+      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/183",
+      "status": "closed",
+      "created_at": "2025-04-22T16:07:48Z",
+      "updated_at": "2026-11-26T14:12:08Z",
+      "excerpt": "Add message field to ProgressNotification https://modelcontextprotocol.io/specification/2025-03-26/changelog#other-schema-changes ## Motivation and Context ## How Has This Been Tested? ## Breaking Changes ## Types of changes - [ ] Bug fix (non-breaking change which fixes an issue) - [ ] New feature (non-breaking change which adds functionality) - [ ] Breaking change (fix or feature that would cause existing functiona",
+      "body_hash": "7b14d4f9dee88b84304e",
+      "number": 183,
+      "draft": false,
+      "head_sha": "ea0bfb43b799a667e452404be6620ae7904af50b",
+      "merged_at": null,
+      "labels": [],
+      "score": 72,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: breaking",
+        "protocol: protocol, schema",
+        "proposal: specification"
+      ],
+      "fingerprint": "c5dea0b5ab046ae13762",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/java-sdk/pull/184",
+      "source": "modelcontextprotocol/java-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "add AudioContent to McpSchema",
+      "url": "https://github.com/modelcontextprotocol/java-sdk/pull/184",
+      "status": "closed",
+      "created_at": "2025-04-22T16:18:24Z",
+      "updated_at": "2026-11-26T14:11:46Z",
+      "excerpt": "add AudioContent to McpSchema https://modelcontextprotocol.io/specification/2025-03-26/changelog#other-schema-changes ## Motivation and Context ## How Has This Been Tested? ## Breaking Changes ## Types of changes - [ ] Bug fix (non-breaking change which fixes an issue) - [ ] New feature (non-breaking change which adds functionality) - [ ] Breaking change (fix or feature that would cause existing functionality to chan",
+      "body_hash": "155cc47f222bf673e651",
+      "number": 184,
+      "draft": false,
+      "head_sha": "9e858f1c525bf1203e9f8df0cd6a03c45d2f2239",
+      "merged_at": null,
+      "labels": [],
+      "score": 72,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: breaking",
+        "protocol: protocol, schema",
+        "proposal: specification"
+      ],
+      "fingerprint": "74db614be6534e88074d",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/024d5255eb4466ba4fab21e044b5ba84d6a79327",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "commit",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "docs: add release cycle page (#3550)",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/024d5255eb4466ba4fab21e044b5ba84d6a79327",
+      "status": "committed",
+      "created_at": null,
+      "updated_at": "2026-11-26T20:04:01Z",
+      "excerpt": "docs: add release cycle page (#3550) Adds `docs/community/release-cycle.mdx`, the release-cycle documentation required by [SEP-3398](https://modelcontextprotocol.io/seps/3398-release-cycle-updates) (Reference Implementation, item 2), and aligns the governance pages that SEP-3398 changes. ## Release cycle page - Schedule: six-month releases, eight-month cycles, and the two-month overlap, with an example timeline (ligh",
+      "body_hash": "9ff563a485a94238434a",
+      "labels": [],
+      "score": 71,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol",
+        "proposal: sep-"
+      ],
+      "fingerprint": "72bad6978bfa6af2a93a",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/servers/pull/5652",
+      "source": "modelcontextprotocol/servers",
+      "kind": "pull_request",
+      "topic": "reference-server",
+      "tier": 2,
+      "title": "feat(everything): serve the Events extension (poll and push) on 2026-07-28",
+      "url": "https://github.com/modelcontextprotocol/servers/pull/5652",
+      "status": "merged",
+      "created_at": "2026-11-24T05:42:01Z",
+      "updated_at": "2026-11-25T05:13:06Z",
+      "excerpt": "Closes #5651 ## Description The everything server now serves the Events extension (`io.modelcontextprotocol/events`, [SEP-3415](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/seps/3415-events-extension.md), Beta) on protocol version 2026-07-28, with **poll** and **push** delivery. The SDK has no server-side Events support yet (modelcontextprotocol/typescript-sdk#3209 is a draft), so `server/ev",
+      "body_hash": "91980b20f08ec6babd85",
+      "number": 5652,
+      "draft": false,
+      "head_sha": "d2772632794324761df27a7583e937ae6d77263e",
+      "merged_at": "2026-11-25T05:08:27Z",
+      "labels": [
+        "v2"
+      ],
+      "score": 64,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: protocol",
+        "proposal: sep-, extension",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "4aa2fa5f7f51d5841fa6",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/356",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P15] interop: matrix against the Go and Python SDKs",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/356",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:46Z",
+      "updated_at": "2026-11-25T12:42:32Z",
+      "excerpt": "| | | |---|---| | Part | P15 of P0–P35, merged into `rel/1.0.0` in order (previous: P14 (#357) · next: P16 (#355)) | | Branch | `conformance/p15-interop` | | Base | `conformance/oauth-dpop-validation` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `8864ff6` interop: matrix against the Go and Python SDKs `1abeca1` interop: review fixes `1d64122` interop: second-pass revi",
+      "body_hash": "b44373894d6df5bb4d93",
+      "number": 356,
+      "draft": false,
+      "head_sha": "b92b22da76f7c995e2254ac630352194b62d99f5",
+      "merged_at": "2026-11-25T12:42:28Z",
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "53600e46e433fc260704",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/357",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P14] Fix four client auth findings from testing against independent servers",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/357",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:52Z",
+      "updated_at": "2026-11-25T12:41:55Z",
+      "excerpt": "| | | |---|---| | Part | P14 of P0–P35, merged into `rel/1.0.0` in order (previous: P13 (#358) · next: P15 (#356)) | | Branch | `conformance/oauth-dpop-validation` | | Base | `conformance/p13-dpop` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `d0945a8` fix: Don't count authorization time against discoveryTimeout `457a3d2` fix: Throw registrationInformationRequired wit",
+      "body_hash": "5b67de0206fa0e8d31d7",
+      "number": 357,
+      "draft": false,
+      "head_sha": "b94f8db35cfd84ebf67ef9a4a17e4a4c193ad022",
+      "merged_at": "2026-11-25T12:41:52Z",
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth, authorization",
+        "protocol: timeout, conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "5afd9e9e70e0a3c42616",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/359",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P12] oauth: jwt-bearer grant, token exchange, enterprise-managed authorization",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/359",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:02Z",
+      "updated_at": "2026-11-25T12:40:27Z",
+      "excerpt": "| | | |---|---| | Part | P12 of P0–P35, merged into `rel/1.0.0` in order (previous: P11 (#360) · next: P13 (#358)) | | Branch | `conformance/p12-enterprise-auth` | | Base | `conformance/p11-fixes` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `68e693f` oauth: jwt-bearer grant, token exchange, enterprise-managed authorization `9431917` oauth: review fixes `47a76d3` oaut",
+      "body_hash": "e8940e0b0ecc4c99bc86",
+      "number": 359,
+      "draft": false,
+      "head_sha": "2b334d1bed4d1cf022fe5549e64811c3ace6acdb",
+      "merged_at": "2026-11-25T12:40:23Z",
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth, authorization, token",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "166372177bfd321b1c31",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/360",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P11] fix: request lifecycle, server replies, OAuth hardening",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/360",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:08Z",
+      "updated_at": "2026-11-25T12:40:07Z",
+      "excerpt": "| | | |---|---| | Part | P11 of P0–P35, merged into `rel/1.0.0` in order (previous: P9 (#361) · next: P12 (#359)) | | Branch | `conformance/p11-fixes` | | Base | `conformance/p9-flip` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `f00b681` fix: request lifecycle, server replies, OAuth hardening `3175667` fix: review fixes `6cb3f9f` client: fail pending requests when th",
+      "body_hash": "f23c6cd9e7a955b9f0e7",
+      "number": 360,
+      "draft": false,
+      "head_sha": "d9624f8bf82a108c2c16ea25cd9fb769f86ac2a2",
+      "merged_at": "2026-11-25T12:40:03Z",
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth",
+        "protocol: lifecycle, conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "acee5759c652821b9b9b",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/362",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P10] docs: go-sdk layout, feature guides, design notes and process docs",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/362",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:20Z",
+      "updated_at": "2026-11-25T12:39:09Z",
+      "excerpt": "| | | |---|---| | Part | P10 of P0–P35, merged into `rel/1.0.0` in order (previous: P8 (#363) · next: P9 (#361)) | | Branch | `conformance/p10-docs` | | Base | `conformance/p8-oauth` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `d2efd2e` docs: go-sdk layout, feature guides, design notes and process docs `a25ba95` docs: review fixes `90a0bb7` docs: second-pass review f",
+      "body_hash": "32bf027e79e93679f27e",
+      "number": 362,
+      "draft": false,
+      "head_sha": "3f5322969e6ef00afd1e2134190655da73d03568",
+      "merged_at": "2026-11-25T12:39:05Z",
+      "labels": [],
+      "score": 64,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "6db0c142e9a83a29b213",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bdfe59b8cb25b2182d7617b9426455feb406bc1b",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "commit",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "build(deps-dev): bump mint from 4.3.34 to 4.3.75 (#3580)",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bdfe59b8cb25b2182d7617b9426455feb406bc1b",
+      "status": "committed",
+      "created_at": null,
+      "updated_at": "2026-11-26T19:13:40Z",
+      "excerpt": "build(deps-dev): bump mint from 4.3.34 to 4.3.75 (#3580) Bumps [mint](https://github.com/orgs/mintlify) from 4.3.34 to 4.3.75. Commits See full diff in compare view [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mint&package-manager=npm_and_yarn&previous-version=4.3.34&new-version=4.3.75)](https://docs.github.com/en/github/managing-security-vulner",
+      "body_hash": "4194310c1d0d46811b16",
+      "labels": [],
+      "score": 59,
+      "reasons": [
+        "T1 watchlist",
+        "breaking: compatib",
+        "security: security",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "ea43e0cfd6012b2c50a2",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3745",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "docs: add go install as a first-class local install method",
+      "url": "https://github.com/github/github-mcp-server/pull/3745",
+      "status": "open",
+      "created_at": "2026-11-08T10:19:14Z",
+      "updated_at": "2026-11-26T10:01:34Z",
+      "excerpt": "## Summary - Documents `go install github.com/github/github-mcp-server/v2/cmd/github-mcp-server@latest` as a first-class way to run the local server without Docker. - Keeps `go build` from a checkout for contributors who need embedded VCS metadata. - Points to the native-binary OAuth flow. Fixes #2364 ## Notes The issue suggested `github.com/github/github-mcp-server/cmd/...@latest`. That resolves to the pre-v2 module",
+      "body_hash": "5b8db8ec5410bff879ad",
+      "number": 3745,
+      "draft": false,
+      "head_sha": "7c1bcadfb454e837ea97018c2dac00b3d633832e",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "security: oauth"
+      ],
+      "fingerprint": "18279f174cd73b71fd4a",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3954",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "[Copilot Dreaming] Avoid invalid setup and tool use; remove misleading prerequisites",
+      "url": "https://github.com/github/github-mcp-server/pull/3954",
+      "status": "open",
+      "created_at": "2026-11-26T05:52:54Z",
+      "updated_at": "2026-11-26T05:55:57Z",
+      "excerpt": "## 🧠 How this helps Copilot Development guidance can otherwise select no test, point to a retired REST mock, or require unnecessary personal-token setup. Using the supported testing and authentication contracts avoids those misleading starting points. Workflow diagnosis can mistake a partial failed-log result for the whole run. Bounded coverage and a route to other jobs avoid that assumption; removing a duplicate one",
+      "body_hash": "573f96331d6a46691340",
+      "number": 3954,
+      "draft": false,
+      "head_sha": "d34da9364e50be2e8a08c7d2f7fb8b111116e5bb",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "security: token"
+      ],
+      "fingerprint": "c5b4b391fc622f0b1771",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ext-auth/pull/43",
+      "source": "modelcontextprotocol/ext-auth",
+      "kind": "pull_request",
+      "topic": "authorization",
+      "tier": 1,
+      "title": "Add Actionable Denials as an experimental extension",
+      "url": "https://github.com/modelcontextprotocol/ext-auth/pull/43",
+      "status": "open",
+      "created_at": "2026-11-26T16:36:03Z",
+      "updated_at": "2026-11-26T17:13:03Z",
+      "excerpt": "Brings Actionable Denials to `specification/experimental/actionable-denials.mdx`, as an Experimental extension under [SEP-3392](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3392). The proposals are [SEP-2643](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2643) and [SEP-2848](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2848). - Takes the Abstract, Specific",
+      "body_hash": "b9d5790e7ff292e4047e",
+      "number": 43,
+      "draft": true,
+      "head_sha": "bceccc59b8ec8f543f6b15965dccedddb2d188d7",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol",
+        "proposal: sep-, proposal, specification",
+        "draft PR"
+      ],
+      "fingerprint": "dcd537f041e72ed62a5d",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/257",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: make initialize idempotent instead of erroring on repeat calls",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/257",
+      "status": "closed",
+      "created_at": "2026-07-12T18:34:48Z",
+      "updated_at": "2026-11-25T16:31:10Z",
+      "excerpt": "Repeated `initialize` requests previously failed with \"Server is already initialized\", breaking stateless HTTP servers and clients that retry initialization. Per the MCP spec, initialize should be safe to call again, so the server now re-negotiates and returns a fresh result instead of throwing. Fixes modelcontextprotocol/swift-sdk#219 Fixes modelcontextprotocol/swift-sdk#144 ## Motivation and Context Stateless HTTP ",
+      "body_hash": "92749aa6b675c7ff82be",
+      "number": 257,
+      "draft": false,
+      "head_sha": "56305331441d95496bf1db681ed62964d2d323d5",
+      "merged_at": null,
+      "labels": [],
+      "score": 56,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: breaking",
+        "protocol: protocol, negotiat"
+      ],
+      "fingerprint": "ed8ff99199dea3963146",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/293",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Validate OAuth issuers and registration metadata",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/293",
+      "status": "closed",
+      "created_at": "2026-09-25T14:38:52Z",
+      "updated_at": "2026-11-25T15:33:06Z",
+      "excerpt": "Checks OAuth issuer metadata and callback issuers before using an authorization code. It also sends the client application type during registration and starts a new registration when the authorization server changes. Related to #231 and #242. The branch is updated to current `main` and includes the Ubuntu CI setup and client-test timing fixes shared with #307. Tests: 561 Swift tests and DocC passed locally before thi",
+      "body_hash": "9f5c7f39362f1c115999",
+      "number": 293,
+      "draft": false,
+      "head_sha": "ab85879849d274a367316b25008f65468f0d2e33",
+      "merged_at": null,
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "security: oauth, authorization",
+        "protocol: sse"
+      ],
+      "fingerprint": "cfa9ab7a9e4328243fbb",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/339",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P32] apps: serve and read MCP Apps views (SEP-1865)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/339",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:21Z",
+      "updated_at": "2026-11-25T12:54:51Z",
+      "excerpt": "| | | |---|---| | Part | P32 of P0–P35, merged into `rel/1.0.0` in order (previous: P31 (#340) · next: P33 (#338)) | | Branch | `conformance/p32-apps` | | Base | `conformance/p31-server-cards` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `2f3cbb2` apps: serve and read MCP Apps views (SEP-1865) `b88dd46` apps: review fixes `001a313` apps: second-pass review fixes `40f9",
+      "body_hash": "9979867ffe2dab7370c7",
+      "number": 339,
+      "draft": false,
+      "head_sha": "40f9a16decd4b8144627015ea4a2c272e433c850",
+      "merged_at": "2026-11-25T12:54:47Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "4ae5aed17b0b52b2aa0f",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/342",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P29] tools: the tool name format (SEP-986)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/342",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:36Z",
+      "updated_at": "2026-11-25T12:53:17Z",
+      "excerpt": "| | | |---|---| | Part | P29 of P0–P35, merged into `rel/1.0.0` in order (previous: P28 (#343) · next: P30 (#341)) | | Branch | `conformance/p29-tool-names` | | Base | `conformance/p28-request-association-warning` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `069d38c` tools: the tool name format (SEP-986) `f6ffc28` tools: review fixes `046cb64` tools: second-pass revi",
+      "body_hash": "b1dfeaa991938b6d0d17",
+      "number": 342,
+      "draft": false,
+      "head_sha": "b4ca434c62eed34e034658f323af09cd83c96ccf",
+      "merged_at": "2026-11-25T12:53:13Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "1899e08a3ef4f6f3fa0b",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/343",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P28] server: warn about server requests outside a client request (SEP-2260)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/343",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:40Z",
+      "updated_at": "2026-11-25T12:52:37Z",
+      "excerpt": "| | | |---|---| | Part | P28 of P0–P35, merged into `rel/1.0.0` in order (previous: P27 (#344) · next: P29 (#342)) | | Branch | `conformance/p28-request-association-warning` | | Base | `conformance/p27-sampling-tools` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `31a5243` server: warn about server requests outside a client request (SEP-2260) `a6e309b` server: second-p",
+      "body_hash": "65364f7cf32783e03c5f",
+      "number": 343,
+      "draft": false,
+      "head_sha": "9d9a873c166d3daa06a17d5c4e21e3c329a4c918",
+      "merged_at": "2026-11-25T12:52:33Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "034bdab67cc987ec3776",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/344",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P27] sampling: tools in sampling requests (SEP-1577)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/344",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:45Z",
+      "updated_at": "2026-11-25T12:52:09Z",
+      "excerpt": "| | | |---|---| | Part | P27 of P0–P35, merged into `rel/1.0.0` in order (previous: P26 (#345) · next: P28 (#343)) | | Branch | `conformance/p27-sampling-tools` | | Base | `conformance/p26-sep-inventory` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `e886e35` sampling: tools in sampling requests (SEP-1577) `755f4a9` sampling: review fixes `ca6f02a` sampling: third-pass",
+      "body_hash": "f55749944696d27c87c4",
+      "number": 344,
+      "draft": false,
+      "head_sha": "ca6f02a618e0451dcf7db20530a28fe093fbe271",
+      "merged_at": "2026-11-25T12:52:04Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "a7e7e27e49b9791aee73",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/345",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P26] docs: SEP coverage",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/345",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:50Z",
+      "updated_at": "2026-11-25T12:51:38Z",
+      "excerpt": "| | | |---|---| | Part | P26 of P0–P35, merged into `rel/1.0.0` in order (previous: P25 (#346) · next: P27 (#344)) | | Branch | `conformance/p26-sep-inventory` | | Base | `conformance/p25-skills` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commit | `7915af4` docs: SEP coverage | | Size | 2 files, +73 / -4 | ## Summary `ROADMAP.md` gets a table with the status of every SEP: one",
+      "body_hash": "cec747d47215b153a177",
+      "number": 345,
+      "draft": false,
+      "head_sha": "7915af41dd065e839151d5fc1c03ba1e2766716e",
+      "merged_at": "2026-11-25T12:51:35Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-, sep:",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "079c849a85b7d8fd4c14",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/346",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P25] skills: SEP-2640 on server and client",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/346",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:54Z",
+      "updated_at": "2026-11-25T12:50:53Z",
+      "excerpt": "| | | |---|---| | Part | P25 of P0–P35, merged into `rel/1.0.0` in order (previous: P24 (#347) · next: P26 (#345)) | | Branch | `conformance/p25-skills` | | Base | `conformance/p24-tasks` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `9f743bd` skills: SEP-2640 on server and client `2913a8e` skills: review fixes `ae20461` skills: second round of review fixes `5d2c9de` s",
+      "body_hash": "63ad814495bc1d843f1a",
+      "number": 346,
+      "draft": false,
+      "head_sha": "b6cb899d3c066dfd6aa1e407c2a81ac5848638b1",
+      "merged_at": "2026-11-25T12:50:48Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "a42dac4ad51ad22edc5f",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/347",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P24] tasks: SEP-1686 and SEP-2663 on server and client",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/347",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:00Z",
+      "updated_at": "2026-11-25T12:50:16Z",
+      "excerpt": "| | | |---|---| | Part | P24 of P0–P35, merged into `rel/1.0.0` in order (previous: P23 (#348) · next: P25 (#346)) | | Branch | `conformance/p24-tasks` | | Base | `conformance/p23-harness` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `ecaa04b` tasks: SEP-1686 and SEP-2663 on server and client `a08fd9f` tasks: review fixes `2b13e8f` tasks: second-pass review fixes `050",
+      "body_hash": "639dfec693c786916c9d",
+      "number": 347,
+      "draft": false,
+      "head_sha": "050807d2330dae1b9cbc1fc929952ee5aa74fb55",
+      "merged_at": "2026-11-25T12:50:12Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "862b7f16fa26f93497b6",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/364",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P7] mrtr: input-required results at 2026-07-28 (SEP-2322)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/364",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:29Z",
+      "updated_at": "2026-11-25T12:37:40Z",
+      "excerpt": "| | | |---|---| | Part | P7 of P0–P35, merged into `rel/1.0.0` in order (previous: P6 (#365) · next: P8 (#363)) | | Branch | `conformance/p7-mrtr` | | Base | `conformance/p6-listen` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `fdb59ee` mrtr: input-required results at 2026-07-28 (SEP-2322) `6c60508` mrtr: review fixes `f92b391` mrtr: second-pass review fixes | | Size ",
+      "body_hash": "b216b882cfa57184dd18",
+      "number": 364,
+      "draft": false,
+      "head_sha": "f92b39144d8034cd481dc6eba7773b0ce55105c0",
+      "merged_at": "2026-11-25T12:37:36Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance, mrtr",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "b5c2a7fe8af0ecac5199",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/365",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P6] subscriptions/listen: notification streams at 2026-07-28 (SEP-2575)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/365",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:34Z",
+      "updated_at": "2026-11-25T12:37:07Z",
+      "excerpt": "| | | |---|---| | Part | P6 of P0–P35, merged into `rel/1.0.0` in order (previous: P5 (#366) · next: P7 (#364)) | | Branch | `conformance/p6-listen` | | Base | `conformance/p5-headers` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `11985e7` subscriptions/listen: notification streams at 2026-07-28 (SEP-2575) `800cf9d` subscriptions/listen: review fixes `39edf03` subscri",
+      "body_hash": "74b23cdeb535a5cff47c",
+      "number": 365,
+      "draft": false,
+      "head_sha": "2c0474eb4377fa86d303fdfa2bc7dd065e83f376",
+      "merged_at": "2026-11-25T12:37:03Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "373e45378194a33c955c",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/366",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P5] http: standard and custom request headers at 2026-07-28 (SEP-2243)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/366",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:39Z",
+      "updated_at": "2026-11-25T12:36:24Z",
+      "excerpt": "| | | |---|---| | Part | P5 of P0–P35, merged into `rel/1.0.0` in order (previous: P4 (#367) · next: P6 (#365)) | | Branch | `conformance/p5-headers` | | Base | `conformance/p4-client` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `fc28751` http: standard and custom request headers at 2026-07-28 (SEP-2243) `0dfe8a9` http: review fixes `4002d74` http: second-pass review",
+      "body_hash": "5646c1f204d1208e99f6",
+      "number": 366,
+      "draft": false,
+      "head_sha": "476ddf59bffb16f2d351a5e1079a2e4006a16ce3",
+      "merged_at": "2026-11-25T12:36:21Z",
+      "labels": [],
+      "score": 54,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "proposal: sep-",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "3147b74276aa49a0fb57",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/2588",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "fix: refine highlighted tool parameter descriptions",
+      "url": "https://github.com/github/github-mcp-server/pull/2588",
+      "status": "closed",
+      "created_at": "2026-06-01T09:04:35Z",
+      "updated_at": "2026-11-26T14:43:24Z",
+      "excerpt": "## Summary Clarifies agent-facing parameter descriptions across existing GitHub MCP tools and tightens a few schemas with concise enums/examples where they prevent incorrect usage. ## Why Schema linting in #2425 found missing or insufficient parameter descriptions across many tools, causing agents to guess formats for values like Markdown bodies, search queries, branch refs, and file paths. This improves schema guida",
+      "body_hash": "a649f47eb14e4975ec4e",
+      "number": 2588,
+      "draft": false,
+      "head_sha": "39bc63d149aca4b3bdfd9c54d29995db400fd01c",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: schema"
+      ],
+      "fingerprint": "be1c353d276fd3a18e7c",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3966",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "feat(issues): add field selection to issue_read",
+      "url": "https://github.com/github/github-mcp-server/pull/3966",
+      "status": "open",
+      "created_at": "2026-11-26T16:21:05Z",
+      "updated_at": "2026-11-27T00:37:56Z",
+      "excerpt": "## Summary Add optional `fields` selection to `issue_read` with `method: get`. An agent can retrieve issue metadata without bringing a long issue body into context. ## Why Agents that build triage tables and release summaries often need only a few issue fields. `list_issues` and `search_issues` already let callers select fields. This PR addresses the `get` portion of #3959. ## What changed - Validate top-level field ",
+      "body_hash": "f7ad8c2d7176240a1bde",
+      "number": 3966,
+      "draft": false,
+      "head_sha": "0ec847372c30b4bb65939e7e160c174e70111b12",
+      "merged_at": null,
+      "labels": [],
+      "score": 50,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "bc3b97d955b620eb5fd9",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/289",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Support server experimental and extension capabilities",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/289",
+      "status": "closed",
+      "created_at": "2026-09-24T15:52:50Z",
+      "updated_at": "2026-11-25T15:32:22Z",
+      "excerpt": "Swift servers can now advertise object-valued experimental capabilities from the 2025-11-25 schema and extension settings from 2026-07-28. Both fields are optional and existing initializer calls keep working. This is part of #234. The branch is updated to current `main` and includes the Ubuntu CI setup and client-test timing fixes shared with #307. Tests: the initialize JSON and decode round trip passed locally befor",
+      "body_hash": "903962f63899973b95e4",
+      "number": 289,
+      "draft": false,
+      "head_sha": "09ae2a56b0ba0979806207c54eb83b2a616cafab",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: sse, schema, capabilit",
+        "proposal: extension"
+      ],
+      "fingerprint": "36a66706acdb346d3179",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/380",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: distinguish terminated stateful sessions",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/380",
+      "status": "open",
+      "created_at": "2026-11-26T19:50:31Z",
+      "updated_at": "2026-11-26T22:16:57Z",
+      "excerpt": "## Motivation and Context After a stateful transport terminates, it returns 404 for every request, including a new request without a session ID. The [Streamable HTTP session rules](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports#session-management) require 404 for requests carrying the terminated session ID. The app router handles a new sessionless `initialize` by creating a new transport an",
+      "body_hash": "62d1f43df01242d061c7",
+      "number": 380,
+      "draft": false,
+      "head_sha": "b68d64b358bef3458598692b09d78c8169e5d6aa",
+      "merged_at": null,
+      "labels": [],
+      "score": 44,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol, transport, streamable",
+        "proposal: specification"
+      ],
+      "fingerprint": "916c2797c6f57123f681",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/getsentry/toolkit/releases/tag/http%401.0.0",
+      "source": "getsentry/toolkit",
+      "kind": "release",
+      "topic": "production-server",
+      "tier": 2,
+      "title": "http@1.0.0",
+      "url": "https://github.com/getsentry/toolkit/releases/tag/http%401.0.0",
+      "status": "published",
+      "created_at": "2026-11-27T00:40:18Z",
+      "updated_at": "2026-11-27T00:53:46Z",
+      "excerpt": "### New Features ✨ #### HTTP - Make CacheStore.deleteMatching optional by @BYK with @sentry-junior in [#2550](https://github.com/getsentry/toolkit/pull/2550) - Add @sentry/http and move CLI and MCP caching and retries onto it by @BYK with @sentry-junior in [#2509](https://github.com/getsentry/toolkit/pull/2509) #### Other - (mcp) Remove search_attributes experimental flag by @nikkikapadia in [#2251](https://github.co",
+      "body_hash": "866616d2a35875c0a52b",
+      "version": "http@1.0.0",
+      "prerelease": false,
+      "published_at": "2026-11-27T00:53:46Z",
+      "labels": [],
+      "score": 43,
+      "reasons": [
+        "T2 watchlist",
+        "release"
+      ],
+      "fingerprint": "fbf617b206a69fcef77b",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3958",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Add planning statuses to issues",
+      "url": "https://github.com/github/github-mcp-server/pull/3958",
+      "status": "open",
+      "created_at": "2026-11-26T09:41:50Z",
+      "updated_at": "2026-11-26T11:47:08Z",
+      "excerpt": "## Summary Expose GitHub issue planning statuses through the MCP server. ## Why Make issue planning workflows available to MCP clients. No linked issue. ## What changed - Add issue status reading, filtering, creation, and updates. - Support setting an initial status in the issue creation UI; update docs and bundled skills. ## MCP impact - [ ] No tool or API changes - [x] Tool schema or behavior changed — issue status",
+      "body_hash": "1d348d8205345dbe6228",
+      "number": 3958,
+      "draft": true,
+      "head_sha": "61f569af8f111f17e77b1d9e1cbe3804fc2fec9c",
+      "merged_at": null,
+      "labels": [],
+      "score": 40,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: schema",
+        "draft PR"
+      ],
+      "fingerprint": "c156e69d019aa6205fd9",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/snyk/agent-scan/pull/570",
+      "source": "snyk/agent-scan",
+      "kind": "pull_request",
+      "topic": "security",
+      "tier": 1,
+      "title": "fix(remote-discovery): don't fail the run on an unparseable MCP command",
+      "url": "https://github.com/snyk/agent-scan/pull/570",
+      "status": "merged",
+      "created_at": "2026-11-26T10:34:09Z",
+      "updated_at": "2026-11-26T10:59:07Z",
+      "excerpt": "rebalance_command_args raises CommandParsingError (not a ValidationError) for an empty command or an unbalanced quote. The builder only caught ValidationError, so one such server anywhere on the machine failed the whole remote result with remote_error_reason=error. Local discovery catches any error there and marks just that file unparseable; the builder now does the same. --- > [!NOTE] > **Low Risk** > Narrows failur",
+      "body_hash": "2ac29b365d1fff92c0b3",
+      "number": 570,
+      "draft": false,
+      "head_sha": "48afdeb51f6d65bb5d4764c79cc9bfed9af1a577",
+      "merged_at": "2026-11-26T10:58:58Z",
+      "labels": [],
+      "score": 40,
+      "reasons": [
+        "T1 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "fc742966a3ba9f25ae22",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/703",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Stream the notifications of a request as they are emitted",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/703",
+      "status": "merged",
+      "created_at": "2026-11-21T18:39:27Z",
+      "updated_at": "2026-11-26T16:16:35Z",
+      "excerpt": "## Motivation On the 2026-07-28 lifecycle the notifications a handler emits ride the response of its own request. The transport collected them and sent them with the result once the handler had returned, so the progress of a long-running tool reached the client only when the tool was done: it could not reset a client timeout or show anything while the call ran, and past 1,000 notifications the rest were dropped. The ",
+      "body_hash": "36c1f3aab80a66897a04",
+      "number": 703,
+      "draft": false,
+      "head_sha": "7b0993726be415fe6dd3d673d7a3bf6a533d3647",
+      "merged_at": "2026-11-26T16:16:32Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, timeout, lifecycle",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "90fd967858edc9f40bef",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/707",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: honor cancellation throughout the legacy input_required shim",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/707",
+      "status": "merged",
+      "created_at": "2026-11-22T05:20:46Z",
+      "updated_at": "2026-11-25T16:58:18Z",
+      "excerpt": "A legacy `input_required` request cancelled after the client answered a fulfilment leg, or while its handler re-runs, no longer gets a response. Fixes #706 ## Motivation and Context When a handler returns `input_required` on the legacy wire, `Server#handle_request` checks the request's cancellation once (`lib/mcp/server.rb:884`) and then hands the result to `run_legacy_input_required_shim` (`:1090`), which sends each",
+      "body_hash": "4c09eda4928872256a06",
+      "number": 707,
+      "draft": false,
+      "head_sha": "f0b252a31a066ee362c0ec81b428d538beb70fcd",
+      "merged_at": "2026-11-25T16:58:17Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: cancel",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "d57ef592794d2fbdc077",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/712",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Cancel every session that ends before closing the streams of any",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/712",
+      "status": "merged",
+      "created_at": "2026-11-23T15:29:28Z",
+      "updated_at": "2026-11-26T03:22:18Z",
+      "excerpt": "## Motivation and Context #709 made `release_session` cancel a terminated session's requests and wake its waits before it closes the session's streams, since a close can block for up to `stream_write_timeout:` on a stalled peer. `release_sessions`, which `close` and the reaper use for sessions that end together, still released them one after the other, so each session waited for the closes of those ahead of it: its r",
+      "body_hash": "c39acc1ee36179404fb7",
+      "number": 712,
+      "draft": false,
+      "head_sha": "87d2ae41558d26d9e5a7489e055a7e8969b07464",
+      "merged_at": "2026-11-26T03:22:15Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: cancel, timeout",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "ceaeab6a6538c0f57ebd",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/336",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P35] Fix the findings of a formal verification of the framework at 2026-07-28",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/336",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:06Z",
+      "updated_at": "2026-11-25T12:56:32Z",
+      "excerpt": "| | | |---|---| | Part | P35 of P0–P35, merged into `rel/1.0.0` in order (previous: P34 (#337)) | | Branch | `conformance/p35-formal-verification` | | Base | `conformance/p34-apple-platforms` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `bfa961d` Fix the findings of a formal verification of the framework at 2026-07-28 `8be5a71` conformance: review fixes for the formal",
+      "body_hash": "6cc9d45dccc1337931f7",
+      "number": 336,
+      "draft": false,
+      "head_sha": "42499b6bd6dff4f69005a1f43dd6ee41ae67dc2f",
+      "merged_at": "2026-11-25T12:56:30Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "043d83530ba463819c94",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/337",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P34] ci: build for iOS and run the tests on its simulator",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/337",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:12Z",
+      "updated_at": "2026-11-25T12:56:13Z",
+      "excerpt": "| | | |---|---| | Part | P34 of P0–P35, merged into `rel/1.0.0` in order (previous: P33 (#338) · next: P35 (#336)) | | Branch | `conformance/p34-apple-platforms` | | Base | `conformance/p33-transport-release` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `4e87ad8` client: cancel the task of a tools/call cancelled as its answer arrives `d181ebc` ci: build for iOS and ru",
+      "body_hash": "e6f291b13b5c52837396",
+      "number": 337,
+      "draft": false,
+      "head_sha": "91be03f275a8e182de8dc24b72769b0ae8e67628",
+      "merged_at": "2026-11-25T12:56:09Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, cancel, conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "d6a20aad0f763b86e597",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/338",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P33] http: release a client transport dropped without disconnect",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/338",
+      "status": "merged",
+      "created_at": "2026-11-25T11:21:16Z",
+      "updated_at": "2026-11-25T12:55:24Z",
+      "excerpt": "| | | |---|---| | Part | P33 of P0–P35, merged into `rel/1.0.0` in order (previous: P32 (#339) · next: P34 (#337)) | | Branch | `conformance/p33-transport-release` | | Base | `conformance/p32-apps` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `a25aeb6` http: release a client transport dropped without disconnect `dea1521` http: second-pass review fixes `c50ceea` http: ",
+      "body_hash": "a7bf6d3f4454057a5c8a",
+      "number": 338,
+      "draft": false,
+      "head_sha": "c50ceeaf3e0c07df0cd1de1e6dfc59b1c6dc3348",
+      "merged_at": "2026-11-25T12:55:20Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "ffb8d5d90303915a9a40",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/348",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P23] conformance: harness 0.2.0-alpha.12",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/348",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:06Z",
+      "updated_at": "2026-11-25T12:49:30Z",
+      "excerpt": "| | | |---|---| | Part | P23 of P0–P35, merged into `rel/1.0.0` in order (previous: P22 (#349) · next: P24 (#347)) | | Branch | `conformance/p23-harness` | | Base | `conformance/p22-release` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commit | `74954e9` conformance: harness 0.2.0-alpha.12 | | Size | 13 files, +62 / -39 | ## Summary Moves the conformance harness pin from `@mode",
+      "body_hash": "afea6d302be640a41462",
+      "number": 348,
+      "draft": false,
+      "head_sha": "74954e9150e2e485475d1d1dd1cbadd23b769c12",
+      "merged_at": "2026-11-25T12:49:26Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "b39a190779ebe9d876c0",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/349",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P22] release: prepare 1.0.0",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/349",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:10Z",
+      "updated_at": "2026-11-25T12:47:13Z",
+      "excerpt": "| | | |---|---| | Part | P22 of P0–P35, merged into `rel/1.0.0` in order (previous: P21 (#350) · next: P23 (#348)) | | Branch | `conformance/p22-release` | | Base | `conformance/p21-stability` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `6ee8bc1` release: prepare 1.0.0 `aea59e3` release: review fixes `2239d43` release: second-pass review fixes `732c5f2` release: list",
+      "body_hash": "b92ac0afb8cb26dc9a0a",
+      "number": 349,
+      "draft": false,
+      "head_sha": "43dd677913775307cba824fc52f70e498c6b8d3f",
+      "merged_at": "2026-11-25T12:47:09Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "e0344a75d9ba181f95bb",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/350",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P21] ci: stability tooling for 1.x",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/350",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:15Z",
+      "updated_at": "2026-11-25T12:45:56Z",
+      "excerpt": "| | | |---|---| | Part | P21 of P0–P35, merged into `rel/1.0.0` in order (previous: P20 (#351) · next: P22 (#349)) | | Branch | `conformance/p21-stability` | | Base | `conformance/p20-api` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `9b0329e` ci: stability tooling for 1.x `78582fc` ci: review fixes `19bb5e5` ci: second-pass review fixes `5b61b01` server: reset the ha",
+      "body_hash": "56e6a32fc22b8c3df707",
+      "number": 350,
+      "draft": false,
+      "head_sha": "3875c20b2b623bfb80c4700c5ef63b78944538ab",
+      "merged_at": "2026-11-25T12:45:51Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "788b7a8262258f0f1cd6",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/351",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P20] api: the 1.0 rough edges",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/351",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:21Z",
+      "updated_at": "2026-11-25T12:45:33Z",
+      "excerpt": "| | | |---|---| | Part | P20 of P0–P35, merged into `rel/1.0.0` in order (previous: P19 (#352) · next: P21 (#350)) | | Branch | `conformance/p20-api` | | Base | `conformance/p19-enums` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `1a9c434` api: the 1.0 rough edges `a08e316` api: review fixes `8fc13d7` api: second-pass review fixes `136fd09` docs: say the authorizer cl",
+      "body_hash": "41bf99a1bff8d25f070f",
+      "number": 351,
+      "draft": false,
+      "head_sha": "af2c01cfb1383a7ab93b44e549f2f9a71e931e10",
+      "merged_at": "2026-11-25T12:45:29Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "027c8544fe10e7db2822",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/352",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P19] api: an extensibility promise for every public enum",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/352",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:26Z",
+      "updated_at": "2026-11-25T12:44:56Z",
+      "excerpt": "| | | |---|---| | Part | P19 of P0–P35, merged into `rel/1.0.0` in order (previous: P18 (#353) · next: P20 (#351)) | | Branch | `conformance/p19-enums` | | Base | `conformance/p18-linux` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `a8c6b2b` api: an extensibility promise for every public enum `81cf167` api: review fixes `2ea587d` api: second-pass review fixes `f5361de",
+      "body_hash": "8f374c5e4ffa922f5c73",
+      "number": 352,
+      "draft": false,
+      "head_sha": "f5361de64320749bb4e3939c2983b3ebce80b5db",
+      "merged_at": "2026-11-25T12:44:51Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "43e0364152d38ee2096a",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/353",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P18] http: the same client on Linux and macOS",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/353",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:31Z",
+      "updated_at": "2026-11-25T12:44:13Z",
+      "excerpt": "| | | |---|---| | Part | P18 of P0–P35, merged into `rel/1.0.0` in order (previous: P17 (#354) · next: P19 (#352)) | | Branch | `conformance/p18-linux` | | Base | `conformance/p17-ci` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `3b23e96` http: the same client on Linux and macOS `0810588` http: review fixes `0cc85d5` http: second-pass review fixes `c3113e4` http: take",
+      "body_hash": "88f59d464d3df5949b23",
+      "number": 353,
+      "draft": false,
+      "head_sha": "321713586b6c18bbb6c5fc122ffc122cb8ca264f",
+      "merged_at": "2026-11-25T12:44:08Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "c0715ef7420a1192aa6b",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/354",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P17] ci: one job list for GitHub Actions and Linux at the desk",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/354",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:36Z",
+      "updated_at": "2026-11-25T12:43:49Z",
+      "excerpt": "| | | |---|---| | Part | P17 of P0–P35, merged into `rel/1.0.0` in order (previous: P16 (#355) · next: P18 (#353)) | | Branch | `conformance/p17-ci` | | Base | `conformance/p16-version` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `26245c3` ci: one job list for GitHub Actions and Linux at the desk `669a380` ci: review fixes `ab49888` ci: third-pass review fixes | | Si",
+      "body_hash": "739aae7347690e00913e",
+      "number": 354,
+      "draft": false,
+      "head_sha": "ab4988852603af7126c7ec268afb407a34b6b896",
+      "merged_at": "2026-11-25T12:43:46Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "a1f4080cfac7b23d1d4a",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/355",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P16] release: 0.13.0",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/355",
+      "status": "merged",
+      "created_at": "2026-11-25T11:22:40Z",
+      "updated_at": "2026-11-25T12:43:08Z",
+      "excerpt": "| | | |---|---| | Part | P16 of P0–P35, merged into `rel/1.0.0` in order (previous: P15 (#356) · next: P17 (#354)) | | Branch | `conformance/p16-version` | | Base | `conformance/p15-interop` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `7cfb3ee` release: 0.13.0 `6bed974` release: review fixes `d126644` release: third-pass review fixes | | Size | 15 files, +49 / -35 | ",
+      "body_hash": "534e410d1dd716539ba4",
+      "number": 355,
+      "draft": false,
+      "head_sha": "d126644ea95bd96486bd0d5263ab3323ac4572c4",
+      "merged_at": "2026-11-25T12:43:05Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "0131e553224fe5194c09",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/361",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P9] versions: make 2026-07-28 the client default",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/361",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:14Z",
+      "updated_at": "2026-11-25T12:39:33Z",
+      "excerpt": "| | | |---|---| | Part | P9 of P0–P35, merged into `rel/1.0.0` in order (previous: P10 (#362) · next: P11 (#360)) | | Branch | `conformance/p9-flip` | | Base | `conformance/p10-docs` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `bd224fe` versions: make 2026-07-28 the client default `c6d8750` versions: review fixes `7d0007f` versions: second round of review fixes `6542",
+      "body_hash": "040ffd87b2d788dda4fe",
+      "number": 361,
+      "draft": false,
+      "head_sha": "3bc076b7cbad6c01139df36ea3ef978e19bdbce0",
+      "merged_at": "2026-11-25T12:39:30Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "b33cb9813dedb2bbaaee",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/367",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P4] client: connect with server/discover at 2026-07-28",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/367",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:45Z",
+      "updated_at": "2026-11-25T12:35:56Z",
+      "excerpt": "| | | |---|---| | Part | P4 of P0–P35, merged into `rel/1.0.0` in order (previous: P3 (#368) · next: P5 (#366)) | | Branch | `conformance/p4-client` | | Base | `conformance/p3-stateless-server` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `312076a` client: connect with server/discover at 2026-07-28 `7043d6e` client: review fixes `c2b0abd` client: third-pass review fix",
+      "body_hash": "f7f3185168439e5bd3c4",
+      "number": 367,
+      "draft": false,
+      "head_sha": "c2b0abda021b01bea9e3ec788e7aa64add6a8664",
+      "merged_at": "2026-11-25T12:35:52Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "47e840f461713ea709a3",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/368",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P3] server: serve 2026-07-28 stateless requests",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/368",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:50Z",
+      "updated_at": "2026-11-25T12:35:27Z",
+      "excerpt": "| | | |---|---| | Part | P3 of P0–P35, merged into `rel/1.0.0` in order (previous: P2 (#369) · next: P4 (#367)) | | Branch | `conformance/p3-stateless-server` | | Base | `conformance/p2-foundations` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `bb7b0a3` server: serve 2026-07-28 stateless requests `751aab8` server: review fixes `c39779d` server: third-pass review fixes",
+      "body_hash": "55563c3bf2067ae950ab",
+      "number": 368,
+      "draft": false,
+      "head_sha": "c39779dcb01b5ce4fdc750689fd7c4d8c1e770fc",
+      "merged_at": "2026-11-25T12:35:23Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "1466a6dab6243d80fb72",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/369",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P2] base: protocol profiles, error data, envelope _meta and result types",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/369",
+      "status": "merged",
+      "created_at": "2026-11-25T11:23:55Z",
+      "updated_at": "2026-11-25T12:34:38Z",
+      "excerpt": "| | | |---|---| | Part | P2 of P0–P35, merged into `rel/1.0.0` in order (previous: P1 (#370) · next: P3 (#368)) | | Branch | `conformance/p2-foundations` | | Base | `conformance/p1-legacy-reliability` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `2169166` base: protocol profiles, error data, envelope _meta and result types `0cf6d89` base: review fixes `5b1f661` base: ",
+      "body_hash": "23f937af05862da158dc",
+      "number": 369,
+      "draft": false,
+      "head_sha": "1f7411558b209e26b932b0e891abc2b183c1bd94",
+      "merged_at": "2026-11-25T12:34:34Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol, conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "edf1797c1f19ba86270e",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/370",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P1] http: deliver related messages on the request's stream; resume client response streams",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/370",
+      "status": "merged",
+      "created_at": "2026-11-25T11:24:00Z",
+      "updated_at": "2026-11-25T12:29:15Z",
+      "excerpt": "| | | |---|---| | Part | P1 of P0–P35, merged into `rel/1.0.0` in order (previous: P0 (#371) · next: P2 (#369)) | | Branch | `conformance/p1-legacy-reliability` | | Base | `conformance/p0-harness` (stacked: GitHub retargets this PR to `rel/1.0.0` when the previous part merges) | | Commits | `aeebfef` http: deliver related messages on the request's stream; resume client response streams `9fd62f4` transports: release p",
+      "body_hash": "1ead55e2fb67523c17a4",
+      "number": 370,
+      "draft": false,
+      "head_sha": "e64940b9a17671bf6e6c30293b335d4359bbb319",
+      "merged_at": "2026-11-25T12:29:11Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "5e2775e65e4b3df0ebf1",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/371",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "[P0] conformance: pin harness 0.2.0-alpha.11 and run per-revision legs",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/371",
+      "status": "merged",
+      "created_at": "2026-11-25T11:24:04Z",
+      "updated_at": "2026-11-25T12:17:14Z",
+      "excerpt": "| | | |---|---| | Part | P0 of P0–P35, merged into `rel/1.0.0` in order (next: P1 (#370)) | | Branch | `conformance/p0-harness` | | Base | `rel/1.0.0` | | Commit | `8574edb` conformance: pin harness 0.2.0-alpha.11 and run per-revision legs | | Size | 11 files, +2661 / -119 | ## Summary Pins the MCP conformance harness to `@modelcontextprotocol/conformance@0.2.0-alpha.11` and runs it in three legs: one per spec revisi",
+      "body_hash": "fe42a39c82e87f20504a",
+      "number": 371,
+      "draft": false,
+      "head_sha": "8574edbcfbde00946df70452667fecbf4eb6d469",
+      "merged_at": "2026-11-25T12:17:09Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol, conformance",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "2bf79fc649e5fe58ba52",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/374",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: build Go interop fixtures without VCS stamping",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/374",
+      "status": "merged",
+      "created_at": "2026-11-26T07:18:23Z",
+      "updated_at": "2026-11-26T11:14:36Z",
+      "excerpt": "Stacked on #373, as discussed with JM. ## Motivation and Context The Linux interop job stops while building the Go fixtures with `error obtaining VCS status: exit status 128`, before any interop checks run. The same failure occurs on `rel/1.0.0`. These fixtures do not need Git metadata in their binaries, so this adds `-buildvcs=false` to all four Go builds. ## Testing - `bash -n scripts/run-interop.sh` - `shellcheck ",
+      "body_hash": "c8b1ab12011e7e0e7411",
+      "number": 374,
+      "draft": false,
+      "head_sha": "455c1ae878a511d3b8139ecd9a03082d2758ce13",
+      "merged_at": "2026-11-26T10:40:54Z",
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: sse",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "067733d301ec4126436f",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/sparfenyuk/mcp-proxy/pull/334",
+      "source": "sparfenyuk/mcp-proxy",
+      "kind": "pull_request",
+      "topic": "gateway",
+      "tier": 2,
+      "title": "fix(cli): exit quietly on Ctrl-C in server mode",
+      "url": "https://github.com/sparfenyuk/mcp-proxy/pull/334",
+      "status": "open",
+      "created_at": "2026-11-27T01:43:27Z",
+      "updated_at": "2026-11-27T01:43:27Z",
+      "excerpt": "## Summary - Exit with status 130 on Ctrl-C in HTTP server mode, without printing a traceback. - Let stdio backends and session task groups close before propagating the interrupt from Uvicorn on Python 3.10. - Add a subprocess regression test that checks the exit status, output, and stdio child cleanup. Fixes #330. ## Testing - Python 3.13: `pytest -q` (344 passed, 10 skipped) - Python 3.10: `pytest -q tests/test_mcp",
+      "body_hash": "c7722934d7fb952d30fc",
+      "number": 334,
+      "draft": false,
+      "head_sha": "8612eb1a1503687c96d9115810693cde9c3b4fcb",
+      "merged_at": null,
+      "labels": [],
+      "score": 38,
+      "reasons": [
+        "T2 watchlist",
+        "protocol: sse, stdio"
+      ],
+      "fingerprint": "68dc58fd168c75236e0f",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/378",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "build: Raise the minimum platforms to macOS 15 and its year's releases",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/378",
+      "status": "open",
+      "created_at": "2026-11-26T17:35:16Z",
+      "updated_at": "2026-11-26T17:35:17Z",
+      "excerpt": "**Breaking change** ([VERSIONING.md](VERSIONING.md#breaking-changes): raising a platform minimum). Implements the policy promised when #57 was closed: \"1.0.0 sets the minimum to macOS 15, with the matching iOS, tvOS, watchOS and visionOS releases\". ## Summary ```diff // Package.swift (and fuzz/Package.swift: macOS only) platforms: [ - .macOS(\"13.0\"), - .macCatalyst(\"16.0\"), - .iOS(\"16.0\"), - .watchOS(\"9.0\"), - .tvOS(",
+      "body_hash": "632018ad704f844790a6",
+      "number": 378,
+      "draft": false,
+      "head_sha": "eb6052fd63bcc47108dd1e52bfc74a1f636da866",
+      "merged_at": null,
+      "labels": [],
+      "score": 36,
+      "reasons": [
+        "T3 watchlist",
+        "breaking: breaking"
+      ],
+      "fingerprint": "88a920ea5c1c77ca8420",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/714",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: unseal requestState tokens sealed with a fractional ttl",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/714",
+      "status": "open",
+      "created_at": "2026-11-26T11:35:34Z",
+      "updated_at": "2026-11-26T11:35:34Z",
+      "excerpt": "A `RequestStateSecurity` built with a fractional `ttl:` now unseals its own tokens, and a ttl that is not finite is refused at construction. Fixes #713 ## Motivation and Context `RequestStateSecurity.new` accepts any positive `Numeric` as `ttl:` (`lib/mcp/server/request_state_security.rb:41`), but `seal` writes `exp` as `Time.now.to_i + ttl` (`:54`) and `unseal` only accepts an `Integer` `exp` (`:110`). With a ttl su",
+      "body_hash": "b0c974b986d15031d903",
+      "number": 714,
+      "draft": false,
+      "head_sha": "cded108f129b0bbb0bb4662b0ee030e5af418d3f",
+      "merged_at": null,
+      "labels": [],
+      "score": 34,
+      "reasons": [
+        "T3 watchlist",
+        "security: security, token"
+      ],
+      "fingerprint": "15f0534e1d678eb7cfe9",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3410",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "fix: preserve regular-file modes in push_files",
+      "url": "https://github.com/github/github-mcp-server/pull/3410",
+      "status": "open",
+      "created_at": "2026-10-04T09:38:47Z",
+      "updated_at": "2026-11-26T03:20:23Z",
+      "excerpt": "_This is AI-assisted. Model: gpt-6.1-sol_ ## Summary Preserve existing regular-file modes when `push_files` changes content, and accept an optional per-file `mode` of `100644` or `100755`. New files without a mode remain `100644`. ## Why Fixes #2578. Updating an executable shell script through `push_files` currently resets it to `100644`, which breaks workflows that execute the script directly. This happened while pu",
+      "body_hash": "298f2188e2395af129e7",
+      "number": 3410,
+      "draft": false,
+      "head_sha": "f91c211322cf5217cf568b7939d05807db311233",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "96909f954e05cfb2f70c",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3953",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "Keep the body when creating a pending pull request review",
+      "url": "https://github.com/github/github-mcp-server/pull/3953",
+      "status": "open",
+      "created_at": "2026-11-26T05:01:20Z",
+      "updated_at": "2026-11-26T05:02:42Z",
+      "excerpt": "## Summary `pull_request_review_write` with `method: \"create\"` and no `event` now keeps `body` on the pending review. Before, the body was dropped without any error. ## Why `CreatePullRequestReview` set `Body` only when an `event` was given. GitHub accepts a body on a pending review, but won't let you add one afterwards (\"Could not edit a review with a missing body\"), so the text was lost for good. Fixes #3948 ## Wha",
+      "body_hash": "c7a55d340987c7838301",
+      "number": 3953,
+      "draft": false,
+      "head_sha": "ff4929923a49f11485ebd2d8e4aaaaa5db1e4657",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "5a211780c7a8213bad05",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3961",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "docs: add Antigravity CLI MCP setup instructions",
+      "url": "https://github.com/github/github-mcp-server/pull/3961",
+      "status": "open",
+      "created_at": "2026-11-26T11:04:21Z",
+      "updated_at": "2026-11-26T11:11:41Z",
+      "excerpt": "## Summary Document how to configure GitHub MCP Server in Antigravity CLI. ## Why Fixes #2529. The guide currently walks readers through the IDE menus. CLI users need the configuration locations and a terminal workflow to verify the connection. ## What changed - Document the global and workspace MCP config paths and link to the existing remote and Docker examples. - Show how to verify the GitHub server in the CLI wit",
+      "body_hash": "9bcbbfda9985143b62c1",
+      "number": 3961,
+      "draft": false,
+      "head_sha": "607465c87f52a5218105046fc9435029da906900",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "76efd3b81a1f2b82c19d",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3964",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "list_issues: accept and return html_url in fields",
+      "url": "https://github.com/github/github-mcp-server/pull/3964",
+      "status": "open",
+      "created_at": "2026-11-26T15:06:12Z",
+      "updated_at": "2026-11-26T15:10:45Z",
+      "excerpt": "## Summary `list_issues` now accepts `html_url` in `fields` and returns it, as `search_issues` already does. ## Why `search_issues(fields: [..., \"html_url\"])` works, but `list_issues` with the same `fields` fails validation, so callers can't share one projection between the two tools. `html_url` was left out of the `list_issues` enum because the list_issues GraphQL fragment never fetched the issue URL. Fixes #3960 ##",
+      "body_hash": "b3504b75f5f364cd4655",
+      "number": 3964,
+      "draft": false,
+      "head_sha": "600a6271346d405891c024a85d41578097a54816",
+      "merged_at": null,
+      "labels": [],
+      "score": 30,
+      "reasons": [
+        "T1 watchlist"
+      ],
+      "fingerprint": "d46ef5bc127f8f3ac59b",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3970",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "build(deps): bump zod from 4.6.6 to 4.6.7 in /ui",
+      "url": "https://github.com/github/github-mcp-server/pull/3970",
+      "status": "open",
+      "created_at": "2026-11-26T16:24:52Z",
+      "updated_at": "2026-11-26T16:25:54Z",
+      "excerpt": "Bumps [zod](https://github.com/colinhacks/zod) from 4.6.6 to 4.6.7. Release notes Sourced from zod's releases . v4.6.7 Commits: b500a2ee95134f81d74da7911d7378dd2853d042 4.6.7 Commits b500a2e 4.6.7 See full diff in compare view [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=zod&package-manager=npm_and_yarn&previous-version=4.6.6&new-version=4.6.7)]",
+      "body_hash": "ce8c384c4a3559bf8e02",
+      "number": 3970,
+      "draft": false,
+      "head_sha": "670ad71aee8e89f43ac5c7fd9ad81154b62100c7",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "score": 28,
+      "reasons": [
+        "T1 watchlist",
+        "breaking: compatib",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "298c01a430f7e54c856a",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/1929",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Preserve nulls required by structured output schemas",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/1929",
+      "status": "open",
+      "created_at": "2026-10-13T15:18:39Z",
+      "updated_at": "2026-11-26T12:29:04Z",
+      "excerpt": "Fixes #1915 Issue: https://github.com/modelcontextprotocol/csharp-sdk/issues/1915 When structured tool output has an output schema and serializer options ignore null values, required nullable properties are omitted from `structuredContent`. Preserve explicit nulls for this serialization path so the result matches its schema while leaving ordinary text serialization unchanged. Add regression coverage for record and cl",
+      "body_hash": "c8740fe4fee4004b9b00",
+      "number": 1929,
+      "draft": false,
+      "head_sha": "f4090c3b9ad211446c33c792feebbd8fe4551002",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol, schema"
+      ],
+      "fingerprint": "570d1897ad2f1486cb78",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2025",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Let ElicitAsync and AsSamplingChatClient go through the outgoing-request interceptor",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2025",
+      "status": "open",
+      "created_at": "2026-11-17T15:28:58Z",
+      "updated_at": "2026-11-26T09:21:40Z",
+      "excerpt": "Removes the duplicate capability check from `ElicitAsync ` so it behaves like the untyped `ElicitAsync` when an outgoing-request interceptor is installed. Also makes AsSamplingChatClient skip the sampling capability check when an interceptor is installed, same as SampleAsync. Fixes #1854 ## Motivation and Context `ElicitAsync ` called `ThrowIfElicitationUnsupported` before delegating to the untyped `ElicitAsync`. The",
+      "body_hash": "e73db751ca3d803bf4cf",
+      "number": 2025,
+      "draft": false,
+      "head_sha": "543f21623248752e2ce25c6b506961c1fd7037c4",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: capabilit"
+      ],
+      "fingerprint": "299be8046e0ad5290f5b",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2046",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Return ParseError (-32700) for malformed JSON on Streamable HTTP POST",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2046",
+      "status": "open",
+      "created_at": "2026-11-25T21:20:26Z",
+      "updated_at": "2026-11-25T21:20:26Z",
+      "excerpt": "Fixes #1918 Previously, `StreamableHttpHandler.HandlePostRequestAsync` caught all `JsonException`s from `ReadJsonRpcMessageAsync` and returned `McpErrorCode.InvalidRequest` (`-32600`), whether the failure was invalid JSON syntax or a valid JSON document that failed JSON-RPC envelope validation. ### Changes - Parse the POST body into a `JsonElement` first (reusing the existing source-generated `JsonTypeInfo ` in `McpJ",
+      "body_hash": "4f3beb5017c6025144f0",
+      "number": 2046,
+      "draft": false,
+      "head_sha": "717fd1846ccb4e8c55ee0d37926bb5e8edbfd86f",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: streamable"
+      ],
+      "fingerprint": "19061d5ccd74509212d0",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2049",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Log canceled requests as canceled, not as handler failures",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2049",
+      "status": "open",
+      "created_at": "2026-11-26T06:09:25Z",
+      "updated_at": "2026-11-26T22:51:37Z",
+      "excerpt": "Fixes #2045 ## Problem When a request is canceled, by the peer's `notifications/cancelled`, an aborted HTTP request, or session shutdown, `McpSessionHandler.HandleMessageCoreAsync` logs the resulting `OperationCanceledException` at **Warning** as `request handler failed`. The exception often comes from sending the response after the handler returns. `subscriptions/listen` requests only end by cancellation, so every l",
+      "body_hash": "37a5db43f101f5cfefc6",
+      "number": 2049,
+      "draft": false,
+      "head_sha": "c907b696b18308fef1fc1bbd36738413b49cf992",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: cancel"
+      ],
+      "fingerprint": "543cedc67c0c588d7d8a",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2050",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Don't send a cached protocol version header with initialize",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2050",
+      "status": "open",
+      "created_at": "2026-11-26T17:18:37Z",
+      "updated_at": "2026-11-26T17:18:49Z",
+      "excerpt": "Fixes #2044 When the Streamable HTTP client falls back from `server/discover` to `initialize`, the transport still has the `2026-07-28` version cached from the `server/discover` request and sends it as the `MCP-Protocol-Version` header, while the `initialize` body asks for `2025-11-25`. This change clears the cached version before sending `initialize`. ## Motivation and Context Servers reject the mismatched header wi",
+      "body_hash": "6317e5913986371f0455",
+      "number": 2050,
+      "draft": false,
+      "head_sha": "0ededcd36b5051d83592e4728aabedb40e10108a",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol, transport, streamable"
+      ],
+      "fingerprint": "61439058970d28bc4d3d",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/716",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: answer a server request whose client reply is malformed",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/716",
+      "status": "open",
+      "created_at": "2026-11-26T11:36:13Z",
+      "updated_at": "2026-11-26T11:36:13Z",
+      "excerpt": "A client reply with a malformed `error` now ends the server's waiting request at once instead of giving 500 and a wait until the timeout, and a non-object frame received on stdio while waiting no longer ends the wait. Fixes #715 ## Motivation and Context When the server waits on a request it sent to the client (`ping`, `sampling/createMessage`, `elicitation/create`, `roots/list`), both server transports assume the cl",
+      "body_hash": "df01c39529c8e2ad76cb",
+      "number": 716,
+      "draft": false,
+      "head_sha": "af1e6c412402025e1737fb057ef7632a53465543",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, stdio, timeout"
+      ],
+      "fingerprint": "32aeda2348dc73ef4283",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/718",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: check the ids of SSE messages in the HTTP client",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/718",
+      "status": "open",
+      "created_at": "2026-11-26T11:36:47Z",
+      "updated_at": "2026-11-26T11:36:47Z",
+      "excerpt": "`MCP::Client::HTTP` no longer returns another request's response from a POST's SSE stream, and a server request whose id it cannot write back no longer fails the request being sent. Fixes #717 ## Motivation and Context `MCP::Client::HTTP` reads the SSE stream a POST is answered with through `SSEStream`, which has two gaps that `MCP::Client::Stdio` does not have. It takes the first event carrying `result` or `error` a",
+      "body_hash": "d1b1c15ab956e8508316",
+      "number": 718,
+      "draft": false,
+      "head_sha": "67dab994b7cdc1c434298e83b5bd647e236120ec",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: sse, stdio"
+      ],
+      "fingerprint": "a18aae08628a47af8135",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/290",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Add cache fields to list and resource results",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/290",
+      "status": "closed",
+      "created_at": "2026-09-24T16:23:21Z",
+      "updated_at": "2026-11-25T15:32:38Z",
+      "excerpt": "Adds `ttlMs` and `cacheScope` to the five results covered by #243. Older results still decode without either field, and negative TTL values are treated as immediately stale. This is a wire-model step toward the July protocol. The branch is updated to current `main` and includes the Ubuntu CI setup and client-test timing fixes shared with #307. Tests: result JSON, legacy decoding, invalid scope, and negative TTL cases",
+      "body_hash": "6803f2a9ed9dddcf1026",
+      "number": 290,
+      "draft": false,
+      "head_sha": "2b4cbfa29d9d88e2bac9e17a0d28228aeec59920",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "14158b4169111f07d76b",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/291",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Preserve structured JSON-RPC server error data",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/291",
+      "status": "closed",
+      "created_at": "2026-09-24T16:23:37Z",
+      "updated_at": "2026-11-25T15:32:48Z",
+      "excerpt": "This keeps `error.data` when decoding server errors, so clients can inspect the supported versions in `-32022` and required capabilities in `-32021`. Existing error cases keep their current behavior. This is one prerequisite for #245. The branch is updated to current `main` and includes the Ubuntu CI setup and client-test timing fixes shared with #307. Tests: the earlier local run passed 553 Swift tests, including JS",
+      "body_hash": "e650f2ccb5c52f20714c",
+      "number": 291,
+      "draft": false,
+      "head_sha": "09a7df59a430009de1aa82fd454d56a7999e56f5",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: sse, capabilit"
+      ],
+      "fingerprint": "8f512a029928f6fbae1a",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/296",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Keep standalone SSE resume IDs separate from POST responses",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/296",
+      "status": "closed",
+      "created_at": "2026-09-25T17:31:29Z",
+      "updated_at": "2026-11-25T15:33:59Z",
+      "excerpt": "Fixes #281. The standalone GET stream keeps its own event ID, while each interrupted POST SSE stream can resume with its own ID. Concurrent POST requests do not share a cursor. The branch is updated to current `main` and includes the Ubuntu CI setup and client-test timing fixes shared with #307. Tests: 562 Swift tests and DocC passed locally before this update. All six CI jobs passed on `b589337`, including Ubuntu te",
+      "body_hash": "e0e7e6b33d9d0220d6bb",
+      "number": 296,
+      "draft": false,
+      "head_sha": "b589337f67eea444a49f65edf56d5322e9d22dcd",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: sse"
+      ],
+      "fingerprint": "60bb42c28f68978977cd",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/298",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Keep HTTP requests separate during cancellation",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/298",
+      "status": "closed",
+      "created_at": "2026-09-26T13:34:34Z",
+      "updated_at": "2026-11-25T15:34:22Z",
+      "excerpt": "Combines #264, #260, and #270. Stateless HTTP requests get private IDs, and each response restores the client's original ID without changing the rest of the JSON. Invalid IDs return 400. Valid JSON with an invalid request ID now returns `-32600` Invalid Request; malformed JSON returns `-32700` Parse error. Ambiguous cancellation IDs leave active requests alone. The cancellation POST returns 202. The original POST end",
+      "body_hash": "798b7b4b11312e1d67fd",
+      "number": 298,
+      "draft": false,
+      "head_sha": "770798c884d6ed93ad668598201fae5c5ae4f4c4",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: cancel"
+      ],
+      "fingerprint": "9ad9de4b404cd1817a98",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/328",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Complete batch request tasks when withBatch fails",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/328",
+      "status": "closed",
+      "created_at": "2026-11-09T05:01:58Z",
+      "updated_at": "2026-11-26T06:56:50Z",
+      "excerpt": "## Summary When `Client.withBatch` throws, tasks returned by `Batch.addRequest` can remain suspended. Registration happens asynchronously, so cleaning up only the requests already registered at failure time misses continuations that register later. This change coordinates batch completion and request registration on the `Client` actor. It handles both transport send failures and a body closure that throws after addin",
+      "body_hash": "267eaa794d2ad35aa0f8",
+      "number": 328,
+      "draft": false,
+      "head_sha": "d9cadf398f1e452cecddbce0298d01eca99d1ea6",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, sse"
+      ],
+      "fingerprint": "3d36d62058582c3deb17",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/332",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: distinguish invalid JSON-RPC messages from JSON parse errors in HTTP server transports",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/332",
+      "status": "closed",
+      "created_at": "2026-11-23T03:16:19Z",
+      "updated_at": "2026-11-26T07:36:26Z",
+      "excerpt": "## Summary Both HTTP server transports currently return JSON-RPC error code `-32700` when a POST body cannot be classified as a request, notification, or response. This conflates malformed JSON with valid JSON that does not represent a JSON-RPC message. Fixes #321. For example, within an initialized stateful session: | Request body | Before | After | | --- | --- | --- | | `{\"not_a_valid_request\": true}` | `-32700` | ",
+      "body_hash": "b6aeb9c9886a59bc2b65",
+      "number": 332,
+      "draft": false,
+      "head_sha": "20fd5172594f995e9a765ea6065e95e8584558cd",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport"
+      ],
+      "fingerprint": "6aa4b6e4ab1135f6abd4",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/334",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Fix StdioTransport trap when stdio is a socket",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/334",
+      "status": "closed",
+      "created_at": "2026-11-23T17:16:50Z",
+      "updated_at": "2026-11-25T14:09:18Z",
+      "excerpt": "Fixes #327 ## Root cause Since #297, `StdioTransport.connect()` records the device and inode of its input/output file descriptors to detect descriptor reuse before restoring blocking mode. It converted `st_dev`/`st_ino` with `UInt64(status.st_dev)`. Node's `child_process.spawn` connects a server's stdio to socketpairs, and on Darwin `fstat()` on a socket reports `st_dev == -1`. `dev_t` is a signed `Int32` there, so `",
+      "body_hash": "42af0847131c95d421da",
+      "number": 334,
+      "draft": false,
+      "head_sha": "d7827e0c512f536d4a37594358af93dc5dd86920",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: transport, stdio"
+      ],
+      "fingerprint": "0255d4cdf04f025f3f79",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/372",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "MCP Swift SDK 1.0.0",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/372",
+      "status": "open",
+      "created_at": "2026-11-25T11:25:45Z",
+      "updated_at": "2026-11-26T18:49:24Z",
+      "excerpt": "This draft PR merges `rel/1.0.0` into `main` and becomes the Swift SDK 1.0.0. It is the overview of the release. The work itself is reviewed in 36 stacked PRs, P0 to P35, each with its own description of the design choices behind it. They merge into `rel/1.0.0` in order, then this PR merges into `main`. ## What 1.0.0 brings - **Both protocol eras on one `Server` and one `Client`.** The stateless 2026-07-28 revision (",
+      "body_hash": "d3b066af01d31b3506e9",
+      "number": 372,
+      "draft": false,
+      "head_sha": "528a11f8d45ae8e7558b47f362b2cbcd16c1c9d0",
+      "merged_at": null,
+      "labels": [],
+      "score": 28,
+      "reasons": [
+        "T3 watchlist",
+        "protocol: protocol"
+      ],
+      "fingerprint": "67ed7082316a9b6f81ac",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/288",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Add Mcp-Method and Mcp-Name headers to HTTP requests",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/288",
+      "status": "closed",
+      "created_at": "2026-09-24T15:41:56Z",
+      "updated_at": "2026-11-25T15:31:42Z",
+      "excerpt": "Closes #228. The HTTP client sends `Mcp-Method` for JSON-RPC requests and notifications, plus `Mcp-Name` for tool calls, prompt reads, and resource reads. Names that are not safe as plain ASCII use the Base64 format from SEP-2243. Responses and legacy batches have no single method to mirror. The branch is updated to current `main` and includes the Ubuntu CI setup and client-test timing fixes shared with #307. Tests: ",
+      "body_hash": "fc3c5efa9c682e373160",
+      "number": 288,
+      "draft": false,
+      "head_sha": "4a58c34e2722e40ce447140a85493dc626e7948f",
+      "merged_at": null,
+      "labels": [],
+      "score": 24,
+      "reasons": [
+        "T3 watchlist",
+        "proposal: sep-"
+      ],
+      "fingerprint": "7183c41da6c3e6a2c5fe",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3972",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "build(deps): bump @modelcontextprotocol/ext-apps from 2.0.3 to 2.0.4 in /ui",
+      "url": "https://github.com/github/github-mcp-server/pull/3972",
+      "status": "open",
+      "created_at": "2026-11-26T16:25:09Z",
+      "updated_at": "2026-11-26T16:26:21Z",
+      "excerpt": "Bumps [@modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) from 2.0.3 to 2.0.4. Release notes Sourced from @​modelcontextprotocol/ext-apps's releases . v2.0.4 What's Changed Patch release: example improvements and a dependency refresh. No changes to the @modelcontextprotocol/ext-apps library API. Examples pdf-server: single interact app tool by default — the viewer's thirteen per-action ",
+      "body_hash": "ec974e408374c9399a91",
+      "number": 3972,
+      "draft": false,
+      "head_sha": "e223987f979e49443c87053bc30ea5a50c6d384b",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "score": 20,
+      "reasons": [
+        "T1 watchlist",
+        "protocol: protocol",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "87d1e04b45132896cbfd",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/ruby-sdk/pull/719",
+      "source": "modelcontextprotocol/ruby-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Name a `resources/read` request by its URI alone",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk/pull/719",
+      "status": "merged",
+      "created_at": "2026-11-26T17:05:23Z",
+      "updated_at": "2026-11-27T02:26:58Z",
+      "excerpt": "## Motivation and Context Two checks identify the target of a request by `params.name`, falling back to `params.uri`, whatever the method. A `resources/read` is named by its `uri` and has no `name` member, so a client that added one replaced the URI in both: - The `Mcp-Name` header of a modern request was compared with the added `name`. A request could carry a header naming one resource and read another, although the",
+      "body_hash": "14778b6e677ac8beb04f",
+      "number": 719,
+      "draft": false,
+      "head_sha": "8c5ad4f7f5e0c0214a399206707c911e745318b9",
+      "merged_at": "2026-11-27T02:26:53Z",
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T3 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "bf81adba5c416e104ced",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/335",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: accept loopback Host and Origin without a port in OriginValidator.localhost()",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/335",
+      "status": "merged",
+      "created_at": "2026-11-24T05:50:18Z",
+      "updated_at": "2026-11-26T18:49:21Z",
+      "excerpt": "`OriginValidator.localhost()` builds wildcard patterns such as `localhost:*`, and `matchesPattern` requires a `: ` suffix after the host. A request with `Host: localhost` (or `Origin: http://localhost`) is therefore rejected with 421/403. A missing port means the scheme's default port (RFC 9110, section 7.2), so a server bound to port 80 rejects its own loopback requests. This change makes the wildcard also match the",
+      "body_hash": "3096a54b459bde436b3a",
+      "number": 335,
+      "draft": false,
+      "head_sha": "95b9b82cb08fa4f4c741ed8c0d985a4eaf782d37",
+      "merged_at": "2026-11-26T18:49:21Z",
+      "labels": [],
+      "score": 18,
+      "reasons": [
+        "T3 watchlist",
+        "merged implementation; verify release separately"
+      ],
+      "fingerprint": "05147c6f141485960d5a",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/1803",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Add McpClientTool.WithResultMarshaling to let hosts control what InvokeAsync returns",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/1803",
+      "status": "open",
+      "created_at": "2026-08-08T13:24:01Z",
+      "updated_at": "2026-11-25T20:26:26Z",
+      "excerpt": "# Add `McpClientTool.WithResultMarshaling` to let hosts control what `InvokeAsync` returns Fixes #2035 ## Problem `McpClientTool.InvokeCoreAsync` applies a fixed marshaling policy (introduced in #941): content blocks are converted to `AIContent` when the result carries nothing else, and otherwise the **entire `CallToolResult` is serialized to a `JsonElement`**. Because `McpClientTool` is an `AIFunction`, the returned",
+      "body_hash": "075de54c95152740ae5c",
+      "number": 1803,
+      "draft": false,
+      "head_sha": "3147c1f193c11eb07f903ea0e67e5ce732cc0199",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "4d7be57733c48b67dd84",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2041",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Bind true and false prompt arguments to bool parameters",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2041",
+      "status": "open",
+      "created_at": "2026-11-25T09:19:23Z",
+      "updated_at": "2026-11-25T20:41:18Z",
+      "excerpt": "Prompt arguments are strings on the wire, so clients send booleans as `\"true\"` or `\"false\"`. Numeric strings already bind to numeric parameters through `JsonNumberHandling.AllowReadingFromString`, but System.Text.Json has no equivalent for booleans, so a `bool` prompt parameter failed with `An error occurred.` This adds a parameter binder for `bool` and `bool?` prompt parameters in `AIFunctionMcpServerPrompt`: - JSON",
+      "body_hash": "bb22c6a81bb9fb72eb0e",
+      "number": 2041,
+      "draft": false,
+      "head_sha": "5502202321c7f35f06fb612296da803bd57b62ca",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "caf8925bfe25ea26d308",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2048",
+      "source": "modelcontextprotocol/csharp-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Don't record operation duration for JSON-RPC responses",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/pull/2048",
+      "status": "open",
+      "created_at": "2026-11-26T05:27:02Z",
+      "updated_at": "2026-11-26T22:51:33Z",
+      "excerpt": "Fixes #2043 ## Problem `McpSessionHandler` recorded `mcp.server.operation.duration` and `mcp.client.operation.duration` for JSON-RPC responses and errors, tagged `mcp.method.name = unknownMethod`. As a result, every request was counted twice. The issue describes the server's send path, but the receive path had the same problem. `HandleMessageAsync` timed every incoming message, including responses routed to pending r",
+      "body_hash": "b5f72225a93694e2a571",
+      "number": 2048,
+      "draft": false,
+      "head_sha": "bf4a895643cb0a535fff4c24ca90d68c32fd033f",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "78dbb1cbb5275784b37d",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/174",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Add Swift Package Index documentation support",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/174",
+      "status": "open",
+      "created_at": "2025-12-11T20:21:43Z",
+      "updated_at": "2026-11-25T15:24:19Z",
+      "excerpt": "Add `swift-docc-plugin` dependency and configure documentation generation for the MCP target. This enables automatic documentation hosting on Swift Package Index. 🤖 Generated with [Claude Code](https://claude.com/claude-code) --- This PR also contains a commit to fix an existing documentation error. After this PR is merged, I (or another contributor) can make a PR to [SwiftPackageIndex/PackageList](https://github.com",
+      "body_hash": "21f769e8830a6249559b",
+      "number": 174,
+      "draft": false,
+      "head_sha": "d46f89f8d74417f713db22ee7e584186fa899aa1",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "df6933b6e36cef8a7680",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/259",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "Use monotonic integer IDs for ID.random by default",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/259",
+      "status": "open",
+      "created_at": "2026-07-15T04:42:02Z",
+      "updated_at": "2026-11-26T15:58:59Z",
+      "excerpt": "## Summary - Change `ID.random` to allocate monotonic JSON **integer** ids (`.number`) instead of UUID strings. - Keep the previous UUID behavior available as `ID.randomUUID`. - Integer ids remain JSON-RPC 2.0 valid and work with servers that only accept numeric `id` values. ## Motivation Apple's `xcrun mcpbridge` (Xcode) never responds to JSON-RPC requests whose `id` is a string, null, or float — it only answers int",
+      "body_hash": "e2698b2910e9ff80e6b8",
+      "number": 259,
+      "draft": false,
+      "head_sha": "53572f4780e6659ba9bd2cac334189a2e6cbdecb",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "6a3a8ee9c83ebc03608a",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/375",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: Distinguish invalid JSON-RPC messages from JSON parse errors",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/375",
+      "status": "open",
+      "created_at": "2026-11-26T08:50:56Z",
+      "updated_at": "2026-11-26T12:10:10Z",
+      "excerpt": "**Summary** Valid JSON that is not a JSON-RPC message currently receives `-32700` (Parse error). This change returns `-32600` (Invalid Request), as defined by JSON-RPC 2.0 §5.1, while retaining `-32700` for malformed JSON. It also aligns the server receive loop with HTTP error classification and rejects HTTP responses whose `jsonrpc` field is missing or is not `\"2.0\"`. **Changed** - Share error classification between",
+      "body_hash": "1b3d649ea52cfb8d4a8e",
+      "number": 375,
+      "draft": false,
+      "head_sha": "58458da7c9cb70917ef755da2ea335a83df8f03d",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "1b5c38fd796336f8d6a6",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/379",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: expose response decoding details",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/379",
+      "status": "open",
+      "created_at": "2026-11-26T19:45:57Z",
+      "updated_at": "2026-11-26T22:22:13Z",
+      "excerpt": "## Motivation and Context When a server result does not decode as a method's result type, the client currently throws an empty internal error. This makes it hard to see what the server sent or why decoding failed. This adds a public `ResponseDecodingError` with `expectedType: String`, `rawResult: Value`, and `underlyingError: any Error`. The existing `Value` re-decode still runs before the typed cast, as required by ",
+      "body_hash": "d58cf2a1fe148515d04a",
+      "number": 379,
+      "draft": false,
+      "head_sha": "84d1db0e025ee24341a9b5f7909a007da3696593",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "597b5fcabca83ae3b9f8",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/382",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: preserve data in malformed URL elicitation errors",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/382",
+      "status": "open",
+      "created_at": "2026-11-26T19:59:24Z",
+      "updated_at": "2026-11-26T22:07:43Z",
+      "excerpt": "## Motivation and Context The decoder currently turns every -32042 error into `urlElicitationRequired`. If `data.elicitations` is missing or is not an array, that drops the original `data`, including `data.challenges`. This follows the existing -32021 decoding rule: without a readable `elicitations` array, decode as `serverError(code:message:data:)` and keep the data. With an array, URL elicitation behavior stays the",
+      "body_hash": "9693a4464291bd102e08",
+      "number": 382,
+      "draft": false,
+      "head_sha": "d1af700c24c394a0741b01dbdee5a35d00880d4d",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "27f345e424a2a67ed129",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/383",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "fix: accept loopback Host and Origin without a port in localhost(port: 80)",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/383",
+      "status": "open",
+      "created_at": "2026-11-27T01:19:10Z",
+      "updated_at": "2026-11-27T01:19:11Z",
+      "excerpt": "`OriginValidator.localhost(port: 80)` allowed only the `localhost:80` forms, so a request with `Host: localhost` or `Origin: http://localhost` was rejected. A request without a port means the scheme's default (RFC 9110, section 7.2), which for `http` is 80. #335 made `localhost()` with no port accept the bare forms; this does the same for port 80, as varun06 suggested there. The validator now also allows the bare hos",
+      "body_hash": "8998fd50e71eaea3dacf",
+      "number": 383,
+      "draft": false,
+      "head_sha": "e7016b6bbe15de07e5aabb4939d3a84ac5e59fe8",
+      "merged_at": null,
+      "labels": [],
+      "score": 8,
+      "reasons": [
+        "T3 watchlist"
+      ],
+      "fingerprint": "91f8a344ce44156cc8d6",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/29336ab3a9a9ae77152c94a8b35a9e61f3ea69da",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "commit",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "build(deps-dev): bump typescript-eslint from 8.72.2 to 8.73.0 (#3579)",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/29336ab3a9a9ae77152c94a8b35a9e61f3ea69da",
+      "status": "committed",
+      "created_at": null,
+      "updated_at": "2026-11-26T19:12:55Z",
+      "excerpt": "build(deps-dev): bump typescript-eslint from 8.72.2 to 8.73.0 (#3579) [//]: # (dependabot-start) ⚠️ **Dependabot is rebasing this PR** ⚠️ Rebasing might not happen immediately, so don't worry if this takes some time. Note: if you make any changes to this PR yourself, they will take precedence over the rebase. --- [//]: # (dependabot-end) Bumps [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint",
+      "body_hash": "7db0cc87277f37ba95cc",
+      "labels": [],
+      "score": 5,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "94af487aab8b9b57b946",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/f8c8f485d281ce8eef1f5383628cad5fe4259956",
+      "source": "modelcontextprotocol/modelcontextprotocol",
+      "kind": "commit",
+      "topic": "protocol",
+      "tier": 1,
+      "title": "build(deps-dev): bump eslint from 10.14.0 to 10.15.0 (#3578)",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/f8c8f485d281ce8eef1f5383628cad5fe4259956",
+      "status": "committed",
+      "created_at": null,
+      "updated_at": "2026-11-26T19:11:40Z",
+      "excerpt": "build(deps-dev): bump eslint from 10.14.0 to 10.15.0 (#3578) Bumps [eslint](https://github.com/eslint/eslint) from 10.14.0 to 10.15.0. Release notes Sourced from eslint's releases . v10.15.0 Features ec52157 feat: check proto and assignment targets in func-names ( #21521 ) (Lê Văn Xuân Hoàn) 34a8b1b feat: recognize string and computed keys in accessor-pairs descriptors ( #21519 ) (Lê Văn Xuân Hoàn) 663c825 feat: hand",
+      "body_hash": "bd663f7453b12bfc840a",
+      "labels": [],
+      "score": 5,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "e83ab90498596a2b5e91",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3967",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "build(deps): bump github/gh-aw-actions/setup from 1.0.1 to 1.3.1",
+      "url": "https://github.com/github/github-mcp-server/pull/3967",
+      "status": "open",
+      "created_at": "2026-11-26T16:23:44Z",
+      "updated_at": "2026-11-26T16:25:33Z",
+      "excerpt": "Bumps [github/gh-aw-actions/setup](https://github.com/github/gh-aw-actions) from 1.0.1 to 1.3.1. Release notes Sourced from github/gh-aw-actions/setup's releases . v1.2.2 Sync of actions from gh-aw at v1.2.2 . Commits dfe97a1 chore: sync actions from gh-aw@v1.3.1 ( #306 ) 8126d6c chore: sync actions from gh-aw@v1.3.0 ( #300 ) 862164f chore: sync actions from gh-aw@v1.2.3 ( #299 ) 53d0749 chore: sync actions from gh-a",
+      "body_hash": "5fc0568ddca4d6ca3421",
+      "number": 3967,
+      "draft": false,
+      "head_sha": "32966b18efd7a9f6a2530b4038ed18619f51686b",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ],
+      "score": 0,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "f70453ebe2bb01430f3b",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3968",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "build(deps): bump sigstore/cosign-installer from 4.1.2 to 4.1.3",
+      "url": "https://github.com/github/github-mcp-server/pull/3968",
+      "status": "open",
+      "created_at": "2026-11-26T16:23:55Z",
+      "updated_at": "2026-11-26T16:25:11Z",
+      "excerpt": "Bumps [sigstore/cosign-installer](https://github.com/sigstore/cosign-installer) from 4.1.2 to 4.1.3. Release notes Sourced from sigstore/cosign-installer's releases . v4.1.3 What's Changed Bump Cosign to v3.1.4 (latest release) in sigstore/cosign-installer#257 Full Changelog : https://github.com/sigstore/cosign-installer/compare/v4.1.2...v4.1.3 Commits 756fe2d Bump Cosign to v3.1.4 (latest release) ( #257 ) b9c3539 B",
+      "body_hash": "58b499ec8f0e2a70c7f7",
+      "number": 3968,
+      "draft": false,
+      "head_sha": "eae8dcba86151b1926acec54d55a86f8a34c4897",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ],
+      "score": 0,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "5fb56021350b7e36bc6b",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3969",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "build(deps): bump actions/setup-go from 7.0.0 to 7.1.0",
+      "url": "https://github.com/github/github-mcp-server/pull/3969",
+      "status": "open",
+      "created_at": "2026-11-26T16:24:09Z",
+      "updated_at": "2026-11-26T16:25:20Z",
+      "excerpt": "Bumps [actions/setup-go](https://github.com/actions/setup-go) from 7.0.0 to 7.1.0. Release notes Sourced from actions/setup-go's releases . v7.1.0 What's Changed Enhancements Expose go env variables as action outputs by @​v-mahabaleshwars in actions/setup-go#791 Preserve native Go environment names in action outputs by @​v-mahabaleshwars in actions/setup-go#793 Add support for native Go version syntax in go-version i",
+      "body_hash": "f4f48ae1342c27f129ef",
+      "number": 3969,
+      "draft": false,
+      "head_sha": "07136bc03ed6dc7c80fe9b57a7db6ba5f572fa32",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ],
+      "score": 0,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "e60917de33cf83b38a4a",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/github/github-mcp-server/pull/3971",
+      "source": "github/github-mcp-server",
+      "kind": "pull_request",
+      "topic": "production-server",
+      "tier": 1,
+      "title": "build(deps-dev): bump @vitejs/plugin-react from 6.1.2 to 6.3.0 in /ui",
+      "url": "https://github.com/github/github-mcp-server/pull/3971",
+      "status": "open",
+      "created_at": "2026-11-26T16:25:02Z",
+      "updated_at": "2026-11-26T16:26:18Z",
+      "excerpt": "Bumps [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/tree/HEAD/packages/plugin-react) from 6.1.2 to 6.3.0. Release notes Sourced from @​vitejs/plugin-react's releases . plugin-react@6.3.0 Make reactCompilerPreset work with @rolldown/plugin-babel 's parallel option ( #1549 ) reactCompilerPreset now refers to its Babel preset by module path instead of by function, so it can be sent to worker threads",
+      "body_hash": "9ca54b97ed79ce4d8b4f",
+      "number": 3971,
+      "draft": false,
+      "head_sha": "245edcfa5c1cb5fac5ae79d049a8db2b0c85c603",
+      "merged_at": null,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "score": 0,
+      "reasons": [
+        "T1 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "45d802f03fb407b155e7",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/servers/pull/5633",
+      "source": "modelcontextprotocol/servers",
+      "kind": "pull_request",
+      "topic": "reference-server",
+      "tier": 2,
+      "title": "chore: version packages",
+      "url": "https://github.com/modelcontextprotocol/servers/pull/5633",
+      "status": "open",
+      "created_at": "2026-11-18T22:14:41Z",
+      "updated_at": "2026-11-25T05:09:01Z",
+      "excerpt": "This PR was opened by the [Changesets release](https://github.com/changesets/action) GitHub action. When you're ready to do a release, you can merge this and publish to npm yourself or [setup this action to publish automatically](https://github.com/changesets/action#with-publishing). If you're not ready to do a release yet, that's fine, whenever you add more changesets to v2/main, this PR will be updated. # Releases ",
+      "body_hash": "eef99d8be6d732864247",
+      "number": 5633,
+      "draft": false,
+      "head_sha": "0418d209dfc5cbd90c55f3250e3f5de89a493b40",
+      "merged_at": null,
+      "labels": [
+        "v2"
+      ],
+      "score": 0,
+      "reasons": [
+        "T2 watchlist",
+        "routine maintenance penalty"
+      ],
+      "fingerprint": "4557ad5e48a938345dd1",
+      "change_type": "updated",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    },
+    {
+      "id": "https://github.com/modelcontextprotocol/swift-sdk/pull/377",
+      "source": "modelcontextprotocol/swift-sdk",
+      "kind": "pull_request",
+      "topic": "sdk",
+      "tier": 3,
+      "title": "docs: Describe release branches and patch tags",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk/pull/377",
+      "status": "open",
+      "created_at": "2026-11-26T16:09:12Z",
+      "updated_at": "2026-11-26T16:09:12Z",
+      "excerpt": "## Summary Release branches named by major and minor version (`release-1.0`), with releases cut as tags on them (`1.0.0`, `1.0.1`, ...), as [Kubernetes](https://github.com/kubernetes/kubernetes) does. A patch release needs no branch of its own. This targets `rel/1.0.0`, which would then be renamed `release-1.0`. `rel/1.0.0` doesn't describe a branching model yet. `VERSIONING.md` says releases are tags `MAJOR.MINOR.PA",
+      "body_hash": "b181a3813859765906e6",
+      "number": 377,
+      "draft": true,
+      "head_sha": "9231a94b460aba823fb795ccb92bdca027029f7b",
+      "merged_at": null,
+      "labels": [],
+      "score": 0,
+      "reasons": [
+        "T3 watchlist",
+        "draft PR"
+      ],
+      "fingerprint": "9a06aa46bdee9ca7ca62",
+      "change_type": "new",
+      "observed_at": "2026-11-27T01:21:10+00:00"
+    }
+  ],
+  "last_run": {
+    "schema_version": 1,
+    "date": "2026-11-27",
+    "generated_at": "2026-11-27T01:21:10+00:00",
+    "lookback_days": 14,
+    "baseline": false,
+    "item_count": 476,
+    "changes_this_run": 104,
+    "sources": [
+      {
+        "source": "IBM/mcp-context-forge",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "PrefectHQ/fastmcp",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 67,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "Tencent/AI-Infra-Guard",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "awslabs/mcp",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "cloudflare-mcp",
+        "kind": "feed",
+        "status": "failed"
+      },
+      {
+        "source": "cloudflare/agents",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "cloudflare/agents",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare/workers-oauth-provider",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 42,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "cloudflare/workers-oauth-provider",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 6,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "cloudflare/workers-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "getsentry/toolkit",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 53,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "getsentry/toolkit",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "github/github-mcp-server",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 200,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 89,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "github/github-mcp-server",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "lastmile-ai/mcp-agent",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 9,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "lastmile-ai/mcp-agent",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "mcp-official-blog",
+        "kind": "feed",
+        "status": "failed"
+      },
+      {
+        "source": "microsoft/playwright-mcp",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 76,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "microsoft/playwright-mcp",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 28,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          },
+          "issues": {
+            "fetched": 31,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/agents-ig",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/conformance",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 17,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/conformance",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/csharp-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 1,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/csharp-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-apps",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/ext-auth",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 28,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 42,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-auth",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-skills",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/ext-skills",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ext-tasks",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 27,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 38,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/ext-tasks",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/go-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "fetched": 33,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/go-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/inspector",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 19,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 79,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/inspector",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/java-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 7,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 45,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/java-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/kotlin-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 3,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 31,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/kotlin-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 20,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/mcpb",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 1,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 9,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "status": "failed"
+          },
+          "commits": {
+            "fetched": 32,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/modelcontextprotocol",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 2,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 14,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/php-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/python-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 12,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 73,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/python-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 5,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/registry",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/ruby-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "fetched": 44,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/ruby-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/rust-sdk",
+        "kind": "repository",
+        "endpoints": {},
+        "status": "failed"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "status": "failed"
+          },
+          "releases": {
+            "fetched": 35,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/servers",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/swift-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/swift-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/transports-wg",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 71,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "issues": {
+            "fetched": 76,
+            "capped": false,
+            "status": "ok"
+          },
+          "commits": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "modelcontextprotocol/transports-wg",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 10,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "modelcontextprotocol/typescript-sdk",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "snyk/agent-scan",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 0,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 144,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "snyk/agent-scan",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "sparfenyuk/mcp-proxy",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "fetched": 100,
+            "capped": false,
+            "status": "ok"
+          },
+          "security-advisories": {
+            "fetched": 4,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "fetched": 24,
+            "capped": false,
+            "status": "ok"
+          }
+        },
+        "status": "ok",
+        "canonical_name": "sparfenyuk/mcp-proxy",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "kind": "repository",
+        "endpoints": {
+          "pulls": {
+            "status": "failed"
+          },
+          "security-advisories": {
+            "fetched": 57,
+            "capped": false,
+            "status": "ok"
+          },
+          "releases": {
+            "status": "failed"
+          }
+        },
+        "status": "partial",
+        "canonical_name": "stacklok/toolhive",
+        "archived": false,
+        "default_branch": "main"
+      }
+    ],
+    "errors": [
+      {
+        "source": "IBM/mcp-context-forge",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "PrefectHQ/fastmcp",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Tencent/AI-Infra-Guard",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "awslabs/mcp",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "cloudflare-mcp",
+        "error": "Network error from blog.cloudflare.com/rss/"
+      },
+      {
+        "source": "cloudflare/agents",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "cloudflare/agents",
+        "endpoint": "releases",
+        "error": "Remote end closed connection without response"
+      },
+      {
+        "source": "cloudflare/workers-oauth-provider",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "cloudflare/workers-sdk",
+        "endpoint": "pulls",
+        "error": "Remote end closed connection without response"
+      },
+      {
+        "source": "getsentry/toolkit",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "mcp-official-blog",
+        "error": "Network error from blog.modelcontextprotocol.io/index.xml"
+      },
+      {
+        "source": "microsoft/playwright-mcp",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "endpoint": "commits",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/conformance",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/csharp-sdk",
+        "endpoint": "releases",
+        "error": "Remote end closed connection without response"
+      },
+      {
+        "source": "modelcontextprotocol/ext-apps",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/ext-skills",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/ext-skills",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/go-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/go-sdk",
+        "endpoint": "security-advisories",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/inspector",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/kotlin-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/mcpb",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "issues",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/modelcontextprotocol",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/php-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/python-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/registry",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/ruby-sdk",
+        "endpoint": "security-advisories",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/rust-sdk",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/servers",
+        "endpoint": "security-advisories",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/swift-sdk",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "modelcontextprotocol/typescript-sdk",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "endpoint": "pulls",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "stacklok/toolhive",
+        "endpoint": "releases",
+        "error": "The read operation timed out"
+      }
+    ],
+    "warnings": [
+      {
+        "source": "modelcontextprotocol/agents-wg",
+        "message": "Repository renamed/redirected to modelcontextprotocol/agents-ig"
+      }
+    ]
+  }
+}

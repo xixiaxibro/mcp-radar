@@ -3,11 +3,11 @@
   "items": {
     "https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.4": {
       "fingerprint": "49223178a6b1f82649ff",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.14.0": {
       "fingerprint": "9a9314ba36f3365950fa",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2076": {
       "fingerprint": "f94bd2b7d9264b5ab191",
@@ -243,7 +243,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3598": {
       "fingerprint": "ea1b56c105a137696783",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2791": {
       "fingerprint": "a9944b7061ec9a36fb78",
@@ -363,7 +363,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.13.0": {
       "fingerprint": "8c4d81368af9c820a2a8",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c1c81072057ed9a3eb40a1213eb7577651c1937b": {
       "fingerprint": "1802ae3a006594d79083",
@@ -663,7 +663,7 @@
     },
     "https://github.com/snyk/agent-scan/pull/526": {
       "fingerprint": "8661cd4a35d98e1165cc",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/snyk/agent-scan/pull/533": {
       "fingerprint": "c9b9dfa58fb11060cdc6",
@@ -1207,7 +1207,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-auth/pull/38": {
       "fingerprint": "b44bbde5c60b9b49a30b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1027": {
       "fingerprint": "971a823e593a010b9782",
@@ -1987,7 +1987,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3505": {
       "fingerprint": "c95095ed8609b5b7e6f3",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2818": {
       "fingerprint": "573ffc1c698a3c61f56f",
@@ -2911,11 +2911,11 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/270": {
       "fingerprint": "df4f8c695fe6855dd987",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/293": {
-      "fingerprint": "e70bab35f89a528c4f8d",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "cfa9ab7a9e4328243fbb",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/272": {
       "fingerprint": "3746fa3725f3a6b1a85e",
@@ -3359,15 +3359,15 @@
     },
     "https://github.com/github/github-mcp-server/pull/3561": {
       "fingerprint": "5633cb3956f8dde3aca4",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3562": {
       "fingerprint": "c0b84d5158028b93e077",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3563": {
       "fingerprint": "a3318adfd4111f45e9a4",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3574": {
       "fingerprint": "78c1f5cd27bbc8cfa7b8",
@@ -3391,7 +3391,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3649": {
       "fingerprint": "b50b8506fe17a0ad5a7b",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3659": {
       "fingerprint": "8a7862f0019ee5c3346e",
@@ -3527,7 +3527,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/57": {
       "fingerprint": "30ce501ab8b22801e9e1",
-      "last_seen": "2026-11-18T01:17:06+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2492": {
       "fingerprint": "6777525359bcf29337f8",
@@ -3951,11 +3951,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3618": {
       "fingerprint": "4daccef7031d7cc15761",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3619": {
       "fingerprint": "8e78b15c0ef3580da5e6",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/microsoft/playwright-mcp/pull/1813": {
       "fingerprint": "41537caeeaac47ca47c1",
@@ -4779,11 +4779,11 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1880": {
       "fingerprint": "813ae658764e0b12d804",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1921": {
       "fingerprint": "b74487e0d5beb4d52b80",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1967": {
       "fingerprint": "69d8f67b2410b4bbe8b2",
@@ -4815,11 +4815,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1208": {
       "fingerprint": "736575dae209b96fbcf8",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1214": {
       "fingerprint": "aae4a23e554e7c006261",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/994": {
       "fingerprint": "4362aa526eddd36bfd76",
@@ -4891,11 +4891,11 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/276": {
       "fingerprint": "9c347fbb743e4bdead04",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/289": {
-      "fingerprint": "48c27b6d62c803322951",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "36a66706acdb346d3179",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/305": {
       "fingerprint": "ef58fb2eca33856684cb",
@@ -5387,7 +5387,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3419": {
       "fingerprint": "f4b1ee3e218df7781dac",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3468": {
       "fingerprint": "f582700200f2cdde0665",
@@ -5399,7 +5399,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3564": {
       "fingerprint": "2a139164af00a483a90e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3629": {
       "fingerprint": "2a10192e2926cd37f5db",
@@ -6351,7 +6351,7 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/264": {
       "fingerprint": "ee8f37e59b1cbf555563",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/6666": {
       "fingerprint": "a54c85ac40b427df3530",
@@ -6427,7 +6427,7 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/208": {
       "fingerprint": "42248f825422abcb13b8",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/55": {
       "fingerprint": "b136a2597901b90384ca",
@@ -6543,7 +6543,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1723": {
       "fingerprint": "297f701512f48bec5a20",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1883": {
       "fingerprint": "d54290482d5f2e99ca42",
@@ -6595,7 +6595,7 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/313": {
       "fingerprint": "f8486abe5697517e3417",
-      "last_seen": "2026-11-07T01:26:09+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/92": {
       "fingerprint": "ec410633366aab6aab6a",
@@ -6839,7 +6839,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/1209": {
       "fingerprint": "5bb8ccb4c97cc73e06b8",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/1226": {
       "fingerprint": "db2a77f391f025856562",
@@ -6871,7 +6871,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3149": {
       "fingerprint": "41d3b3356f1c6099feee",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3297": {
       "fingerprint": "70bff8e56e00944089dc",
@@ -6883,11 +6883,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3429": {
       "fingerprint": "998a3b7ab97c51495134",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3430": {
       "fingerprint": "ed949eb7f838e3c8df10",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3525": {
       "fingerprint": "903f71cbee4f72702b57",
@@ -7819,7 +7819,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3518": {
       "fingerprint": "dac6c3214d2672fd5cea",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3550": {
       "fingerprint": "fcf898617a843c362384",
@@ -7831,15 +7831,15 @@
     },
     "https://github.com/github/github-mcp-server/pull/3616": {
       "fingerprint": "cc8c3b6f3398cb93bb75",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3620": {
       "fingerprint": "a4dc44f9c3f01f30be4f",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3621": {
       "fingerprint": "b592c317a8333ebae589",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/773": {
       "fingerprint": "f7965f55afcd5cb69bc9",
@@ -7882,12 +7882,12 @@
       "last_seen": "2026-11-07T01:26:09+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1929": {
-      "fingerprint": "95236eb288ef25d80cde",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "570d1897ad2f1486cb78",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1932": {
       "fingerprint": "b5a533513bbe86e25f36",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1957": {
       "fingerprint": "de600caf1071a2a48a13",
@@ -7899,7 +7899,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1977": {
       "fingerprint": "c819610eeea25ad60cbd",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/821": {
       "fingerprint": "6fee8fd403f0adbe7d8f",
@@ -8475,11 +8475,11 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/216": {
       "fingerprint": "2f23bd5597146fc8ce71",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/221": {
       "fingerprint": "546c5b0d7e7e165a1b76",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/229": {
       "fingerprint": "97a620007c535f121e89",
@@ -8487,39 +8487,39 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/260": {
       "fingerprint": "9e4d826117a3817b82b3",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/264": {
       "fingerprint": "712eb4f2c675f725fbb9",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/267": {
       "fingerprint": "f379a9016e077f1392f0",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/268": {
       "fingerprint": "39f7970f2bd39d3ed908",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/269": {
       "fingerprint": "03d7735637b309648629",
-      "last_seen": "2026-11-18T01:17:06+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/275": {
       "fingerprint": "2357bf35a4db12033149",
-      "last_seen": "2026-11-07T01:26:09+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/279": {
       "fingerprint": "ee81c5e7c0300b3dbb93",
-      "last_seen": "2026-11-10T01:28:35+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/290": {
-      "fingerprint": "ead8be799619c5fe6a61",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "14158b4169111f07d76b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/291": {
-      "fingerprint": "de1c56c07a5a562e345c",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "8f512a029928f6fbae1a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/292": {
       "fingerprint": "4cc73e5c86fb91efe922",
@@ -8527,27 +8527,27 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/295": {
       "fingerprint": "070cc81da9f775c7d071",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/296": {
-      "fingerprint": "c7e7399d480177e3ffbb",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "60bb42c28f68978977cd",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/298": {
-      "fingerprint": "528a13f75a3ca74be935",
-      "last_seen": "2026-11-23T01:17:23+00:00"
+      "fingerprint": "9ad9de4b404cd1817a98",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/307": {
       "fingerprint": "cf36aae7dd4831c09a2e",
-      "last_seen": "2026-11-23T01:17:23+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/314": {
       "fingerprint": "9816e00749c57bd90c4f",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/316": {
       "fingerprint": "8be8ac56315ed20ce00c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/320": {
       "fingerprint": "0aa269be2252f346caa0",
@@ -8711,7 +8711,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1987": {
       "fingerprint": "3fb233ee92c0ca11ef1d",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1154": {
       "fingerprint": "5716f103cc3dfe124d89",
@@ -8774,8 +8774,8 @@
       "last_seen": "2026-11-16T01:17:05+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/288": {
-      "fingerprint": "f2b786f46a182fafd2a9",
-      "last_seen": "2026-11-16T01:17:05+00:00"
+      "fingerprint": "7183c41da6c3e6a2c5fe",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/6971": {
       "fingerprint": "b58b4160c81b7edc2c5e",
@@ -8867,7 +8867,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3544": {
       "fingerprint": "96cfb723909d4f7dbc2c",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3582": {
       "fingerprint": "5f6235141ca099feac1d",
@@ -9783,7 +9783,7 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/213": {
       "fingerprint": "4b6027934fab703cb4cf",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/226": {
       "fingerprint": "4c78986f5737d3abcb6f",
@@ -10222,12 +10222,12 @@
       "last_seen": "2026-11-06T01:19:59+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1803": {
-      "fingerprint": "0283eb6415de24f5ac74",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "4d7be57733c48b67dd84",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1931": {
       "fingerprint": "059ae520911fdf5776ca",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1960": {
       "fingerprint": "dc19ee587f51b969cdd1",
@@ -10303,7 +10303,7 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/3175": {
       "fingerprint": "0a12d48debd975775164",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5402": {
       "fingerprint": "1c6fcf26197d66777253",
@@ -10327,11 +10327,11 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/278": {
       "fingerprint": "fa1605d98511f95aa091",
-      "last_seen": "2026-11-05T13:52:53+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/315": {
       "fingerprint": "6d316952475e07500084",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7047": {
       "fingerprint": "93462fc0b0dc4efde271",
@@ -10463,15 +10463,15 @@
     },
     "https://github.com/github/github-mcp-server/pull/3511": {
       "fingerprint": "0568d712a744d9e774ea",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3512": {
       "fingerprint": "d2d6b14f0e0ee199f4ba",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3617": {
       "fingerprint": "f56b3fa33b426da7e4f3",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/microsoft/playwright-mcp/pull/1810": {
       "fingerprint": "2f63687d3726dc6eb2ec",
@@ -10527,7 +10527,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1986": {
       "fingerprint": "1b60f7d86434fb7a6c27",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/831": {
       "fingerprint": "adc572870deace0b5abb",
@@ -10807,7 +10807,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3687": {
       "fingerprint": "9ba0b108012b31036419",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/cloudflare/workers-oauth-provider/pull/411": {
       "fingerprint": "4e9c05e9173f119821ba",
@@ -10823,7 +10823,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/issues/24": {
       "fingerprint": "d31e414da7ca551a9120",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2918": {
       "fingerprint": "b9cbc652686b6107f1b9",
@@ -10979,7 +10979,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3685": {
       "fingerprint": "b4fb8af9a8e1f1ee5acf",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2925": {
       "fingerprint": "7eb274be04df7f9ed5bd",
@@ -10995,7 +10995,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3690": {
       "fingerprint": "2f7549024bd1701de8b2",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/microsoft/playwright-mcp/pull/1825": {
       "fingerprint": "86b42e1a31a032b9d53c",
@@ -11043,7 +11043,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3691": {
       "fingerprint": "e74f985360831bbcd36a",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.8": {
       "fingerprint": "8e304f9173be53b9b7af",
@@ -11147,7 +11147,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/31": {
       "fingerprint": "f399939191850f1eaa47",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/45": {
       "fingerprint": "d04ab03685727bf1312e",
@@ -11163,7 +11163,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/56": {
       "fingerprint": "2fd686dd1907f0671c30",
-      "last_seen": "2026-11-18T01:17:06+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7461": {
       "fingerprint": "45501bf79c13b8c097f4",
@@ -11783,7 +11783,7 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/323": {
       "fingerprint": "a5d569c22e2fc217a316",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7067": {
       "fingerprint": "41d8b881e26cf07d46f2",
@@ -11919,7 +11919,7 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/325": {
       "fingerprint": "874f91098f248a5510ef",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3518": {
       "fingerprint": "143bee245a53793b1bcc",
@@ -11931,7 +11931,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3038": {
       "fingerprint": "d361ad8b6db0877a0ae6",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.4.0": {
       "fingerprint": "e92210f0dc4354e9c06f",
@@ -11967,7 +11967,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3714": {
       "fingerprint": "7dd1cc1879e962dda8f3",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/521": {
       "fingerprint": "d2cf4ff1e8efd61168d0",
@@ -12043,11 +12043,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3744": {
       "fingerprint": "067b43b08d376406268d",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3745": {
-      "fingerprint": "0007e3d4a4d695f931e1",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "fingerprint": "18279f174cd73b71fd4a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/556": {
       "fingerprint": "75f0e6fcb7ce8a7d0e71",
@@ -12367,19 +12367,19 @@
     },
     "https://github.com/github/github-mcp-server/pull/3719": {
       "fingerprint": "2fadbba34c7d7c7f408e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3723": {
       "fingerprint": "3b36fa867dfc67bc000e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3724": {
       "fingerprint": "9e4c2c5b55f37595c087",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3727": {
       "fingerprint": "9587e1f2441ec0bcbdc0",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3520": {
       "fingerprint": "bf213d098c85553961c1",
@@ -12647,7 +12647,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-auth/pull/42": {
       "fingerprint": "371d2b1d2f5d3126ef00",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3528": {
       "fingerprint": "1ceaf7b75d949a843c89",
@@ -12751,7 +12751,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2010": {
       "fingerprint": "950d3822f3f3db7522b9",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/Tencent/AI-Infra-Guard/pull/744": {
       "fingerprint": "e4496f1967da370a1b8d",
@@ -12778,8 +12778,8 @@
       "last_seen": "2026-11-23T01:17:23+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/328": {
-      "fingerprint": "a8679f4fbd22a8dccd7d",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "3d36d62058582c3deb17",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/cloudflare/workers-oauth-provider/pull/321": {
       "fingerprint": "210e043cc1cc224616ae",
@@ -12807,7 +12807,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2013": {
       "fingerprint": "65eedf14b836a36ab588",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1319": {
       "fingerprint": "7a02a766fe85ddf548ac",
@@ -12843,11 +12843,11 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2008": {
       "fingerprint": "da2ed1cdf0917a583371",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2009": {
       "fingerprint": "a5a28ef814b9f2580545",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1166": {
       "fingerprint": "88e5c5788c24a2aa3d95",
@@ -12899,7 +12899,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2014": {
       "fingerprint": "e688ef4fe1b27beb5075",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1024": {
       "fingerprint": "0e213cdc3790c1061fe4",
@@ -12967,7 +12967,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1326": {
       "fingerprint": "c4cef810d34bf28c74d3",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/675": {
       "fingerprint": "589c419631e261d0182a",
@@ -12987,7 +12987,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.5": {
       "fingerprint": "628e131a079ead697391",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-3rxj-6jhw-qfv7": {
       "fingerprint": "d0287c655b097dde3d67",
@@ -13003,7 +13003,7 @@
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.15.0": {
       "fingerprint": "340ab09c8356bc6fac83",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/releases/tag/v1.10.0": {
       "fingerprint": "bdf4b799fe2390e56c4a",
@@ -13639,7 +13639,7 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/680": {
       "fingerprint": "676250730549ec18463c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/Tencent/AI-Infra-Guard/pull/718": {
       "fingerprint": "8c685867c7a96aa6891d",
@@ -13807,7 +13807,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1257": {
       "fingerprint": "e7cd3bc1e95ac54f8857",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/731": {
       "fingerprint": "f21bdc0181921cf1129e",
@@ -13875,11 +13875,11 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/74": {
       "fingerprint": "079c4a34e40318194c22",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/75": {
       "fingerprint": "00cb248589484e7d1b5a",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7505": {
       "fingerprint": "492bb160bcbe43772c61",
@@ -14019,7 +14019,7 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/313": {
       "fingerprint": "ccf2b2c416a91796cf4c",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2966": {
       "fingerprint": "91c3ad35c043d8f61844",
@@ -14071,7 +14071,7 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/312": {
       "fingerprint": "2ccf17da3e0ae5be43a3",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7110": {
       "fingerprint": "edf47f7b83ffdfb5ab5e",
@@ -14167,7 +14167,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3824": {
       "fingerprint": "6ccdcff2343bea069826",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/5807": {
       "fingerprint": "00f64d26877c313dbdc3",
@@ -14455,7 +14455,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3825": {
       "fingerprint": "f1db080955ceffbf50bd",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.0a5": {
       "fingerprint": "e4269d9b784c23034ca5",
@@ -14475,7 +14475,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3829": {
       "fingerprint": "3dcad25720b2274b1e4f",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1521": {
       "fingerprint": "0c19215a7397905c7b3f",
@@ -14571,11 +14571,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3771": {
       "fingerprint": "9d9886ea63438aff1a51",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3785": {
       "fingerprint": "86a76c33583775fd056e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3831": {
       "fingerprint": "9d362ba85e4ccc5717ce",
@@ -14603,7 +14603,7 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/681": {
       "fingerprint": "2b7d40d83d102f9a9dbd",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/5169": {
       "fingerprint": "eaf963ef26e52025e951",
@@ -14767,7 +14767,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3795": {
       "fingerprint": "4215fe41ae05626fd3ba",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2970": {
       "fingerprint": "ad7cdc3b1f302c6fd522",
@@ -14943,7 +14943,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3750": {
       "fingerprint": "c3e899e278b6d3e1b989",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3778": {
       "fingerprint": "7ecc85f248c621a9e80a",
@@ -14959,11 +14959,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3783": {
       "fingerprint": "4de41092695059ddb56e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3784": {
       "fingerprint": "e749b99e6e8a97ada277",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3789": {
       "fingerprint": "cac01ee8c1f6c92506f6",
@@ -14979,11 +14979,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3800": {
       "fingerprint": "9d02d7ca669088e9542b",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3801": {
       "fingerprint": "4739d4030eac90244b83",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3810": {
       "fingerprint": "5f8aff9373f5cdc75b7d",
@@ -15027,7 +15027,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3830": {
       "fingerprint": "4597bbd292037f8874e8",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5528": {
       "fingerprint": "276196c686d483e216eb",
@@ -15183,7 +15183,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1329": {
       "fingerprint": "693f6d0591da835ac826",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1449": {
       "fingerprint": "906608b8175a3f49bdd0",
@@ -15211,7 +15211,7 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5537": {
       "fingerprint": "4d5952621d63cd5ee78c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2885": {
       "fingerprint": "db74fafe65982c7871c6",
@@ -15227,11 +15227,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/releases/tag/v2.2.0-M2": {
       "fingerprint": "f9616fcfa8626676f52a",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/122e27e869b71a7947661b60c1cb10dc512346fa": {
       "fingerprint": "e568ab0a5e397c4237cc",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2757": {
       "fingerprint": "59b6d14d0f0f126a6712",
@@ -15243,7 +15243,7 @@
     },
     "https://github.com/modelcontextprotocol/transports-wg/pull/76": {
       "fingerprint": "0ad1e7af2f07ed7124ce",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/529": {
       "fingerprint": "2bca99e29429cf42fec8",
@@ -15283,7 +15283,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3535": {
       "fingerprint": "62fd03b0dd9b2a6a5fbc",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/1846": {
       "fingerprint": "d0cf20c3bdc656b2a9e1",
@@ -15299,7 +15299,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/0175d20f8b2c49e0402c37c37ed39ae2be47277e": {
       "fingerprint": "b3f80367f5a72bccc3bf",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7531": {
       "fingerprint": "56507bd65254e3ea1c9d",
@@ -15339,7 +15339,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1334": {
       "fingerprint": "32d7952e2b662692b457",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7526": {
       "fingerprint": "7dcb31752fc40a8e3b38",
@@ -15359,7 +15359,7 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/682": {
       "fingerprint": "64246a948fe174607355",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7130": {
       "fingerprint": "94771433434e4b0a9f49",
@@ -15383,7 +15383,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3838": {
       "fingerprint": "3e78d41d63bfb33101c5",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/586": {
       "fingerprint": "7ec01aad817ff7a76f6a",
@@ -15407,11 +15407,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1333": {
       "fingerprint": "7f670c45545c563fdd28",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1335": {
       "fingerprint": "3e940e53c71c90ea4169",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1451": {
       "fingerprint": "51201740ac25d21f2d95",
@@ -15427,7 +15427,7 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/683": {
       "fingerprint": "e58a20f50779f251703e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/5520": {
       "fingerprint": "a21dccf6e97c989ae463",
@@ -15447,11 +15447,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3840": {
       "fingerprint": "4d8b0925a3eec3447aaf",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3843": {
       "fingerprint": "032dc6a433e6c4306e57",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3549": {
       "fingerprint": "60fa84d4830737cab3db",
@@ -15499,7 +15499,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1171": {
       "fingerprint": "b4386112721c2a8e5284",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/743": {
       "fingerprint": "ec748cbb2b8a351f08b5",
@@ -15567,11 +15567,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1331": {
       "fingerprint": "918fba1e8b5bd7268548",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1332": {
       "fingerprint": "9fbd9027c74bb3173918",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/mcpb/pull/309": {
       "fingerprint": "9d3c2b9266da42316de1",
@@ -15615,7 +15615,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3847": {
       "fingerprint": "e0331acdb424ce4596fb",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3550": {
       "fingerprint": "352dbe8082466c31eebc",
@@ -15623,7 +15623,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3848": {
       "fingerprint": "533a2897a66c4eba99be",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3184": {
       "fingerprint": "f51034aa293e69fb2236",
@@ -15631,7 +15631,7 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/685": {
       "fingerprint": "8b42d1b6e9e6b2126266",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/Tencent/AI-Infra-Guard/pull/763": {
       "fingerprint": "a01ff093f7d704b6484a",
@@ -15639,7 +15639,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3852": {
       "fingerprint": "d9c533809f945d78f29e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/563": {
       "fingerprint": "0e577b8053316a95f109",
@@ -15679,11 +15679,11 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/316": {
       "fingerprint": "72dae9e12e35574bdb25",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/686": {
       "fingerprint": "281f67607035a15e36e1",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/Tencent/AI-Infra-Guard/pull/760": {
       "fingerprint": "5fbcb371810f77bb82b7",
@@ -15691,7 +15691,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3849": {
       "fingerprint": "4de792e7aeddc4fa26ee",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3860": {
       "fingerprint": "f82df414f7e68ddcf7ce",
@@ -15703,7 +15703,7 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/798": {
       "fingerprint": "454351cc2b810b41ce26",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/744": {
       "fingerprint": "19b5ef024777967e8c78",
@@ -15735,11 +15735,11 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/799": {
       "fingerprint": "ae3f5509bae05940cb36",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/330": {
       "fingerprint": "dc1a15bc9a434e9884a7",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/cloudflare/workers-sdk/pull/16915": {
       "fingerprint": "ab3544d78eb661b4ca82",
@@ -15867,7 +15867,7 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/687": {
       "fingerprint": "548e6a42747d1065c6dd",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1459": {
       "fingerprint": "b99e64501e0a1949f206",
@@ -15883,11 +15883,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2be673cfa63064b243a6016588411343c0f9fdee": {
       "fingerprint": "c2ced970a4c7a11f9218",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/4414a49c82d7fcc5f2a2ed9ddfc76139a09c1789": {
       "fingerprint": "9b52547ab1032dfd849b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6497": {
       "fingerprint": "cf45dd649747c0f678ad",
@@ -15903,31 +15903,31 @@
     },
     "https://github.com/github/github-mcp-server/pull/2742": {
       "fingerprint": "b2271e479a676e554e81",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3462": {
       "fingerprint": "6cb73948c7606a047339",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3854": {
       "fingerprint": "80cd7953e53b1d2ac972",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/800": {
       "fingerprint": "8be065760a3b4a453846",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1100": {
       "fingerprint": "349419bf79820f235a90",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1138": {
       "fingerprint": "d37d8822260bc367bf34",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/688": {
       "fingerprint": "1385a07db225c35a45e8",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7142": {
       "fingerprint": "dd762438592d8f72b345",
@@ -15935,7 +15935,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3859": {
       "fingerprint": "dde8516c471a4be06b56",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7542": {
       "fingerprint": "e44f0e66162dfe6d378c",
@@ -15951,7 +15951,7 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/331": {
       "fingerprint": "3bf417754c3ed1629345",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/6242": {
       "fingerprint": "84ad18e80d2bc929a4ab",
@@ -15975,7 +15975,7 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/801": {
       "fingerprint": "b18b545f9b39e5d17b09",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7541": {
       "fingerprint": "98b4019e00f4a59b2a2a",
@@ -15983,7 +15983,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/de3550c9fea3c5269e42ac95204eef44a2b2cb92": {
       "fingerprint": "106fc8a400d5d69a0238",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/589": {
       "fingerprint": "3a9212ec0e85378041e8",
@@ -16019,7 +16019,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ac00313ff7f5e9f47b0e0d1ebdf9c0ad6411380b": {
       "fingerprint": "8cbfd3f72cfe451d46cc",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3563": {
       "fingerprint": "5dc75f3e303090c3a3e7",
@@ -16039,23 +16039,23 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1337": {
       "fingerprint": "c13e4e0c1fe07fe4ddc6",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1338": {
       "fingerprint": "bcd0218ef31880112ba1",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1339": {
       "fingerprint": "3af6827d989eeacccfed",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1340": {
       "fingerprint": "61c4faae3a23f5f8ab62",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1341": {
       "fingerprint": "4c05273c85d7db6c3556",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3557": {
       "fingerprint": "c69e1b038d0ec0bb8c70",
@@ -16067,11 +16067,11 @@
     },
     "https://github.com/modelcontextprotocol/go-sdk/releases/tag/v1.9.0-pre.1": {
       "fingerprint": "0c56e6089335dcd3a61c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/releases/tag/v2.2.0": {
       "fingerprint": "ba7793975688822e112c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1467": {
       "fingerprint": "34531a8d96fa1ff799af",
@@ -16115,7 +16115,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3877": {
       "fingerprint": "3cd5967592640a8c286a",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2201": {
       "fingerprint": "75eb5533eae4708740bc",
@@ -16135,11 +16135,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/d4b317231161ee96d3eefb2448bda4230c76f4c6": {
       "fingerprint": "52d06ee0b3da266b816e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2027": {
       "fingerprint": "5cda3fa0c473cc91d1ec",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/releases/tag/v0.66.0": {
       "fingerprint": "246d0349c6e60d29e189",
@@ -16183,7 +16183,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/issues/37": {
       "fingerprint": "17ba8b05bc675c7c83a7",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3237": {
       "fingerprint": "f2655ee9f034fe7756bc",
@@ -16235,7 +16235,7 @@
     },
     "https://github.com/github/github-mcp-server/releases/tag/v2.2.0": {
       "fingerprint": "69c30a433548d5554ccc",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7580": {
       "fingerprint": "b05df72f1c026731eab6",
@@ -16307,7 +16307,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3867": {
       "fingerprint": "cb7afb4c3a69cc2a3aed",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/750": {
       "fingerprint": "8fbce609910184489431",
@@ -16379,7 +16379,7 @@
     },
     "https://github.com/snyk/agent-scan/pull/545": {
       "fingerprint": "2f4c834aea53b6768808",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7552": {
       "fingerprint": "8b6e8fbfe0b24043fa19",
@@ -16483,11 +16483,11 @@
     },
     "https://github.com/snyk/agent-scan/pull/543": {
       "fingerprint": "364e95b94aa1bc4208b9",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/snyk/agent-scan/pull/547": {
       "fingerprint": "8bdf32178f22cdd3b54e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7553": {
       "fingerprint": "b5c3e2df64d780faa5ac",
@@ -16559,7 +16559,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/05aeb07b2db0c02adc4813a7c09f208ca8774152": {
       "fingerprint": "0f392c02cfdca6b2406b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2330": {
       "fingerprint": "607d7446508737a41c46",
@@ -16567,7 +16567,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1869": {
       "fingerprint": "e52c0fb34be906790682",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/167": {
       "fingerprint": "09177bec98989e69e75d",
@@ -16579,7 +16579,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2021": {
       "fingerprint": "b383fd70f12d17457b8c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/5567": {
       "fingerprint": "3b240ec4528c7528abd5",
@@ -16611,23 +16611,23 @@
     },
     "https://github.com/github/github-mcp-server/pull/3860": {
       "fingerprint": "93e4639906c475fea85d",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3868": {
       "fingerprint": "78bb8a366df030f39346",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3869": {
       "fingerprint": "dc44800372163f8f413f",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3870": {
       "fingerprint": "86ff9160038032e42008",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/snyk/agent-scan/pull/553": {
       "fingerprint": "084bc149ebc0161de4fc",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/awslabs/mcp/pull/5122": {
       "fingerprint": "c8bb1b312a0c284af946",
@@ -16682,20 +16682,20 @@
       "last_seen": "2026-11-26T01:18:32+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2025": {
-      "fingerprint": "b13e1a22b91d357589ad",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "299be8046e0ad5290f5b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2026": {
       "fingerprint": "a1d7b077252b0b4f302c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/690": {
       "fingerprint": "d649f4e766f4cc1ba36b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/691": {
       "fingerprint": "d3a22ade577e2eee9cc3",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1463": {
       "fingerprint": "5a7ee32632dc7bee5a3b",
@@ -16791,11 +16791,11 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1922": {
       "fingerprint": "8b178c085cdf7e5f158e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/689": {
       "fingerprint": "1cc8213b661149c7c53a",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7148": {
       "fingerprint": "9c754aea0f9029a8e8b2",
@@ -16835,7 +16835,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2024": {
       "fingerprint": "a21b49c540d07194dc2b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1178": {
       "fingerprint": "4c8b072edc888581078c",
@@ -16875,23 +16875,23 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2017": {
       "fingerprint": "b20145851ed5d85ba030",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2018": {
       "fingerprint": "fb11b9bc99109cb57a60",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2019": {
       "fingerprint": "ec3efdcd2697fabc4632",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2020": {
       "fingerprint": "11209d9dad0708388ae2",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2022": {
       "fingerprint": "fb5faeeace9f452fda5c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1179": {
       "fingerprint": "a505e827cec957ad6676",
@@ -16915,11 +16915,11 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/317": {
       "fingerprint": "32ce36ac8e571223c662",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/318": {
       "fingerprint": "2aff55530acbea61d0a5",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7169": {
       "fingerprint": "9e43ac32a609836b74bb",
@@ -16927,31 +16927,31 @@
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.3": {
       "fingerprint": "b81e8fa0a225447074fe",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.6": {
       "fingerprint": "dae24ff093b40bf4ad90",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.16.0": {
       "fingerprint": "d5b5b761340d8e167999",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.12.0": {
       "fingerprint": "9fbb6d38c672ea1bdc38",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.6.0": {
       "fingerprint": "8a8527922d102696c82f",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.7.0": {
       "fingerprint": "e3b45fdfeb2fbcdb2ba4",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-3xgv-mvj6-g78r": {
       "fingerprint": "b0e330a502bb19e7b360",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/releases/tag/v0.67.0": {
       "fingerprint": "0641a3922c8bfc6c7079",
@@ -16967,7 +16967,7 @@
     },
     "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0": {
       "fingerprint": "da471bea435779ab6981",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-38j4-j742-j7r3": {
       "fingerprint": "445c5f192a6b51d3d963",
@@ -16975,7 +16975,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3894": {
       "fingerprint": "35dc9d1a1a5d4eaf28ad",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2993": {
       "fingerprint": "916d7e7041f9483f59a8",
@@ -17015,7 +17015,7 @@
     },
     "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.11": {
       "fingerprint": "63180f04947b8820c393",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/releases/tag/v0.1.0": {
       "fingerprint": "63fc89cc21975f69ea20",
@@ -17035,15 +17035,15 @@
     },
     "https://github.com/github/github-mcp-server/pull/3491": {
       "fingerprint": "483a75d05857ec2d9656",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3879": {
       "fingerprint": "02872eab846f7fc645e1",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3893": {
       "fingerprint": "02689b154ead2ef85425",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/2988": {
       "fingerprint": "418e4bbf0420e19e197e",
@@ -17063,7 +17063,7 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5623": {
       "fingerprint": "cb90a5244fc4524c846e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3210": {
       "fingerprint": "cdfff614faa9fb9a67cf",
@@ -17083,35 +17083,35 @@
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.10.0": {
       "fingerprint": "c5465969701d34f37876",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.10.1": {
       "fingerprint": "3191bc2a06430b3b0c97",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.11.0": {
       "fingerprint": "7cf093cce51d458982e9",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.3.0": {
       "fingerprint": "39d3383e8acd50b461ed",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.4.0": {
       "fingerprint": "f17ecb9cd95647031f39",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.5.0": {
       "fingerprint": "836d7ffee195c9eea8f1",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.8.0": {
       "fingerprint": "da35ea617ec1e11d7a24",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/releases/tag/2.9.0": {
       "fingerprint": "e2c31d25a0ca0619f3a9",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.10": {
       "fingerprint": "67321728ee95768b47df",
@@ -17127,11 +17127,11 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5583": {
       "fingerprint": "687f11336214208b28fd",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5584": {
       "fingerprint": "10efba0ed22ef125cdd9",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7197": {
       "fingerprint": "6b1b139c41238e9b7e31",
@@ -17147,19 +17147,19 @@
     },
     "https://github.com/getsentry/toolkit/releases/tag/cli%400.50.0": {
       "fingerprint": "94738acbca4d673e8f82",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/8a18b4b3292b9f9b3aee73f6325f9f62f19a89f9": {
       "fingerprint": "630aab711ff7952deb96",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bbc31f8ded5762eae4df115b93942f5e71c8b3a7": {
       "fingerprint": "341bb8a33248d0bd3fe5",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/releases/tag/v1.11.0": {
       "fingerprint": "3c56dda9eb52a90906b5",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7619": {
       "fingerprint": "3287c16b9f919a2e38ff",
@@ -17175,7 +17175,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3904": {
       "fingerprint": "384163eb6f032881eab4",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/490": {
       "fingerprint": "0c3d32f01cc708df0d19",
@@ -17187,7 +17187,7 @@
     },
     "https://github.com/modelcontextprotocol/ext-tasks/pull/38": {
       "fingerprint": "429293c2dd43941fa6d7",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/3020": {
       "fingerprint": "d9b27bd5ce4cd9841158",
@@ -17235,7 +17235,7 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/321": {
       "fingerprint": "d80bae4e3fc0f3bf85b2",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7190": {
       "fingerprint": "8a3e8fa37b2267bc26bd",
@@ -17303,7 +17303,7 @@
     },
     "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.86": {
       "fingerprint": "bacdcf35c4e2b0443816",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/Tencent/AI-Infra-Guard/pull/798": {
       "fingerprint": "0bf82e950162ce704f57",
@@ -17331,7 +17331,7 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5563": {
       "fingerprint": "2f7d960abb60bde4c463",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/3209": {
       "fingerprint": "15c50710abb3d5ca3a50",
@@ -17371,7 +17371,7 @@
     },
     "https://github.com/modelcontextprotocol/agents-ig/pull/31": {
       "fingerprint": "1fdd75646084e1965c43",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/170": {
       "fingerprint": "1bfe85a09f03ceb16810",
@@ -17383,43 +17383,43 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/693": {
       "fingerprint": "56fd83ea8dcb41a06ace",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/696": {
       "fingerprint": "fdb2a8e4db8e49e0f630",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5581": {
       "fingerprint": "bc25e54f3834e8e0e68a",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5582": {
       "fingerprint": "b8e7f8b20a50360b5371",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5585": {
       "fingerprint": "b7affff1688556f54d0b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5586": {
       "fingerprint": "192c12160a736fbbdd75",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5587": {
       "fingerprint": "0f08eefb78da4852378d",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5590": {
       "fingerprint": "89cb3086e41322a2b373",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5591": {
       "fingerprint": "8837b621652eb9fc59b7",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5627": {
       "fingerprint": "0339260b420adf7beebe",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7175": {
       "fingerprint": "fdc8933e951556b66bd2",
@@ -17471,15 +17471,15 @@
     },
     "https://github.com/github/github-mcp-server/pull/3882": {
       "fingerprint": "3a6b89337aa8bf812040",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3884": {
       "fingerprint": "027b0a590e30b23b5254",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3907": {
       "fingerprint": "3e620fe16304071bf549",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/593": {
       "fingerprint": "b18ffed8d233b4e5bee9",
@@ -17559,39 +17559,39 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5562": {
       "fingerprint": "456bf487fb6efbcc6ae7",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5564": {
       "fingerprint": "6b30be96613c1a89b21f",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5571": {
       "fingerprint": "1739c06d2d115cd20087",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5596": {
       "fingerprint": "e5d20c0d22484a8f6776",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5613": {
       "fingerprint": "1fc75ea26df62a9ee80e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5617": {
       "fingerprint": "5dacf8ca3b69c06a322b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5619": {
       "fingerprint": "6e05e6ec0a47d12095d1",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5629": {
       "fingerprint": "3946b231054c0444f731",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5630": {
       "fingerprint": "3e44453736e38be614c0",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7177": {
       "fingerprint": "d44cff163ac72eac6485",
@@ -17615,7 +17615,7 @@
     },
     "https://github.com/modelcontextprotocol/agents-ig/issues/7": {
       "fingerprint": "47e8f1ed7b940e843fe0",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3567": {
       "fingerprint": "64597199da7b7e547d58",
@@ -17831,23 +17831,23 @@
     },
     "https://github.com/github/github-mcp-server/pull/3887": {
       "fingerprint": "ff52c99f7c4610443c70",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3888": {
       "fingerprint": "0e2bfebc196dc2603f9f",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3889": {
       "fingerprint": "027a0c00ceb2e1994a7a",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3900": {
       "fingerprint": "4679f532fdb603df9a45",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3910": {
       "fingerprint": "9bac81a8c18cbd545907",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/3010": {
       "fingerprint": "be79fa0f3685d79bda25",
@@ -17943,11 +17943,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3897": {
       "fingerprint": "ab3405d9a5de521fde97",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3898": {
       "fingerprint": "8c0f088fe718b645ceda",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/865": {
       "fingerprint": "6000113b0dab3f5ef098",
@@ -17983,11 +17983,11 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/692": {
       "fingerprint": "b25b6fe1000f5595e1f9",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/695": {
       "fingerprint": "58d9dc6a24109a6c1be3",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1474": {
       "fingerprint": "8e103f22084037a2ec96",
@@ -18003,7 +18003,7 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5632": {
       "fingerprint": "51232c3267af13ac3ab8",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7192": {
       "fingerprint": "758f5a0b148ad59e7aae",
@@ -18011,15 +18011,15 @@
     },
     "https://github.com/github/github-mcp-server/pull/3902": {
       "fingerprint": "4344d96566c0553347d3",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c5c0da721c2e08390dbe172a6ccffdb53348c2a4": {
       "fingerprint": "6a68e349d25f979d7379",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/808": {
       "fingerprint": "771ced2663a25871d120",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1194": {
       "fingerprint": "e5402dcbf3053bef8f80",
@@ -18027,7 +18027,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/f34ae49d339832ae0a87b28891f7f250cda48697": {
       "fingerprint": "cf6eb1f019657a6ac2e8",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6551": {
       "fingerprint": "dee2ab6c9291b149294d",
@@ -18095,23 +18095,23 @@
     },
     "https://github.com/github/github-mcp-server/pull/1636": {
       "fingerprint": "57b3a2c026ab60c34965",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/2569": {
       "fingerprint": "ea2ac6a7e897fe0f2cc5",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3886": {
       "fingerprint": "1d293a2a5c0583fc3220",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3895": {
       "fingerprint": "4395ecb74edbf8f48331",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3896": {
       "fingerprint": "fbb46d6670c5f4838624",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/3005": {
       "fingerprint": "7ed52e163336ac1e3b82",
@@ -18211,15 +18211,15 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/803": {
       "fingerprint": "a25ab892d0a254bd4548",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/804": {
       "fingerprint": "a72bc015b4f2821a290a",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/806": {
       "fingerprint": "9b17e9cf0e5a722f6826",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/microsoft/playwright-mcp/pull/1874": {
       "fingerprint": "4ceebb2e0c92f7099c36",
@@ -18279,19 +18279,19 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/697": {
       "fingerprint": "9f673d4b3be71914784a",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/698": {
       "fingerprint": "c5581e8c5c42344ea6f0",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/699": {
       "fingerprint": "bf9c1053eb934c00ae1f",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/700": {
       "fingerprint": "903eec5f64067e9a9183",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1473": {
       "fingerprint": "da3c545408b6faf92573",
@@ -18303,75 +18303,75 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5567": {
       "fingerprint": "19cf82325c72aad95703",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5568": {
       "fingerprint": "567d2af8441d9dbf85d9",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5592": {
       "fingerprint": "d1c832fe51b3364eb96c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5612": {
       "fingerprint": "40edd9a0929a7a1348bd",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5614": {
       "fingerprint": "80db53c16e9e69f33786",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5615": {
       "fingerprint": "77c6718b4b2f032843ed",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5616": {
       "fingerprint": "381710dc7d173e33f444",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5618": {
       "fingerprint": "3e244238547e8ac44fd2",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5620": {
       "fingerprint": "f0dd66ddecdaa233235b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5621": {
       "fingerprint": "3c79e16fc7a1428ec521",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5622": {
       "fingerprint": "19ef188c12adb5029337",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5625": {
       "fingerprint": "75e8eefdc1bf8aa6e2fa",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5626": {
       "fingerprint": "dc1af225e2bdb186cb8c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5628": {
       "fingerprint": "d6026bf71a5f04e9808f",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5631": {
       "fingerprint": "c71110ad5dc71d779a02",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5637": {
       "fingerprint": "cbb3c9d57a47eb82f8c7",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5638": {
       "fingerprint": "b1c17d7b321919ea1cee",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/319": {
       "fingerprint": "7040848583b6687be269",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7184": {
       "fingerprint": "206d50cf7ec8858533ef",
@@ -18399,7 +18399,7 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/807": {
       "fingerprint": "fc29778b39b0dc127832",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/agents-ig/commit/deb54f490a4b732638cccff889a3daeb447cdee2": {
       "fingerprint": "83c929291e817deea3bd",
@@ -18407,7 +18407,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/51735935c3b64787340bfbd23ec3e7292711f7fc": {
       "fingerprint": "9ddf4147b0075a53bd99",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6589": {
       "fingerprint": "b24f914978ad0f80ba0e",
@@ -18415,7 +18415,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3492": {
       "fingerprint": "1df423c924f05575be85",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2793": {
       "fingerprint": "6388acaa6e6d0ab4ab3f",
@@ -18423,7 +18423,7 @@
     },
     "https://github.com/snyk/agent-scan/pull/499": {
       "fingerprint": "fc3ffc88b3043d3de4f9",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7614": {
       "fingerprint": "57040f46d3c9e91fb669",
@@ -18547,7 +18547,7 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5561": {
       "fingerprint": "f4b3c050c6572313bb0e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7183": {
       "fingerprint": "60b1c410b281f9569706",
@@ -18567,11 +18567,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3901": {
       "fingerprint": "4e752173e64f6aa0af11",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3903": {
       "fingerprint": "f4cbdd8cb01a9de2b0fa",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/3001": {
       "fingerprint": "bda5091e05d8f6c8e05b",
@@ -18599,7 +18599,7 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1099": {
       "fingerprint": "a481ad534fc6fbbe3a07",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1189": {
       "fingerprint": "1f8e00ac517a453703b7",
@@ -18627,19 +18627,19 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/40bb4f23f6c51ce484f810658c8b53c0b38717de": {
       "fingerprint": "457fb836fde1de217490",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/553d5cc4da7bb074c8e43471361632fb2b098282": {
       "fingerprint": "7a5c307de3ac2cec8866",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/5c9593cb64824474020da83ecfbddbb09aea7fe2": {
       "fingerprint": "55e146d7efa45f75a1fe",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c511d9a4a56c7a90117eea959da412f2f0425bd6": {
       "fingerprint": "6f7284f97f3b9e4ed116",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/awslabs/mcp/pull/5137": {
       "fingerprint": "06d1c8bdd4b9069aaf73",
@@ -18651,7 +18651,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3513": {
       "fingerprint": "f8ff6f454dac91206802",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/168": {
       "fingerprint": "63419cecd6a406b40cda",
@@ -18675,11 +18675,11 @@
     },
     "https://github.com/modelcontextprotocol/servers/pull/5597": {
       "fingerprint": "17cee5b91773a5a3893c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5633": {
-      "fingerprint": "f41e0e89bea88cbb243c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "4557ad5e48a938345dd1",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.4": {
       "fingerprint": "664357e1b0d2068e169c",
@@ -18691,7 +18691,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/af66e6fd44a2b8f945d90a4c4ff1086cd5fbd2e1": {
       "fingerprint": "6e6eb69870c42f78d0f9",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6660": {
       "fingerprint": "634db1e71443aad2be01",
@@ -18711,11 +18711,11 @@
     },
     "https://github.com/github/github-mcp-server/pull/3913": {
       "fingerprint": "e889ce23a805060d47d6",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3921": {
       "fingerprint": "8d02d2eed8c90f308e63",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.11": {
       "fingerprint": "798d25ef818f0a8e4302",
@@ -18739,7 +18739,7 @@
     },
     "https://github.com/stacklok/toolhive/security/advisories/GHSA-3x8v-rx4w-6mf9": {
       "fingerprint": "ef78e72eb385ca614be8",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1890": {
       "fingerprint": "278907aec5a0e8a8396a",
@@ -18771,7 +18771,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/1816": {
       "fingerprint": "01a480b2cfc95cfba6ab",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3574": {
       "fingerprint": "e72ea34f70ca7a593493",
@@ -18787,11 +18787,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2f3a95074916f092cd58dc06ede6a748f681a6ef": {
       "fingerprint": "5ab4f5c5db301a50e987",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/862397cec702e8f828713071da501cf56158e8fc": {
       "fingerprint": "1c4a0d3ee92cff9f0e6e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6635": {
       "fingerprint": "4f2ba01e7e5baedfb1ca",
@@ -18843,7 +18843,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/1508": {
       "fingerprint": "98448a89c204682be5f7",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk/pull/2550": {
       "fingerprint": "4f134f424e8490d85c58",
@@ -18947,7 +18947,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b7e13978aa0bd092baa98190d58825e7863d6ee1": {
       "fingerprint": "edc59590007ce1ddfc78",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2462": {
       "fingerprint": "1c3c86d5c5fc101d183a",
@@ -19003,23 +19003,23 @@
     },
     "https://github.com/github/github-mcp-server/pull/1511": {
       "fingerprint": "7cd5f304d5c501636988",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/1512": {
       "fingerprint": "398b791975f63978b74a",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3912": {
       "fingerprint": "e1ee155cd3a6a21a4b5e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3914": {
       "fingerprint": "6e1cf2c3f3d2f2ba0eb1",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3916": {
       "fingerprint": "52620d82e6f616a0d3ae",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3890": {
       "fingerprint": "f28129447ee1432f4e26",
@@ -19054,8 +19054,8 @@
       "last_seen": "2026-11-25T01:17:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/703": {
-      "fingerprint": "c8d2c9b067e02ef4302d",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "90fd967858edc9f40bef",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7212": {
       "fingerprint": "32a1aa66677edba7ec06",
@@ -19123,11 +19123,11 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/811": {
       "fingerprint": "c4ae132eef75732a14cd",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/701": {
       "fingerprint": "3b33cc4326ba42b99e25",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/cloudflare/agents/pull/2929": {
       "fingerprint": "c81076f7091881dab557",
@@ -19135,11 +19135,11 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/813": {
       "fingerprint": "2c705f27932fb1108a74",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/814": {
       "fingerprint": "fc32faad825ef393e01e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/5829": {
       "fingerprint": "a88a09b75fd1e7936d18",
@@ -19155,7 +19155,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3922": {
       "fingerprint": "e7fa71d7421e07016c34",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/conformance/pull/597": {
       "fingerprint": "02177aca93c966619c57",
@@ -19183,7 +19183,7 @@
     },
     "https://github.com/snyk/agent-scan/pull/558": {
       "fingerprint": "0a645d3253241a9d3a60",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6668": {
       "fingerprint": "8b2a1341c43b59199e07",
@@ -19451,11 +19451,11 @@
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/705": {
       "fingerprint": "22907f30a15314474fbd",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/710": {
       "fingerprint": "0717bfb29c0115fb5e30",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/PrefectHQ/fastmcp/pull/6670": {
       "fingerprint": "91285403ec9f991d83ea",
@@ -19491,23 +19491,23 @@
     },
     "https://github.com/github/github-mcp-server/pull/1519": {
       "fingerprint": "4ed0fd015faa7347420f",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/1527": {
       "fingerprint": "f44567c7efa5331f6ef4",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/2637": {
       "fingerprint": "5a337c79969e3c2d35cb",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3925": {
       "fingerprint": "b79f42d93fe926ee9b53",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3926": {
       "fingerprint": "2ca3b29f22b8c5b314e3",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3893": {
       "fingerprint": "ad0bb41f8353c668c39c",
@@ -19527,15 +19527,15 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/816": {
       "fingerprint": "439a0bf6b102c682bf30",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2032": {
       "fingerprint": "e5584220168a7e5c9ab0",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2034": {
       "fingerprint": "8d1c24cdc429491fd510",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/php-sdk/pull/769": {
       "fingerprint": "b41af9f08978df19cd2f",
@@ -19546,12 +19546,12 @@
       "last_seen": "2026-11-25T01:17:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/707": {
-      "fingerprint": "f0307e6cdc064a8c56b1",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "d57ef592794d2fbdc077",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/709": {
       "fingerprint": "b333699e7a43a61fa63e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7216": {
       "fingerprint": "d8478e87d02fa04691ef",
@@ -19583,11 +19583,11 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1045": {
       "fingerprint": "ba1937180dc95f7783bb",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/711": {
       "fingerprint": "80553d52c256fb84049d",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/cloudflare/workers-sdk/pull/17118": {
       "fingerprint": "0ae354749af8e627802c",
@@ -19615,11 +19615,11 @@
     },
     "https://github.com/cloudflare/workers-oauth-provider/releases/tag/v1.3.0": {
       "fingerprint": "7f4e2f0b0b1f8ef67055",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/releases/tag/v2.3.0": {
       "fingerprint": "b1270937abb3335a9c36",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/go-sdk/pull/1348": {
       "fingerprint": "02f27239b779acae6bb5",
@@ -19627,7 +19627,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2bbace557bbf2cb5d03d6f9b48905415cd7607b0": {
       "fingerprint": "13850720a9e470633d32",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/3033": {
       "fingerprint": "a58e9f7df59c5dc41754",
@@ -19695,11 +19695,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1c5f400671ba9ac6d558de907b815be4d2c37548": {
       "fingerprint": "f4ae6f73fa77cc09963e",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3c8eb0c4e70b0b3af6471fc0cf3419c7098fdf39": {
       "fingerprint": "d80e3ec36e8745e66a6c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1495": {
       "fingerprint": "263ebc41f1c1598004a4",
@@ -19711,7 +19711,7 @@
     },
     "https://github.com/getsentry/toolkit/releases/tag/cli%400.51.0": {
       "fingerprint": "e159d96c26dd1e813dd4",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/registry/pull/1911": {
       "fingerprint": "9b98cd054ebb7b2a12a9",
@@ -19727,7 +19727,7 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/326": {
       "fingerprint": "c5d4e090974fd89dead8",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1498": {
       "fingerprint": "557d6de9d8477d5dfca1",
@@ -19747,7 +19747,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b878313e34638206d13ddd9df57501567fac58fc": {
       "fingerprint": "4d1c577e7ace748e9c4b",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/inspector/pull/3034": {
       "fingerprint": "a02f60064d2ac48a5f63",
@@ -19787,7 +19787,7 @@
     },
     "https://github.com/snyk/agent-scan/pull/562": {
       "fingerprint": "0c7a32e851df4da77fa4",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7268": {
       "fingerprint": "12e1e083c0e3fb068498",
@@ -19806,8 +19806,8 @@
       "last_seen": "2026-11-25T01:17:10+00:00"
     },
     "https://github.com/modelcontextprotocol/servers/pull/5652": {
-      "fingerprint": "c1fc73f46cc9dba29655",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "4aa2fa5f7f51d5841fa6",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/6739": {
       "fingerprint": "7a16a60d77f2fc2748fb",
@@ -19855,7 +19855,7 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b7a22b5b15a5db59de002a08699091e0808b7784": {
       "fingerprint": "06ffa79742de27c859a8",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/": {
       "fingerprint": "bdb511d692983ea38f1e",
@@ -20035,7 +20035,7 @@
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2039": {
       "fingerprint": "8ce4912c00f6154881d1",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/rust-sdk/pull/1490": {
       "fingerprint": "a593eaaa913a68d62fce",
@@ -20051,7 +20051,7 @@
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/333": {
       "fingerprint": "627e7e438f08256356db",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7269": {
       "fingerprint": "f88fa0cfcc245c94dc79",
@@ -20059,11 +20059,11 @@
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/50145009cb63c9363962408fcdb0758adcadc87b": {
       "fingerprint": "1c04be288596a1c6be69",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b0be8f0f2481be8d5ea5294cf3fa57cd03cedc48": {
       "fingerprint": "e10aeff32bf3c6b7dd58",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/python-sdk/pull/3899": {
       "fingerprint": "a39740d48004ac4a3489",
@@ -20111,11 +20111,11 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/818": {
       "fingerprint": "e164ff675275ea767418",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/820": {
       "fingerprint": "96a74c7afaefbaad5ce1",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-apps/pull/875": {
       "fingerprint": "91a4441994842a6aa134",
@@ -20142,16 +20142,16 @@
       "last_seen": "2026-11-25T01:17:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ruby-sdk/pull/712": {
-      "fingerprint": "4b7b35ed1cbc700d1cc7",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "ceaeab6a6538c0f57ebd",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/332": {
-      "fingerprint": "7961dc8d2d773e9d13f4",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "6aa4b6e4ab1135f6abd4",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/334": {
-      "fingerprint": "907f9a96c34a3e9dc762",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "0255d4cdf04f025f3f79",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/6738": {
       "fingerprint": "e956e76db8c98442d523",
@@ -20251,7 +20251,7 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/324": {
       "fingerprint": "d89b31184680f24578f3",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7258": {
       "fingerprint": "6b39abc589d1469913e5",
@@ -20267,7 +20267,7 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/323": {
       "fingerprint": "2d86adfe1263aa65a491",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/pull/7663": {
       "fingerprint": "6a36a8efa9b0872fd60b",
@@ -20283,11 +20283,11 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/819": {
       "fingerprint": "ddf5227faa34fbbbdfca",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2036": {
       "fingerprint": "d73888f867f3769d8a9d",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/ext-skills/pull/174": {
       "fingerprint": "02fd986ccd5e556c19d8",
@@ -20302,8 +20302,8 @@
       "last_seen": "2026-11-25T01:17:10+00:00"
     },
     "https://github.com/modelcontextprotocol/swift-sdk/pull/335": {
-      "fingerprint": "80cfcc5e2327eeacd57f",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "fingerprint": "05147c6f141485960d5a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7267": {
       "fingerprint": "a438311f56d0736dc713",
@@ -20311,23 +20311,23 @@
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1350": {
       "fingerprint": "eab77a8c641418d7c8e9",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/csharp-sdk/pull/2037": {
       "fingerprint": "78831b42cf814fdda4f1",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1347": {
       "fingerprint": "f614c31fe712c50a4a3a",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1348": {
       "fingerprint": "1cf59e39ab687bb3a2f2",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/java-sdk/pull/1349": {
       "fingerprint": "c566e842ca5f0d41aa0c",
-      "last_seen": "2026-11-25T01:17:10+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/modelcontextprotocol/kotlin-sdk/pull/1212": {
       "fingerprint": "900f8df02a5c8817d298",
@@ -20351,11 +20351,11 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/322": {
       "fingerprint": "e377a9d3fba9b5d9ba4e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/327": {
       "fingerprint": "a295668fb3498984f601",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/IBM/mcp-context-forge/releases/tag/v1.1.2": {
       "fingerprint": "bec2dd4665abb5e4d01b",
@@ -20363,11 +20363,11 @@
     },
     "https://github.com/stacklok/toolhive/security/advisories/GHSA-q656-jppg-j2qr": {
       "fingerprint": "c6df1767231489c27516",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3937": {
       "fingerprint": "31ef6bf25b70c17b6588",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2499": {
       "fingerprint": "a7499843f755257d8ac1",
@@ -20387,7 +20387,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3932": {
       "fingerprint": "5da36d5999943fc1e9ea",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7301": {
       "fingerprint": "426d96ab14f66aa7c980",
@@ -20415,7 +20415,7 @@
     },
     "https://github.com/github/github-mcp-server/pull/3933": {
       "fingerprint": "f749965f39b6de750e20",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2505": {
       "fingerprint": "326d434e3f80cc28e103",
@@ -20471,11 +20471,11 @@
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/328": {
       "fingerprint": "623239072a42279e0d25",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/sparfenyuk/mcp-proxy/pull/333": {
       "fingerprint": "2cf01bbfa9b4c691f24f",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/stacklok/toolhive/pull/7317": {
       "fingerprint": "6c43a1dcfdd75fe57aca",
@@ -20495,31 +20495,31 @@
     },
     "https://github.com/lastmile-ai/mcp-agent/pull/824": {
       "fingerprint": "e765791d225389d251af",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3935": {
       "fingerprint": "7fd65b79bd496d11f546",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3936": {
       "fingerprint": "0b7a700e5dbbda996358",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3940": {
       "fingerprint": "0a40add1e3b1b1b29f7e",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3941": {
       "fingerprint": "fb9f9994389445877c3b",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3943": {
       "fingerprint": "94e2318d2dcd95f032db",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/github/github-mcp-server/pull/3944": {
       "fingerprint": "ad71f3a6575bc327be28",
-      "last_seen": "2026-11-26T01:18:32+00:00"
+      "last_seen": "2026-11-27T01:21:10+00:00"
     },
     "https://github.com/getsentry/toolkit/pull/2494": {
       "fingerprint": "92f58eadd7881fc775bb",
@@ -20600,6 +20600,342 @@
     "https://github.com/awslabs/mcp/pull/5192": {
       "fingerprint": "190d7132e233d037c6a9",
       "last_seen": "2026-11-26T01:18:32+00:00"
+    },
+    "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.12": {
+      "fingerprint": "fff61c47a10e99077103",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/363": {
+      "fingerprint": "8a161faf471811f1d0db",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/340": {
+      "fingerprint": "873a5db3fe936246cfd2",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/341": {
+      "fingerprint": "e8c08778163ef5d600e5",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/373": {
+      "fingerprint": "0befac62ad16ae341b78",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/cloudflare/workers-oauth-provider/releases/tag/v1.4.0": {
+      "fingerprint": "7190e747b605dc1f0ce4",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/358": {
+      "fingerprint": "5449b982d91813086252",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/java-sdk/pull/183": {
+      "fingerprint": "c5dea0b5ab046ae13762",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/java-sdk/pull/184": {
+      "fingerprint": "74db614be6534e88074d",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/024d5255eb4466ba4fab21e044b5ba84d6a79327": {
+      "fingerprint": "72bad6978bfa6af2a93a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/356": {
+      "fingerprint": "53600e46e433fc260704",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/357": {
+      "fingerprint": "5afd9e9e70e0a3c42616",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/359": {
+      "fingerprint": "166372177bfd321b1c31",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/360": {
+      "fingerprint": "acee5759c652821b9b9b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/362": {
+      "fingerprint": "6db0c142e9a83a29b213",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bdfe59b8cb25b2182d7617b9426455feb406bc1b": {
+      "fingerprint": "ea43e0cfd6012b2c50a2",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3954": {
+      "fingerprint": "c5b4b391fc622f0b1771",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/ext-auth/pull/43": {
+      "fingerprint": "dcd537f041e72ed62a5d",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/257": {
+      "fingerprint": "ed8ff99199dea3963146",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/339": {
+      "fingerprint": "4ae5aed17b0b52b2aa0f",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/342": {
+      "fingerprint": "1899e08a3ef4f6f3fa0b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/343": {
+      "fingerprint": "034bdab67cc987ec3776",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/344": {
+      "fingerprint": "a7e7e27e49b9791aee73",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/345": {
+      "fingerprint": "079c849a85b7d8fd4c14",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/346": {
+      "fingerprint": "a42dac4ad51ad22edc5f",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/347": {
+      "fingerprint": "862b7f16fa26f93497b6",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/364": {
+      "fingerprint": "b5c2a7fe8af0ecac5199",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/365": {
+      "fingerprint": "373e45378194a33c955c",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/366": {
+      "fingerprint": "3147b74276aa49a0fb57",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/2588": {
+      "fingerprint": "be1c353d276fd3a18e7c",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3966": {
+      "fingerprint": "bc3b97d955b620eb5fd9",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/380": {
+      "fingerprint": "916c2797c6f57123f681",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/getsentry/toolkit/releases/tag/http%401.0.0": {
+      "fingerprint": "fbf617b206a69fcef77b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3958": {
+      "fingerprint": "c156e69d019aa6205fd9",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/snyk/agent-scan/pull/570": {
+      "fingerprint": "fc742966a3ba9f25ae22",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/336": {
+      "fingerprint": "043d83530ba463819c94",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/337": {
+      "fingerprint": "d6a20aad0f763b86e597",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/338": {
+      "fingerprint": "ffb8d5d90303915a9a40",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/348": {
+      "fingerprint": "b39a190779ebe9d876c0",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/349": {
+      "fingerprint": "e0344a75d9ba181f95bb",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/350": {
+      "fingerprint": "788b7a8262258f0f1cd6",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/351": {
+      "fingerprint": "027c8544fe10e7db2822",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/352": {
+      "fingerprint": "43e0364152d38ee2096a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/353": {
+      "fingerprint": "c0715ef7420a1192aa6b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/354": {
+      "fingerprint": "a1f4080cfac7b23d1d4a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/355": {
+      "fingerprint": "0131e553224fe5194c09",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/361": {
+      "fingerprint": "b33cb9813dedb2bbaaee",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/367": {
+      "fingerprint": "47e840f461713ea709a3",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/368": {
+      "fingerprint": "1466a6dab6243d80fb72",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/369": {
+      "fingerprint": "edf1797c1f19ba86270e",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/370": {
+      "fingerprint": "5e2775e65e4b3df0ebf1",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/371": {
+      "fingerprint": "2bf79fc649e5fe58ba52",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/374": {
+      "fingerprint": "067733d301ec4126436f",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/sparfenyuk/mcp-proxy/pull/334": {
+      "fingerprint": "68dc58fd168c75236e0f",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/378": {
+      "fingerprint": "88a920ea5c1c77ca8420",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/ruby-sdk/pull/714": {
+      "fingerprint": "15f0534e1d678eb7cfe9",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3410": {
+      "fingerprint": "96909f954e05cfb2f70c",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3953": {
+      "fingerprint": "5a211780c7a8213bad05",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3961": {
+      "fingerprint": "76efd3b81a1f2b82c19d",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3964": {
+      "fingerprint": "d46ef5bc127f8f3ac59b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3970": {
+      "fingerprint": "298c01a430f7e54c856a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/csharp-sdk/pull/2046": {
+      "fingerprint": "19061d5ccd74509212d0",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/csharp-sdk/pull/2049": {
+      "fingerprint": "543cedc67c0c588d7d8a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/csharp-sdk/pull/2050": {
+      "fingerprint": "61439058970d28bc4d3d",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/ruby-sdk/pull/716": {
+      "fingerprint": "32aeda2348dc73ef4283",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/ruby-sdk/pull/718": {
+      "fingerprint": "a18aae08628a47af8135",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/372": {
+      "fingerprint": "67ed7082316a9b6f81ac",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3972": {
+      "fingerprint": "87d1e04b45132896cbfd",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/ruby-sdk/pull/719": {
+      "fingerprint": "bf81adba5c416e104ced",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/csharp-sdk/pull/2041": {
+      "fingerprint": "caf8925bfe25ea26d308",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/csharp-sdk/pull/2048": {
+      "fingerprint": "78dbb1cbb5275784b37d",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/174": {
+      "fingerprint": "df6933b6e36cef8a7680",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/259": {
+      "fingerprint": "6a3a8ee9c83ebc03608a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/375": {
+      "fingerprint": "1b5c38fd796336f8d6a6",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/379": {
+      "fingerprint": "597b5fcabca83ae3b9f8",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/382": {
+      "fingerprint": "27f345e424a2a67ed129",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/383": {
+      "fingerprint": "91f8a344ce44156cc8d6",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/29336ab3a9a9ae77152c94a8b35a9e61f3ea69da": {
+      "fingerprint": "94af487aab8b9b57b946",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/f8c8f485d281ce8eef1f5383628cad5fe4259956": {
+      "fingerprint": "e83ab90498596a2b5e91",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3967": {
+      "fingerprint": "f70453ebe2bb01430f3b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3968": {
+      "fingerprint": "5fb56021350b7e36bc6b",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3969": {
+      "fingerprint": "e60917de33cf83b38a4a",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/github/github-mcp-server/pull/3971": {
+      "fingerprint": "45d802f03fb407b155e7",
+      "last_seen": "2026-11-27T01:21:10+00:00"
+    },
+    "https://github.com/modelcontextprotocol/swift-sdk/pull/377": {
+      "fingerprint": "9a06aa46bdee9ca7ca62",
+      "last_seen": "2026-11-27T01:21:10+00:00"
     }
   }
 }

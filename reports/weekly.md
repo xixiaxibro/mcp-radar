@@ -1,8 +1,8 @@
 # MCP Radar · 滚动七日选题
 
-观测日期：2026-11-20 至 2026-11-26（UTC）。仅汇总已经采集的日报，不补造缺失日期。
+观测日期：2026-11-21 至 2026-11-27（UTC）。仅汇总已经采集的日报，不补造缺失日期。
 
-去重条目 1275；日报记录的失败端点 54 个。分数表示阅读优先级，不表示技术正确性。
+去重条目 1366；日报记录的失败端点 92 个。分数表示阅读优先级，不表示技术正确性。
 
 | 优先级 | 来源 | 状态 | 条目 |
 |---:|---|---|---|
@@ -13,6 +13,8 @@
 | 129 | modelcontextprotocol/inspector | published | [2.14.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.14.0) |
 | 117 | modelcontextprotocol/servers | published | [mcp-server-fetch: IPv6 site-local fec0::/10 classified as public (SSRF guard classifier gap, CWE-918)](https://github.com/modelcontextprotocol/servers/security/advisories/GHSA-3rxj-6jhw-qfv7) |
 | 109 | PrefectHQ/fastmcp | published | [v4.2.4: Burn After Reading](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.4) |
+| 109 | Tencent/AI-Infra-Guard | published | [AI-Infra-Guard v4.6.12](https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.12) |
+| 108 | modelcontextprotocol/swift-sdk | merged | [\[P8\] oauth: issuer checks, application\_type, AS migration (SEP-2468/837/2352)](https://github.com/modelcontextprotocol/swift-sdk/pull/363) |
 | 103 | modelcontextprotocol/inspector | published | [2.16.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.16.0) |
 | 102 | modelcontextprotocol/inspector | merged | [feat(web): Events tab (SEP-3415, #3026 phase 3)](https://github.com/modelcontextprotocol/inspector/pull/3038) |
 | 102 | modelcontextprotocol/modelcontextprotocol | merged | [docs: update Discord invite link](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3577) |
@@ -44,7 +46,5 @@
 | 86 | github/github-mcp-server | merged | [fix: accept the swift ecosystem in list\_global\_security\_advisories](https://github.com/github/github-mcp-server/pull/3937) |
 | 86 | modelcontextprotocol/inspector | merged | [fix(core): cap SSE line length and event size on every SDK transport stream (v2)](https://github.com/modelcontextprotocol/inspector/pull/2993) |
 | 86 | modelcontextprotocol/inspector | merged | [fix: cap upstream SSE line length and event size in the proxy (v1)](https://github.com/modelcontextprotocol/inspector/pull/2994) |
-| 86 | modelcontextprotocol/inspector | merged | [Cap SSE line and event size on every SDK transport stream (GHSA-3xgv-mvj6-g78r)](https://github.com/modelcontextprotocol/inspector/pull/2997) |
-| 86 | modelcontextprotocol/inspector | merged | [v1: Cap upstream SSE line and event size in the proxy (GHSA-3xgv-mvj6-g78r)](https://github.com/modelcontextprotocol/inspector/pull/2998) |
 
 写作前检查：规范版本 → PR 与测试 → 发布版本 → 最小复现 → 结论边界。
